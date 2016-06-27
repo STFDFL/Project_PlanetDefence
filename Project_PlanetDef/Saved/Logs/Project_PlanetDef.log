@@ -541,4 +541,577 @@ LogInit: Object subsystem initialized
 [2016.06.27-03.07.09:478][350]LogSavePackage: Total save time: 51.00ms
 [2016.06.27-03.07.09:478][350]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
 [2016.06.27-03.07.44:914][667]LogSavePackage: Save=63.79ms
-[2016.06.27-03.07.44:914][667]LogSavePa
+[2016.06.27-03.07.44:914][667]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevel30040C154C4DD5EF82C5D997118BD074.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap'
+[2016.06.27-03.07.44:916][667]LogSavePackage: Total save time: 69.61ms
+[2016.06.27-03.07.44:916][667]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap
+[2016.06.27-03.14.24:124][246]BlueprintLog: New page: Compile LeftTurret
+[2016.06.27-03.14.24:192][246]BlueprintEditorCompileResults: Info [2307.26] Compile of LeftTurret successful! [in 67 ms]
+[2016.06.27-03.14.25:988][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.06.27-03.14.26:040][386]LogSavePackage: Save=47.01ms
+[2016.06.27-03.14.26:040][386]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurret9EF2C0BD4059E3019A2EAB8109E2562B.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.06.27-03.14.26:042][386]LogSavePackage: Total save time: 53.07ms
+[2016.06.27-03.14.26:042][386]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.06.27-03.19.15:092][374]BlueprintLog: New page: Compile LeftTurret
+[2016.06.27-03.19.15:273][374]BlueprintEditorCompileResults: Info [2598.35] Compile of LeftTurret successful! [in 181 ms]
+[2016.06.27-03.19.16:197][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.06.27-03.19.16:253][453]LogSavePackage: Save=53.96ms
+[2016.06.27-03.19.16:253][453]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurret60EA395D477535DB42E594AE516D552F.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.06.27-03.19.16:255][453]LogSavePackage: Total save time: 57.12ms
+[2016.06.27-03.19.16:255][453]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.06.27-03.19.21:600][ 30]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.19.21:600][ 30]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.27-03.19.21:600][ 30]OCULUS: Debug: [HMDState] Using default profile default
+[2016.06.27-03.19.21:600][ 30]OCULUS: Info: IAD changed to 64.0mm
+[2016.06.27-03.19.21:600][ 30]LogHMD: New ovr session is created
+[2016.06.27-03.19.21:600][ 30]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.06.27-03.19.21:600][ 30]LogApp: UseVRFocus has changed to 1
+[2016.06.27-03.19.21:600][ 30]LogApp: HasVRFocus has changed to 1
+[2016.06.27-03.19.21:601][ 30]PIE: New page: PIE session: FirstLevel (27 Jun 2016 11:19:21 pm)
+[2016.06.27-03.19.21:601][ 30]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.06.27-03.19.21:604][ 30]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003623s)
+[2016.06.27-03.19.21:605][ 30]LogAIModule: Creating AISystem for world FirstLevel
+[2016.06.27-03.19.21:605][ 30]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2016.06.27-03.19.21:605][ 30]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.004629s)
+[2016.06.27-03.19.21:626][ 30]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.27-03.19.21:631][ 30]LogInit: FAudioDevice initialized.
+[2016.06.27-03.19.21:662][ 30]LogWorld: Game class is 'GameMode'
+[2016.06.27-03.19.21:663][ 30]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.06.27-13.19.21
+[2016.06.27-03.19.21:664][ 30]LogWorld: Bringing up level for play took: 0.001447
+[2016.06.27-03.19.21:670][ 30]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.457
+[2016.06.27-03.19.21:670][ 30]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.19.21:670][ 30]LogApp: UseVRFocus has changed to 0
+[2016.06.27-03.19.21:670][ 30]LogApp: HasVRFocus has changed to 0
+[2016.06.27-03.19.27:266][288]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.19.27:286][288]LogHMD: Destroying ovr session
+[2016.06.27-03.19.27:335][288]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.19.29:859][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.06.27-03.19.29:911][514]LogSavePackage: Save=47.08ms
+[2016.06.27-03.19.29:911][514]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurret136FDEF1416C4EB4E90F71BD0D661905.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.06.27-03.19.29:912][514]LogSavePackage: Total save time: 51.88ms
+[2016.06.27-03.19.29:912][514]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.06.27-03.19.30:907][597]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.19.30:907][597]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.27-03.19.30:908][597]OCULUS: Debug: [HMDState] Using default profile default
+[2016.06.27-03.19.30:908][597]OCULUS: Info: IAD changed to 64.0mm
+[2016.06.27-03.19.30:908][597]LogHMD: New ovr session is created
+[2016.06.27-03.19.30:908][597]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.06.27-03.19.30:908][597]LogApp: UseVRFocus has changed to 1
+[2016.06.27-03.19.30:908][597]LogApp: HasVRFocus has changed to 1
+[2016.06.27-03.19.30:908][597]PIE: New page: PIE session: FirstLevel (27 Jun 2016 11:19:30 pm)
+[2016.06.27-03.19.30:908][597]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.06.27-03.19.30:911][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002434s)
+[2016.06.27-03.19.30:911][597]LogAIModule: Creating AISystem for world FirstLevel
+[2016.06.27-03.19.30:911][597]LogPlayLevel: PIE: World Init took: (0.000421s)
+[2016.06.27-03.19.30:911][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003018s)
+[2016.06.27-03.19.30:930][597]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.27-03.19.30:935][597]LogInit: FAudioDevice initialized.
+[2016.06.27-03.19.30:965][597]LogWorld: Game class is 'GameMode'
+[2016.06.27-03.19.30:967][597]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.06.27-13.19.30
+[2016.06.27-03.19.30:967][597]LogWorld: Bringing up level for play took: 0.001473
+[2016.06.27-03.19.30:973][597]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.846
+[2016.06.27-03.19.30:973][597]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.19.30:973][597]LogApp: UseVRFocus has changed to 0
+[2016.06.27-03.19.30:973][597]LogApp: HasVRFocus has changed to 0
+[2016.06.27-03.19.39:294][971]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.19.39:315][971]LogHMD: Destroying ovr session
+[2016.06.27-03.19.39:361][971]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.19.51:569][242]BlueprintLog: New page: Compile LeftTurret
+[2016.06.27-03.19.51:636][242]BlueprintEditorCompileResults: Info [2634.71] Compile of LeftTurret successful! [in 66 ms]
+[2016.06.27-03.19.52:303][300]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.19.52:303][300]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.27-03.19.52:304][300]OCULUS: Debug: [HMDState] Using default profile default
+[2016.06.27-03.19.52:304][300]OCULUS: Info: IAD changed to 64.0mm
+[2016.06.27-03.19.52:304][300]LogHMD: New ovr session is created
+[2016.06.27-03.19.52:304][300]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.06.27-03.19.52:304][300]LogApp: UseVRFocus has changed to 1
+[2016.06.27-03.19.52:304][300]LogApp: HasVRFocus has changed to 1
+[2016.06.27-03.19.52:304][300]PIE: New page: PIE session: FirstLevel (27 Jun 2016 11:19:52 pm)
+[2016.06.27-03.19.52:305][300]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.06.27-03.19.52:307][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002960s)
+[2016.06.27-03.19.52:308][300]LogAIModule: Creating AISystem for world FirstLevel
+[2016.06.27-03.19.52:308][300]LogPlayLevel: PIE: World Init took: (0.000533s)
+[2016.06.27-03.19.52:308][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003635s)
+[2016.06.27-03.19.52:328][300]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.27-03.19.52:333][300]LogInit: FAudioDevice initialized.
+[2016.06.27-03.19.52:368][300]LogWorld: Game class is 'GameMode'
+[2016.06.27-03.19.52:370][300]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.06.27-13.19.52
+[2016.06.27-03.19.52:370][300]LogWorld: Bringing up level for play took: 0.001398
+[2016.06.27-03.19.52:375][300]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.249
+[2016.06.27-03.19.52:375][300]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.19.52:376][300]LogApp: UseVRFocus has changed to 0
+[2016.06.27-03.19.52:376][300]LogApp: HasVRFocus has changed to 0
+[2016.06.27-03.19.55:993][468]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.19.56:014][468]LogHMD: Destroying ovr session
+[2016.06.27-03.19.56:059][468]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.20.14:854][348]LogEditorTransaction: Undo Create Pin Link
+[2016.06.27-03.20.39:766][770]BlueprintLog: New page: Compile LeftTurret
+[2016.06.27-03.20.39:832][770]BlueprintEditorCompileResults: Info [2682.90] Compile of LeftTurret successful! [in 65 ms]
+[2016.06.27-03.20.40:548][821]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.20.40:548][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.27-03.20.40:548][821]OCULUS: Debug: [HMDState] Using default profile default
+[2016.06.27-03.20.40:548][821]OCULUS: Info: IAD changed to 64.0mm
+[2016.06.27-03.20.40:548][821]LogHMD: New ovr session is created
+[2016.06.27-03.20.40:548][821]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.06.27-03.20.40:548][821]LogApp: UseVRFocus has changed to 1
+[2016.06.27-03.20.40:548][821]LogApp: HasVRFocus has changed to 1
+[2016.06.27-03.20.40:548][821]PIE: New page: PIE session: FirstLevel (27 Jun 2016 11:20:40 pm)
+[2016.06.27-03.20.40:548][821]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.06.27-03.20.40:551][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002662s)
+[2016.06.27-03.20.40:552][821]LogAIModule: Creating AISystem for world FirstLevel
+[2016.06.27-03.20.40:552][821]LogPlayLevel: PIE: World Init took: (0.000449s)
+[2016.06.27-03.20.40:552][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003255s)
+[2016.06.27-03.20.40:572][821]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.27-03.20.40:576][821]LogInit: FAudioDevice initialized.
+[2016.06.27-03.20.40:608][821]LogWorld: Game class is 'GameMode'
+[2016.06.27-03.20.40:610][821]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.06.27-13.20.40
+[2016.06.27-03.20.40:610][821]LogWorld: Bringing up level for play took: 0.001458
+[2016.06.27-03.20.40:616][821]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.49
+[2016.06.27-03.20.40:616][821]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.20.40:616][821]LogApp: UseVRFocus has changed to 0
+[2016.06.27-03.20.40:616][821]LogApp: HasVRFocus has changed to 0
+[2016.06.27-03.20.44:415][998]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.20.44:436][998]LogHMD: Destroying ovr session
+[2016.06.27-03.20.44:478][998]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.22.17:899][ 79]BlueprintLog: New page: Compile LeftTurret
+[2016.06.27-03.22.17:966][ 79]BlueprintEditorCompileResults: Info [2781.04] Compile of LeftTurret successful! [in 66 ms]
+[2016.06.27-03.22.19:273][195]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.22.19:274][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.27-03.22.19:274][195]OCULUS: Debug: [HMDState] Using default profile default
+[2016.06.27-03.22.19:274][195]OCULUS: Info: IAD changed to 64.0mm
+[2016.06.27-03.22.19:274][195]LogHMD: New ovr session is created
+[2016.06.27-03.22.19:274][195]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.06.27-03.22.19:274][195]LogApp: UseVRFocus has changed to 1
+[2016.06.27-03.22.19:274][195]LogApp: HasVRFocus has changed to 1
+[2016.06.27-03.22.19:274][195]PIE: New page: PIE session: FirstLevel (27 Jun 2016 11:22:19 pm)
+[2016.06.27-03.22.19:274][195]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.06.27-03.22.19:277][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002494s)
+[2016.06.27-03.22.19:277][195]LogAIModule: Creating AISystem for world FirstLevel
+[2016.06.27-03.22.19:277][195]LogPlayLevel: PIE: World Init took: (0.000609s)
+[2016.06.27-03.22.19:277][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003249s)
+[2016.06.27-03.22.19:299][195]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.27-03.22.19:304][195]LogInit: FAudioDevice initialized.
+[2016.06.27-03.22.19:335][195]LogWorld: Game class is 'GameMode'
+[2016.06.27-03.22.19:337][195]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.06.27-13.22.19
+[2016.06.27-03.22.19:337][195]LogWorld: Bringing up level for play took: 0.001423
+[2016.06.27-03.22.19:342][195]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.784
+[2016.06.27-03.22.19:342][195]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.22.19:342][195]LogApp: UseVRFocus has changed to 0
+[2016.06.27-03.22.19:342][195]LogApp: HasVRFocus has changed to 0
+[2016.06.27-03.22.29:498][666]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.22.29:519][666]LogHMD: Destroying ovr session
+[2016.06.27-03.22.29:568][666]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.22.37:079][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.06.27-03.22.37:137][506]LogSavePackage: Save=54.95ms
+[2016.06.27-03.22.37:137][506]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurret413E17064D73E021F864A6ACDEA2C7B0.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.06.27-03.22.37:138][506]LogSavePackage: Total save time: 57.58ms
+[2016.06.27-03.22.37:138][506]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.06.27-03.22.51:873][229]BlueprintLog: New page: Compile LeftTurret
+[2016.06.27-03.22.51:939][229]BlueprintEditorCompileResults: Info [2815.01] Compile of LeftTurret successful! [in 65 ms]
+[2016.06.27-03.22.52:796][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.06.27-03.22.52:851][303]LogSavePackage: Save=52.78ms
+[2016.06.27-03.22.52:851][303]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurret84C9FE7545DA592C42F695BEB7991B73.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.06.27-03.22.52:851][303]LogSavePackage: Total save time: 54.72ms
+[2016.06.27-03.22.52:851][303]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.06.27-03.23.15:641][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.06.27-03.23.15:745][192]LogSavePackage: Save=102.98ms
+[2016.06.27-03.23.15:745][192]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurretE0FC7B6946E8C4C9B3DDCA9A68B198F3.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.06.27-03.23.15:747][192]LogSavePackage: Total save time: 106.03ms
+[2016.06.27-03.23.15:747][192]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.06.27-03.23.17:051][325]BlueprintLog: New page: Compile LeftTurret
+[2016.06.27-03.23.17:063][325]LogBlueprint:Error: [compiler LeftTurret] Error The current value of the ' Event ' pin is invalid: Unsupported type Delegate on pin Delegate
+[2016.06.27-03.23.17:157][325]LogBlueprint:Warning: [compiler LeftTurret] Warning [2840.23] Compile of LeftTurret failed. 1 Fatal Issue(s) 0 Warning(s) [in 105 ms]
+[2016.06.27-03.23.17:157][325]BlueprintEditorCompileResults:Error: Error The current value of the ' Event ' pin is invalid: Unsupported type Delegate on pin Delegate
+[2016.06.27-03.23.17:157][325]BlueprintEditorCompileResults:Warning: Warning [2840.23] Compile of LeftTurret failed. 1 Fatal Issue(s) 0 Warning(s) [in 105 ms]
+[2016.06.27-03.23.59:455][ 76]LogSavePackage: Save=63.95ms
+[2016.06.27-03.23.59:455][ 76]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevel_Auto117BA0A264E06D8F598296A84AED4EC5A.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/Autosaves/Game/Maps/FirstLevel_Auto1.umap'
+[2016.06.27-03.23.59:494][ 76]LogSavePackage: Total save time: 106.82ms
+[2016.06.27-03.23.59:494][ 76]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/Autosaves/Game/Maps/FirstLevel_Auto1.umap
+[2016.06.27-03.23.59:509][ 76]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FirstLevel' took 0.133
+[2016.06.27-03.23.59:509][ 76]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.133
+[2016.06.27-03.23.59:517][ 76]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LeftTurret] ([1] browsable assets)...
+[2016.06.27-03.23.59:554][ 76]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/LeftTurret.LeftTurret]
+[2016.06.27-03.23.59:554][ 76]OBJ SavePackage: Finished generating thumbnails for package [/Game/LeftTurret]
+[2016.06.27-03.23.59:622][ 76]LogSavePackage: Save=51.70ms
+[2016.06.27-03.23.59:622][ 76]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurret_Auto1209218ED486E6D06238EE5B06BD057CF.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/Autosaves/Game/LeftTurret_Auto1.uasset'
+[2016.06.27-03.23.59:624][ 76]LogSavePackage: Total save time: 54.78ms
+[2016.06.27-03.23.59:624][ 76]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/Autosaves/Game/LeftTurret_Auto1.uasset
+[2016.06.27-03.23.59:624][ 76]LogFileHelpers: Auto-saving content packages took 0.109
+[2016.06.27-03.24.51:583][823]BlueprintLog: New page: Compile LeftTurret
+[2016.06.27-03.24.51:649][823]BlueprintEditorCompileResults: Info [2934.72] Compile of LeftTurret successful! [in 66 ms]
+[2016.06.27-03.24.52:463][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.06.27-03.24.52:522][893]LogSavePackage: Save=54.48ms
+[2016.06.27-03.24.52:522][893]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurretB1D9B44047C41C0A02401D8FA34291A8.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.06.27-03.24.52:526][893]LogSavePackage: Total save time: 61.96ms
+[2016.06.27-03.24.52:526][893]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.06.27-03.24.53:158][943]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.24.53:158][943]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.27-03.24.53:158][943]OCULUS: Debug: [HMDState] Using default profile default
+[2016.06.27-03.24.53:158][943]OCULUS: Info: IAD changed to 64.0mm
+[2016.06.27-03.24.53:158][943]LogHMD: New ovr session is created
+[2016.06.27-03.24.53:159][943]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.06.27-03.24.53:159][943]LogApp: UseVRFocus has changed to 1
+[2016.06.27-03.24.53:159][943]LogApp: HasVRFocus has changed to 1
+[2016.06.27-03.24.53:159][943]PIE: New page: PIE session: FirstLevel (27 Jun 2016 11:24:53 pm)
+[2016.06.27-03.24.53:159][943]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.06.27-03.24.53:161][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002778s)
+[2016.06.27-03.24.53:162][943]LogAIModule: Creating AISystem for world FirstLevel
+[2016.06.27-03.24.53:162][943]LogPlayLevel: PIE: World Init took: (0.000442s)
+[2016.06.27-03.24.53:162][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003359s)
+[2016.06.27-03.24.53:182][943]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.27-03.24.53:187][943]LogInit: FAudioDevice initialized.
+[2016.06.27-03.24.53:220][943]LogWorld: Game class is 'GameMode'
+[2016.06.27-03.24.53:221][943]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.06.27-13.24.53
+[2016.06.27-03.24.53:222][943]LogWorld: Bringing up level for play took: 0.001384
+[2016.06.27-03.24.53:227][943]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.9
+[2016.06.27-03.24.53:227][943]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.24.53:227][943]LogApp: UseVRFocus has changed to 0
+[2016.06.27-03.24.53:227][943]LogApp: HasVRFocus has changed to 0
+[2016.06.27-03.25.00:901][301]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.25.00:922][301]LogHMD: Destroying ovr session
+[2016.06.27-03.25.00:968][301]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.25.02:449][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.06.27-03.25.02:499][432]LogSavePackage: Save=48.71ms
+[2016.06.27-03.25.02:499][432]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurret849C0D504682FA117D0A59B9955BFF96.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.06.27-03.25.02:500][432]LogSavePackage: Total save time: 50.82ms
+[2016.06.27-03.25.02:500][432]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.06.27-03.25.09:664][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.06.27-03.25.09:717][227]LogSavePackage: Save=51.03ms
+[2016.06.27-03.25.09:717][227]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurret287EBD294B1419576E17CD8426415280.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.06.27-03.25.09:718][227]LogSavePackage: Total save time: 53.08ms
+[2016.06.27-03.25.09:718][227]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.06.27-03.26.49:911][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.06.27-03.26.49:963][ 84]LogSavePackage: Save=49.03ms
+[2016.06.27-03.26.49:963][ 84]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurretF74C8688491EA41EF5C96EBBCB695EF7.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.06.27-03.26.49:963][ 84]LogSavePackage: Total save time: 51.08ms
+[2016.06.27-03.26.49:963][ 84]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.06.27-03.28.57:543][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.06.27-03.28.57:595][150]LogSavePackage: Save=49.31ms
+[2016.06.27-03.28.57:595][150]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurretD8227C3F4C1F3DF99F83AA8597DAE559.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.06.27-03.28.57:596][150]LogSavePackage: Total save time: 52.37ms
+[2016.06.27-03.28.57:596][150]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.06.27-03.29.24:290][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.06.27-03.29.24:342][227]LogSavePackage: Save=50.18ms
+[2016.06.27-03.29.24:342][227]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurretDA024CE14B290B8FF45844936F82CF65.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.06.27-03.29.24:343][227]LogSavePackage: Total save time: 52.28ms
+[2016.06.27-03.29.24:343][227]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.06.27-03.29.33:889][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.06.27-03.29.33:940][296]LogSavePackage: Save=48.59ms
+[2016.06.27-03.29.33:940][296]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurret1663A5224E4353DCB5088A9DD70CCA22.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.06.27-03.29.33:941][296]LogSavePackage: Total save time: 50.68ms
+[2016.06.27-03.29.33:941][296]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.06.27-03.31.42:063][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.06.27-03.31.42:327][561]LogSavePackage: Save=56.78ms
+[2016.06.27-03.31.42:327][561]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurretB46C962D43A1742AF333DC84E3877752.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.06.27-03.31.42:328][561]LogSavePackage: Total save time: 264.33ms
+[2016.06.27-03.31.42:328][561]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.06.27-03.31.42:950][619]BlueprintLog: New page: Compile LeftTurret
+[2016.06.27-03.31.43:017][619]BlueprintEditorCompileResults: Info [3346.09] Compile of LeftTurret successful! [in 67 ms]
+[2016.06.27-03.31.43:678][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.06.27-03.31.43:736][673]LogSavePackage: Save=55.64ms
+[2016.06.27-03.31.43:736][673]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurretB59120C24AFD48E4DF3603B0F27B8B79.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.06.27-03.31.43:737][673]LogSavePackage: Total save time: 58.13ms
+[2016.06.27-03.31.43:737][673]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.06.27-03.31.44:552][726]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.31.44:552][726]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.27-03.31.44:552][726]OCULUS: Debug: [HMDState] Using default profile default
+[2016.06.27-03.31.44:552][726]OCULUS: Info: IAD changed to 64.0mm
+[2016.06.27-03.31.44:552][726]LogHMD: New ovr session is created
+[2016.06.27-03.31.44:553][726]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.06.27-03.31.44:553][726]LogApp: UseVRFocus has changed to 1
+[2016.06.27-03.31.44:553][726]LogApp: HasVRFocus has changed to 1
+[2016.06.27-03.31.44:553][726]PIE: New page: PIE session: FirstLevel (27 Jun 2016 11:31:44 pm)
+[2016.06.27-03.31.44:553][726]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.06.27-03.31.44:555][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002634s)
+[2016.06.27-03.31.44:556][726]LogAIModule: Creating AISystem for world FirstLevel
+[2016.06.27-03.31.44:556][726]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2016.06.27-03.31.44:556][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003444s)
+[2016.06.27-03.31.44:577][726]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.27-03.31.44:582][726]LogInit: FAudioDevice initialized.
+[2016.06.27-03.31.44:615][726]LogWorld: Game class is 'GameMode'
+[2016.06.27-03.31.44:616][726]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.06.27-13.31.44
+[2016.06.27-03.31.44:617][726]LogWorld: Bringing up level for play took: 0.001440
+[2016.06.27-03.31.44:623][726]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.496
+[2016.06.27-03.31.44:623][726]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.31.44:623][726]LogApp: UseVRFocus has changed to 0
+[2016.06.27-03.31.44:623][726]LogApp: HasVRFocus has changed to 0
+[2016.06.27-03.31.53:873][154]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.31.53:894][154]LogHMD: Destroying ovr session
+[2016.06.27-03.31.53:943][154]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.31.58:535][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.06.27-03.31.58:588][580]LogSavePackage: Save=50.36ms
+[2016.06.27-03.31.58:588][580]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurretC3F25C43477958FE6417EFB1DA5848CE.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.06.27-03.31.58:588][580]LogSavePackage: Total save time: 52.37ms
+[2016.06.27-03.31.58:588][580]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.06.27-03.33.00:150][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.06.27-03.33.00:201][591]LogSavePackage: Save=49.24ms
+[2016.06.27-03.33.00:201][591]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurretA80911BB43D34CCCAB3216A4B3EC46AB.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.06.27-03.33.00:203][591]LogSavePackage: Total save time: 51.94ms
+[2016.06.27-03.33.00:203][591]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.06.27-03.33.09:533][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.06.27-03.33.09:586][571]LogSavePackage: Save=50.57ms
+[2016.06.27-03.33.09:586][571]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurret3DFED19E41E403EFB59508A8F4E25C27.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.06.27-03.33.09:586][571]LogSavePackage: Total save time: 52.61ms
+[2016.06.27-03.33.09:586][571]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.06.27-03.34.17:426][928]LogSavePackage: Save=65.35ms
+[2016.06.27-03.34.17:426][928]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevel_Auto29D08621D4E12238288E09699273992EE.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/Autosaves/Game/Maps/FirstLevel_Auto2.umap'
+[2016.06.27-03.34.17:464][928]LogSavePackage: Total save time: 108.65ms
+[2016.06.27-03.34.17:464][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/Autosaves/Game/Maps/FirstLevel_Auto2.umap
+[2016.06.27-03.34.17:465][928]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FirstLevel' took 0.127
+[2016.06.27-03.34.17:465][928]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.127
+[2016.06.27-03.34.59:845][221]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.34.59:845][221]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.27-03.34.59:846][221]OCULUS: Debug: [HMDState] Using default profile default
+[2016.06.27-03.34.59:846][221]OCULUS: Info: IAD changed to 64.0mm
+[2016.06.27-03.34.59:846][221]LogHMD: New ovr session is created
+[2016.06.27-03.34.59:846][221]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.06.27-03.34.59:846][221]LogApp: UseVRFocus has changed to 1
+[2016.06.27-03.34.59:846][221]LogApp: HasVRFocus has changed to 1
+[2016.06.27-03.34.59:846][221]PIE: New page: PIE session: FirstLevel (27 Jun 2016 11:34:59 pm)
+[2016.06.27-03.34.59:846][221]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.06.27-03.34.59:849][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002691s)
+[2016.06.27-03.34.59:849][221]LogAIModule: Creating AISystem for world FirstLevel
+[2016.06.27-03.34.59:849][221]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2016.06.27-03.34.59:850][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003460s)
+[2016.06.27-03.34.59:871][221]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.27-03.34.59:876][221]LogInit: FAudioDevice initialized.
+[2016.06.27-03.34.59:908][221]LogWorld: Game class is 'GameMode'
+[2016.06.27-03.34.59:910][221]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.06.27-13.34.59
+[2016.06.27-03.34.59:910][221]LogWorld: Bringing up level for play took: 0.001492
+[2016.06.27-03.34.59:916][221]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.211
+[2016.06.27-03.34.59:916][221]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.34.59:916][221]LogApp: UseVRFocus has changed to 0
+[2016.06.27-03.34.59:916][221]LogApp: HasVRFocus has changed to 0
+[2016.06.27-03.35.02:369][333]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.35.02:390][333]LogHMD: Destroying ovr session
+[2016.06.27-03.35.02:438][333]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.06.27-03.35.06:964][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.06.27-03.35.07:016][622]LogSavePackage: Save=50.13ms
+[2016.06.27-03.35.07:016][622]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurretE0EA3D804A9D039488A9DD91D5368CCD.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.06.27-03.35.07:017][622]LogSavePackage: Total save time: 52.17ms
+[2016.06.27-03.35.07:017][622]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.06.27-03.35.11:990][ 88]LogSavePackage: Save=64.54ms
+[2016.06.27-03.35.11:990][ 88]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevelE16DC9F44E19DAF07CE28BAE30C29C3F.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap'
+[2016.06.27-03.35.11:991][ 88]LogSavePackage: Total save time: 67.40ms
+[2016.06.27-03.35.11:991][ 88]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap
+[2016.06.27-03.35.14:128][294]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.06.27-03.35.14:469][295]Cmd: QUIT_EDITOR
+[2016.06.27-03.35.14:509][295]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.06.27-03.35.14:540][295]LogExit: Preparing to exit.
+[2016.06.27-03.35.14:762][295]LogExit: Editor shut down
+[2016.06.27-03.35.14:762][295]LogExit: Transaction tracking system shut down
+[2016.06.27-03.35.14:865][295]LogObj: Freed 0b from 0 cluster array pools.
+[2016.06.27-03.35.14:865][295]LogExit: Object subsystem successfully closed.
+[2016.06.27-03.35.14:878][295]LogD3D11RHI: Shutdown
+[2016.06.27-03.35.14:878][295]LogD3D11RHI: CleanupD3DDevice
+[2016.06.27-03.35.14:917][295]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.06.27-03.35.14:943][295]LogDerivedDataCache: Shutdown
+[2016.06.27-03.35.14:944][295]LogModuleManager: Shutting down and abandoning module BlueprintGraph (208)
+[2016.06.27-03.35.14:944][295]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (207)
+[2016.06.27-03.35.14:944][295]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (206)
+[2016.06.27-03.35.14:944][295]LogModuleManager: Shutting down and abandoning module CrashTracker (205)
+[2016.06.27-03.35.14:944][295]LogModuleManager: Shutting down and abandoning module SceneOutliner (204)
+[2016.06.27-03.35.14:944][295]LogModuleManager: Shutting down and abandoning module SuperSearch (203)
+[2016.06.27-03.35.14:944][295]LogModuleManager: Shutting down and abandoning module WidgetCarousel (202)
+[2016.06.27-03.35.14:944][295]LogModuleManager: Shutting down and abandoning module AddContentDialog (201)
+[2016.06.27-03.35.14:944][295]LogModuleManager: Shutting down and abandoning module GameplayTags (200)
+[2016.06.27-03.35.14:944][295]LogModuleManager: Shutting down and abandoning module EditorWidgets (199)
+[2016.06.27-03.35.14:944][295]LogModuleManager: Shutting down and abandoning module CollectionManager (198)
+[2016.06.27-03.35.14:944][295]LogModuleManager: Shutting down and abandoning module StatsViewer (197)
+[2016.06.27-03.35.14:944][295]LogModuleManager: Shutting down and abandoning module FoliageEdit (196)
+[2016.06.27-03.35.14:944][295]LogModuleManager: Shutting down and abandoning module LandscapeEditor (195)
+[2016.06.27-03.35.14:945][295]LogModuleManager: Shutting down and abandoning module ActorPickerMode (194)
+[2016.06.27-03.35.14:945][295]LogModuleManager: Shutting down and abandoning module GeometryMode (193)
+[2016.06.27-03.35.14:945][295]LogModuleManager: Shutting down and abandoning module TextureAlignMode (192)
+[2016.06.27-03.35.14:945][295]LogModuleManager: Shutting down and abandoning module BspMode (191)
+[2016.06.27-03.35.14:945][295]LogModuleManager: Shutting down and abandoning module PlacementMode (190)
+[2016.06.27-03.35.14:945][295]LogModuleManager: Shutting down and abandoning module AutomationWorker (189)
+[2016.06.27-03.35.14:945][295]LogModuleManager: Shutting down and abandoning module CharacterAI (188)
+[2016.06.27-03.35.14:945][295]LogModuleManager: Shutting down and abandoning module SmartSnapping (187)
+[2016.06.27-03.35.14:945][295]LogModuleManager: Shutting down and abandoning module ViewportSnapping (186)
+[2016.06.27-03.35.14:945][295]LogModuleManager: Shutting down and abandoning module LogVisualizer (185)
+[2016.06.27-03.35.14:945][295]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (184)
+[2016.06.27-03.35.14:945][295]LogModuleManager: Shutting down and abandoning module IntroTutorials (183)
+[2016.06.27-03.35.14:945][295]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (182)
+[2016.06.27-03.35.14:945][295]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (181)
+[2016.06.27-03.35.14:945][295]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (180)
+[2016.06.27-03.35.14:945][295]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (179)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (178)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (177)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (176)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module MergeActors (175)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module SizeMap (174)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module TreeMap (173)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module ReferenceViewer (172)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module LocalizationService (171)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (170)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module HardwareTargeting (169)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (168)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module UndoHistory (167)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module UserFeedback (166)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module XmlParser (165)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module Blutility (164)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (163)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (162)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module InputBindingEditor (161)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (160)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module SettingsEditor (159)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module ProjectLauncher (158)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module SessionFrontend (157)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module ProfilerClient (156)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (155)
+[2016.06.27-03.35.15:205][295]LogModuleManager: Shutting down and abandoning module DeviceManager (154)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module AutomationController (153)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module AutomationWindow (152)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module Layers (151)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (150)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module DetailCustomizations (149)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module PackagesDialog (148)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module Persona (147)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module Kismet (146)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module GraphEditor (145)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module ClassViewer (144)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module Toolbox (143)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module ModuleUI (142)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module MovieSceneTools (141)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module OutputLog (140)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module GammaUI (139)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module Documentation (138)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (137)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module AnalyticsET (136)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module Analytics (135)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module PortalServices (134)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module PortalRpc (133)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module MessagingRpc (132)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module GameplayDebugger (130)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module AIModule (129)
+[2016.06.27-03.35.15:246][295]LogModuleManager: Shutting down and abandoning module ProfilerService (128)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module TaskGraph (127)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module SubstanceEditor (126)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module SlateRemote (125)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module SteamVRController (124)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module SteamVR (123)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (122)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module OculusLibrary (121)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module OculusInput (120)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (119)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module CableComponent (118)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (117)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (116)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module HTML5Networking (115)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.06.27-03.35.15:251][295]LogModuleManager: Shutting down and abandoning module HotReload (100)
+[2016.06.27-03.35.15:252][295]LogModuleManager: Shutting down and abandoning module MainFrame (99)
+[2016.06.27-03.35.15:252][295]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
+[2016.06.27-03.35.15:252][295]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (97)
+[2016.06.27-03.35.15:252][295]LogModuleManager: Shutting down and abandoning module AssetRegistry (96)
+[2016.06.27-03.35.15:444][295]LogModuleManager: Shutting down and abandoning module ContentBrowser (95)
+[2016.06.27-03.35.15:445][295]LogModuleManager: Shutting down and abandoning module Paper2DEditor (94)
+[2016.06.27-03.35.15:445][295]LogModuleManager: Shutting down and abandoning module UdpMessaging (93)
+[2016.06.27-03.35.15:545][295]LogModuleManager: Shutting down and abandoning module SubstanceCore (92)
+[2016.06.27-03.35.15:545][295]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.06.27-03.35.15:545][295]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.06.27-03.35.15:545][295]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.06.27-03.35.15:545][295]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.06.27-03.35.15:545][295]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.06.27-03.35.15:545][295]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.06.27-03.35.15:545][295]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.06.27-03.35.15:545][295]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.06.27-03.35.15:545][295]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.06.27-03.35.15:545][295]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.06.27-03.35.15:545][295]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.06.27-03.35.15:545][295]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.06.27-03.35.15:545][295]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.06.27-03.35.15:545][295]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.06.27-03.35.15:545][295]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.06.27-03.35.15:545][295]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.06.27-03.35.15:545][295]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.06.27-03.35.15:545][295]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.06.27-03.35.15:545][295]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.06.27-03.35.15:545][295]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.06.27-03.35.15:545][295]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.06.27-03.35.15:546][295]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.06.27-03.35.15:546][295]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.06.27-03.35.15:547][295]LogDerivedDataCache: Shutdown
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.06.27-03.35.15:547][295]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.06.27-03.35.17:549][295]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.06.27-03.35.17:549][295]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.06.27-03.35.17:549][295]LogHMD: Oculus shutdown.
+[2016.06.27-03.35.17:549][295]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.06.27-03.35.17:549][295]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.06.27-03.35.17:549][295]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.06.27-03.35.17:549][295]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.06.27-03.35.17:549][295]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.06.27-03.35.17:551][295]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.06.27-03.35.17:551][295]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.06.27-03.35.17:551][295]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.06.27-03.35.17:551][295]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.06.27-03.35.17:551][295]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.06.27-03.35.17:551][295]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.06.27-03.35.17:551][295]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.06.27-03.35.17:551][295]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.06.27-03.35.17:551][295]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.06.27-03.35.17:551][295]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.06.27-03.35.17:552][295]LogExit: Exiting.
+[2016.06.27-03.35.17:553][295]Log file closed, 06/27/16 13:35:17
