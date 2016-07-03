@@ -3,10 +3,11 @@
 	"EngineAssociation": "4.11",
 	"Category": "",
 	"Description": "",
-	"Plugins": [
+	"Modules": [
 		{
-			"Name": "Substance",
-			"Enabled": true
+			"Name": "Project_PlanetDef",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
 		}
 	]
 }
