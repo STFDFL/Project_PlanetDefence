@@ -509,4 +509,906 @@ LogInit: Object subsystem initialized
 [2016.07.04-10.41.48:906][656]LogWorld: Bringing up level for play took: 0.001347
 [2016.07.04-10.41.48:907][656]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.915
 [2016.07.04-10.41.48:907][656]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-10.41.48:907][656]LogApp: UseV
+[2016.07.04-10.41.48:907][656]LogApp: UseVRFocus has changed to 0
+[2016.07.04-10.41.48:907][656]LogApp: HasVRFocus has changed to 0
+[2016.07.04-10.41.49:818][765]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
+	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
+	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:0083
+[2016.07.04-10.41.49:818][765]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.41.49:818][765]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.41.49:818][765]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.41.49:818][765]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.42.20:811][484]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.42.20:811][484]LogHMD: Destroying ovr session
+[2016.07.04-10.42.20:846][484]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.42.23:116][570]LogSavePackage: Save=66.99ms
+[2016.07.04-10.42.23:116][570]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevel6747542B42CA4BD29745D2A968D5D52F.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap'
+[2016.07.04-10.42.23:117][570]LogSavePackage: Total save time: 74.76ms
+[2016.07.04-10.42.23:117][570]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap
+[2016.07.04-10.42.43:799][968]LogSavePackage: Save=66.17ms
+[2016.07.04-10.42.43:799][968]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevelA12C3D1E463A4478975C89A634D66E49.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap'
+[2016.07.04-10.42.43:800][968]LogSavePackage: Total save time: 71.30ms
+[2016.07.04-10.42.43:800][968]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap
+[2016.07.04-10.43.54:692][644]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
+[2016.07.04-10.46.42:949][527]LogSavePackage: Save=6.53ms
+[2016.07.04-10.46.42:949][527]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/UpgradeManager375AE20145FB22FBC3C6F28E2399595E.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Upgrade_System/UpgradeManager.uasset'
+[2016.07.04-10.46.42:950][527]LogSavePackage: Total save time: 7.72ms
+[2016.07.04-10.46.42:950][527]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Upgrade_System/UpgradeManager.uasset
+[2016.07.04-10.48.14:452][277]BlueprintLog: New page: Compile UpgradeManager
+[2016.07.04-10.48.14:517][277]BlueprintEditorCompileResults: Info [0670.65] Compile of UpgradeManager successful! [in 64 ms]
+[2016.07.04-10.48.15:321][343]LogSavePackage: Save=7.69ms
+[2016.07.04-10.48.15:321][343]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/UpgradeManagerF40D3F3C476898E17D3C4F8B7BAB095F.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Upgrade_System/UpgradeManager.uasset'
+[2016.07.04-10.48.15:322][343]LogSavePackage: Total save time: 16.25ms
+[2016.07.04-10.48.15:322][343]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Upgrade_System/UpgradeManager.uasset
+[2016.07.04-10.48.17:182][497]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.48.17:182][497]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-10.48.17:182][497]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-10.48.17:182][497]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-10.48.17:182][497]LogHMD: New ovr session is created
+[2016.07.04-10.48.17:183][497]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-10.48.17:183][497]LogApp: UseVRFocus has changed to 1
+[2016.07.04-10.48.17:183][497]LogApp: HasVRFocus has changed to 1
+[2016.07.04-10.48.17:183][497]PIE: New page: PIE session: FirstLevel (5 Jul 2016 6:48:17 am)
+[2016.07.04-10.48.17:183][497]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-10.48.17:185][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002745s)
+[2016.07.04-10.48.17:186][497]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-10.48.17:186][497]LogPlayLevel: PIE: World Init took: (0.000646s)
+[2016.07.04-10.48.17:186][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003534s)
+[2016.07.04-10.48.17:208][497]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-10.48.17:213][497]LogInit: FAudioDevice initialized.
+[2016.07.04-10.48.17:329][497]LogWorld: Game class is 'GameMode'
+[2016.07.04-10.48.17:331][497]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-20.48.17
+[2016.07.04-10.48.17:331][497]LogWorld: Bringing up level for play took: 0.001510
+[2016.07.04-10.48.17:335][497]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.486
+[2016.07.04-10.48.17:336][497]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.48.17:336][497]LogApp: UseVRFocus has changed to 0
+[2016.07.04-10.48.17:336][497]LogApp: HasVRFocus has changed to 0
+[2016.07.04-10.48.17:341][498]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:28132).
+[2016.07.04-10.48.22:343][725]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.48.22:364][725]LogHMD: Destroying ovr session
+[2016.07.04-10.48.22:416][725]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.49.08:813][959]LogSavePackage: Save=7.02ms
+[2016.07.04-10.49.08:813][959]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/UpgradeManagerECBD654540DD9E8D9FDEADB392CE2036.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Upgrade_System/UpgradeManager.uasset'
+[2016.07.04-10.49.08:814][959]LogSavePackage: Total save time: 11.00ms
+[2016.07.04-10.49.08:814][959]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Upgrade_System/UpgradeManager.uasset
+[2016.07.04-10.49.09:207][991]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.49.09:208][991]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-10.49.09:208][991]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-10.49.09:208][991]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-10.49.09:208][991]LogHMD: New ovr session is created
+[2016.07.04-10.49.09:208][991]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-10.49.09:208][991]LogApp: UseVRFocus has changed to 1
+[2016.07.04-10.49.09:208][991]LogApp: HasVRFocus has changed to 1
+[2016.07.04-10.49.09:208][991]PIE: New page: PIE session: FirstLevel (5 Jul 2016 6:49:09 am)
+[2016.07.04-10.49.09:208][991]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-10.49.09:211][991]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002541s)
+[2016.07.04-10.49.09:211][991]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-10.49.09:211][991]LogPlayLevel: PIE: World Init took: (0.000554s)
+[2016.07.04-10.49.09:211][991]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003232s)
+[2016.07.04-10.49.09:233][991]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-10.49.09:238][991]LogInit: FAudioDevice initialized.
+[2016.07.04-10.49.09:268][991]LogWorld: Game class is 'GameMode'
+[2016.07.04-10.49.09:270][991]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-20.49.09
+[2016.07.04-10.49.09:270][991]LogWorld: Bringing up level for play took: 0.001364
+[2016.07.04-10.49.09:275][991]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.547
+[2016.07.04-10.49.09:275][991]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.49.09:275][991]LogApp: UseVRFocus has changed to 0
+[2016.07.04-10.49.09:275][991]LogApp: HasVRFocus has changed to 0
+[2016.07.04-10.49.10:218][ 34]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.49.10:218][ 34]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.49.10:218][ 34]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.49.10:218][ 34]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.49.16:114][306]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.49.16:134][306]LogHMD: Destroying ovr session
+[2016.07.04-10.49.16:192][306]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.50.00:975][952]LogTexture:Display: Building textures: WhiteSquareTexture (AutoDXT)
+[2016.07.04-10.50.01:564][952]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2016.07.04-10.50.01:580][952]LogTexture:Display: Building textures: LandscapeThumbnailWeightmap (BGRA8)
+[2016.07.04-10.50.01:588][952]LogTexture:Display: Building textures: LandscapeThumbnailHeightmap (BGRA8)
+[2016.07.04-10.50.02:669][985]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2016.07.04-10.50.12:078][990]LogEditorViewport: Clicking on Actor (LMB): Shield_C (Shield)
+[2016.07.04-10.50.39:959][849]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.50.39:959][849]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-10.50.39:960][849]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-10.50.39:960][849]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-10.50.39:960][849]LogHMD: New ovr session is created
+[2016.07.04-10.50.39:964][849]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-10.50.39:964][849]LogApp: UseVRFocus has changed to 1
+[2016.07.04-10.50.39:964][849]LogApp: HasVRFocus has changed to 1
+[2016.07.04-10.50.39:964][849]PIE: New page: PIE session: FirstLevel (5 Jul 2016 6:50:39 am)
+[2016.07.04-10.50.39:964][849]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-10.50.39:967][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002919s)
+[2016.07.04-10.50.39:967][849]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-10.50.39:968][849]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2016.07.04-10.50.39:968][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003716s)
+[2016.07.04-10.50.39:990][849]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-10.50.39:995][849]LogInit: FAudioDevice initialized.
+[2016.07.04-10.50.40:025][849]LogWorld: Game class is 'GameMode'
+[2016.07.04-10.50.40:027][849]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-20.50.40
+[2016.07.04-10.50.40:027][849]LogWorld: Bringing up level for play took: 0.001432
+[2016.07.04-10.50.40:028][849]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.207
+[2016.07.04-10.50.40:028][849]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.50.40:028][849]LogApp: UseVRFocus has changed to 0
+[2016.07.04-10.50.40:028][849]LogApp: HasVRFocus has changed to 0
+[2016.07.04-10.50.47:915][795]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.50.47:915][795]LogHMD: Destroying ovr session
+[2016.07.04-10.50.47:951][795]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.55.48:348][838]LogSavePackage: Save=270.17ms
+[2016.07.04-10.55.48:348][838]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevel_Auto1403C386A4A5BD22DA7C16CBFF6ABA9BC.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/Autosaves/Game/Maps/FirstLevel_Auto1.umap'
+[2016.07.04-10.55.48:349][838]LogSavePackage: Total save time: 279.01ms
+[2016.07.04-10.55.48:349][838]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/Autosaves/Game/Maps/FirstLevel_Auto1.umap
+[2016.07.04-10.55.48:385][838]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FirstLevel' took 0.306
+[2016.07.04-10.55.48:385][838]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.306
+[2016.07.04-10.56.34:838][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2016.07.04-10.56.35:520][568]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.56.35:520][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-10.56.35:520][568]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-10.56.35:520][568]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-10.56.35:520][568]LogHMD: New ovr session is created
+[2016.07.04-10.56.35:522][568]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-10.56.35:522][568]LogApp: UseVRFocus has changed to 1
+[2016.07.04-10.56.35:522][568]LogApp: HasVRFocus has changed to 1
+[2016.07.04-10.56.35:523][568]PIE: New page: PIE session: FirstLevel (5 Jul 2016 6:56:35 am)
+[2016.07.04-10.56.35:523][568]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-10.56.35:526][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002989s)
+[2016.07.04-10.56.35:526][568]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-10.56.35:526][568]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2016.07.04-10.56.35:526][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003773s)
+[2016.07.04-10.56.35:549][568]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-10.56.35:554][568]LogInit: FAudioDevice initialized.
+[2016.07.04-10.56.35:580][568]LogWorld: Game class is 'GameMode'
+[2016.07.04-10.56.35:582][568]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-20.56.35
+[2016.07.04-10.56.35:582][568]LogWorld: Bringing up level for play took: 0.001417
+[2016.07.04-10.56.35:583][568]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.238
+[2016.07.04-10.56.35:583][568]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.56.35:583][568]LogApp: UseVRFocus has changed to 0
+[2016.07.04-10.56.35:583][568]LogApp: HasVRFocus has changed to 0
+[2016.07.04-10.56.36:486][676]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.56.36:486][676]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.56.36:486][676]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.56.36:486][676]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.56.37:703][822]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.56.37:703][822]LogHMD: Destroying ovr session
+[2016.07.04-10.56.37:745][822]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.58.01:259][204]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.58.01:259][204]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-10.58.01:260][204]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-10.58.01:260][204]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-10.58.01:260][204]LogHMD: New ovr session is created
+[2016.07.04-10.58.01:264][204]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-10.58.01:264][204]LogApp: UseVRFocus has changed to 1
+[2016.07.04-10.58.01:264][204]LogApp: HasVRFocus has changed to 1
+[2016.07.04-10.58.01:264][204]PIE: New page: PIE session: FirstLevel (5 Jul 2016 6:58:01 am)
+[2016.07.04-10.58.01:264][204]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-10.58.01:267][204]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003017s)
+[2016.07.04-10.58.01:268][204]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-10.58.01:268][204]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2016.07.04-10.58.01:268][204]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003871s)
+[2016.07.04-10.58.01:316][204]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-10.58.01:321][204]LogInit: FAudioDevice initialized.
+[2016.07.04-10.58.01:346][204]LogWorld: Game class is 'GameMode'
+[2016.07.04-10.58.01:348][204]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-20.58.01
+[2016.07.04-10.58.01:348][204]LogWorld: Bringing up level for play took: 0.001479
+[2016.07.04-10.58.01:349][204]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.472
+[2016.07.04-10.58.01:349][204]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.58.01:349][204]LogApp: UseVRFocus has changed to 0
+[2016.07.04-10.58.01:349][204]LogApp: HasVRFocus has changed to 0
+[2016.07.04-10.58.03:820][500]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.58.03:820][500]LogHMD: Destroying ovr session
+[2016.07.04-10.58.03:865][500]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.59.28:869][220]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.59.28:870][220]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-10.59.28:870][220]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-10.59.28:870][220]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-10.59.28:870][220]LogHMD: New ovr session is created
+[2016.07.04-10.59.28:874][220]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-10.59.28:874][220]LogApp: UseVRFocus has changed to 1
+[2016.07.04-10.59.28:874][220]LogApp: HasVRFocus has changed to 1
+[2016.07.04-10.59.28:874][220]PIE: New page: PIE session: FirstLevel (5 Jul 2016 6:59:28 am)
+[2016.07.04-10.59.28:874][220]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-10.59.28:877][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002993s)
+[2016.07.04-10.59.28:878][220]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-10.59.28:878][220]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2016.07.04-10.59.28:878][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003778s)
+[2016.07.04-10.59.28:923][220]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-10.59.28:928][220]LogInit: FAudioDevice initialized.
+[2016.07.04-10.59.28:953][220]LogWorld: Game class is 'GameMode'
+[2016.07.04-10.59.28:955][220]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-20.59.28
+[2016.07.04-10.59.28:955][220]LogWorld: Bringing up level for play took: 0.001501
+[2016.07.04-10.59.28:956][220]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.865
+[2016.07.04-10.59.28:956][220]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.59.28:956][220]LogApp: UseVRFocus has changed to 0
+[2016.07.04-10.59.28:956][220]LogApp: HasVRFocus has changed to 0
+[2016.07.04-10.59.29:843][326]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.59.29:843][326]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.59.29:843][326]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.59.29:843][326]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.59.30:602][417]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.59.30:602][417]LogHMD: Destroying ovr session
+[2016.07.04-10.59.30:647][417]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.00.38:298][739]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.00.38:298][739]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-11.00.38:299][739]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-11.00.38:299][739]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-11.00.38:299][739]LogHMD: New ovr session is created
+[2016.07.04-11.00.38:303][739]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-11.00.38:303][739]LogApp: UseVRFocus has changed to 1
+[2016.07.04-11.00.38:303][739]LogApp: HasVRFocus has changed to 1
+[2016.07.04-11.00.38:303][739]PIE: New page: PIE session: FirstLevel (5 Jul 2016 7:00:38 am)
+[2016.07.04-11.00.38:303][739]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-11.00.38:306][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002633s)
+[2016.07.04-11.00.38:306][739]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-11.00.38:307][739]LogPlayLevel: PIE: World Init took: (0.000558s)
+[2016.07.04-11.00.38:307][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003326s)
+[2016.07.04-11.00.38:356][739]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-11.00.38:361][739]LogInit: FAudioDevice initialized.
+[2016.07.04-11.00.38:386][739]LogWorld: Game class is 'GameMode'
+[2016.07.04-11.00.38:388][739]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-21.00.38
+[2016.07.04-11.00.38:388][739]LogWorld: Bringing up level for play took: 0.001462
+[2016.07.04-11.00.38:389][739]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.568
+[2016.07.04-11.00.38:389][739]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.00.38:389][739]LogApp: UseVRFocus has changed to 0
+[2016.07.04-11.00.38:389][739]LogApp: HasVRFocus has changed to 0
+[2016.07.04-11.00.43:642][369]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.00.43:642][369]LogHMD: Destroying ovr session
+[2016.07.04-11.00.43:684][369]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.01.00:261][178]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.01.00:261][178]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-11.01.00:261][178]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-11.01.00:261][178]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-11.01.00:261][178]LogHMD: New ovr session is created
+[2016.07.04-11.01.00:262][178]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-11.01.00:262][178]LogApp: UseVRFocus has changed to 1
+[2016.07.04-11.01.00:262][178]LogApp: HasVRFocus has changed to 1
+[2016.07.04-11.01.00:262][178]PIE: New page: PIE session: FirstLevel (5 Jul 2016 7:01:00 am)
+[2016.07.04-11.01.00:262][178]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-11.01.00:264][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002610s)
+[2016.07.04-11.01.00:265][178]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-11.01.00:265][178]LogPlayLevel: PIE: World Init took: (0.000522s)
+[2016.07.04-11.01.00:265][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003263s)
+[2016.07.04-11.01.00:286][178]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-11.01.00:291][178]LogInit: FAudioDevice initialized.
+[2016.07.04-11.01.00:319][178]LogWorld: Game class is 'GameMode'
+[2016.07.04-11.01.00:320][178]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-21.01.00
+[2016.07.04-11.01.00:321][178]LogWorld: Bringing up level for play took: 0.001421
+[2016.07.04-11.01.00:322][178]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.5
+[2016.07.04-11.01.00:322][178]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.01.00:322][178]LogApp: UseVRFocus has changed to 0
+[2016.07.04-11.01.00:322][178]LogApp: HasVRFocus has changed to 0
+[2016.07.04-11.01.03:625][574]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.01.03:625][574]LogHMD: Destroying ovr session
+[2016.07.04-11.01.03:664][574]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.01.19:166][742]Cmd: TRANSACTION UNDO
+[2016.07.04-11.01.19:166][742]LogEditorTransaction: Undo Move Actors
+[2016.07.04-11.01.23:824][960]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.01.23:824][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-11.01.23:825][960]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-11.01.23:825][960]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-11.01.23:825][960]LogHMD: New ovr session is created
+[2016.07.04-11.01.23:828][960]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-11.01.23:828][960]LogApp: UseVRFocus has changed to 1
+[2016.07.04-11.01.23:828][960]LogApp: HasVRFocus has changed to 1
+[2016.07.04-11.01.23:828][960]PIE: New page: PIE session: FirstLevel (5 Jul 2016 7:01:23 am)
+[2016.07.04-11.01.23:828][960]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-11.01.23:831][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002658s)
+[2016.07.04-11.01.23:831][960]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-11.01.23:831][960]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2016.07.04-11.01.23:832][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003362s)
+[2016.07.04-11.01.23:853][960]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-11.01.23:858][960]LogInit: FAudioDevice initialized.
+[2016.07.04-11.01.23:887][960]LogWorld: Game class is 'GameMode'
+[2016.07.04-11.01.23:888][960]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-21.01.23
+[2016.07.04-11.01.23:889][960]LogWorld: Bringing up level for play took: 0.001454
+[2016.07.04-11.01.23:890][960]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.068
+[2016.07.04-11.01.23:890][960]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.01.23:890][960]LogApp: UseVRFocus has changed to 0
+[2016.07.04-11.01.23:890][960]LogApp: HasVRFocus has changed to 0
+[2016.07.04-11.01.24:793][ 68]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.01.24:793][ 68]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.01.24:793][ 68]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.01.24:793][ 68]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.01.25:718][179]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.01.25:718][179]LogHMD: Destroying ovr session
+[2016.07.04-11.01.25:759][179]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.01.47:625][958]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.01.47:625][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-11.01.47:627][958]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-11.01.47:627][958]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-11.01.47:627][958]LogHMD: New ovr session is created
+[2016.07.04-11.01.47:641][958]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-11.01.47:641][958]LogApp: UseVRFocus has changed to 1
+[2016.07.04-11.01.47:641][958]LogApp: HasVRFocus has changed to 1
+[2016.07.04-11.01.47:641][958]PIE: New page: PIE session: FirstLevel (5 Jul 2016 7:01:47 am)
+[2016.07.04-11.01.47:641][958]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-11.01.47:644][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002994s)
+[2016.07.04-11.01.47:644][958]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-11.01.47:644][958]LogPlayLevel: PIE: World Init took: (0.000517s)
+[2016.07.04-11.01.47:644][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003646s)
+[2016.07.04-11.01.47:666][958]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-11.01.47:671][958]LogInit: FAudioDevice initialized.
+[2016.07.04-11.01.47:699][958]LogWorld: Game class is 'GameMode'
+[2016.07.04-11.01.47:700][958]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-21.01.47
+[2016.07.04-11.01.47:701][958]LogWorld: Bringing up level for play took: 0.001415
+[2016.07.04-11.01.47:702][958]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.12
+[2016.07.04-11.01.47:702][958]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.01.47:702][958]LogApp: UseVRFocus has changed to 0
+[2016.07.04-11.01.47:702][958]LogApp: HasVRFocus has changed to 0
+[2016.07.04-11.01.56:822][ 52]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.01.56:822][ 52]LogHMD: Destroying ovr session
+[2016.07.04-11.01.56:860][ 52]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.02.11:861][312]Cmd: TRANSACTION UNDO
+[2016.07.04-11.02.11:861][312]LogEditorTransaction: Undo Set actor location
+[2016.07.04-11.02.52:517][450]LogSavePackage: Save=68.86ms
+[2016.07.04-11.02.52:517][450]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevel5E8202324989E7470BC3FB91570D4573.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap'
+[2016.07.04-11.02.52:520][450]LogSavePackage: Total save time: 79.35ms
+[2016.07.04-11.02.52:520][450]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap
+[2016.07.04-11.03.21:442][902]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.03.21:442][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-11.03.21:442][902]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-11.03.21:442][902]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-11.03.21:442][902]LogHMD: New ovr session is created
+[2016.07.04-11.03.21:442][902]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-11.03.21:442][902]LogApp: UseVRFocus has changed to 1
+[2016.07.04-11.03.21:442][902]LogApp: HasVRFocus has changed to 1
+[2016.07.04-11.03.21:442][902]PIE: New page: PIE session: FirstLevel (5 Jul 2016 7:03:21 am)
+[2016.07.04-11.03.21:442][902]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-11.03.21:445][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002821s)
+[2016.07.04-11.03.21:446][902]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-11.03.21:446][902]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2016.07.04-11.03.21:446][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003502s)
+[2016.07.04-11.03.21:469][902]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-11.03.21:474][902]LogInit: FAudioDevice initialized.
+[2016.07.04-11.03.21:503][902]LogWorld: Game class is 'GameMode'
+[2016.07.04-11.03.21:505][902]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-21.03.21
+[2016.07.04-11.03.21:505][902]LogWorld: Bringing up level for play took: 0.001657
+[2016.07.04-11.03.21:509][902]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.312
+[2016.07.04-11.03.21:510][902]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.03.21:510][902]LogApp: UseVRFocus has changed to 0
+[2016.07.04-11.03.21:510][902]LogApp: HasVRFocus has changed to 0
+[2016.07.04-11.03.22:659][955]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.03.22:680][955]LogHMD: Destroying ovr session
+[2016.07.04-11.03.22:733][955]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.06.45:215][ 35]LogSavePackage: Save=56.45ms
+[2016.07.04-11.06.45:216][ 35]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/UpgradeManager334F780C42669DDC5DF3969409A877BC.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Upgrade_System/UpgradeManager.uasset'
+[2016.07.04-11.06.45:216][ 35]LogSavePackage: Total save time: 63.19ms
+[2016.07.04-11.06.45:216][ 35]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Upgrade_System/UpgradeManager.uasset
+[2016.07.04-11.06.50:077][504]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.06.50:077][504]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-11.06.50:079][504]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-11.06.50:079][504]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-11.06.50:079][504]LogHMD: New ovr session is created
+[2016.07.04-11.06.50:084][504]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-11.06.50:084][504]LogApp: UseVRFocus has changed to 1
+[2016.07.04-11.06.50:084][504]LogApp: HasVRFocus has changed to 1
+[2016.07.04-11.06.50:084][504]PIE: New page: PIE session: FirstLevel (5 Jul 2016 7:06:50 am)
+[2016.07.04-11.06.50:084][504]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-11.06.50:087][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002831s)
+[2016.07.04-11.06.50:087][504]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-11.06.50:087][504]LogPlayLevel: PIE: World Init took: (0.000455s)
+[2016.07.04-11.06.50:087][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003420s)
+[2016.07.04-11.06.50:113][504]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-11.06.50:119][504]LogInit: FAudioDevice initialized.
+[2016.07.04-11.06.50:146][504]LogWorld: Game class is 'GameMode'
+[2016.07.04-11.06.50:148][504]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-21.06.50
+[2016.07.04-11.06.50:148][504]LogWorld: Bringing up level for play took: 0.001524
+[2016.07.04-11.06.50:149][504]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.328
+[2016.07.04-11.06.50:150][504]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.06.50:150][504]LogApp: UseVRFocus has changed to 0
+[2016.07.04-11.06.50:150][504]LogApp: HasVRFocus has changed to 0
+[2016.07.04-11.06.51:053][612]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.06.51:053][612]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.06.51:053][612]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.06.51:053][612]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.06.52:062][733]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.06.52:062][733]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.06.52:062][733]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.06.52:062][733]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.06.53:070][854]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.06.53:070][854]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.06.53:070][854]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.06.53:070][854]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.06.58:654][415]LogSelection:Warning: PIE object was selected: "HUD /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.HUD_17"
+[2016.07.04-11.07.02:198][680]LogSelection:Warning: PIE object was selected: "GameState /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.GameState_17"
+[2016.07.04-11.07.02:845][710]LogSelection:Warning: PIE object was selected: "HUD /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.HUD_17"
+[2016.07.04-11.07.24:529][756]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.07.24:547][756]LogHMD: Destroying ovr session
+[2016.07.04-11.07.24:587][756]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.28.49:763][930]LogSavePackage: Save=100.64ms
+[2016.07.04-11.28.49:763][930]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevel597E4C09449B080C77F00CB78D2FB2C9.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap'
+[2016.07.04-11.28.49:764][930]LogSavePackage: Total save time: 108.86ms
+[2016.07.04-11.28.49:764][930]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap
+[2016.07.04-11.36.40:327][729]BlueprintLog: New page: Compile FirstLevel
+[2016.07.04-11.36.40:388][729]BlueprintEditorCompileResults: Info [3576.52] Compile of FirstLevel successful! [in 60 ms]
+[2016.07.04-11.38.41:134][846]BlueprintLog: New page: Compile FirstLevel
+[2016.07.04-11.38.41:193][846]BlueprintEditorCompileResults: Info [3697.33] Compile of FirstLevel successful! [in 58 ms]
+[2016.07.04-11.40.41:661][168]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.07.04-11.40.50:283][857]BlueprintLog: New page: Compile FirstLevel
+[2016.07.04-11.40.50:286][857]LogBlueprint:Error: [compiler FirstLevel] Error Spawn node  Create Widget  must have a class specified.
+[2016.07.04-11.40.50:635][857]LogBlueprint:Warning: [compiler FirstLevel] Warning [3826.77] Compile of FirstLevel failed. 1 Fatal Issue(s) 0 Warning(s) [in 351 ms]
+[2016.07.04-11.40.50:635][857]BlueprintEditorCompileResults:Error: Error Spawn node  Create Widget  must have a class specified.
+[2016.07.04-11.40.50:635][857]BlueprintEditorCompileResults:Warning: Warning [3826.77] Compile of FirstLevel failed. 1 Fatal Issue(s) 0 Warning(s) [in 351 ms]
+[2016.07.04-11.41.21:511][152]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.07.04-11.41.25:727][412]BlueprintLog: New page: Compile FirstLevel
+[2016.07.04-11.41.25:786][412]BlueprintEditorCompileResults: Info [3861.92] Compile of FirstLevel successful! [in 58 ms]
+[2016.07.04-11.41.26:306][427]LogSavePackage: Save=72.44ms
+[2016.07.04-11.41.26:306][427]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevel_Auto26E2982964A042DA3FC79E9AA68497ED8.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/Autosaves/Game/Maps/FirstLevel_Auto2.umap'
+[2016.07.04-11.41.26:306][427]LogSavePackage: Total save time: 81.20ms
+[2016.07.04-11.41.26:306][427]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/Autosaves/Game/Maps/FirstLevel_Auto2.umap
+[2016.07.04-11.41.26:307][427]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FirstLevel' took 0.102
+[2016.07.04-11.41.26:307][427]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.102
+[2016.07.04-11.41.27:148][454]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.41.27:148][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-11.41.27:149][454]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-11.41.27:149][454]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-11.41.27:149][454]LogHMD: New ovr session is created
+[2016.07.04-11.41.27:162][454]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-11.41.27:162][454]LogApp: UseVRFocus has changed to 1
+[2016.07.04-11.41.27:162][454]LogApp: HasVRFocus has changed to 1
+[2016.07.04-11.41.27:162][454]PIE: New page: PIE session: FirstLevel (5 Jul 2016 7:41:27 am)
+[2016.07.04-11.41.27:162][454]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-11.41.27:165][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003254s)
+[2016.07.04-11.41.27:166][454]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-11.41.27:166][454]LogPlayLevel: PIE: World Init took: (0.000698s)
+[2016.07.04-11.41.27:166][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.004150s)
+[2016.07.04-11.41.27:189][454]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-11.41.27:195][454]LogInit: FAudioDevice initialized.
+[2016.07.04-11.41.27:226][454]LogWorld: Game class is 'GameMode'
+[2016.07.04-11.41.27:228][454]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-21.41.27
+[2016.07.04-11.41.27:228][454]LogWorld: Bringing up level for play took: 0.001844
+[2016.07.04-11.41.27:427][454]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.395
+[2016.07.04-11.41.27:427][454]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.41.27:427][454]LogApp: UseVRFocus has changed to 0
+[2016.07.04-11.41.27:427][454]LogApp: HasVRFocus has changed to 0
+[2016.07.04-11.41.29:396][517]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.41.29:428][517]LogHMD: Destroying ovr session
+[2016.07.04-11.41.29:485][517]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.43.31:175][438]BlueprintLog: New page: Compile FirstLevel
+[2016.07.04-11.43.31:179][438]LogBlueprint:Error: [compiler FirstLevel] Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2016.07.04-11.43.31:341][438]LogBlueprint:Warning: [compiler FirstLevel] Warning [3987.47] Compile of FirstLevel failed. 1 Fatal Issue(s) 0 Warning(s) [in 166 ms]
+[2016.07.04-11.43.31:341][438]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2016.07.04-11.43.31:341][438]BlueprintEditorCompileResults:Warning: Warning [3987.47] Compile of FirstLevel failed. 1 Fatal Issue(s) 0 Warning(s) [in 166 ms]
+[2016.07.04-11.44.02:053][438]BlueprintLog: New page: Compile FirstLevel
+[2016.07.04-11.44.02:114][438]BlueprintEditorCompileResults: Info [4018.25] Compile of FirstLevel successful! [in 60 ms]
+[2016.07.04-11.44.02:996][492]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.44.02:996][492]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-11.44.02:996][492]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-11.44.02:996][492]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-11.44.02:996][492]LogHMD: New ovr session is created
+[2016.07.04-11.44.02:996][492]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-11.44.02:996][492]LogApp: UseVRFocus has changed to 1
+[2016.07.04-11.44.02:996][492]LogApp: HasVRFocus has changed to 1
+[2016.07.04-11.44.02:996][492]PIE: New page: PIE session: FirstLevel (5 Jul 2016 7:44:02 am)
+[2016.07.04-11.44.02:997][492]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-11.44.03:001][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004078s)
+[2016.07.04-11.44.03:001][492]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-11.44.03:001][492]LogPlayLevel: PIE: World Init took: (0.000743s)
+[2016.07.04-11.44.03:001][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.004966s)
+[2016.07.04-11.44.03:023][492]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-11.44.03:028][492]LogInit: FAudioDevice initialized.
+[2016.07.04-11.44.03:063][492]LogWorld: Game class is 'GameMode'
+[2016.07.04-11.44.03:065][492]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-21.44.03
+[2016.07.04-11.44.03:065][492]LogWorld: Bringing up level for play took: 0.001604
+[2016.07.04-11.44.03:105][492]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.717
+[2016.07.04-11.44.03:105][492]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.44.03:105][492]LogApp: UseVRFocus has changed to 0
+[2016.07.04-11.44.03:105][492]LogApp: HasVRFocus has changed to 0
+[2016.07.04-11.44.04:992][579]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.44.05:013][579]LogHMD: Destroying ovr session
+[2016.07.04-11.44.05:070][579]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.44.08:269][816]LogSavePackage: Save=97.92ms
+[2016.07.04-11.44.08:269][816]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevelA1E8B58A422C33323399C4A0DF11C266.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap'
+[2016.07.04-11.44.08:272][816]LogSavePackage: Total save time: 104.28ms
+[2016.07.04-11.44.08:272][816]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap
+[2016.07.04-11.44.08:295][816]LogFileHelpers: Saving map 'FirstLevel' took 0.171
+[2016.07.04-11.44.19:531][  4]BlueprintLog: New page: Compile FirstLevel
+[2016.07.04-11.44.19:591][  4]BlueprintEditorCompileResults: Info [4035.72] Compile of FirstLevel successful! [in 59 ms]
+[2016.07.04-11.44.29:970][ 72]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel.EventGraph.K2Node_VariableSet_116 or K2Node_VariableSet /Game/Upgrade_System/UpgradeManager.UpgradeManager:EventGraph.K2Node_VariableSet_116
+[2016.07.04-11.44.29:970][ 72]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel.EventGraph.K2Node_VariableSet_116.EdGraphPin_34364) from referencer (EdGraphPin /Game/Upgrade_System/UpgradeManager.UpgradeManager:EventGraph.K2Node_CreateWidget_1.EdGraphPin_33802).  Import failed...
+[2016.07.04-11.44.29:970][ 72]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_116.EdGraphPin_34364''
+[2016.07.04-11.44.29:970][ 72]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel.EventGraph.K2Node_VariableSet_116 or K2Node_VariableSet /Game/Upgrade_System/UpgradeManager.UpgradeManager:EventGraph.K2Node_VariableSet_116
+[2016.07.04-11.44.29:970][ 72]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel.EventGraph.K2Node_VariableSet_116.EdGraphPin_34362) from referencer (EdGraphPin /Game/Upgrade_System/UpgradeManager.UpgradeManager:EventGraph.K2Node_CreateWidget_1.EdGraphPin_33800).  Import failed...
+[2016.07.04-11.44.29:970][ 72]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_116.EdGraphPin_34362''
+[2016.07.04-11.44.29:970][ 72]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel.EventGraph.K2Node_CallFunction_2432 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2432
+[2016.07.04-11.44.29:970][ 72]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel.EventGraph.K2Node_CallFunction_2432.EdGraphPin_8875) from referencer (EdGraphPin /Game/Upgrade_System/UpgradeManager.UpgradeManager:EventGraph.K2Node_CreateWidget_1.EdGraphPin_33799).  Import failed...
+[2016.07.04-11.44.29:970][ 72]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2432.EdGraphPin_8875''
+[2016.07.04-11.44.29:970][ 72]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel.EventGraph.K2Node_CallFunction_2858 or K2Node_CallFunction /Game/Upgrade_System/UpgradeManager.UpgradeManager:EventGraph.K2Node_CallFunction_2858
+[2016.07.04-11.44.29:970][ 72]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel.EventGraph.K2Node_CallFunction_2858.EdGraphPin_34376) from referencer (EdGraphPin /Game/Upgrade_System/UpgradeManager.UpgradeManager:EventGraph.K2Node_VariableSet_116.EdGraphPin_34366).  Import failed...
+[2016.07.04-11.44.29:970][ 72]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2858.EdGraphPin_34376''
+[2016.07.04-11.44.29:970][ 72]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel.EventGraph.K2Node_CallFunction_2858 or K2Node_CallFunction /Game/Upgrade_System/UpgradeManager.UpgradeManager:EventGraph.K2Node_CallFunction_2858
+[2016.07.04-11.44.29:970][ 72]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel.EventGraph.K2Node_CallFunction_2858.EdGraphPin_34374) from referencer (EdGraphPin /Game/Upgrade_System/UpgradeManager.UpgradeManager:EventGraph.K2Node_VariableSet_116.EdGraphPin_34363).  Import failed...
+[2016.07.04-11.44.29:970][ 72]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2858.EdGraphPin_34374''
+[2016.07.04-11.44.29:971][ 72]LogBlueprint:Warning: [UpgradeManager] CreatePinForVariable: 'UpgradeManager Ref' variable not found. Base class was probably changed.
+[2016.07.04-11.44.29:971][ 72]LogBlueprint:Warning: [UpgradeManager] CreatePinForVariable: 'UpgradeManager Ref' variable not found. Base class was probably changed.
+[2016.07.04-11.44.39:847][940]LogEditorTransaction: Undo Move Nodes
+[2016.07.04-11.44.40:515][981]LogEditorTransaction: Undo Paste clipboard contents
+[2016.07.04-11.44.42:953][ 81]Cmd: TRANSACTION UNDO
+[2016.07.04-11.44.42:953][ 81]LogEditorTransaction: Undo Delete current selection
+[2016.07.04-11.44.45:555][192]BlueprintLog: New page: Compile FirstLevel
+[2016.07.04-11.44.45:616][192]BlueprintEditorCompileResults: Info [4061.75] Compile of FirstLevel successful! [in 60 ms]
+[2016.07.04-11.44.46:746][257]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.44.46:746][257]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.07.04-11.44.46:748][257]LogPlayLevel: [PlayLevel] Compiling UpgradeManager before play...
+[2016.07.04-11.44.46:793][257]LogPlayLevel: PlayLevel: Blueprint regeneration took 47 ms (2 blueprints)
+[2016.07.04-11.44.46:794][257]LogPlayLevel: [PlayLevel] Compiling FirstLevel before play...
+[2016.07.04-11.44.46:841][257]LogPlayLevel: PlayLevel: Blueprint regeneration took 94 ms (2 blueprints)
+[2016.07.04-11.44.46:854][257]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-11.44.46:854][257]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-11.44.46:854][257]LogHMD: New ovr session is created
+[2016.07.04-11.44.46:854][257]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-11.44.46:854][257]LogApp: UseVRFocus has changed to 1
+[2016.07.04-11.44.46:854][257]LogApp: HasVRFocus has changed to 1
+[2016.07.04-11.44.46:855][257]PIE: New page: PIE session: FirstLevel (5 Jul 2016 7:44:46 am)
+[2016.07.04-11.44.46:855][257]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-11.44.46:858][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003624s)
+[2016.07.04-11.44.46:859][257]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-11.44.46:859][257]LogPlayLevel: PIE: World Init took: (0.000595s)
+[2016.07.04-11.44.46:859][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.004394s)
+[2016.07.04-11.44.46:881][257]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-11.44.46:886][257]LogInit: FAudioDevice initialized.
+[2016.07.04-11.44.46:915][257]LogWorld: Game class is 'GameMode'
+[2016.07.04-11.44.46:917][257]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-21.44.46
+[2016.07.04-11.44.46:918][257]LogWorld: Bringing up level for play took: 0.001550
+[2016.07.04-11.44.46:920][257]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 1.099
+[2016.07.04-11.44.46:921][257]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.44.46:921][257]LogApp: UseVRFocus has changed to 0
+[2016.07.04-11.44.46:921][257]LogApp: HasVRFocus has changed to 0
+[2016.07.04-11.44.48:861][346]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.44.48:881][346]LogHMD: Destroying ovr session
+[2016.07.04-11.44.48:938][346]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.45.35:016][158]LogSavePackage: Save=76.44ms
+[2016.07.04-11.45.35:016][158]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevel02531D824292E170C1F4F3942909382E.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap'
+[2016.07.04-11.45.35:017][158]LogSavePackage: Total save time: 81.16ms
+[2016.07.04-11.45.35:017][158]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap
+[2016.07.04-11.45.39:536][574]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/LeftTurret.LeftTurret:EventGraph.K2Node_SpawnActorFromClass_2 or K2Node_SpawnActorFromClass /Game/RightTurret.RightTurret:EventGraph.K2Node_SpawnActorFromClass_2
+[2016.07.04-11.45.39:536][574]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_SpawnActorFromClass_2.EdGraphPin_33124) from referencer (EdGraphPin /Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel.EventGraph.K2Node_InputKey_236.EdGraphPin_33211).  Import failed...
+[2016.07.04-11.45.39:536][574]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_2.EdGraphPin_33124''
+[2016.07.04-11.46.01:900][395]BlueprintLog: New page: Compile FirstLevel
+[2016.07.04-11.46.01:960][395]BlueprintEditorCompileResults: Info [4138.09] Compile of FirstLevel successful! [in 60 ms]
+[2016.07.04-11.46.23:573][291]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/LeftTurret.LeftTurret:EventGraph.K2Node_SpawnActorFromClass_2 or K2Node_SpawnActorFromClass /Game/RightTurret.RightTurret:EventGraph.K2Node_SpawnActorFromClass_2
+[2016.07.04-11.46.23:573][291]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_SpawnActorFromClass_2.EdGraphPin_33124) from referencer (EdGraphPin /Game/Upgrade_System/UpgradeManager.UpgradeManager:EventGraph.K2Node_InputKey_236.EdGraphPin_33211).  Import failed...
+[2016.07.04-11.46.23:573][291]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_2.EdGraphPin_33124''
+[2016.07.04-11.46.25:490][521]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/LeftTurret.LeftTurret:EventGraph.K2Node_SpawnActorFromClass_2 or K2Node_SpawnActorFromClass /Game/RightTurret.RightTurret:EventGraph.K2Node_SpawnActorFromClass_2
+[2016.07.04-11.46.25:490][521]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_SpawnActorFromClass_2.EdGraphPin_33124) from referencer (EdGraphPin /Game/Upgrade_System/UpgradeManager.UpgradeManager:EventGraph.K2Node_InputKey_236.EdGraphPin_33211).  Import failed...
+[2016.07.04-11.46.25:490][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_2.EdGraphPin_33124''
+[2016.07.04-11.46.25:906][571]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/LeftTurret.LeftTurret:EventGraph.K2Node_SpawnActorFromClass_2 or K2Node_SpawnActorFromClass /Game/RightTurret.RightTurret:EventGraph.K2Node_SpawnActorFromClass_2
+[2016.07.04-11.46.25:906][571]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_SpawnActorFromClass_2.EdGraphPin_33124) from referencer (EdGraphPin /Game/Upgrade_System/UpgradeManager.UpgradeManager:EventGraph.K2Node_InputKey_236.EdGraphPin_33211).  Import failed...
+[2016.07.04-11.46.25:907][571]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_2.EdGraphPin_33124''
+[2016.07.04-11.46.26:257][613]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/LeftTurret.LeftTurret:EventGraph.K2Node_SpawnActorFromClass_2 or K2Node_SpawnActorFromClass /Game/RightTurret.RightTurret:EventGraph.K2Node_SpawnActorFromClass_2
+[2016.07.04-11.46.26:257][613]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_SpawnActorFromClass_2.EdGraphPin_33124) from referencer (EdGraphPin /Game/Upgrade_System/UpgradeManager.UpgradeManager:EventGraph.K2Node_InputKey_236.EdGraphPin_33211).  Import failed...
+[2016.07.04-11.46.26:257][613]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_2.EdGraphPin_33124''
+[2016.07.04-11.46.55:832][760]BlueprintLog: New page: Compile UpgradeManager
+[2016.07.04-11.46.55:892][760]BlueprintEditorCompileResults: Info [4192.03] Compile of UpgradeManager successful! [in 59 ms]
+[2016.07.04-11.46.56:598][819]LogSavePackage: Save=54.34ms
+[2016.07.04-11.46.56:598][819]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/UpgradeManager6D27F48A443754D9E5158B8007893481.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Upgrade_System/UpgradeManager.uasset'
+[2016.07.04-11.46.56:599][819]LogSavePackage: Total save time: 61.67ms
+[2016.07.04-11.46.56:599][819]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Upgrade_System/UpgradeManager.uasset
+[2016.07.04-11.49.32:339][223]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/LeftTurret.LeftTurret:EventGraph.K2Node_SpawnActorFromClass_2 or K2Node_SpawnActorFromClass /Game/RightTurret.RightTurret:EventGraph.K2Node_SpawnActorFromClass_2
+[2016.07.04-11.49.32:339][223]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_SpawnActorFromClass_2.EdGraphPin_33124) from referencer (EdGraphPin /Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel.EventGraph.K2Node_InputKey_236.EdGraphPin_33211).  Import failed...
+[2016.07.04-11.49.32:339][223]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_2.EdGraphPin_33124''
+[2016.07.04-11.49.49:002][990]BlueprintLog: New page: Compile FirstLevel
+[2016.07.04-11.49.49:065][990]BlueprintEditorCompileResults: Info [4365.20] Compile of FirstLevel successful! [in 62 ms]
+[2016.07.04-11.50.18:911][784]BlueprintLog: New page: Compile FirstLevel
+[2016.07.04-11.50.18:972][784]BlueprintEditorCompileResults: Info [4395.11] Compile of FirstLevel successful! [in 60 ms]
+[2016.07.04-11.50.19:630][836]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.50.19:631][836]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.07.04-11.50.19:633][836]LogPlayLevel: [PlayLevel] Compiling UpgradeManager before play...
+[2016.07.04-11.50.19:679][836]LogPlayLevel: PlayLevel: Blueprint regeneration took 49 ms (2 blueprints)
+[2016.07.04-11.50.19:681][836]LogPlayLevel: [PlayLevel] Compiling FirstLevel before play...
+[2016.07.04-11.50.19:728][836]LogPlayLevel: PlayLevel: Blueprint regeneration took 97 ms (2 blueprints)
+[2016.07.04-11.50.19:742][836]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-11.50.19:742][836]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-11.50.19:742][836]LogHMD: New ovr session is created
+[2016.07.04-11.50.19:742][836]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-11.50.19:742][836]LogApp: UseVRFocus has changed to 1
+[2016.07.04-11.50.19:742][836]LogApp: HasVRFocus has changed to 1
+[2016.07.04-11.50.19:743][836]PIE: New page: PIE session: FirstLevel (5 Jul 2016 7:50:19 am)
+[2016.07.04-11.50.19:743][836]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-11.50.19:746][836]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003723s)
+[2016.07.04-11.50.19:747][836]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-11.50.19:747][836]LogPlayLevel: PIE: World Init took: (0.000646s)
+[2016.07.04-11.50.19:747][836]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.004530s)
+[2016.07.04-11.50.19:769][836]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-11.50.19:774][836]LogInit: FAudioDevice initialized.
+[2016.07.04-11.50.19:806][836]LogWorld: Game class is 'GameMode'
+[2016.07.04-11.50.19:808][836]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-21.50.19
+[2016.07.04-11.50.19:808][836]LogWorld: Bringing up level for play took: 0.001646
+[2016.07.04-11.50.19:811][836]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.01
+[2016.07.04-11.50.19:811][836]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.50.19:811][836]LogApp: UseVRFocus has changed to 0
+[2016.07.04-11.50.19:811][836]LogApp: HasVRFocus has changed to 0
+[2016.07.04-11.50.20:642][874]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.50.20:642][874]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.50.20:642][874]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.50.20:642][874]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.50.24:282][ 42]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.50.24:303][ 42]LogHMD: Destroying ovr session
+[2016.07.04-11.50.24:362][ 42]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.50.27:007][153]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.50.27:007][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-11.50.27:007][153]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-11.50.27:007][153]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-11.50.27:007][153]LogHMD: New ovr session is created
+[2016.07.04-11.50.27:020][153]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-11.50.27:020][153]LogApp: UseVRFocus has changed to 1
+[2016.07.04-11.50.27:020][153]LogApp: HasVRFocus has changed to 1
+[2016.07.04-11.50.27:020][153]PIE: New page: PIE session: FirstLevel (5 Jul 2016 7:50:27 am)
+[2016.07.04-11.50.27:020][153]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-11.50.27:024][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003747s)
+[2016.07.04-11.50.27:025][153]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-11.50.27:025][153]LogPlayLevel: PIE: World Init took: (0.000415s)
+[2016.07.04-11.50.27:025][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.004294s)
+[2016.07.04-11.50.27:047][153]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-11.50.27:052][153]LogInit: FAudioDevice initialized.
+[2016.07.04-11.50.27:082][153]LogWorld: Game class is 'GameMode'
+[2016.07.04-11.50.27:084][153]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-21.50.27
+[2016.07.04-11.50.27:084][153]LogWorld: Bringing up level for play took: 0.001496
+[2016.07.04-11.50.27:088][153]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.733
+[2016.07.04-11.50.27:088][153]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.50.27:088][153]LogApp: UseVRFocus has changed to 0
+[2016.07.04-11.50.27:088][153]LogApp: HasVRFocus has changed to 0
+[2016.07.04-11.50.37:713][537]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.50.37:734][537]LogHMD: Destroying ovr session
+[2016.07.04-11.50.37:787][537]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.52.08:109][822]LogSavePackage: Save=7.73ms
+[2016.07.04-11.52.08:109][822]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/UpgradeManager2F5A6B394D4B22D9086929AB35F483E4.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Upgrade_System/UpgradeManager.uasset'
+[2016.07.04-11.52.08:110][822]LogSavePackage: Total save time: 16.67ms
+[2016.07.04-11.52.08:110][822]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Upgrade_System/UpgradeManager.uasset
+[2016.07.04-11.52.11:025][ 33]LogSavePackage: Save=78.02ms
+[2016.07.04-11.52.11:025][ 33]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevel4CB3234D4FCB491EAC3818B571EE0345.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap'
+[2016.07.04-11.52.11:026][ 33]LogSavePackage: Total save time: 85.68ms
+[2016.07.04-11.52.11:026][ 33]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap
+[2016.07.04-11.52.11:796][ 77]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.52.11:796][ 77]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-11.52.11:796][ 77]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-11.52.11:796][ 77]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-11.52.11:796][ 77]LogHMD: New ovr session is created
+[2016.07.04-11.52.11:800][ 77]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-11.52.11:800][ 77]LogApp: UseVRFocus has changed to 1
+[2016.07.04-11.52.11:800][ 77]LogApp: HasVRFocus has changed to 1
+[2016.07.04-11.52.11:800][ 77]PIE: New page: PIE session: FirstLevel (5 Jul 2016 7:52:11 am)
+[2016.07.04-11.52.11:800][ 77]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-11.52.11:803][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003482s)
+[2016.07.04-11.52.11:804][ 77]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-11.52.11:804][ 77]LogPlayLevel: PIE: World Init took: (0.000498s)
+[2016.07.04-11.52.11:804][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.004158s)
+[2016.07.04-11.52.11:830][ 77]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-11.52.11:835][ 77]LogInit: FAudioDevice initialized.
+[2016.07.04-11.52.11:862][ 77]LogWorld: Game class is 'GameMode'
+[2016.07.04-11.52.11:864][ 77]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-21.52.11
+[2016.07.04-11.52.11:865][ 77]LogWorld: Bringing up level for play took: 0.001396
+[2016.07.04-11.52.11:866][ 77]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.044
+[2016.07.04-11.52.11:866][ 77]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.52.11:866][ 77]LogApp: UseVRFocus has changed to 0
+[2016.07.04-11.52.11:866][ 77]LogApp: HasVRFocus has changed to 0
+[2016.07.04-11.52.12:769][184]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.52.12:769][184]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.52.12:769][184]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.52.12:769][184]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-11.52.14:114][344]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.52.14:114][344]LogHMD: Destroying ovr session
+[2016.07.04-11.52.14:155][344]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-11.52.17:915][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.07.04-11.52.18:169][507]Cmd: QUIT_EDITOR
+[2016.07.04-11.52.18:859][507]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.07.04-11.52.18:890][507]LogExit: Preparing to exit.
+[2016.07.04-11.52.19:298][507]LogExit: Editor shut down
+[2016.07.04-11.52.19:298][507]LogExit: Transaction tracking system shut down
+[2016.07.04-11.52.19:780][507]LogObj: Freed 0b from 0 cluster array pools.
+[2016.07.04-11.52.19:780][507]LogExit: Object subsystem successfully closed.
+[2016.07.04-11.52.19:847][507]LogD3D11RHI: Shutdown
+[2016.07.04-11.52.19:847][507]LogD3D11RHI: CleanupD3DDevice
+[2016.07.04-11.52.19:860][507]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.07.04-11.52.19:954][507]LogDerivedDataCache: Shutdown
+[2016.07.04-11.52.20:160][507]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (211)
+[2016.07.04-11.52.20:160][507]LogModuleManager: Shutting down and abandoning module SequencerWidgets (210)
+[2016.07.04-11.52.20:160][507]LogModuleManager: Shutting down and abandoning module BlueprintGraph (209)
+[2016.07.04-11.52.20:160][507]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (208)
+[2016.07.04-11.52.20:160][507]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (207)
+[2016.07.04-11.52.20:177][507]LogModuleManager: Shutting down and abandoning module CrashTracker (206)
+[2016.07.04-11.52.20:177][507]LogModuleManager: Shutting down and abandoning module SceneOutliner (205)
+[2016.07.04-11.52.20:177][507]LogModuleManager: Shutting down and abandoning module SuperSearch (204)
+[2016.07.04-11.52.20:177][507]LogModuleManager: Shutting down and abandoning module WidgetCarousel (203)
+[2016.07.04-11.52.20:177][507]LogModuleManager: Shutting down and abandoning module AddContentDialog (202)
+[2016.07.04-11.52.20:178][507]LogModuleManager: Shutting down and abandoning module GameplayTags (201)
+[2016.07.04-11.52.20:178][507]LogModuleManager: Shutting down and abandoning module EditorWidgets (200)
+[2016.07.04-11.52.20:178][507]LogModuleManager: Shutting down and abandoning module CollectionManager (199)
+[2016.07.04-11.52.20:179][507]LogModuleManager: Shutting down and abandoning module StatsViewer (198)
+[2016.07.04-11.52.20:202][507]LogModuleManager: Shutting down and abandoning module FoliageEdit (197)
+[2016.07.04-11.52.20:202][507]LogModuleManager: Shutting down and abandoning module LandscapeEditor (196)
+[2016.07.04-11.52.20:203][507]LogModuleManager: Shutting down and abandoning module ActorPickerMode (195)
+[2016.07.04-11.52.20:203][507]LogModuleManager: Shutting down and abandoning module GeometryMode (194)
+[2016.07.04-11.52.20:203][507]LogModuleManager: Shutting down and abandoning module TextureAlignMode (193)
+[2016.07.04-11.52.20:203][507]LogModuleManager: Shutting down and abandoning module BspMode (192)
+[2016.07.04-11.52.20:203][507]LogModuleManager: Shutting down and abandoning module PlacementMode (191)
+[2016.07.04-11.52.20:203][507]LogModuleManager: Shutting down and abandoning module AutomationWorker (190)
+[2016.07.04-11.52.20:203][507]LogModuleManager: Shutting down and abandoning module CharacterAI (189)
+[2016.07.04-11.52.20:203][507]LogModuleManager: Shutting down and abandoning module SmartSnapping (188)
+[2016.07.04-11.52.20:203][507]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.07.04-11.52.20:203][507]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.07.04-11.52.20:222][507]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.07.04-11.52.20:240][507]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.07.04-11.52.20:245][507]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.07.04-11.52.20:245][507]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.07.04-11.52.20:245][507]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.07.04-11.52.20:245][507]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.07.04-11.52.20:936][507]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.07.04-11.52.20:936][507]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.07.04-11.52.20:936][507]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.07.04-11.52.20:936][507]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.07.04-11.52.20:950][507]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.07.04-11.52.20:950][507]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.07.04-11.52.20:950][507]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.07.04-11.52.20:950][507]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.07.04-11.52.20:965][507]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.07.04-11.52.20:974][507]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.07.04-11.52.20:990][507]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.07.04-11.52.20:999][507]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.07.04-11.52.21:011][507]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.07.04-11.52.21:011][507]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.07.04-11.52.21:011][507]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.07.04-11.52.21:011][507]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.07.04-11.52.21:011][507]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.07.04-11.52.21:011][507]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.07.04-11.52.21:011][507]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.07.04-11.52.21:011][507]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.07.04-11.52.21:011][507]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.07.04-11.52.21:034][507]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.07.04-11.52.21:046][507]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.07.04-11.52.21:066][507]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.07.04-11.52.21:066][507]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.07.04-11.52.21:119][507]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.07.04-11.52.21:133][507]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.07.04-11.52.21:144][507]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.07.04-11.52.21:168][507]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.07.04-11.52.21:168][507]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.07.04-11.52.21:179][507]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.07.04-11.52.21:179][507]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.07.04-11.52.21:196][507]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.07.04-11.52.21:196][507]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.07.04-11.52.21:196][507]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.07.04-11.52.21:197][507]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.07.04-11.52.21:197][507]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.07.04-11.52.21:213][507]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.07.04-11.52.21:213][507]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.07.04-11.52.21:213][507]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.07.04-11.52.21:238][507]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.07.04-11.52.21:238][507]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.07.04-11.52.21:238][507]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.07.04-11.52.21:238][507]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.07.04-11.52.21:238][507]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.07.04-11.52.21:238][507]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.07.04-11.52.21:238][507]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.07.04-11.52.21:238][507]LogModuleManager: Shutting down and abandoning module AITestSuite (132)
+[2016.07.04-11.52.21:238][507]LogModuleManager: Shutting down and abandoning module GameplayDebugger (131)
+[2016.07.04-11.52.21:238][507]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.07.04-11.52.21:238][507]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.07.04-11.52.21:308][507]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.07.04-11.52.21:317][507]LogModuleManager: Shutting down and abandoning module SubstanceEditor (127)
+[2016.07.04-11.52.21:317][507]LogModuleManager: Shutting down and abandoning module SlateRemote (126)
+[2016.07.04-11.52.21:317][507]LogModuleManager: Shutting down and abandoning module SteamVRController (125)
+[2016.07.04-11.52.21:317][507]LogModuleManager: Shutting down and abandoning module SteamVR (124)
+[2016.07.04-11.52.21:317][507]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (123)
+[2016.07.04-11.52.21:317][507]LogModuleManager: Shutting down and abandoning module OculusLibrary (122)
+[2016.07.04-11.52.21:317][507]LogModuleManager: Shutting down and abandoning module OculusInput (121)
+[2016.07.04-11.52.21:317][507]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (120)
+[2016.07.04-11.52.21:317][507]LogModuleManager: Shutting down and abandoning module CableComponent (119)
+[2016.07.04-11.52.21:317][507]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (118)
+[2016.07.04-11.52.21:317][507]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (117)
+[2016.07.04-11.52.21:337][507]LogModuleManager: Shutting down and abandoning module HTML5Networking (116)
+[2016.07.04-11.52.21:337][507]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
+[2016.07.04-11.52.21:337][507]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
+[2016.07.04-11.52.21:337][507]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
+[2016.07.04-11.52.21:337][507]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
+[2016.07.04-11.52.21:337][507]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
+[2016.07.04-11.52.21:337][507]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
+[2016.07.04-11.52.21:337][507]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
+[2016.07.04-11.52.21:337][507]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
+[2016.07.04-11.52.21:337][507]LogModuleManager: Shutting down and abandoning module SourceControl (107)
+[2016.07.04-11.52.21:337][507]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
+[2016.07.04-11.52.21:337][507]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
+[2016.07.04-11.52.21:337][507]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
+[2016.07.04-11.52.21:337][507]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
+[2016.07.04-11.52.21:337][507]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
+[2016.07.04-11.52.21:337][507]LogModuleManager: Shutting down and abandoning module HotReload (101)
+[2016.07.04-11.52.21:337][507]LogModuleManager: Shutting down and abandoning module MainFrame (100)
+[2016.07.04-11.52.21:337][507]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
+[2016.07.04-11.52.21:338][507]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (98)
+[2016.07.04-11.52.21:339][507]LogModuleManager: Shutting down and abandoning module AssetRegistry (97)
+[2016.07.04-11.52.21:489][507]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.07.04-11.52.21:489][507]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.07.04-11.52.21:507][507]LogModuleManager: Shutting down and abandoning module Project_PlanetDef (94)
+[2016.07.04-11.52.21:507][507]LogModuleManager: Shutting down and abandoning module UdpMessaging (93)
+[2016.07.04-11.52.21:607][507]LogModuleManager: Shutting down and abandoning module SubstanceCore (92)
+[2016.07.04-11.52.21:634][507]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.07.04-11.52.21:634][507]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.07.04-11.52.21:634][507]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.07.04-11.52.21:634][507]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.07.04-11.52.21:634][507]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.07.04-11.52.21:634][507]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.07.04-11.52.21:634][507]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.07.04-11.52.21:634][507]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.07.04-11.52.21:634][507]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.07.04-11.52.21:634][507]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.07.04-11.52.21:634][507]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.07.04-11.52.21:634][507]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.07.04-11.52.21:648][507]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.07.04-11.52.21:648][507]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.07.04-11.52.21:660][507]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.07.04-11.52.21:660][507]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.07.04-11.52.21:660][507]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.07.04-11.52.21:660][507]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.07.04-11.52.21:678][507]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.07.04-11.52.21:678][507]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.07.04-11.52.21:678][507]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.07.04-11.52.21:696][507]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.07.04-11.52.21:696][507]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.07.04-11.52.21:697][507]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.07.04-11.52.21:697][507]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.07.04-11.52.21:697][507]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.07.04-11.52.21:697][507]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.07.04-11.52.21:697][507]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.07.04-11.52.21:698][507]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.07.04-11.52.21:698][507]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.07.04-11.52.21:698][507]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.07.04-11.52.21:698][507]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.07.04-11.52.21:712][507]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.07.04-11.52.21:713][507]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.07.04-11.52.21:713][507]LogDerivedDataCache: Shutdown
+[2016.07.04-11.52.21:713][507]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.07.04-11.52.21:733][507]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.07.04-11.52.21:733][507]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.07.04-11.52.21:756][507]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.07.04-11.52.22:757][507]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.07.04-11.52.22:786][507]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.07.04-11.52.22:786][507]LogHMD: Oculus shutdown.
+[2016.07.04-11.52.22:786][507]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.07.04-11.52.22:786][507]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.07.04-11.52.22:786][507]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.07.04-11.52.22:786][507]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.07.04-11.52.22:786][507]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.07.04-11.52.22:800][507]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.07.04-11.52.22:816][507]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.07.04-11.52.22:816][507]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.07.04-11.52.22:816][507]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.07.04-11.52.22:816][507]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.07.04-11.52.22:816][507]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.07.04-11.52.22:816][507]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.07.04-11.52.22:816][507]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.07.04-11.52.22:816][507]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.07.04-11.52.22:816][507]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.07.04-11.52.22:833][507]LogExit: Exiting.
+[2016.07.04-11.52.22:845][507]Log file closed, 07/04/16 21:52:22
