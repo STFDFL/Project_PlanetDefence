@@ -1,9 +1,9 @@
-﻿Log file open, 07/04/16 18:14:57
+﻿Log file open, 07/04/16 20:37:06
 LogInit:Display: Running engine for game: Project_PlanetDef
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1820618739) SRandInit(-1820618738).
+LogInit:Display: RandInit(788501512) SRandInit(788501514).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-LogStats: Stats thread started at 0.062352
+LogStats: Stats thread started at 0.124133
 OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files (x86)\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
 OCULUS: Debug: Connected to the server running version (prod = 1).1.5.0(build = 241049) feature version = 0. Client runs version (prod = 1).1.5.0(build = 241049) feature version = 0
 OCULUS: Debug: [HMDState] Using default profile default
@@ -15,7 +15,7 @@ LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.11
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: D:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Using libcurl 7.41.0
@@ -34,928 +34,479 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.07.04-08.14.57:545][  0]LogInit: Selected Device Profile: [Windows]
-[2016.07.04-08.14.57:545][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.07.04-08.14.57:552][  0]LogInit: Computer: DESKTOP-M92PTO3
-[2016.07.04-08.14.57:552][  0]LogInit: User: StefanoAdmin
-[2016.07.04-08.14.57:552][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.07.04-08.14.57:552][  0]LogInit: High frequency timer resolution =3.328131 MHz
-[2016.07.04-08.14.57:552][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.07.04-08.14.57:552][  0]LogMemory: Platform Memory Stats for Windows
-[2016.07.04-08.14.57:552][  0]LogMemory: Process Physical Memory: 318.51 MB used, 318.51 MB peak
-[2016.07.04-08.14.57:552][  0]LogMemory: Process Virtual Memory: 318.23 MB used, 318.23 MB peak
-[2016.07.04-08.14.57:552][  0]LogMemory: Physical Memory: 7031.85 MB used, 16313.61 MB total
-[2016.07.04-08.14.57:552][  0]LogMemory: Virtual Memory: 700.52 MB used, 134217728.00 MB total
-[2016.07.04-08.14.57:748][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
-[2016.07.04-08.14.58:050][  0]LogD3D11RHI: D3D11 adapters:
-[2016.07.04-08.14.58:068][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
-[2016.07.04-08.14.58:068][  0]LogD3D11RHI:       4008MB of dedicated video memory, 0MB of dedicated system memory, and 8156MB of shared system memory, 1 output[s]
-[2016.07.04-08.14.58:069][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.07.04-08.14.58:069][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8156MB of shared system memory, 0 output[s]
-[2016.07.04-08.14.58:069][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.07.04-08.14.58:073][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.07.04-08.14.58:073][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
-[2016.07.04-08.14.58:073][  0]LogD3D11RHI:   Driver Version: 10.18.13.6510 (internal 10.18.13.6510)
-[2016.07.04-08.14.58:073][  0]LogD3D11RHI:      Driver Date: 4-27-2016
-[2016.07.04-08.14.58:073][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.07.04-08.14.58:082][  0]LogD3D11RHI: Async texture creation enabled
-[2016.07.04-08.14.58:091][  0]LogShaderCompilers: Guid format shader working directory is -48 characters bigger than the processId version (../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Intermediate/Shaders/WorkingDirectory/10084/).
-[2016.07.04-08.14.58:091][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Admin/AppData/Local/Temp/UnrealShaderWorkingDir/64C6D8FB4AED44F5B264BA856145C5D2/'.
-[2016.07.04-08.14.58:091][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.07.04-08.14.58:806][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.07.04-08.14.58:809][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.07.04-08.14.58:812][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.07.04-08.14.58:815][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.07.04-08.14.58:818][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.07.04-08.14.58:820][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.07.04-08.14.58:822][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.07.04-08.14.58:824][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.07.04-08.14.58:826][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.07.04-08.14.58:828][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.07.04-08.14.58:830][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.07.04-08.14.58:835][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.07.04-08.14.58:835][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.07.04-08.14.58:835][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.07.04-08.14.58:849][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.07.04-08.14.58:851][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.07.04-08.14.58:853][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.07.04-08.14.58:855][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.07.04-08.14.58:858][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.07.04-08.14.58:858][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.07.04-08.14.58:906][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.07.04-08.14.58:940][  0]LogDerivedDataCache: Loaded boot cache 0.03s 46MB C:/Users/Admin/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.07.04-08.14.58:940][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
-[2016.07.04-08.14.58:940][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.07.04-08.14.58:940][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.07.04-08.14.58:940][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.07.04-08.14.58:940][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.07.04-08.14.58:951][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.07.04-08.14.58:963][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.07.04-08.14.59:070][  0]LogInit: Selected Device Profile: [Windows]
-[2016.07.04-08.14.59:071][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.07.04-08.14.59:093][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.07.04-08.14.59:180][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.07.04-08.14.59:180][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.07.04-08.14.59:180][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.07.04-08.14.59:331][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
-[2016.07.04-08.14.59:331][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
-[2016.07.04-08.14.59:331][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.07.04-08.14.59:335][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.07.04-08.14.59:388][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.07.04-08.14.59:388][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.07.04-08.14.59:453][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.07.04-08.14.59:453][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.07.04-08.14.59:453][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.07.04-08.14.59:453][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.07.04-08.14.59:453][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.07.04-08.14.59:453][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.07.04-08.14.59:830][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
-[2016.07.04-08.14.59:834][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.07.04-08.14.59:929][  0]LogAssetRegistry: FAssetRegistry took 0.0210 seconds to start up
-[2016.07.04-08.15.00:024][  0]SourceControl: Info Source control is disabled
-[2016.07.04-08.15.00:046][  0]SourceControl: Info Source control is disabled
-[2016.07.04-08.15.00:050][  0]SourceControl: Info Source control is disabled
-[2016.07.04-08.15.00:054][  0]SourceControl: Info Source control is disabled
-[2016.07.04-08.15.00:188][  0]LogEngine: Initializing Engine...
-[2016.07.04-08.15.00:188][  0]LogHMD: Oculus plugin initialized. Version: 4.11.2-2946394+++UE4+Release-4.11, LibOVR: 1.5.0, SDK: 1.3.0, built Apr 18 2016, 02:19:44
-[2016.07.04-08.15.00:286][  0]OCULUS: Debug: [HMDState] Using default profile default
-[2016.07.04-08.15.00:286][  0]OCULUS: Info: IAD changed to 64.0mm
-[2016.07.04-08.15.00:294][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.07.04-08.15.00:304][  0]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.07.04-08.15.00:309][  0]LogInit: FAudioDevice initialized.
-[2016.07.04-08.15.00:326][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/Admin/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.07.04-08.15.00:329][  0]LogInit: Texture streaming: Enabled
-[2016.07.04-08.15.00:344][  0]LogInit: Transaction tracking system initialized
-[2016.07.04-08.15.00:357][  0]BlueprintLog: New page: Editor Load
-[2016.07.04-08.15.00:400][  0]LocalizationService: Info Localization service is disabled
-[2016.07.04-08.15.00:464][  0]LogConsoleResponse:Display: 
-[2016.07.04-08.15.00:532][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.07.04-08.15.00:532][  0]LogCook:Display: Mobile HDR setting 1
-[2016.07.04-08.15.00:532][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.07.04-08.15.00:560][  0]LogFileCache: Scanning file cache for directory 'D:/Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/' took 0.01s
-[2016.07.04-08.15.00:560][  0]SourceControl: Info Source control is disabled
-[2016.07.04-08.15.00:560][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.07.04-08.15.00:560][  0]LightingResults: New page: Lighting Build
-[2016.07.04-08.15.00:562][  0]MapCheck: New page: Map Check
-[2016.07.04-08.15.00:562][  0]LightingResults: New page: Lighting Build
-[2016.07.04-08.15.00:722][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2016.07.04-08.15.00:725][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.07.04-08.15.00:728][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.07.04-08.15.00:747][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 19.788ms to complete.
-[2016.07.04-08.15.00:747][  0]LogFileHelpers: Loading map 'Template_Default' took 0.187
-[2016.07.04-08.15.00:838][  0]LogCollectionManager: Loaded 0 collections in 0.001107 seconds
-[2016.07.04-08.15.00:875][  0]LogFileCache: Scanning file cache for directory 'D:/Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/Collections/' took 0.01s
-[2016.07.04-08.15.00:875][  0]LogFileCache: Scanning file cache for directory 'D:/Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Developers/StefanoAdmin/Collections/' took 0.01s
-[2016.07.04-08.15.00:875][  0]LogFileCache: Scanning file cache for directory 'D:/Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Collections/' took 0.01s
-[2016.07.04-08.15.00:875][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2016.07.04-08.15.00:881][  0]LogContentBrowser: Native class hierarchy populated in 0.0059 seconds. Added 1994 classes and 349 folders.
-[2016.07.04-08.15.00:883][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.07.04-08.15.00:883][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.07.04-08.15.00:884][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
-[2016.07.04-08.15.00:887][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2016.07.04-08.15.00:891][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2016.07.04-08.15.00:914][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2016.07.04-08.15.00:917][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2016.07.04-08.15.00:931][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.07.04-08.15.00:935][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.07.04-08.15.00:959][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2016.07.04-08.15.00:959][  0]LogLoad: Full Startup: 4.02 seconds (BP compile: 0.03 seconds)
-[2016.07.04-08.15.00:959][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.07.04-08.15.00:959][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.07.04-08.15.00:967][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.07.04-08.15.00:968][  0]LogOcInput: OculusInput pre-init called
-[2016.07.04-08.15.00:975][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.5.0
-[2016.07.04-08.15.00:987][  0]LogAssetRegistry: Asset discovery search completed in 1.0797 seconds
-[2016.07.04-08.15.00:987][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2016.07.04-08.15.00:987][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
-[2016.07.04-08.15.01:005][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.07.04-08.15.01:123][  2]LogRenderer: Reallocating scene render targets to support 1168x564 (Frame:2).
-[2016.07.04-08.15.07:135][290]LogAIModule: Creating AISystem for world FirstLevel
-[2016.07.04-08.15.07:185][290]Cmd: MAP LOAD FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.07.04-08.15.07:185][290]LightingResults: New page: Lighting Build
-[2016.07.04-08.15.07:200][290]LoadErrors: New page: Loading map: FirstLevel.umap
-[2016.07.04-08.15.07:200][290]MapCheck: New page: Map Check
-[2016.07.04-08.15.07:200][290]LightingResults: New page: Lighting Build
-[2016.07.04-08.15.07:209][290]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.07.04-08.15.07:231][290]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.07.04-08.15.07:253][290]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 21.461ms to complete.
-[2016.07.04-08.15.07:253][290]LogFileHelpers: Loading map 'FirstLevel' took 0.069
-[2016.07.04-08.15.13:909][520]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 108 classes and 0 folders.
-[2016.07.04-08.16.15:882][456]BlueprintLog: New page: Compile Shield
-[2016.07.04-08.16.15:961][456]BlueprintEditorCompileResults: Info [0079.02] Compile of Shield successful! [in 78 ms]
-[2016.07.04-08.16.16:719][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shield" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset" SILENT=true
-[2016.07.04-08.16.16:776][514]LogSavePackage: Save=51.91ms
-[2016.07.04-08.16.16:776][514]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/Shield5769CA194D8E4B84E9F094ADE5EEF743.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset'
-[2016.07.04-08.16.16:777][514]LogSavePackage: Total save time: 57.18ms
-[2016.07.04-08.16.16:777][514]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset
-[2016.07.04-08.16.20:348][845]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.16.20:348][845]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.07.04-08.16.20:349][845]OCULUS: Debug: [HMDState] Using default profile default
-[2016.07.04-08.16.20:349][845]OCULUS: Info: IAD changed to 64.0mm
-[2016.07.04-08.16.20:349][845]LogHMD: New ovr session is created
-[2016.07.04-08.16.20:353][845]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
-[2016.07.04-08.16.20:353][845]LogApp: UseVRFocus has changed to 1
-[2016.07.04-08.16.20:353][845]LogApp: HasVRFocus has changed to 1
-[2016.07.04-08.16.20:353][845]PIE: New page: PIE session: FirstLevel (5 Jul 2016 4:16:20 am)
-[2016.07.04-08.16.20:353][845]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
-[2016.07.04-08.16.20:356][845]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003321s)
-[2016.07.04-08.16.20:357][845]LogAIModule: Creating AISystem for world FirstLevel
-[2016.07.04-08.16.20:357][845]LogPlayLevel: PIE: World Init took: (0.000611s)
-[2016.07.04-08.16.20:357][845]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.004092s)
-[2016.07.04-08.16.20:377][845]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.07.04-08.16.20:382][845]LogInit: FAudioDevice initialized.
-[2016.07.04-08.16.20:427][845]LogWorld: Game class is 'GameMode'
-[2016.07.04-08.16.20:429][845]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-18.16.20
-[2016.07.04-08.16.20:429][845]LogWorld: Bringing up level for play took: 0.001382
-[2016.07.04-08.16.20:433][845]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 9 classes and 0 folders.
-[2016.07.04-08.16.20:433][845]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.612
-[2016.07.04-08.16.20:433][845]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.16.20:433][845]LogApp: UseVRFocus has changed to 0
-[2016.07.04-08.16.20:433][845]LogApp: HasVRFocus has changed to 0
-[2016.07.04-08.16.21:321][950]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
+[2016.07.04-10.37.06:302][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.04-10.37.06:302][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.04-10.37.06:317][  0]LogInit: Computer: DESKTOP-M92PTO3
+[2016.07.04-10.37.06:317][  0]LogInit: User: StefanoAdmin
+[2016.07.04-10.37.06:317][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.07.04-10.37.06:317][  0]LogInit: High frequency timer resolution =3.328131 MHz
+[2016.07.04-10.37.06:318][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.07.04-10.37.06:318][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.04-10.37.06:318][  0]LogMemory: Process Physical Memory: 318.57 MB used, 318.57 MB peak
+[2016.07.04-10.37.06:318][  0]LogMemory: Process Virtual Memory: 318.24 MB used, 318.24 MB peak
+[2016.07.04-10.37.06:318][  0]LogMemory: Physical Memory: 5122.91 MB used, 16313.61 MB total
+[2016.07.04-10.37.06:318][  0]LogMemory: Virtual Memory: 700.52 MB used, 134217728.00 MB total
+[2016.07.04-10.37.06:827][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2016.07.04-10.37.07:213][  0]LogD3D11RHI: D3D11 adapters:
+[2016.07.04-10.37.07:234][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2016.07.04-10.37.07:234][  0]LogD3D11RHI:       4008MB of dedicated video memory, 0MB of dedicated system memory, and 8156MB of shared system memory, 1 output[s]
+[2016.07.04-10.37.07:235][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.07.04-10.37.07:235][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8156MB of shared system memory, 0 output[s]
+[2016.07.04-10.37.07:235][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.07.04-10.37.07:239][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.07.04-10.37.07:239][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2016.07.04-10.37.07:239][  0]LogD3D11RHI:   Driver Version: 10.18.13.6510 (internal 10.18.13.6510)
+[2016.07.04-10.37.07:239][  0]LogD3D11RHI:      Driver Date: 4-27-2016
+[2016.07.04-10.37.07:239][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.04-10.37.07:247][  0]LogD3D11RHI: Async texture creation enabled
+[2016.07.04-10.37.07:255][  0]LogShaderCompilers: Guid format shader working directory is -47 characters bigger than the processId version (../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Intermediate/Shaders/WorkingDirectory/7572/).
+[2016.07.04-10.37.07:255][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Admin/AppData/Local/Temp/UnrealShaderWorkingDir/51F1973B4B3BD0D315C6ABB2B8CDACD1/'.
+[2016.07.04-10.37.07:255][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.04-10.37.08:987][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.04-10.37.08:990][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.04-10.37.08:993][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.04-10.37.08:997][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.04-10.37.09:000][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.04-10.37.09:004][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.04-10.37.09:006][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.04-10.37.09:008][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.04-10.37.09:010][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.04-10.37.09:012][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.04-10.37.09:014][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.04-10.37.09:019][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.07.04-10.37.09:019][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.04-10.37.09:019][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.04-10.37.09:086][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.04-10.37.09:088][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.07.04-10.37.09:090][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.04-10.37.09:092][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.04-10.37.09:094][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.04-10.37.09:094][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.04-10.37.09:689][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.04-10.37.09:837][  0]LogDerivedDataCache: Loaded boot cache 0.15s 46MB C:/Users/Admin/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.07.04-10.37.09:837][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.07.04-10.37.09:837][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.04-10.37.09:837][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.04-10.37.09:837][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.04-10.37.09:837][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.04-10.37.09:894][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.04-10.37.09:905][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.04-10.37.17:504][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.04-10.37.17:520][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.07.04-10.37.18:582][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.07.04-10.37.19:607][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.04-10.37.19:607][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.04-10.37.19:607][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.07.04-10.37.22:958][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.07.04-10.37.22:958][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.07.04-10.37.22:958][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.07.04-10.37.22:986][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.04-10.37.24:596][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.04-10.37.24:611][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.04-10.37.26:736][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.07.04-10.37.26:736][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.07.04-10.37.26:746][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.07.04-10.37.26:746][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.07.04-10.37.26:746][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.07.04-10.37.26:746][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.07.04-10.37.38:876][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.07.04-10.37.38:961][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.07.04-10.37.39:518][  0]LogAssetRegistry: FAssetRegistry took 0.0237 seconds to start up
+[2016.07.04-10.37.42:999][  0]SourceControl: Info Source control is disabled
+[2016.07.04-10.37.43:101][  0]SourceControl: Info Source control is disabled
+[2016.07.04-10.37.43:143][  0]SourceControl: Info Source control is disabled
+[2016.07.04-10.37.43:180][  0]SourceControl: Info Source control is disabled
+[2016.07.04-10.37.45:791][  0]LogEngine: Initializing Engine...
+[2016.07.04-10.37.45:820][  0]LogHMD: Oculus plugin initialized. Version: 4.11.2-2946394+++UE4+Release-4.11, LibOVR: 1.5.0, SDK: 1.3.0, built Apr 18 2016, 02:19:44
+[2016.07.04-10.37.46:130][  0]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-10.37.46:130][  0]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-10.37.46:844][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.07.04-10.37.47:029][  0]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-10.37.47:041][  0]LogInit: FAudioDevice initialized.
+[2016.07.04-10.37.47:058][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/Admin/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.07.04-10.37.47:063][  0]LogInit: Texture streaming: Enabled
+[2016.07.04-10.37.47:330][  0]LogInit: Transaction tracking system initialized
+[2016.07.04-10.37.47:652][  0]BlueprintLog: New page: Editor Load
+[2016.07.04-10.37.48:726][  0]LocalizationService: Info Localization service is disabled
+[2016.07.04-10.37.49:837][  0]LogConsoleResponse:Display: 
+[2016.07.04-10.37.51:855][  0]LogFileCache: Scanning file cache for directory 'D:/Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/' took 0.05s
+[2016.07.04-10.37.51:855][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.07.04-10.37.51:855][  0]LogCook:Display: Mobile HDR setting 1
+[2016.07.04-10.37.51:863][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.07.04-10.37.52:696][  0]SourceControl: Info Source control is disabled
+[2016.07.04-10.37.52:734][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.04-10.37.52:778][  0]LightingResults: New page: Lighting Build
+[2016.07.04-10.37.52:948][  0]MapCheck: New page: Map Check
+[2016.07.04-10.37.52:948][  0]LightingResults: New page: Lighting Build
+[2016.07.04-10.37.54:122][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.07.04-10.37.54:695][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.04-10.37.54:764][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.04-10.37.54:785][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 21.111ms to complete.
+[2016.07.04-10.37.54:785][  0]LogFileHelpers: Loading map 'Template_Default' took 2.070
+[2016.07.04-10.37.55:980][  0]LogCollectionManager: Loaded 0 collections in 0.008181 seconds
+[2016.07.04-10.37.56:177][  0]LogFileCache: Scanning file cache for directory 'D:/Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/Collections/' took 0.01s
+[2016.07.04-10.37.56:177][  0]LogFileCache: Scanning file cache for directory 'D:/Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Developers/StefanoAdmin/Collections/' took 0.01s
+[2016.07.04-10.37.56:177][  0]LogFileCache: Scanning file cache for directory 'D:/Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Collections/' took 0.01s
+[2016.07.04-10.37.56:177][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000008 seconds
+[2016.07.04-10.37.56:219][  0]LogContentBrowser: Native class hierarchy populated in 0.0408 seconds. Added 1994 classes and 349 folders.
+[2016.07.04-10.37.56:296][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.07.04-10.37.56:296][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.07.04-10.37.56:297][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 12 classes and 0 folders.
+[2016.07.04-10.37.56:364][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.07.04-10.37.56:501][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.07.04-10.37.57:411][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.07.04-10.37.57:440][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.07.04-10.37.57:891][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.07.04-10.37.58:084][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.07.04-10.37.58:171][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.07.04-10.37.58:171][  0]LogLoad: Full Startup: 54.30 seconds (BP compile: 0.58 seconds)
+[2016.07.04-10.37.58:171][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.07.04-10.37.58:171][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.07.04-10.37.58:548][  0]LogOcInput: OculusInput pre-init called
+[2016.07.04-10.37.58:556][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.5.0
+[2016.07.04-10.37.59:034][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.07.04-10.37.59:864][  1]LogRenderer: Reallocating scene render targets to support 1176x564 (Frame:2).
+[2016.07.04-10.38.00:185][  1]LogAssetRegistry: Asset discovery search completed in 20.6887 seconds
+[2016.07.04-10.38.00:198][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.07.04-10.38.00:206][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.013201 seconds (updated 0 objects)
+[2016.07.04-10.38.10:893][191]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-10.38.11:009][191]Cmd: MAP LOAD FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.04-10.38.11:009][191]LightingResults: New page: Lighting Build
+[2016.07.04-10.38.11:054][191]LoadErrors: New page: Loading map: FirstLevel.umap
+[2016.07.04-10.38.11:073][191]MapCheck: New page: Map Check
+[2016.07.04-10.38.11:073][191]LightingResults: New page: Lighting Build
+[2016.07.04-10.38.11:197][191]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.04-10.38.11:230][191]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.04-10.38.11:251][191]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 21.603ms to complete.
+[2016.07.04-10.38.11:251][191]LogFileHelpers: Loading map 'FirstLevel' took 0.254
+[2016.07.04-10.38.35:203][410]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.38.35:215][410]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-10.38.35:266][410]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-10.38.35:266][410]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-10.38.35:266][410]LogHMD: New ovr session is created
+[2016.07.04-10.38.35:279][410]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-10.38.35:279][410]LogApp: UseVRFocus has changed to 1
+[2016.07.04-10.38.35:279][410]LogApp: HasVRFocus has changed to 1
+[2016.07.04-10.38.35:303][410]PIE: New page: PIE session: FirstLevel (5 Jul 2016 6:38:35 am)
+[2016.07.04-10.38.35:303][410]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-10.38.35:320][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016702s)
+[2016.07.04-10.38.35:321][410]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-10.38.35:321][410]LogPlayLevel: PIE: World Init took: (0.000422s)
+[2016.07.04-10.38.35:321][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.017270s)
+[2016.07.04-10.38.35:336][410]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-10.38.35:341][410]LogInit: FAudioDevice initialized.
+[2016.07.04-10.38.35:466][410]LogWorld: Game class is 'GameMode'
+[2016.07.04-10.38.35:494][410]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-20.38.35
+[2016.07.04-10.38.35:495][410]LogWorld: Bringing up level for play took: 0.001473
+[2016.07.04-10.38.35:590][410]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 9 classes and 0 folders.
+[2016.07.04-10.38.35:632][410]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.19
+[2016.07.04-10.38.35:632][410]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.38.35:632][410]LogApp: UseVRFocus has changed to 0
+[2016.07.04-10.38.35:632][410]LogApp: HasVRFocus has changed to 0
+[2016.07.04-10.38.36:305][481]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
 	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
 	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:0083
-[2016.07.04-08.16.21:321][950]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
-[2016.07.04-08.16.21:322][950]LogScript:Warning: Attempted to assign to None
+[2016.07.04-10.38.36:305][481]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.38.36:305][481]LogScript:Warning: Attempted to assign to None
 	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
 	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:0098
-[2016.07.04-08.16.21:322][950]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
-[2016.07.04-08.16.21:322][950]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
+[2016.07.04-10.38.36:305][481]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.38.36:305][481]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
 	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
 	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:00B6
-[2016.07.04-08.16.21:322][950]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
-[2016.07.04-08.16.21:322][950]LogScript:Warning: Attempted to assign to None
+[2016.07.04-10.38.36:305][481]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.38.36:305][481]LogScript:Warning: Attempted to assign to None
 	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
 	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:00CB
-[2016.07.04-08.16.21:322][950]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
-[2016.07.04-08.16.28:870][855]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.16.28:870][855]LogHMD: Destroying ovr session
-[2016.07.04-08.16.28:907][855]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.16.37:879][169]BlueprintLog: New page: Compile Shield
-[2016.07.04-08.16.37:948][169]BlueprintEditorCompileResults: Info [0101.00] Compile of Shield successful! [in 67 ms]
-[2016.07.04-08.16.38:609][191]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.16.38:609][191]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.07.04-08.16.38:611][191]OCULUS: Debug: [HMDState] Using default profile default
-[2016.07.04-08.16.38:611][191]OCULUS: Info: IAD changed to 64.0mm
-[2016.07.04-08.16.38:611][191]LogHMD: New ovr session is created
-[2016.07.04-08.16.38:625][191]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
-[2016.07.04-08.16.38:625][191]LogApp: UseVRFocus has changed to 1
-[2016.07.04-08.16.38:625][191]LogApp: HasVRFocus has changed to 1
-[2016.07.04-08.16.38:625][191]PIE: New page: PIE session: FirstLevel (5 Jul 2016 4:16:38 am)
-[2016.07.04-08.16.38:625][191]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
-[2016.07.04-08.16.38:628][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003063s)
-[2016.07.04-08.16.38:628][191]LogAIModule: Creating AISystem for world FirstLevel
-[2016.07.04-08.16.38:628][191]LogPlayLevel: PIE: World Init took: (0.000546s)
-[2016.07.04-08.16.38:629][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003770s)
-[2016.07.04-08.16.38:649][191]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.07.04-08.16.38:653][191]LogInit: FAudioDevice initialized.
-[2016.07.04-08.16.38:686][191]LogWorld: Game class is 'GameMode'
-[2016.07.04-08.16.38:688][191]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-18.16.38
-[2016.07.04-08.16.38:689][191]LogWorld: Bringing up level for play took: 0.001415
-[2016.07.04-08.16.38:693][191]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.871
-[2016.07.04-08.16.38:693][191]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.16.38:693][191]LogApp: UseVRFocus has changed to 0
-[2016.07.04-08.16.38:693][191]LogApp: HasVRFocus has changed to 0
-[2016.07.04-08.16.38:700][192]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2065).
-[2016.07.04-08.16.39:605][229]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
+[2016.07.04-10.38.36:305][481]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.38.37:308][602]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
 	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
 	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:0083
-[2016.07.04-08.16.39:605][229]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
-[2016.07.04-08.16.39:605][229]LogScript:Warning: Attempted to assign to None
+[2016.07.04-10.38.37:308][602]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.38.37:308][602]LogScript:Warning: Attempted to assign to None
 	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
 	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:0098
-[2016.07.04-08.16.39:605][229]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
-[2016.07.04-08.16.39:605][229]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
+[2016.07.04-10.38.37:308][602]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.38.37:308][602]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
 	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
 	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:00B6
-[2016.07.04-08.16.39:605][229]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
-[2016.07.04-08.16.39:605][229]LogScript:Warning: Attempted to assign to None
+[2016.07.04-10.38.37:308][602]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.38.37:308][602]LogScript:Warning: Attempted to assign to None
 	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
 	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:00CB
-[2016.07.04-08.16.39:605][229]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
-[2016.07.04-08.16.41:275][307]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.16.41:296][307]LogHMD: Destroying ovr session
-[2016.07.04-08.16.41:344][307]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.17.06:795][ 76]BlueprintLog: New page: Compile Shield
-[2016.07.04-08.17.06:935][ 76]BlueprintEditorCompileResults: Info [0129.99] Compile of Shield successful! [in 139 ms]
-[2016.07.04-08.17.07:749][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shield" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset" SILENT=true
-[2016.07.04-08.17.07:806][145]LogSavePackage: Save=52.90ms
-[2016.07.04-08.17.07:806][145]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/Shield258023DF46D7A2BA23656196132E9DBD.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset'
-[2016.07.04-08.17.07:807][145]LogSavePackage: Total save time: 57.69ms
-[2016.07.04-08.17.07:807][145]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset
-[2016.07.04-08.17.50:263][111]BlueprintLog: New page: Compile Shield
-[2016.07.04-08.17.50:327][111]BlueprintEditorCompileResults: Info [0173.38] Compile of Shield successful! [in 64 ms]
-[2016.07.04-08.17.50:889][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shield" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset" SILENT=true
-[2016.07.04-08.17.50:937][144]LogSavePackage: Save=42.86ms
-[2016.07.04-08.17.50:937][144]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/Shield28D5B73F49C4DFCB155B4E8B0ABC04FA.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset'
-[2016.07.04-08.17.50:938][144]LogSavePackage: Total save time: 47.29ms
-[2016.07.04-08.17.50:938][144]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset
-[2016.07.04-08.17.55:341][551]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2680.EdGraphPin_32846''
-[2016.07.04-08.17.55:342][551]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2681.EdGraphPin_32864''
-[2016.07.04-08.17.55:342][551]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2681.EdGraphPin_32861''
-[2016.07.04-08.17.55:342][551]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_33.EdGraphPin_32857''
-[2016.07.04-08.17.55:342][551]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2681.EdGraphPin_32863''
-[2016.07.04-08.17.55:342][551]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_113.EdGraphPin_33150''
-[2016.07.04-08.17.55:342][551]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2681.EdGraphPin_32862''
-[2016.07.04-08.18.27:787][762]BlueprintLog: New page: Compile Shield
-[2016.07.04-08.18.27:854][762]BlueprintEditorCompileResults: Info [0210.91] Compile of Shield successful! [in 67 ms]
-[2016.07.04-08.18.56:942][694]BlueprintLog: New page: Compile Shield
-[2016.07.04-08.18.57:009][694]BlueprintEditorCompileResults: Info [0240.07] Compile of Shield successful! [in 66 ms]
-[2016.07.04-08.18.57:747][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shield" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset" SILENT=true
-[2016.07.04-08.18.57:806][756]LogSavePackage: Save=50.77ms
-[2016.07.04-08.18.57:806][756]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/ShieldD4A571FA4299AC4917ADFBB97FA541A0.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset'
-[2016.07.04-08.18.57:807][756]LogSavePackage: Total save time: 59.20ms
-[2016.07.04-08.18.57:807][756]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset
-[2016.07.04-08.19.01:285][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shield" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset" SILENT=true
-[2016.07.04-08.19.01:332][148]LogSavePackage: Save=43.20ms
-[2016.07.04-08.19.01:332][148]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/Shield9804684143F94AB5217C7B926C1977C7.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset'
-[2016.07.04-08.19.01:333][148]LogSavePackage: Total save time: 46.98ms
-[2016.07.04-08.19.01:333][148]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset
-[2016.07.04-08.19.02:411][246]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.19.02:411][246]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.07.04-08.19.02:411][246]OCULUS: Debug: [HMDState] Using default profile default
-[2016.07.04-08.19.02:411][246]OCULUS: Info: IAD changed to 64.0mm
-[2016.07.04-08.19.02:411][246]LogHMD: New ovr session is created
-[2016.07.04-08.19.02:412][246]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
-[2016.07.04-08.19.02:412][246]LogApp: UseVRFocus has changed to 1
-[2016.07.04-08.19.02:412][246]LogApp: HasVRFocus has changed to 1
-[2016.07.04-08.19.02:412][246]PIE: New page: PIE session: FirstLevel (5 Jul 2016 4:19:02 am)
-[2016.07.04-08.19.02:412][246]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
-[2016.07.04-08.19.02:415][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002798s)
-[2016.07.04-08.19.02:415][246]LogAIModule: Creating AISystem for world FirstLevel
-[2016.07.04-08.19.02:415][246]LogPlayLevel: PIE: World Init took: (0.000641s)
-[2016.07.04-08.19.02:415][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003593s)
-[2016.07.04-08.19.02:435][246]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.07.04-08.19.02:440][246]LogInit: FAudioDevice initialized.
-[2016.07.04-08.19.02:471][246]LogWorld: Game class is 'GameMode'
-[2016.07.04-08.19.02:473][246]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-18.19.02
-[2016.07.04-08.19.02:473][246]LogWorld: Bringing up level for play took: 0.001479
-[2016.07.04-08.19.02:478][246]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.657
-[2016.07.04-08.19.02:478][246]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.19.02:479][246]LogApp: UseVRFocus has changed to 0
-[2016.07.04-08.19.02:479][246]LogApp: HasVRFocus has changed to 0
-[2016.07.04-08.19.03:412][289]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:434][290]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:454][291]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:476][292]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:498][293]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:519][294]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:541][295]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:562][296]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:584][297]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:605][298]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:627][299]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:649][300]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:670][301]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:692][302]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:714][303]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:735][304]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:756][305]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:778][306]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:799][307]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:824][308]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:848][309]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:869][310]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:891][311]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:912][312]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:934][313]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:955][314]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:977][315]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.03:998][316]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:020][317]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:043][318]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:065][319]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:088][320]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:109][321]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:130][322]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:152][323]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:173][324]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:195][325]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:216][326]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:238][327]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:259][328]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:280][329]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:302][330]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:323][331]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:345][332]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:366][333]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:388][334]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:410][335]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:431][336]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:452][337]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:474][338]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:495][339]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:516][340]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:538][341]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:560][342]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:582][343]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:603][344]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:625][345]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:646][346]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:668][347]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:689][348]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:710][349]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:731][350]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:752][351]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:774][352]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:796][353]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:817][354]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:838][355]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:859][356]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:881][357]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:903][358]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:924][359]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:946][360]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:968][361]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.04:989][362]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.05:011][363]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.05:227][373]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.05:248][374]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.05:270][375]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.05:291][376]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.05:313][377]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.05:334][378]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.05:355][379]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.05:721][396]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.19.05:741][396]LogHMD: Destroying ovr session
-[2016.07.04-08.19.05:790][396]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.19.12:100][623]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.19.12:100][623]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.07.04-08.19.12:101][623]OCULUS: Debug: [HMDState] Using default profile default
-[2016.07.04-08.19.12:101][623]OCULUS: Info: IAD changed to 64.0mm
-[2016.07.04-08.19.12:101][623]LogHMD: New ovr session is created
-[2016.07.04-08.19.12:117][623]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
-[2016.07.04-08.19.12:117][623]LogApp: UseVRFocus has changed to 1
-[2016.07.04-08.19.12:117][623]LogApp: HasVRFocus has changed to 1
-[2016.07.04-08.19.12:117][623]PIE: New page: PIE session: FirstLevel (5 Jul 2016 4:19:12 am)
-[2016.07.04-08.19.12:117][623]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
-[2016.07.04-08.19.12:121][623]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002879s)
-[2016.07.04-08.19.12:121][623]LogAIModule: Creating AISystem for world FirstLevel
-[2016.07.04-08.19.12:121][623]LogPlayLevel: PIE: World Init took: (0.000535s)
-[2016.07.04-08.19.12:121][623]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003556s)
-[2016.07.04-08.19.12:141][623]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.07.04-08.19.12:146][623]LogInit: FAudioDevice initialized.
-[2016.07.04-08.19.12:176][623]LogWorld: Game class is 'GameMode'
-[2016.07.04-08.19.12:178][623]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-18.19.12
-[2016.07.04-08.19.12:178][623]LogWorld: Bringing up level for play took: 0.001398
-[2016.07.04-08.19.12:179][623]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.358
-[2016.07.04-08.19.12:179][623]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.19.12:179][623]LogApp: UseVRFocus has changed to 0
-[2016.07.04-08.19.12:179][623]LogApp: HasVRFocus has changed to 0
-[2016.07.04-08.19.13:086][666]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
+[2016.07.04-10.38.37:308][602]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.38.38:320][690]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
 	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
 	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:0083
-[2016.07.04-08.19.13:086][666]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
-[2016.07.04-08.19.13:086][666]LogScript:Warning: Attempted to assign to None
+[2016.07.04-10.38.38:320][690]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.38.38:320][690]LogScript:Warning: Attempted to assign to None
 	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
 	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:0098
-[2016.07.04-08.19.13:086][666]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
-[2016.07.04-08.19.13:086][666]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
+[2016.07.04-10.38.38:320][690]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.38.38:320][690]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
 	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
 	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:00B6
-[2016.07.04-08.19.13:086][666]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
-[2016.07.04-08.19.13:086][666]LogScript:Warning: Attempted to assign to None
+[2016.07.04-10.38.38:320][690]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.38.38:320][690]LogScript:Warning: Attempted to assign to None
 	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
 	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:00CB
-[2016.07.04-08.19.13:086][666]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
-[2016.07.04-08.19.13:086][666]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:107][667]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:128][668]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:149][669]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:170][670]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:191][671]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:212][672]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:234][673]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:257][674]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:277][675]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:299][676]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:320][677]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:341][678]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:362][679]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:384][680]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:405][681]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:427][682]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:448][683]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:469][684]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:491][685]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:512][686]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:533][687]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:555][688]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:575][689]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:961][707]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.13:982][708]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:003][709]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:025][710]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:046][711]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:069][712]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:090][713]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:112][714]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:133][715]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:154][716]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:175][717]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:197][718]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:218][719]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:239][720]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:261][721]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:282][722]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:303][723]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:325][724]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:347][725]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:368][726]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:389][727]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:410][728]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:431][729]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:452][730]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:474][731]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:496][732]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:517][733]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:539][734]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:560][735]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:581][736]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:603][737]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:624][738]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:645][739]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:667][740]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:688][741]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:709][742]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:731][743]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:752][744]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:773][745]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:795][746]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:816][747]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:839][748]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:861][749]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:882][750]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:904][751]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:925][752]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:946][753]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:967][754]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.14:989][755]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:010][756]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:032][757]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:054][758]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:075][759]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:097][760]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:118][761]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:140][762]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:161][763]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:183][764]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:204][765]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:225][766]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:247][767]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:269][768]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:290][769]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:311][770]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:333][771]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:354][772]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:376][773]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:397][774]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:419][775]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:440][776]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:462][777]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:483][778]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:504][779]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:526][780]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:548][781]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:569][782]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:590][783]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:612][784]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:633][785]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:655][786]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:676][787]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:698][788]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:719][789]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:740][790]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:765][791]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:775][792]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:784][793]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:793][794]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:801][795]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:809][796]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:818][797]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:826][798]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:834][799]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:843][800]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:851][801]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:859][802]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:867][803]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:875][804]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:884][805]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:892][806]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:901][807]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:909][808]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:917][809]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:925][810]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:934][811]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:942][812]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:950][813]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:959][814]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:967][815]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:976][816]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:984][817]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.15:992][818]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:001][819]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:009][820]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:017][821]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:026][822]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:034][823]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:042][824]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:051][825]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:059][826]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:067][827]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:075][828]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:084][829]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:092][830]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:101][831]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:109][832]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:117][833]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:125][834]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:134][835]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:142][836]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:151][837]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:159][838]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:168][839]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:176][840]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:184][841]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:192][842]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:201][843]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:209][844]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:217][845]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:226][846]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:234][847]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:242][848]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:251][849]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:259][850]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:267][851]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:275][852]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:284][853]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:292][854]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:300][855]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:309][856]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:317][857]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:325][858]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:334][859]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:343][860]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:351][861]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:359][862]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:368][863]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:376][864]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:384][865]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:392][866]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:401][867]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:409][868]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:417][869]PIE:Warning: Warning Mobility of Shield_287 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
-[2016.07.04-08.19.16:793][914]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.19.16:793][914]LogHMD: Destroying ovr session
-[2016.07.04-08.19.16:830][914]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.19.26:342][263]LogSavePackage: Save=65.85ms
-[2016.07.04-08.19.26:342][263]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevel3768F94C461C45E64419208F74313FD5.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap'
-[2016.07.04-08.19.26:344][263]LogSavePackage: Total save time: 73.95ms
-[2016.07.04-08.19.26:344][263]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap
-[2016.07.04-08.19.28:654][443]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.19.28:654][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.07.04-08.19.28:655][443]OCULUS: Debug: [HMDState] Using default profile default
-[2016.07.04-08.19.28:655][443]OCULUS: Info: IAD changed to 64.0mm
-[2016.07.04-08.19.28:655][443]LogHMD: New ovr session is created
-[2016.07.04-08.19.28:662][443]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
-[2016.07.04-08.19.28:662][443]LogApp: UseVRFocus has changed to 1
-[2016.07.04-08.19.28:662][443]LogApp: HasVRFocus has changed to 1
-[2016.07.04-08.19.28:662][443]PIE: New page: PIE session: FirstLevel (5 Jul 2016 4:19:28 am)
-[2016.07.04-08.19.28:662][443]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
-[2016.07.04-08.19.28:665][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002566s)
-[2016.07.04-08.19.28:665][443]LogAIModule: Creating AISystem for world FirstLevel
-[2016.07.04-08.19.28:666][443]LogPlayLevel: PIE: World Init took: (0.000608s)
-[2016.07.04-08.19.28:666][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003306s)
-[2016.07.04-08.19.28:686][443]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.07.04-08.19.28:691][443]LogInit: FAudioDevice initialized.
-[2016.07.04-08.19.28:720][443]LogWorld: Game class is 'GameMode'
-[2016.07.04-08.19.28:722][443]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-18.19.28
-[2016.07.04-08.19.28:722][443]LogWorld: Bringing up level for play took: 0.001431
-[2016.07.04-08.19.28:723][443]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.901
-[2016.07.04-08.19.28:723][443]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.19.28:723][443]LogApp: UseVRFocus has changed to 0
-[2016.07.04-08.19.28:723][443]LogApp: HasVRFocus has changed to 0
-[2016.07.04-08.19.32:201][860]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.19.32:201][860]LogHMD: Destroying ovr session
-[2016.07.04-08.19.32:236][860]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.20.27:955][321]BlueprintLog: New page: Compile Shield
-[2016.07.04-08.20.28:021][321]BlueprintEditorCompileResults: Info [0331.08] Compile of Shield successful! [in 66 ms]
-[2016.07.04-08.20.28:537][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shield" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset" SILENT=true
-[2016.07.04-08.20.28:591][353]LogSavePackage: Save=49.87ms
-[2016.07.04-08.20.28:591][353]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/ShieldBB621964453D0F4FFC9D459B45992816.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset'
-[2016.07.04-08.20.28:592][353]LogSavePackage: Total save time: 54.44ms
-[2016.07.04-08.20.28:592][353]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset
-[2016.07.04-08.20.29:487][412]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.20.29:487][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.07.04-08.20.29:487][412]OCULUS: Debug: [HMDState] Using default profile default
-[2016.07.04-08.20.29:487][412]OCULUS: Info: IAD changed to 64.0mm
-[2016.07.04-08.20.29:487][412]LogHMD: New ovr session is created
-[2016.07.04-08.20.29:487][412]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
-[2016.07.04-08.20.29:487][412]LogApp: UseVRFocus has changed to 1
-[2016.07.04-08.20.29:487][412]LogApp: HasVRFocus has changed to 1
-[2016.07.04-08.20.29:487][412]PIE: New page: PIE session: FirstLevel (5 Jul 2016 4:20:29 am)
-[2016.07.04-08.20.29:488][412]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
-[2016.07.04-08.20.29:491][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003208s)
-[2016.07.04-08.20.29:491][412]LogAIModule: Creating AISystem for world FirstLevel
-[2016.07.04-08.20.29:491][412]LogPlayLevel: PIE: World Init took: (0.000507s)
-[2016.07.04-08.20.29:491][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003883s)
-[2016.07.04-08.20.29:511][412]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.07.04-08.20.29:516][412]LogInit: FAudioDevice initialized.
-[2016.07.04-08.20.29:547][412]LogWorld: Game class is 'GameMode'
-[2016.07.04-08.20.29:549][412]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-18.20.29
-[2016.07.04-08.20.29:549][412]LogWorld: Bringing up level for play took: 0.001434
-[2016.07.04-08.20.29:555][412]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.267
-[2016.07.04-08.20.29:555][412]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.20.29:555][412]LogApp: UseVRFocus has changed to 0
-[2016.07.04-08.20.29:555][412]LogApp: HasVRFocus has changed to 0
-[2016.07.04-08.20.30:488][455]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
+[2016.07.04-10.38.38:320][690]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.38.38:678][733]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.38.38:678][733]LogHMD: Destroying ovr session
+[2016.07.04-10.38.38:816][733]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.38.42:285][877]Cmd: TRANSACTION UNDO
+[2016.07.04-10.38.42:285][877]LogEditorTransaction: Undo Edit Default Brightness
+[2016.07.04-10.38.46:838][  5]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.38.46:839][  5]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-10.38.46:840][  5]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-10.38.46:840][  5]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-10.38.46:840][  5]LogHMD: New ovr session is created
+[2016.07.04-10.38.46:859][  5]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-10.38.46:859][  5]LogApp: UseVRFocus has changed to 1
+[2016.07.04-10.38.46:859][  5]LogApp: HasVRFocus has changed to 1
+[2016.07.04-10.38.46:859][  5]PIE: New page: PIE session: FirstLevel (5 Jul 2016 6:38:46 am)
+[2016.07.04-10.38.46:859][  5]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-10.38.46:862][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002648s)
+[2016.07.04-10.38.46:862][  5]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-10.38.46:862][  5]LogPlayLevel: PIE: World Init took: (0.000508s)
+[2016.07.04-10.38.46:862][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003288s)
+[2016.07.04-10.38.46:878][  5]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-10.38.46:883][  5]LogInit: FAudioDevice initialized.
+[2016.07.04-10.38.46:910][  5]LogWorld: Game class is 'GameMode'
+[2016.07.04-10.38.46:912][  5]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-20.38.46
+[2016.07.04-10.38.46:912][  5]LogWorld: Bringing up level for play took: 0.001367
+[2016.07.04-10.38.46:913][  5]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.908
+[2016.07.04-10.38.46:913][  5]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.38.46:913][  5]LogApp: UseVRFocus has changed to 0
+[2016.07.04-10.38.46:913][  5]LogApp: HasVRFocus has changed to 0
+[2016.07.04-10.38.47:825][ 48]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
 	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
 	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:0083
-[2016.07.04-08.20.30:489][455]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
-[2016.07.04-08.20.30:489][455]LogScript:Warning: Attempted to assign to None
+[2016.07.04-10.38.47:825][ 48]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.38.47:825][ 48]LogScript:Warning: Attempted to assign to None
 	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
 	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:0098
-[2016.07.04-08.20.30:489][455]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
-[2016.07.04-08.20.30:489][455]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
+[2016.07.04-10.38.47:825][ 48]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.38.47:825][ 48]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
 	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
 	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:00B6
-[2016.07.04-08.20.30:489][455]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
-[2016.07.04-08.20.30:489][455]LogScript:Warning: Attempted to assign to None
+[2016.07.04-10.38.47:825][ 48]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.38.47:825][ 48]LogScript:Warning: Attempted to assign to None
 	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
 	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:00CB
-[2016.07.04-08.20.30:489][455]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
-[2016.07.04-08.21.03:361][972]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.21.03:382][972]LogHMD: Destroying ovr session
-[2016.07.04-08.21.03:435][972]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.04-08.22.03:363][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shield" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset" SILENT=true
-[2016.07.04-08.22.03:411][422]LogSavePackage: Save=44.09ms
-[2016.07.04-08.22.03:411][422]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/Shield6975FA86424941A5FD6386B6E35EEAE5.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset'
-[2016.07.04-08.22.03:412][422]LogSavePackage: Total save time: 47.93ms
-[2016.07.04-08.22.03:412][422]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset
-[2016.07.04-08.22.15:333][524]LogSavePackage: Save=64.02ms
-[2016.07.04-08.22.15:333][524]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevel84F5198A4DB4B4F22005D09E1160568A.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap'
-[2016.07.04-08.22.15:335][524]LogSavePackage: Total save time: 68.55ms
-[2016.07.04-08.22.15:335][524]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap
-[2016.07.04-08.22.15:359][524]LogFileHelpers: Saving map 'FirstLevel' took 0.132
-[2016.07.04-08.22.15:520][524]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.07.04-08.22.15:796][525]Cmd: QUIT_EDITOR
-[2016.07.04-08.22.16:621][525]LogExit: Preparing to exit.
-[2016.07.04-08.22.17:099][525]LogExit: Editor shut down
-[2016.07.04-08.22.17:099][525]LogExit: Transaction tracking system shut down
-[2016.07.04-08.22.17:216][525]LogObj: Freed 0b from 0 cluster array pools.
-[2016.07.04-08.22.17:216][525]LogExit: Object subsystem successfully closed.
-[2016.07.04-08.22.17:221][525]LogD3D11RHI: Shutdown
-[2016.07.04-08.22.17:221][525]LogD3D11RHI: CleanupD3DDevice
-[2016.07.04-08.22.17:273][525]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.07.04-08.22.17:295][525]LogDerivedDataCache: Shutdown
-[2016.07.04-08.22.17:306][525]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (209)
-[2016.07.04-08.22.17:317][525]LogModuleManager: Shutting down and abandoning module BlueprintGraph (208)
-[2016.07.04-08.22.17:317][525]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (207)
-[2016.07.04-08.22.17:317][525]LogModuleManager: Shutting down and abandoning module CrashTracker (206)
-[2016.07.04-08.22.17:317][525]LogModuleManager: Shutting down and abandoning module SceneOutliner (205)
-[2016.07.04-08.22.17:326][525]LogModuleManager: Shutting down and abandoning module SuperSearch (204)
-[2016.07.04-08.22.17:326][525]LogModuleManager: Shutting down and abandoning module WidgetCarousel (203)
-[2016.07.04-08.22.17:326][525]LogModuleManager: Shutting down and abandoning module AddContentDialog (202)
-[2016.07.04-08.22.17:341][525]LogModuleManager: Shutting down and abandoning module GameplayTags (201)
-[2016.07.04-08.22.17:341][525]LogModuleManager: Shutting down and abandoning module EditorWidgets (200)
-[2016.07.04-08.22.17:341][525]LogModuleManager: Shutting down and abandoning module CollectionManager (199)
-[2016.07.04-08.22.17:342][525]LogModuleManager: Shutting down and abandoning module StatsViewer (198)
-[2016.07.04-08.22.17:342][525]LogModuleManager: Shutting down and abandoning module FoliageEdit (197)
-[2016.07.04-08.22.17:342][525]LogModuleManager: Shutting down and abandoning module LandscapeEditor (196)
-[2016.07.04-08.22.17:342][525]LogModuleManager: Shutting down and abandoning module ActorPickerMode (195)
-[2016.07.04-08.22.17:342][525]LogModuleManager: Shutting down and abandoning module GeometryMode (194)
-[2016.07.04-08.22.17:342][525]LogModuleManager: Shutting down and abandoning module TextureAlignMode (193)
-[2016.07.04-08.22.17:342][525]LogModuleManager: Shutting down and abandoning module BspMode (192)
-[2016.07.04-08.22.17:342][525]LogModuleManager: Shutting down and abandoning module PlacementMode (191)
-[2016.07.04-08.22.17:342][525]LogModuleManager: Shutting down and abandoning module AutomationWorker (190)
-[2016.07.04-08.22.17:342][525]LogModuleManager: Shutting down and abandoning module CharacterAI (189)
-[2016.07.04-08.22.17:342][525]LogModuleManager: Shutting down and abandoning module SmartSnapping (188)
-[2016.07.04-08.22.17:342][525]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
-[2016.07.04-08.22.17:342][525]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
-[2016.07.04-08.22.17:342][525]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
-[2016.07.04-08.22.17:342][525]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
-[2016.07.04-08.22.17:342][525]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
-[2016.07.04-08.22.17:342][525]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
-[2016.07.04-08.22.17:342][525]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
-[2016.07.04-08.22.17:342][525]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module MergeActors (176)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module SizeMap (175)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module TreeMap (174)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module XmlParser (166)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module Blutility (165)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
-[2016.07.04-08.22.17:516][525]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module AutomationController (154)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module Layers (152)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module Persona (148)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module Kismet (147)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module Toolbox (144)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module OutputLog (141)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module GammaUI (140)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module Documentation (139)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module Analytics (136)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module PortalServices (135)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module AITestSuite (132)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module GameplayDebugger (131)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module AIModule (130)
-[2016.07.04-08.22.17:557][525]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
-[2016.07.04-08.22.17:724][525]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
-[2016.07.04-08.22.17:724][525]LogModuleManager: Shutting down and abandoning module SubstanceEditor (127)
-[2016.07.04-08.22.17:724][525]LogModuleManager: Shutting down and abandoning module SlateRemote (126)
-[2016.07.04-08.22.17:724][525]LogModuleManager: Shutting down and abandoning module SteamVRController (125)
-[2016.07.04-08.22.17:724][525]LogModuleManager: Shutting down and abandoning module SteamVR (124)
-[2016.07.04-08.22.17:725][525]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (123)
-[2016.07.04-08.22.17:725][525]LogModuleManager: Shutting down and abandoning module OculusLibrary (122)
-[2016.07.04-08.22.17:725][525]LogModuleManager: Shutting down and abandoning module OculusInput (121)
-[2016.07.04-08.22.17:725][525]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (120)
-[2016.07.04-08.22.17:725][525]LogModuleManager: Shutting down and abandoning module CableComponent (119)
-[2016.07.04-08.22.17:725][525]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (118)
-[2016.07.04-08.22.17:725][525]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (117)
-[2016.07.04-08.22.17:725][525]LogModuleManager: Shutting down and abandoning module HTML5Networking (116)
-[2016.07.04-08.22.17:725][525]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
-[2016.07.04-08.22.17:725][525]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
-[2016.07.04-08.22.17:725][525]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
-[2016.07.04-08.22.17:735][525]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
-[2016.07.04-08.22.17:735][525]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
-[2016.07.04-08.22.17:735][525]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
-[2016.07.04-08.22.17:735][525]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
-[2016.07.04-08.22.17:735][525]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
-[2016.07.04-08.22.17:735][525]LogModuleManager: Shutting down and abandoning module SourceControl (107)
-[2016.07.04-08.22.17:735][525]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
-[2016.07.04-08.22.17:735][525]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
-[2016.07.04-08.22.17:735][525]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
-[2016.07.04-08.22.17:735][525]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
-[2016.07.04-08.22.17:735][525]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
-[2016.07.04-08.22.17:735][525]LogModuleManager: Shutting down and abandoning module HotReload (101)
-[2016.07.04-08.22.17:736][525]LogModuleManager: Shutting down and abandoning module MainFrame (100)
-[2016.07.04-08.22.17:736][525]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
-[2016.07.04-08.22.17:736][525]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (98)
-[2016.07.04-08.22.17:737][525]LogModuleManager: Shutting down and abandoning module AssetRegistry (97)
-[2016.07.04-08.22.17:830][525]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
-[2016.07.04-08.22.17:831][525]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
-[2016.07.04-08.22.17:831][525]LogModuleManager: Shutting down and abandoning module Project_PlanetDef (94)
-[2016.07.04-08.22.17:831][525]LogModuleManager: Shutting down and abandoning module UdpMessaging (93)
-[2016.07.04-08.22.17:931][525]LogModuleManager: Shutting down and abandoning module SubstanceCore (92)
-[2016.07.04-08.22.17:931][525]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
-[2016.07.04-08.22.17:931][525]LogModuleManager: Shutting down and abandoning module Paper2D (90)
-[2016.07.04-08.22.17:931][525]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
-[2016.07.04-08.22.17:931][525]LogModuleManager: Shutting down and abandoning module Media (88)
-[2016.07.04-08.22.17:931][525]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
-[2016.07.04-08.22.17:931][525]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
-[2016.07.04-08.22.17:931][525]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
-[2016.07.04-08.22.17:931][525]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
-[2016.07.04-08.22.17:931][525]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
-[2016.07.04-08.22.17:931][525]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
-[2016.07.04-08.22.17:931][525]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
-[2016.07.04-08.22.17:931][525]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
-[2016.07.04-08.22.17:931][525]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
-[2016.07.04-08.22.17:931][525]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
-[2016.07.04-08.22.17:931][525]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
-[2016.07.04-08.22.17:931][525]LogModuleManager: Shutting down and abandoning module MessageLog (76)
-[2016.07.04-08.22.17:931][525]LogModuleManager: Shutting down and abandoning module Sequencer (75)
-[2016.07.04-08.22.17:931][525]LogModuleManager: Shutting down and abandoning module AssetTools (74)
-[2016.07.04-08.22.17:931][525]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
-[2016.07.04-08.22.17:931][525]LogModuleManager: Shutting down and abandoning module UMG (72)
-[2016.07.04-08.22.17:931][525]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
-[2016.07.04-08.22.17:932][525]LogModuleManager: Shutting down and abandoning module Slate (70)
-[2016.07.04-08.22.17:932][525]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module SessionServices (68)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module Networking (63)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module Core (62)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module CookingStats (58)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
-[2016.07.04-08.22.17:933][525]LogDerivedDataCache: Shutdown
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2016.07.04-08.22.17:933][525]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2016.07.04-08.22.18:934][525]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2016.07.04-08.22.18:934][525]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2016.07.04-08.22.18:935][525]LogHMD: Oculus shutdown.
-[2016.07.04-08.22.18:935][525]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.07.04-08.22.18:935][525]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.07.04-08.22.18:935][525]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.07.04-08.22.18:935][525]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.07.04-08.22.18:935][525]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.07.04-08.22.18:938][525]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.07.04-08.22.18:938][525]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.07.04-08.22.18:938][525]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.07.04-08.22.18:938][525]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.07.04-08.22.18:938][525]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.07.04-08.22.18:938][525]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.07.04-08.22.18:938][525]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.07.04-08.22.18:938][525]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.07.04-08.22.18:938][525]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.07.04-08.22.18:938][525]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.07.04-08.22.18:939][525]LogExit: Exiting.
-[2016.07.04-08.22.18:960][525]Log file closed, 07/04/16 18:22:18
+[2016.07.04-10.38.47:825][ 48]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.04-10.38.56:886][ 59]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.38.56:886][ 59]LogHMD: Destroying ovr session
+[2016.07.04-10.38.56:919][ 59]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.39.04:412][382]LogEditorViewport: Clicking on Actor (LMB): RightTurret_C (RightTurret)
+[2016.07.04-10.39.06:273][464]LogEditorViewport: Clicking on Actor (LMB): LeftTurret_C (LeftTurret)
+[2016.07.04-10.39.09:163][760]LogEditorViewport: Clicking on Actor (LMB): RightTurret_C (RightTurret)
+[2016.07.04-10.39.15:531][509]LogEditorViewport: Clicking on Actor (LMB): LeftTurret_C (LeftTurret)
+[2016.07.04-10.39.24:851][583]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.39.24:851][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-10.39.24:852][583]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-10.39.24:852][583]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-10.39.24:852][583]LogHMD: New ovr session is created
+[2016.07.04-10.39.24:859][583]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-10.39.24:859][583]LogApp: UseVRFocus has changed to 1
+[2016.07.04-10.39.24:859][583]LogApp: HasVRFocus has changed to 1
+[2016.07.04-10.39.24:859][583]PIE: New page: PIE session: FirstLevel (5 Jul 2016 6:39:24 am)
+[2016.07.04-10.39.24:859][583]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-10.39.24:862][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002597s)
+[2016.07.04-10.39.24:862][583]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-10.39.24:862][583]LogPlayLevel: PIE: World Init took: (0.000508s)
+[2016.07.04-10.39.24:862][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003235s)
+[2016.07.04-10.39.24:877][583]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-10.39.24:882][583]LogInit: FAudioDevice initialized.
+[2016.07.04-10.39.24:909][583]LogWorld: Game class is 'GameMode'
+[2016.07.04-10.39.24:910][583]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-20.39.24
+[2016.07.04-10.39.24:911][583]LogWorld: Bringing up level for play took: 0.001394
+[2016.07.04-10.39.24:912][583]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.91
+[2016.07.04-10.39.24:912][583]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.39.24:912][583]LogApp: UseVRFocus has changed to 0
+[2016.07.04-10.39.24:912][583]LogApp: HasVRFocus has changed to 0
+[2016.07.04-10.39.50:774][686]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.39.50:774][686]LogHMD: Destroying ovr session
+[2016.07.04-10.39.50:808][686]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.40.04:316][297]LogEditorViewport: Clicking on Actor (LMB): RightTurret_C (RightTurret)
+[2016.07.04-10.40.11:747][949]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 108 classes and 0 folders.
+[2016.07.04-10.40.28:427][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CallFunction_2453 or K2Node_CallFunction /Game/RightTurret.RightTurret:EventGraph.K2Node_CallFunction_2453
+[2016.07.04-10.40.28:427][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CallFunction_2453 or K2Node_CallFunction /Game/Shield.Shield:EventGraph.K2Node_CallFunction_2453
+[2016.07.04-10.40.28:427][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CallFunction_2453 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2453
+[2016.07.04-10.40.28:427][382]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CallFunction_2453.EdGraphPin_4500) from referencer (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_CallFunction_2433.EdGraphPin_4488).  Import failed...
+[2016.07.04-10.40.28:427][382]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2453.EdGraphPin_4500''
+[2016.07.04-10.40.28:428][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/LeftTurret.LeftTurret:EventGraph.K2Node_Event_278 or K2Node_Event /Game/RightTurret.RightTurret:EventGraph.K2Node_Event_278
+[2016.07.04-10.40.28:428][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/LeftTurret.LeftTurret:EventGraph.K2Node_Event_278 or K2Node_Event /Game/Shield.Shield:EventGraph.K2Node_Event_278
+[2016.07.04-10.40.28:428][382]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/LeftTurret.LeftTurret:EventGraph.K2Node_Event_278.EdGraphPin_4510) from referencer (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_CallFunction_2453.EdGraphPin_4497).  Import failed...
+[2016.07.04-10.40.28:428][382]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Event_278.EdGraphPin_4510''
+[2016.07.04-10.40.28:428][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ExecutionSequence /Game/LeftTurret.LeftTurret:EventGraph.K2Node_ExecutionSequence_10 or K2Node_ExecutionSequence /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureFunctionLibrary.RenderToTextureFunctionLibrary:EdGraph_136.K2Node_ExecutionSequence_10
+[2016.07.04-10.40.28:428][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ExecutionSequence /Game/LeftTurret.LeftTurret:EventGraph.K2Node_ExecutionSequence_10 or K2Node_ExecutionSequence /Game/Shield.Shield:EventGraph.K2Node_ExecutionSequence_10
+[2016.07.04-10.40.28:428][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ExecutionSequence /Game/LeftTurret.LeftTurret:EventGraph.K2Node_ExecutionSequence_10 or K2Node_ExecutionSequence /Game/RightTurret.RightTurret:EventGraph.K2Node_ExecutionSequence_10
+[2016.07.04-10.40.28:428][382]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/LeftTurret.LeftTurret:EventGraph.K2Node_ExecutionSequence_10.EdGraphPin_4346) from referencer (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_Event_1.EdGraphPin_4516).  Import failed...
+[2016.07.04-10.40.28:428][382]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ExecutionSequence_10.EdGraphPin_4346''
+[2016.07.04-10.40.28:428][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/LeftTurret.LeftTurret:EventGraph.K2Node_IfThenElse_60 or K2Node_IfThenElse /Game/RightTurret.RightTurret:EventGraph.K2Node_IfThenElse_60
+[2016.07.04-10.40.28:428][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/LeftTurret.LeftTurret:EventGraph.K2Node_IfThenElse_60 or K2Node_IfThenElse /Game/Shield.Shield:EventGraph.K2Node_IfThenElse_60
+[2016.07.04-10.40.28:428][382]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/LeftTurret.LeftTurret:EventGraph.K2Node_IfThenElse_60.EdGraphPin_4142) from referencer (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_IfThenElse_11.EdGraphPin_4094).  Import failed...
+[2016.07.04-10.40.28:428][382]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_60.EdGraphPin_4142''
+[2016.07.04-10.40.28:428][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/LeftTurret.LeftTurret:EventGraph.K2Node_VariableGet_1360 or K2Node_VariableGet /Game/RightTurret.RightTurret:EventGraph.K2Node_VariableGet_1360
+[2016.07.04-10.40.28:428][382]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/LeftTurret.LeftTurret:EventGraph.K2Node_VariableGet_1360.EdGraphPin_4178) from referencer (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_IfThenElse_11.EdGraphPin_4095).  Import failed...
+[2016.07.04-10.40.28:428][382]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1360.EdGraphPin_4178''
+[2016.07.04-10.40.28:428][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CallFunction_2773 or K2Node_CallFunction /Game/RightTurret.RightTurret:EventGraph.K2Node_CallFunction_2773
+[2016.07.04-10.40.28:428][382]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CallFunction_2773.EdGraphPin_4524) from referencer (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_IfThenElse_11.EdGraphPin_4096).  Import failed...
+[2016.07.04-10.40.28:428][382]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2773.EdGraphPin_4524''
+[2016.07.04-10.40.28:429][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ExecutionSequence /Game/LeftTurret.LeftTurret:EventGraph.K2Node_ExecutionSequence_10 or K2Node_ExecutionSequence /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureFunctionLibrary.RenderToTextureFunctionLibrary:EdGraph_136.K2Node_ExecutionSequence_10
+[2016.07.04-10.40.28:429][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ExecutionSequence /Game/LeftTurret.LeftTurret:EventGraph.K2Node_ExecutionSequence_10 or K2Node_ExecutionSequence /Game/Shield.Shield:EventGraph.K2Node_ExecutionSequence_10
+[2016.07.04-10.40.28:429][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ExecutionSequence /Game/LeftTurret.LeftTurret:EventGraph.K2Node_ExecutionSequence_10 or K2Node_ExecutionSequence /Game/RightTurret.RightTurret:EventGraph.K2Node_ExecutionSequence_10
+[2016.07.04-10.40.28:429][382]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/LeftTurret.LeftTurret:EventGraph.K2Node_ExecutionSequence_10.EdGraphPin_4347) from referencer (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_IfThenElse_60.EdGraphPin_4139).  Import failed...
+[2016.07.04-10.40.28:429][382]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ExecutionSequence_10.EdGraphPin_4347''
+[2016.07.04-10.40.28:429][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/LeftTurret.LeftTurret:EventGraph.K2Node_VariableGet_1333 or K2Node_VariableGet /Game/RightTurret.RightTurret:EventGraph.K2Node_VariableGet_1333
+[2016.07.04-10.40.28:429][382]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/LeftTurret.LeftTurret:EventGraph.K2Node_VariableGet_1333.EdGraphPin_4172) from referencer (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_IfThenElse_60.EdGraphPin_4140).  Import failed...
+[2016.07.04-10.40.28:429][382]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1333.EdGraphPin_4172''
+[2016.07.04-10.40.28:429][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CallFunction_2474 or K2Node_CallFunction /Game/RightTurret.RightTurret:EventGraph.K2Node_CallFunction_2474
+[2016.07.04-10.40.28:429][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CallFunction_2474 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2474
+[2016.07.04-10.40.28:429][382]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CallFunction_2474.EdGraphPin_4545) from referencer (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_IfThenElse_60.EdGraphPin_4141).  Import failed...
+[2016.07.04-10.40.28:429][382]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2474.EdGraphPin_4545''
+[2016.07.04-10.40.28:429][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputKey /Game/LeftTurret.LeftTurret:EventGraph.K2Node_InputKey_235 or K2Node_InputKey /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_InputKey_235
+[2016.07.04-10.40.28:430][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputKey /Game/LeftTurret.LeftTurret:EventGraph.K2Node_InputKey_235 or K2Node_InputKey /Game/RightTurret.RightTurret:EventGraph.K2Node_InputKey_235
+[2016.07.04-10.40.28:430][382]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/LeftTurret.LeftTurret:EventGraph.K2Node_InputKey_235.EdGraphPin_4253) from referencer (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_VariableSet_987.EdGraphPin_4184).  Import failed...
+[2016.07.04-10.40.28:430][382]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputKey_235.EdGraphPin_4253''
+[2016.07.04-10.40.28:430][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputKey /Game/LeftTurret.LeftTurret:EventGraph.K2Node_InputKey_235 or K2Node_InputKey /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_InputKey_235
+[2016.07.04-10.40.28:430][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputKey /Game/LeftTurret.LeftTurret:EventGraph.K2Node_InputKey_235 or K2Node_InputKey /Game/RightTurret.RightTurret:EventGraph.K2Node_InputKey_235
+[2016.07.04-10.40.28:430][382]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/LeftTurret.LeftTurret:EventGraph.K2Node_InputKey_235.EdGraphPin_4254) from referencer (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_VariableSet_986.EdGraphPin_4199).  Import failed...
+[2016.07.04-10.40.28:430][382]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputKey_235.EdGraphPin_4254''
+[2016.07.04-10.40.28:430][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputKey /Game/LeftTurret.LeftTurret:EventGraph.K2Node_InputKey_234 or K2Node_InputKey /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_InputKey_234
+[2016.07.04-10.40.28:430][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputKey /Game/LeftTurret.LeftTurret:EventGraph.K2Node_InputKey_234 or K2Node_InputKey /Game/RightTurret.RightTurret:EventGraph.K2Node_InputKey_234
+[2016.07.04-10.40.28:430][382]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/LeftTurret.LeftTurret:EventGraph.K2Node_InputKey_234.EdGraphPin_4244) from referencer (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_VariableSet_1018.EdGraphPin_4214).  Import failed...
+[2016.07.04-10.40.28:430][382]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputKey_234.EdGraphPin_4244''
+[2016.07.04-10.40.28:430][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputKey /Game/LeftTurret.LeftTurret:EventGraph.K2Node_InputKey_234 or K2Node_InputKey /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_InputKey_234
+[2016.07.04-10.40.28:430][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputKey /Game/LeftTurret.LeftTurret:EventGraph.K2Node_InputKey_234 or K2Node_InputKey /Game/RightTurret.RightTurret:EventGraph.K2Node_InputKey_234
+[2016.07.04-10.40.28:430][382]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/LeftTurret.LeftTurret:EventGraph.K2Node_InputKey_234.EdGraphPin_4245) from referencer (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_VariableSet_1017.EdGraphPin_4229).  Import failed...
+[2016.07.04-10.40.28:430][382]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputKey_234.EdGraphPin_4245''
+[2016.07.04-10.40.28:431][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_21 or K2Node_CommutativeAssociativeBinaryOperator /Game/Meteorites/Meteorite.Meteorite:MoveTowards.K2Node_CommutativeAssociativeBinaryOperator_21
+[2016.07.04-10.40.28:431][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_21 or K2Node_CommutativeAssociativeBinaryOperator /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CommutativeAssociativeBinaryOperator_21
+[2016.07.04-10.40.28:431][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_21 or K2Node_CommutativeAssociativeBinaryOperator /Game/RightTurret.RightTurret:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_21
+[2016.07.04-10.40.28:431][382]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_21.EdGraphPin_4624) from referencer (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_CallFunction_2490.EdGraphPin_4567).  Import failed...
+[2016.07.04-10.40.28:431][382]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_21.EdGraphPin_4624''
+[2016.07.04-10.40.28:431][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputKey /Game/LeftTurret.LeftTurret:EventGraph.K2Node_InputKey_236 or K2Node_InputKey /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_InputKey_236
+[2016.07.04-10.40.28:431][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_InputKey /Game/LeftTurret.LeftTurret:EventGraph.K2Node_InputKey_236 or K2Node_InputKey /Game/RightTurret.RightTurret:EventGraph.K2Node_InputKey_236
+[2016.07.04-10.40.28:431][382]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/LeftTurret.LeftTurret:EventGraph.K2Node_InputKey_236.EdGraphPin_4355) from referencer (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_SpawnActorFromClass_2.EdGraphPin_4572).  Import failed...
+[2016.07.04-10.40.28:431][382]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputKey_236.EdGraphPin_4355''
+[2016.07.04-10.40.28:431][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CallFunction_2492 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2492
+[2016.07.04-10.40.28:431][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CallFunction_2492 or K2Node_CallFunction /Game/RightTurret.RightTurret:EventGraph.K2Node_CallFunction_2492
+[2016.07.04-10.40.28:431][382]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CallFunction_2492.EdGraphPin_4600) from referencer (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_SpawnActorFromClass_2.EdGraphPin_4575).  Import failed...
+[2016.07.04-10.40.28:431][382]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2492.EdGraphPin_4600''
+[2016.07.04-10.40.28:431][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_21 or K2Node_CommutativeAssociativeBinaryOperator /Game/Meteorites/Meteorite.Meteorite:MoveTowards.K2Node_CommutativeAssociativeBinaryOperator_21
+[2016.07.04-10.40.28:431][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_21 or K2Node_CommutativeAssociativeBinaryOperator /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CommutativeAssociativeBinaryOperator_21
+[2016.07.04-10.40.28:431][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_21 or K2Node_CommutativeAssociativeBinaryOperator /Game/RightTurret.RightTurret:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_21
+[2016.07.04-10.40.28:431][382]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_21.EdGraphPin_4626) from referencer (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_CallFunction_2492.EdGraphPin_4597).  Import failed...
+[2016.07.04-10.40.28:431][382]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_21.EdGraphPin_4626''
+[2016.07.04-10.40.28:431][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CallFunction_2535 or K2Node_CallFunction /Game/Meteorites/MeteoriteHandler.MeteoriteHandler:EventGraph.K2Node_CallFunction_2535
+[2016.07.04-10.40.28:431][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CallFunction_2535 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2535
+[2016.07.04-10.40.28:431][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CallFunction_2535 or K2Node_CallFunction /Game/RightTurret.RightTurret:EventGraph.K2Node_CallFunction_2535
+[2016.07.04-10.40.28:431][382]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CallFunction_2535.EdGraphPin_4636) from referencer (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_CallFunction_2492.EdGraphPin_4598).  Import failed...
+[2016.07.04-10.40.28:431][382]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2535.EdGraphPin_4636''
+[2016.07.04-10.40.28:432][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CallFunction_2940 or K2Node_CallFunction /Game/RightTurret.RightTurret:EventGraph.K2Node_CallFunction_2940
+[2016.07.04-10.40.28:432][382]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CallFunction_2940.EdGraphPin_4643) from referencer (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_CallFunction_2494.EdGraphPin_4612).  Import failed...
+[2016.07.04-10.40.28:432][382]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2940.EdGraphPin_4643''
+[2016.07.04-10.40.28:432][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_21 or K2Node_CommutativeAssociativeBinaryOperator /Game/Meteorites/Meteorite.Meteorite:MoveTowards.K2Node_CommutativeAssociativeBinaryOperator_21
+[2016.07.04-10.40.28:432][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_21 or K2Node_CommutativeAssociativeBinaryOperator /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CommutativeAssociativeBinaryOperator_21
+[2016.07.04-10.40.28:432][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_21 or K2Node_CommutativeAssociativeBinaryOperator /Game/RightTurret.RightTurret:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_21
+[2016.07.04-10.40.28:432][382]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_21.EdGraphPin_4625) from referencer (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_CallFunction_2494.EdGraphPin_4614).  Import failed...
+[2016.07.04-10.40.28:432][382]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_21.EdGraphPin_4625''
+[2016.07.04-10.40.28:432][382]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CallFunction_2940 or K2Node_CallFunction /Game/RightTurret.RightTurret:EventGraph.K2Node_CallFunction_2940
+[2016.07.04-10.40.28:432][382]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CallFunction_2940.EdGraphPin_4642) from referencer (EdGraphPin /Game/RightTurret.RightTurret:EventGraph.K2Node_CallFunction_2535.EdGraphPin_4636).  Import failed...
+[2016.07.04-10.40.28:432][382]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2940.EdGraphPin_4642''
+[2016.07.04-10.41.04:121][487]BlueprintLog: New page: Compile RightTurret
+[2016.07.04-10.41.04:282][487]BlueprintEditorCompileResults: Info [0240.42] Compile of RightTurret successful! [in 160 ms]
+[2016.07.04-10.41.04:941][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RightTurret" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/RightTurret.uasset" SILENT=true
+[2016.07.04-10.41.05:127][539]LogSavePackage: Save=58.13ms
+[2016.07.04-10.41.05:127][539]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/RightTurret9E26EDC24202E0FD41962996D20CE185.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/RightTurret.uasset'
+[2016.07.04-10.41.05:141][539]LogSavePackage: Total save time: 199.61ms
+[2016.07.04-10.41.05:141][539]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/RightTurret.uasset
+[2016.07.04-10.41.07:537][694]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.41.07:537][694]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-10.41.07:538][694]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-10.41.07:538][694]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-10.41.07:538][694]LogHMD: New ovr session is created
+[2016.07.04-10.41.07:542][694]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-10.41.07:542][694]LogApp: UseVRFocus has changed to 1
+[2016.07.04-10.41.07:542][694]LogApp: HasVRFocus has changed to 1
+[2016.07.04-10.41.07:542][694]PIE: New page: PIE session: FirstLevel (5 Jul 2016 6:41:07 am)
+[2016.07.04-10.41.07:542][694]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-10.41.07:544][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002599s)
+[2016.07.04-10.41.07:545][694]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-10.41.07:545][694]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2016.07.04-10.41.07:545][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003506s)
+[2016.07.04-10.41.07:566][694]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-10.41.07:572][694]LogInit: FAudioDevice initialized.
+[2016.07.04-10.41.07:601][694]LogWorld: Game class is 'GameMode'
+[2016.07.04-10.41.07:603][694]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-20.41.07
+[2016.07.04-10.41.07:603][694]LogWorld: Bringing up level for play took: 0.001373
+[2016.07.04-10.41.07:604][694]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.217
+[2016.07.04-10.41.07:604][694]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.41.07:604][694]LogApp: UseVRFocus has changed to 0
+[2016.07.04-10.41.07:604][694]LogApp: HasVRFocus has changed to 0
+[2016.07.04-10.41.13:208][366]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.41.13:208][366]LogHMD: Destroying ovr session
+[2016.07.04-10.41.13:247][366]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.41.29:828][854]BlueprintLog: New page: Compile RightTurret
+[2016.07.04-10.41.29:896][854]BlueprintEditorCompileResults: Info [0266.03] Compile of RightTurret successful! [in 68 ms]
+[2016.07.04-10.41.30:377][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RightTurret" FILE="../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/RightTurret.uasset" SILENT=true
+[2016.07.04-10.41.30:430][884]LogSavePackage: Save=48.76ms
+[2016.07.04-10.41.30:430][884]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/RightTurret32AB0D21416CF81D7BAC1B8D53E37332.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/RightTurret.uasset'
+[2016.07.04-10.41.30:431][884]LogSavePackage: Total save time: 53.49ms
+[2016.07.04-10.41.30:431][884]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/RightTurret.uasset
+[2016.07.04-10.41.31:818][975]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.41.31:818][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-10.41.31:820][975]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-10.41.31:820][975]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-10.41.31:820][975]LogHMD: New ovr session is created
+[2016.07.04-10.41.31:826][975]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-10.41.31:826][975]LogApp: UseVRFocus has changed to 1
+[2016.07.04-10.41.31:826][975]LogApp: HasVRFocus has changed to 1
+[2016.07.04-10.41.31:826][975]PIE: New page: PIE session: FirstLevel (5 Jul 2016 6:41:31 am)
+[2016.07.04-10.41.31:826][975]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-10.41.31:829][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002505s)
+[2016.07.04-10.41.31:830][975]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-10.41.31:830][975]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2016.07.04-10.41.31:830][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003229s)
+[2016.07.04-10.41.31:852][975]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-10.41.31:857][975]LogInit: FAudioDevice initialized.
+[2016.07.04-10.41.31:882][975]LogWorld: Game class is 'GameMode'
+[2016.07.04-10.41.31:884][975]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-20.41.31
+[2016.07.04-10.41.31:884][975]LogWorld: Bringing up level for play took: 0.001430
+[2016.07.04-10.41.31:885][975]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.064
+[2016.07.04-10.41.31:886][975]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.41.31:886][975]LogApp: UseVRFocus has changed to 0
+[2016.07.04-10.41.31:886][975]LogApp: HasVRFocus has changed to 0
+[2016.07.04-10.41.40:053][953]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.41.40:053][953]LogHMD: Destroying ovr session
+[2016.07.04-10.41.40:092][953]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.41.42:230][192]LogEditorViewport: Clicking on Actor (LMB): LeftTurret_C (LeftTurret)
+[2016.07.04-10.41.43:333][323]LogEditorViewport: Clicking on Actor (LMB): RightTurret_C (RightTurret)
+[2016.07.04-10.41.47:961][589]LogSavePackage: Save=75.16ms
+[2016.07.04-10.41.47:961][589]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevel375D6DC444BE953505563CB7B5B823B5.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap'
+[2016.07.04-10.41.47:963][589]LogSavePackage: Total save time: 83.59ms
+[2016.07.04-10.41.47:963][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap
+[2016.07.04-10.41.48:841][656]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.41.48:841][656]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.04-10.41.48:842][656]OCULUS: Debug: [HMDState] Using default profile default
+[2016.07.04-10.41.48:842][656]OCULUS: Info: IAD changed to 64.0mm
+[2016.07.04-10.41.48:842][656]LogHMD: New ovr session is created
+[2016.07.04-10.41.48:847][656]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.07.04-10.41.48:847][656]LogApp: UseVRFocus has changed to 1
+[2016.07.04-10.41.48:847][656]LogApp: HasVRFocus has changed to 1
+[2016.07.04-10.41.48:847][656]PIE: New page: PIE session: FirstLevel (5 Jul 2016 6:41:48 am)
+[2016.07.04-10.41.48:847][656]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.04-10.41.48:850][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002511s)
+[2016.07.04-10.41.48:850][656]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.04-10.41.48:850][656]LogPlayLevel: PIE: World Init took: (0.000526s)
+[2016.07.04-10.41.48:851][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.003225s)
+[2016.07.04-10.41.48:872][656]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.04-10.41.48:877][656]LogInit: FAudioDevice initialized.
+[2016.07.04-10.41.48:904][656]LogWorld: Game class is 'GameMode'
+[2016.07.04-10.41.48:906][656]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.04-20.41.48
+[2016.07.04-10.41.48:906][656]LogWorld: Bringing up level for play took: 0.001347
+[2016.07.04-10.41.48:907][656]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.915
+[2016.07.04-10.41.48:907][656]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.04-10.41.48:907][656]LogApp: UseV
