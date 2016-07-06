@@ -1,0 +1,1371 @@
+﻿Log file open, 07/06/16 09:19:18
+LogInit:Display: Running engine for game: Project_PlanetDef
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1147311584) SRandInit(-1147311583).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.063461
+LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.3.0
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.07.05-23.19.19:317][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.05-23.19.19:317][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.05-23.19.19:365][  0]LogInit: Computer: S-805-10-1919-W
+[2016.07.05-23.19.19:365][  0]LogInit: User: sdeflorio
+[2016.07.05-23.19.19:365][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.07.05-23.19.19:365][  0]LogInit: High frequency timer resolution =3.897294 MHz
+[2016.07.05-23.19.19:365][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.07.05-23.19.19:365][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.05-23.19.19:365][  0]LogMemory: Process Physical Memory: 316.35 MB used, 316.35 MB peak
+[2016.07.05-23.19.19:365][  0]LogMemory: Process Virtual Memory: 317.68 MB used, 317.68 MB peak
+[2016.07.05-23.19.19:365][  0]LogMemory: Physical Memory: 4973.27 MB used, 16324.61 MB total
+[2016.07.05-23.19.19:365][  0]LogMemory: Virtual Memory: 623.21 MB used, 8388608.00 MB total
+[2016.07.05-23.19.19:393][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2016.07.05-23.19.19:700][  0]LogD3D11RHI: D3D11 adapters:
+[2016.07.05-23.19.19:710][  0]LogD3D11RHI:    0. 'AMD RADEON R9 M295X' (Feature Level 11_0)
+[2016.07.05-23.19.19:710][  0]LogD3D11RHI:       4074MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2016.07.05-23.19.19:710][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.07.05-23.19.19:714][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.07.05-23.19.19:714][  0]LogD3D11RHI:     Adapter Name: AMD RADEON R9 M295X
+[2016.07.05-23.19.19:714][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.07.05-23.19.19:714][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.07.05-23.19.19:714][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.05-23.19.19:718][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.07.05-23.19.19:732][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Intermediate/Shaders/WorkingDirectory/1364/).
+[2016.07.05-23.19.19:732][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SDEFLO~1/AppData/Local/Temp/UnrealShaderWorkingDir/1B6C4C2E4F6495B10A2DBE8C0AB582DA/'.
+[2016.07.05-23.19.19:732][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.05-23.19.20:645][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.05-23.19.20:648][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.05-23.19.20:651][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.05-23.19.20:655][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.05-23.19.20:658][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.05-23.19.20:661][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.05-23.19.20:664][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.05-23.19.20:666][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.05-23.19.20:668][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.05-23.19.20:671][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.05-23.19.20:673][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.05-23.19.20:677][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.07.05-23.19.20:677][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.05-23.19.20:678][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.05-23.19.20:692][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.05-23.19.20:694][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.07.05-23.19.20:696][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.05-23.19.20:698][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.05-23.19.20:700][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.05-23.19.20:700][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.05-23.19.20:763][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.05-23.19.20:799][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/sdeflorio/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.07.05-23.19.20:799][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/sdeflorio/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.07.05-23.19.20:799][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.05-23.19.20:799][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.05-23.19.20:799][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.05-23.19.20:799][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.05-23.19.20:810][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.05-23.19.20:821][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sdeflorio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.05-23.19.20:934][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.05-23.19.20:935][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.07.05-23.19.20:951][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.07.05-23.19.21:052][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.05-23.19.21:052][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.05-23.19.21:052][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.07.05-23.19.21:262][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.07.05-23.19.21:262][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.07.05-23.19.21:262][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.07.05-23.19.21:267][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.05-23.19.21:333][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.05-23.19.21:333][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.05-23.19.21:405][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.07.05-23.19.21:405][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.07.05-23.19.21:405][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.07.05-23.19.21:405][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.07.05-23.19.21:405][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.07.05-23.19.21:405][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.07.05-23.19.21:844][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.07.05-23.19.21:850][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.07.05-23.19.21:953][  0]LogAssetRegistry: FAssetRegistry took 0.0204 seconds to start up
+[2016.07.05-23.19.22:062][  0]SourceControl: Info Source control is disabled
+[2016.07.05-23.19.22:489][  0]SourceControl: Info Source control is disabled
+[2016.07.05-23.19.22:495][  0]SourceControl: Info Source control is disabled
+[2016.07.05-23.19.22:501][  0]SourceControl: Info Source control is disabled
+[2016.07.05-23.19.22:581][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.07.05-23.19.22:643][  0]LogEngine: Initializing Engine...
+[2016.07.05-23.19.22:751][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.07.05-23.19.22:756][  0]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.05-23.19.22:771][  0]LogInit: FAudioDevice initialized.
+[2016.07.05-23.19.22:793][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/sdeflorio/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.07.05-23.19.22:795][  0]LogInit: Texture streaming: Enabled
+[2016.07.05-23.19.22:812][  0]LogInit: Transaction tracking system initialized
+[2016.07.05-23.19.22:829][  0]BlueprintLog: New page: Editor Load
+[2016.07.05-23.19.22:885][  0]LocalizationService: Info Localization service is disabled
+[2016.07.05-23.19.22:935][  0]LogConsoleResponse:Display: 
+[2016.07.05-23.19.23:046][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.07.05-23.19.23:046][  0]LogCook:Display: Mobile HDR setting 1
+[2016.07.05-23.19.23:046][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.07.05-23.19.23:079][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/' took 0.01s
+[2016.07.05-23.19.23:079][  0]SourceControl: Info Source control is disabled
+[2016.07.05-23.19.23:080][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.05-23.19.23:080][  0]LightingResults: New page: Lighting Build
+[2016.07.05-23.19.23:082][  0]MapCheck: New page: Map Check
+[2016.07.05-23.19.23:082][  0]LightingResults: New page: Lighting Build
+[2016.07.05-23.19.23:248][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.07.05-23.19.23:252][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.05-23.19.23:272][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.05-23.19.23:298][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 26.053ms to complete.
+[2016.07.05-23.19.23:298][  0]LogFileHelpers: Loading map 'Template_Default' took 0.218
+[2016.07.05-23.19.23:983][  0]LogCollectionManager: Loaded 0 collections in 0.001297 seconds
+[2016.07.05-23.19.24:020][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/Collections/' took 0.01s
+[2016.07.05-23.19.24:020][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Developers/sdeflorio/Collections/' took 0.01s
+[2016.07.05-23.19.24:020][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Collections/' took 0.01s
+[2016.07.05-23.19.24:020][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.07.05-23.19.24:026][  0]LogContentBrowser: Native class hierarchy populated in 0.0057 seconds. Added 1994 classes and 349 folders.
+[2016.07.05-23.19.24:046][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.07.05-23.19.24:047][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.07.05-23.19.24:047][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
+[2016.07.05-23.19.24:052][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.07.05-23.19.24:340][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.07.05-23.19.29:380][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.07.05-23.19.29:384][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.07.05-23.19.29:724][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.07.05-23.19.29:779][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.07.05-23.19.29:805][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.07.05-23.19.29:805][  0]LogLoad: Full Startup: 11.52 seconds (BP compile: 0.02 seconds)
+[2016.07.05-23.19.29:805][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.07.05-23.19.29:805][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.07.05-23.19.29:814][  0]LogOcInput: OculusInput pre-init called
+[2016.07.05-23.19.29:814][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.3.0
+[2016.07.05-23.19.30:480][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.07.05-23.19.31:156][  0]LogRenderer: Reallocating scene render targets to support 1616x812 (Frame:2).
+[2016.07.05-23.19.51:802][201]LogAssetRegistry: Asset discovery search completed in 29.8623 seconds
+[2016.07.05-23.19.51:802][201]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.07.05-23.19.51:802][201]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2016.07.05-23.20.08:884][957]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.05-23.20.08:909][957]Cmd: MAP LOAD FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.05-23.20.08:909][957]LightingResults: New page: Lighting Build
+[2016.07.05-23.20.08:935][957]LoadErrors: New page: Loading map: FirstLevel.umap
+[2016.07.05-23.20.08:936][957]MapCheck: New page: Map Check
+[2016.07.05-23.20.08:936][957]LightingResults: New page: Lighting Build
+[2016.07.05-23.20.08:951][957]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.05-23.20.08:971][957]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.05-23.20.08:998][957]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 27.386ms to complete.
+[2016.07.05-23.20.08:999][957]LogFileHelpers: Loading map 'FirstLevel' took 0.091
+[2016.07.05-23.20.12:329][260]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.05-23.20.12:338][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.05-23.20.12:350][260]PIE: New page: PIE session: FirstLevel (6 Jul 2016 7:20:12 pm)
+[2016.07.05-23.20.12:351][260]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.05-23.20.12:355][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004139s)
+[2016.07.05-23.20.12:357][260]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.05-23.20.12:357][260]LogPlayLevel: PIE: World Init took: (0.001906s)
+[2016.07.05-23.20.12:358][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.006930s)
+[2016.07.05-23.20.12:366][260]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.05-23.20.12:370][260]LogInit: FAudioDevice initialized.
+[2016.07.05-23.20.12:448][260]LogWorld: Game class is 'GameMode'
+[2016.07.05-23.20.12:453][260]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.06-09.20.12
+[2016.07.05-23.20.12:454][260]LogWorld: Bringing up level for play took: 0.002667
+[2016.07.05-23.20.12:486][260]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 9 classes and 0 folders.
+[2016.07.05-23.20.12:491][260]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.172
+[2016.07.05-23.20.12:491][260]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.05-23.20.13:337][347]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
+	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
+	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:0083
+[2016.07.05-23.20.13:337][347]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.05-23.20.13:337][347]LogScript:Warning: Attempted to assign to None
+	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
+	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:0098
+[2016.07.05-23.20.13:337][347]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.05-23.20.13:337][347]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
+	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
+	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:00B6
+[2016.07.05-23.20.13:337][347]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.05-23.20.13:337][347]LogScript:Warning: Attempted to assign to None
+	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
+	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:00CB
+[2016.07.05-23.20.13:337][347]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.05-23.20.24:398][626]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.05-23.20.24:463][626]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.05-23.23.31:064][602]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.05-23.23.31:065][602]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.05-23.23.31:065][602]PIE: New page: PIE session: FirstLevel (6 Jul 2016 7:23:31 pm)
+[2016.07.05-23.23.31:065][602]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.05-23.23.31:070][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004749s)
+[2016.07.05-23.23.31:070][602]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.05-23.23.31:070][602]LogPlayLevel: PIE: World Init took: (0.000544s)
+[2016.07.05-23.23.31:070][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.005480s)
+[2016.07.05-23.23.31:081][602]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.05-23.23.31:089][602]LogInit: FAudioDevice initialized.
+[2016.07.05-23.23.31:114][602]LogWorld: Game class is 'GameMode'
+[2016.07.05-23.23.31:117][602]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.06-09.23.31
+[2016.07.05-23.23.31:117][602]LogWorld: Bringing up level for play took: 0.001798
+[2016.07.05-23.23.31:119][602]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.423
+[2016.07.05-23.23.31:119][602]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.05-23.24.42:053][404]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.05-23.24.42:088][404]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.21.15:331][ 47]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.21.15:438][ 47]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.21.15:442][ 47]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.21.15:468][ 47]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.21.16:936][129]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.07.06-00.21.16:937][129]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.21.16:937][129]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.23.15:603][142]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.15:607][142]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.15:630][142]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.15:743][149]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.15:747][149]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.15:773][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.15:777][149]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.15:781][149]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.15:807][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.15:811][149]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.15:815][149]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.15:842][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.15:847][149]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.15:854][149]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.15:876][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.16:103][163]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.16:111][163]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.16:138][163]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.16:143][163]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.16:151][163]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.16:178][163]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.16:182][163]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.16:189][163]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.16:212][163]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.16:216][163]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.16:222][163]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.16:246][163]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.16:251][163]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.16:259][163]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.16:286][163]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.16:613][183]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.16:618][183]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.16:644][183]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.16:649][183]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.16:656][183]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.16:678][183]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.16:682][183]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.16:690][183]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.16:712][183]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.16:717][183]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.16:725][183]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.16:752][183]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.16:821][186]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.16:828][186]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.16:853][186]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.16:858][186]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.16:864][186]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.16:887][186]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.16:891][186]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.16:897][186]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.16:921][186]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.16:926][186]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.16:933][186]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.16:956][186]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.16:961][186]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.16:968][186]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.16:989][186]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.16:994][186]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.17:001][186]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.17:024][186]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.17:030][186]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.17:037][186]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.17:064][186]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.17:069][186]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.17:076][186]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.17:097][186]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.17:117][187]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.17:124][187]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.17:151][187]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.17:804][229]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.07.06-00.23.17:804][229]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.23.17:804][229]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.23.18:664][284]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.18:668][284]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.18:691][284]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.18:695][284]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.18:699][284]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.18:725][284]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.18:729][284]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.18:734][284]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.18:759][284]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.18:763][284]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.18:767][284]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.18:794][284]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.18:797][284]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.18:803][284]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.18:829][284]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.18:833][284]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.18:840][284]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.18:863][284]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.18:868][284]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.18:873][284]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.18:897][284]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.18:902][284]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.18:910][284]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.18:938][284]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.18:943][284]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.18:951][284]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.18:978][284]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.18:983][284]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.18:989][284]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.19:012][284]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.19:017][284]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.19:024][284]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.19:046][284]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.19:051][284]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.19:058][284]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.19:081][284]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.19:086][284]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.19:092][284]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.19:115][284]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.19:119][284]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.19:124][284]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.19:149][284]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.19:153][284]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.19:158][284]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.19:184][284]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.19:189][284]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.19:196][284]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.19:218][284]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.19:223][284]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.19:229][284]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.19:251][284]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.19:317][288]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.19:323][288]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.19:346][288]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.19:350][288]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.19:355][288]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.19:379][288]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.19:384][288]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.19:389][288]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.19:414][288]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.19:419][288]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.19:427][288]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.19:455][288]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.19:849][313]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.19:857][313]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.19:880][313]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.19:885][313]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.19:892][313]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.19:914][313]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.19:919][313]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.19:926][313]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.19:948][313]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.19:952][313]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.19:958][313]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.19:982][313]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.20:006][314]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.20:013][314]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.20:039][314]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.20:044][314]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.20:049][314]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.20:074][314]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.20:079][314]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.20:086][314]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.20:108][314]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.20:113][314]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.20:119][314]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.20:142][314]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.20:146][314]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.20:154][314]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.20:176][314]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.20:181][314]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.20:188][314]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.20:211][314]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.20:215][314]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.20:219][314]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.20:245][314]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.20:249][314]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.20:254][314]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.20:279][314]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.20:283][314]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.20:288][314]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.20:313][314]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.20:319][314]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.20:326][314]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.20:354][314]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.20:359][314]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.20:366][314]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.20:388][314]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.20:423][316]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.20:428][316]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.20:453][316]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.20:459][316]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.20:466][316]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.20:493][316]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.20:497][316]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.20:504][316]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.20:527][316]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.20:532][316]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.20:540][316]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.20:568][316]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.20:696][324]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.20:703][324]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.20:729][324]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.20:734][324]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.20:741][324]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.20:763][324]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.21:306][358]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.21:313][358]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.21:337][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.21:342][358]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.21:347][358]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.21:371][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.21:375][358]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.21:379][358]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.21:404][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.21:408][358]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.21:415][358]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.21:439][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.21:445][358]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.21:453][358]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.21:479][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.21:484][358]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.21:491][358]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.21:513][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.21:518][358]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.21:525][358]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.21:553][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.21:557][358]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.21:563][358]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.21:587][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.21:593][358]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.21:600][358]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.21:627][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.21:631][358]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.21:640][358]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.21:668][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.21:672][358]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.21:680][358]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.21:702][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.21:707][358]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.21:714][358]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.21:736][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.21:743][358]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.21:749][358]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.21:777][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.21:782][358]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.21:790][358]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.21:818][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.22:369][393]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.22:377][393]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.22:403][393]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.23:038][434]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.07.06-00.23.23:038][434]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.23.23:038][434]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.23.36:587][324]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.36:591][324]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.37:202][365]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.07.06-00.23.37:202][365]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.23.37:202][365]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.23.40:748][589]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.40:752][589]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.41:361][629]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.07.06-00.23.41:361][629]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.23.41:362][629]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.23.43:832][791]LogEditorTransaction: Undo Create Pin Link
+[2016.07.06-00.23.43:849][791]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.43:855][791]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.43:859][791]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.44:478][823]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.07.06-00.23.44:478][823]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.23.44:478][823]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.23.44:766][842]LogEditorTransaction: Undo Create Pin Link
+[2016.07.06-00.23.44:783][842]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.44:789][842]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.44:793][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.45:418][880]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.07.06-00.23.45:418][880]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.23.45:418][880]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.23.47:674][ 14]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.47:678][ 14]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.48:291][ 56]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-00.23.48:291][ 56]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.23.48:291][ 56]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.23.58:129][686]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.23.58:133][686]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.23.58:155][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.23.58:727][722]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-00.23.58:727][722]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.23.58:727][722]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.24.02:250][946]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.24.02:254][946]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.24.02:866][985]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-00.24.02:866][985]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.24.02:866][985]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.24.15:399][786]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.24.15:404][786]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.24.16:019][825]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-00.24.16:019][825]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.24.16:019][825]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.24.19:234][ 31]LogMaterialEditor: Saving and Compiling material ProjectileMat
+[2016.07.06-00.24.19:530][ 31]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.24.19:541][ 31]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.24.19:581][ 31]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.24.19:603][ 31]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.24.19:610][ 31]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.24.21:287][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectileMat" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/ProjectileMat.uasset" SILENT=true
+[2016.07.06-00.24.21:309][ 31]LogSavePackage: Save=7.38ms
+[2016.07.06-00.24.21:309][ 31]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/ProjectileMatA740E6504467CE8574FD5A835A5571C1.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/ProjectileMat.uasset'
+[2016.07.06-00.24.21:311][ 31]LogSavePackage: Total save time: 22.81ms
+[2016.07.06-00.24.21:311][ 31]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/ProjectileMat.uasset
+[2016.07.06-00.24.21:312][ 31]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2016.07.06-00.24.21:312][ 31]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.24.21:312][ 31]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.07.06-00.24.29:047][631]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.24.29:047][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-00.24.29:047][631]PIE: New page: PIE session: FirstLevel (6 Jul 2016 8:24:29 pm)
+[2016.07.06-00.24.29:047][631]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.06-00.24.29:052][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004896s)
+[2016.07.06-00.24.29:052][631]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.06-00.24.29:052][631]LogPlayLevel: PIE: World Init took: (0.000530s)
+[2016.07.06-00.24.29:053][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.005591s)
+[2016.07.06-00.24.29:063][631]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.06-00.24.29:068][631]LogInit: FAudioDevice initialized.
+[2016.07.06-00.24.29:095][631]LogWorld: Game class is 'GameMode'
+[2016.07.06-00.24.29:098][631]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.06-10.24.29
+[2016.07.06-00.24.29:098][631]LogWorld: Bringing up level for play took: 0.001836
+[2016.07.06-00.24.29:100][631]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.443
+[2016.07.06-00.24.29:100][631]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.24.30:035][734]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
+	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
+	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:0083
+[2016.07.06-00.24.30:035][734]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.06-00.24.30:035][734]LogScript:Warning: Attempted to assign to None
+	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
+	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:0098
+[2016.07.06-00.24.30:035][734]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.06-00.24.30:035][734]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
+	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
+	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:00B6
+[2016.07.06-00.24.30:035][734]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.06-00.24.30:035][734]LogScript:Warning: Attempted to assign to None
+	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
+	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:00CB
+[2016.07.06-00.24.30:035][734]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.06-00.24.36:613][431]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.24.36:646][431]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.24.56:872][694]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.24.56:876][694]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.24.57:712][794]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.07.06-00.24.57:712][794]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.24.57:712][794]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.25.07:472][960]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.25.07:476][960]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.25.08:064][ 29]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.07.06-00.25.08:064][ 29]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.25.08:064][ 29]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.25.17:604][173]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.25.17:609][173]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.25.17:634][173]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.25.18:215][241]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-00.25.18:215][241]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.25.18:215][241]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.25.24:056][942]LogEditorTransaction: Undo Create Pin Link
+[2016.07.06-00.25.24:058][942]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.25.24:068][942]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.25.24:072][942]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.25.24:096][942]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.25.24:629][977]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.07.06-00.25.24:629][977]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.25.24:629][977]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.25.26:413][188]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.25.26:417][188]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.25.26:444][188]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.25.26:999][243]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.07.06-00.25.26:999][243]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.25.26:999][243]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.25.30:364][646]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.25.30:368][646]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.25.30:392][646]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.25.30:980][716]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.07.06-00.25.30:980][716]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.25.30:980][716]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.25.32:380][884]LogEditorTransaction: Undo Create Pin Link
+[2016.07.06-00.25.32:383][884]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.25.32:389][884]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.25.32:393][884]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.25.32:420][884]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.25.32:997][931]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.07.06-00.25.32:997][931]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.25.32:997][931]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.25.34:455][106]LogMaterialEditor: Saving and Compiling material ProjectileMat
+[2016.07.06-00.25.34:750][106]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.25.34:760][106]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.25.34:795][106]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.25.34:807][106]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.25.34:815][106]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.25.36:544][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectileMat" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/ProjectileMat.uasset" SILENT=true
+[2016.07.06-00.25.36:560][106]LogSavePackage: Save=9.60ms
+[2016.07.06-00.25.36:560][106]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/ProjectileMat1CF957EE48227976CB78719A3C99BA4F.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/ProjectileMat.uasset'
+[2016.07.06-00.25.36:562][106]LogSavePackage: Total save time: 17.10ms
+[2016.07.06-00.25.36:562][106]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/ProjectileMat.uasset
+[2016.07.06-00.25.36:564][106]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2016.07.06-00.25.36:564][106]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.25.36:564][106]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.07.06-00.25.57:545][624]LogMaterialEditor: Saving and Compiling material ProjectileMat
+[2016.07.06-00.25.57:565][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectileMat" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/ProjectileMat.uasset" SILENT=true
+[2016.07.06-00.25.57:574][624]LogSavePackage: Save=1.95ms
+[2016.07.06-00.25.57:574][624]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/ProjectileMat8A4B4565403BA10EEE0F02A7263B41D8.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/ProjectileMat.uasset'
+[2016.07.06-00.25.57:575][624]LogSavePackage: Total save time: 8.91ms
+[2016.07.06-00.25.57:575][624]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/ProjectileMat.uasset
+[2016.07.06-00.25.59:554][812]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.25.59:554][812]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-00.25.59:554][812]PIE: New page: PIE session: FirstLevel (6 Jul 2016 8:25:59 pm)
+[2016.07.06-00.25.59:554][812]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.06-00.25.59:558][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004300s)
+[2016.07.06-00.25.59:559][812]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.06-00.25.59:559][812]LogPlayLevel: PIE: World Init took: (0.000483s)
+[2016.07.06-00.25.59:559][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.004936s)
+[2016.07.06-00.25.59:568][812]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.06-00.25.59:573][812]LogInit: FAudioDevice initialized.
+[2016.07.06-00.25.59:603][812]LogWorld: Game class is 'GameMode'
+[2016.07.06-00.25.59:605][812]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.06-10.25.59
+[2016.07.06-00.25.59:606][812]LogWorld: Bringing up level for play took: 0.001803
+[2016.07.06-00.25.59:607][812]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.954
+[2016.07.06-00.25.59:607][812]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.26.24:664][522]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.26.24:696][522]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.26.38:759][880]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.26.38:764][880]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.26.38:791][880]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.26.39:583][973]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.07.06-00.26.39:583][973]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.26.39:583][973]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.26.42:292][297]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.26.42:296][297]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.26.42:322][297]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.26.42:900][364]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.07.06-00.26.42:900][364]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.26.42:900][364]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.26.48:884][ 81]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.26.48:889][ 81]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.26.48:914][ 81]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.26.49:487][142]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-00.26.49:487][142]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.26.49:487][142]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.26.51:920][434]LogMaterialEditor: Saving and Compiling material ProjectileMat
+[2016.07.06-00.26.52:218][434]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.26.52:228][434]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.26.52:323][434]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.26.52:352][434]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.26.52:359][434]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.26.53:999][434]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectileMat" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/ProjectileMat.uasset" SILENT=true
+[2016.07.06-00.26.54:016][434]LogSavePackage: Save=9.76ms
+[2016.07.06-00.26.54:016][434]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/ProjectileMatD330CC6A4496025ED23B08B54ECB1FB3.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/ProjectileMat.uasset'
+[2016.07.06-00.26.54:018][434]LogSavePackage: Total save time: 17.48ms
+[2016.07.06-00.26.54:018][434]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/ProjectileMat.uasset
+[2016.07.06-00.26.54:021][434]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2016.07.06-00.26.54:021][434]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.26.54:021][434]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.07.06-00.26.56:765][714]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.26.56:765][714]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-00.26.56:765][714]PIE: New page: PIE session: FirstLevel (6 Jul 2016 8:26:56 pm)
+[2016.07.06-00.26.56:765][714]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.06-00.26.56:770][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004846s)
+[2016.07.06-00.26.56:770][714]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.06-00.26.56:771][714]LogPlayLevel: PIE: World Init took: (0.000499s)
+[2016.07.06-00.26.56:771][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.005546s)
+[2016.07.06-00.26.56:779][714]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.06-00.26.56:784][714]LogInit: FAudioDevice initialized.
+[2016.07.06-00.26.56:813][714]LogWorld: Game class is 'GameMode'
+[2016.07.06-00.26.56:815][714]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.06-10.26.56
+[2016.07.06-00.26.56:815][714]LogWorld: Bringing up level for play took: 0.001958
+[2016.07.06-00.26.56:817][714]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.166
+[2016.07.06-00.26.56:817][714]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.27.00:421][120]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.27.00:451][120]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.27.07:271][873]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.27.07:275][873]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.27.07:895][947]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-00.27.07:895][947]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.27.07:895][947]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.27.11:061][327]LogMaterialEditor: Saving and Compiling material ProjectileMat
+[2016.07.06-00.27.11:358][327]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.27.11:369][327]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.27.11:389][327]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.27.11:402][327]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.27.11:410][327]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.27.13:149][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectileMat" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/ProjectileMat.uasset" SILENT=true
+[2016.07.06-00.27.13:165][327]LogSavePackage: Save=9.28ms
+[2016.07.06-00.27.13:165][327]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/ProjectileMat054FF5B24E37EE36ACADD39C67FD5E71.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/ProjectileMat.uasset'
+[2016.07.06-00.27.13:167][327]LogSavePackage: Total save time: 16.86ms
+[2016.07.06-00.27.13:167][327]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/ProjectileMat.uasset
+[2016.07.06-00.27.13:168][327]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2016.07.06-00.27.13:168][327]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.27.13:168][327]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.07.06-00.27.15:466][563]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.27.15:466][563]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-00.27.15:466][563]PIE: New page: PIE session: FirstLevel (6 Jul 2016 8:27:15 pm)
+[2016.07.06-00.27.15:466][563]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.06-00.27.15:470][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004380s)
+[2016.07.06-00.27.15:471][563]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.06-00.27.15:471][563]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2016.07.06-00.27.15:471][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.005273s)
+[2016.07.06-00.27.15:480][563]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.06-00.27.15:485][563]LogInit: FAudioDevice initialized.
+[2016.07.06-00.27.15:514][563]LogWorld: Game class is 'GameMode'
+[2016.07.06-00.27.15:516][563]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.06-10.27.15
+[2016.07.06-00.27.15:517][563]LogWorld: Bringing up level for play took: 0.001772
+[2016.07.06-00.27.15:518][563]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.868
+[2016.07.06-00.27.15:518][563]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.27.23:173][409]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.27.23:208][409]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.27.32:444][352]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.27.32:449][352]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.27.32:472][352]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.27.33:111][423]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2016.07.06-00.27.33:111][423]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.27.33:111][423]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.27.34:611][603]LogEditorTransaction: Undo Create Pin Link
+[2016.07.06-00.27.34:613][603]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.27.34:622][603]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.27.34:626][603]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.27.34:652][603]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.27.35:198][643]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-00.27.35:198][643]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.27.35:198][643]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.27.36:741][825]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.27.36:751][825]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.27.36:778][825]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.27.37:660][929]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-00.27.37:660][929]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2016.07.06-00.27.37:660][929]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.27.38:410][ 19]LogEditorTransaction: Undo Create Pin Link
+[2016.07.06-00.27.38:413][ 19]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.27.38:419][ 19]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.27.38:423][ 19]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.27.38:460][ 19]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.27.38:996][ 62]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-00.27.38:996][ 62]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.27.38:996][ 62]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.27.41:822][397]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.27.41:827][397]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.27.41:852][397]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.27.42:476][471]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-00.27.42:476][471]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.27.42:476][471]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.27.43:576][603]LogEditorTransaction: Undo Create Pin Link
+[2016.07.06-00.27.43:579][603]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.27.43:585][603]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.27.43:589][603]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.27.43:616][603]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.27.44:180][649]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-00.27.44:180][649]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.27.44:180][649]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.27.46:746][953]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.27.46:750][953]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.27.46:797][953]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.27.47:339][ 14]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-00.27.47:339][ 14]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.27.47:339][ 14]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.27.48:106][106]LogEditorTransaction: Undo Create Pin Link
+[2016.07.06-00.27.48:109][106]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.27.48:115][106]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.27.48:119][106]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.27.48:143][106]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.27.48:733][154]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-00.27.48:733][154]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.27.48:733][154]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.27.50:025][305]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.27.50:032][305]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.27.50:057][305]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.27.51:063][419]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2016.07.06-00.27.51:063][419]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.07.06-00.27.51:063][419]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.27.51:837][512]LogEditorTransaction: Undo Create Pin Link
+[2016.07.06-00.27.51:840][512]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.27.51:845][512]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.27.51:850][512]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.27.51:876][512]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.07.06-00.27.52:432][555]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-00.27.52:433][555]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.27.52:433][555]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.28.00:395][507]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.28.00:399][507]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.28.01:004][575]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-00.28.01:004][575]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.28.01:004][575]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.28.05:196][ 77]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_3.EdGraphPin_9669''
+[2016.07.06-00.28.05:196][ 77]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'MaterialGraphNode_3.MaterialExpressionScalarParameter_3')'
+[2016.07.06-00.28.05:200][ 77]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.28.05:205][ 77]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.28.05:862][154]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-00.28.05:862][154]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.28.05:862][154]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.28.08:886][516]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.28.08:891][516]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.28.09:532][588]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-00.28.09:532][588]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.28.09:532][588]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.28.14:355][166]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.28.14:360][166]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.28.14:969][236]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2016.07.06-00.28.14:969][236]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.28.14:969][236]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.28.16:777][453]LogEditorTransaction: Undo Create Pin Link
+[2016.07.06-00.28.16:783][453]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.28.16:787][453]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.28.17:399][504]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2016.07.06-00.28.17:399][504]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.28.17:399][504]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.28.20:647][892]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.28.20:651][892]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.28.21:273][962]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2016.07.06-00.28.21:273][962]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.28.21:273][962]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.28.29:064][893]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.28.29:068][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.28.29:697][966]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2016.07.06-00.28.29:697][966]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.28.29:697][966]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.28.32:971][358]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.28.32:975][358]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.28.33:612][427]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2016.07.06-00.28.33:612][427]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.28.33:612][427]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.28.49:661][348]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.28.49:665][348]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.28.49:666][348]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2016.07.06-00.28.50:283][420]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2016.07.06-00.28.50:283][420]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.28.50:283][420]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.28.55:050][991]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.28.55:056][991]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.28.55:083][991]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2016.07.06-00.28.55:957][ 92]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2016.07.06-00.28.55:957][ 92]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2016.07.06-00.28.55:957][ 92]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.28.58:458][391]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.28.58:464][391]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.28.58:491][391]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2016.07.06-00.28.59:395][499]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2016.07.06-00.28.59:395][499]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2016.07.06-00.28.59:395][499]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.29.01:645][767]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.29.01:652][767]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.29.02:531][867]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-00.29.02:531][867]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2016.07.06-00.29.02:531][867]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.29.03:736][ 10]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.29.03:740][ 10]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.29.04:343][ 81]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-00.29.04:343][ 81]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.29.04:343][ 81]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.29.07:926][511]LogMaterialEditor: Saving and Compiling material ProjectileMat
+[2016.07.06-00.29.08:223][511]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.29.08:234][511]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.29.08:262][511]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.29.08:275][511]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.29.08:281][511]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.29.09:998][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectileMat" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/ProjectileMat.uasset" SILENT=true
+[2016.07.06-00.29.10:015][511]LogSavePackage: Save=9.45ms
+[2016.07.06-00.29.10:015][511]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/ProjectileMat5219FCE942C6D7A4D68D529A1CCD2ED8.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/ProjectileMat.uasset'
+[2016.07.06-00.29.10:016][511]LogSavePackage: Total save time: 17.59ms
+[2016.07.06-00.29.10:016][511]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/ProjectileMat.uasset
+[2016.07.06-00.29.10:020][511]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2016.07.06-00.29.10:020][511]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.29.10:020][511]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.07.06-00.29.11:989][700]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.29.11:989][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-00.29.11:989][700]PIE: New page: PIE session: FirstLevel (6 Jul 2016 8:29:11 pm)
+[2016.07.06-00.29.11:989][700]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.06-00.29.11:994][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005002s)
+[2016.07.06-00.29.11:995][700]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.06-00.29.11:995][700]LogPlayLevel: PIE: World Init took: (0.000510s)
+[2016.07.06-00.29.11:995][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.005660s)
+[2016.07.06-00.29.12:003][700]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.06-00.29.12:009][700]LogInit: FAudioDevice initialized.
+[2016.07.06-00.29.12:039][700]LogWorld: Game class is 'GameMode'
+[2016.07.06-00.29.12:041][700]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.06-10.29.12
+[2016.07.06-00.29.12:042][700]LogWorld: Bringing up level for play took: 0.001891
+[2016.07.06-00.29.12:043][700]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.603
+[2016.07.06-00.29.12:043][700]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.29.37:750][532]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.29.37:787][532]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.29.42:181][916]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.29.42:181][916]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-00.29.42:181][916]PIE: New page: PIE session: FirstLevel (6 Jul 2016 8:29:42 pm)
+[2016.07.06-00.29.42:182][916]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.06-00.29.42:186][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004467s)
+[2016.07.06-00.29.42:187][916]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.06-00.29.42:187][916]LogPlayLevel: PIE: World Init took: (0.000516s)
+[2016.07.06-00.29.42:187][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.005151s)
+[2016.07.06-00.29.42:196][916]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.06-00.29.42:202][916]LogInit: FAudioDevice initialized.
+[2016.07.06-00.29.42:229][916]LogWorld: Game class is 'GameMode'
+[2016.07.06-00.29.42:231][916]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.06-10.29.42
+[2016.07.06-00.29.42:232][916]LogWorld: Bringing up level for play took: 0.001904
+[2016.07.06-00.29.42:233][916]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.411
+[2016.07.06-00.29.42:233][916]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.29.48:121][551]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.29.48:153][551]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.29.51:280][821]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2016.07.06-00.29.53:925][ 24]LogEditorViewport: Clicking on Actor (LMB): LeftTurret_C (LeftTurret)
+[2016.07.06-00.29.59:063][290]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 108 classes and 0 folders.
+[2016.07.06-00.30.01:216][452]LogRenderer: Reallocating scene render targets to support 1616x1004 (Frame:92158).
+[2016.07.06-00.30.12:855][390]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2016.07.06-00.30.20:915][ 28]Cmd: TRANSACTION UNDO
+[2016.07.06-00.30.20:915][ 28]LogEditorTransaction: Undo Move Actors
+[2016.07.06-00.30.20:934][ 28]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-00.30.20:938][ 28]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-00.30.21:780][ 87]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-00.30.21:780][ 87]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-00.30.21:780][ 87]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-00.30.23:496][222]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2016.07.06-00.30.29:431][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2016.07.06-00.30.32:945][993]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.30.32:945][993]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-00.30.32:945][993]PIE: New page: PIE session: FirstLevel (6 Jul 2016 8:30:32 pm)
+[2016.07.06-00.30.32:945][993]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.06-00.30.32:949][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004340s)
+[2016.07.06-00.30.32:950][993]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.06-00.30.32:950][993]LogPlayLevel: PIE: World Init took: (0.000560s)
+[2016.07.06-00.30.32:950][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.005054s)
+[2016.07.06-00.30.32:975][993]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.06-00.30.32:981][993]LogInit: FAudioDevice initialized.
+[2016.07.06-00.30.33:012][993]LogWorld: Game class is 'GameMode'
+[2016.07.06-00.30.33:015][993]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.06-10.30.33
+[2016.07.06-00.30.33:015][993]LogWorld: Bringing up level for play took: 0.002361
+[2016.07.06-00.30.33:017][993]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.374
+[2016.07.06-00.30.33:017][993]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.30.44:233][230]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.30.44:279][230]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-00.30.46:789][433]LogSavePackage: Save=71.92ms
+[2016.07.06-00.30.46:789][433]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevelDA6C9020444632DC451355985F11589A.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap'
+[2016.07.06-00.30.46:791][433]LogSavePackage: Total save time: 81.42ms
+[2016.07.06-00.30.46:791][433]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap
+[2016.07.06-01.17.33:570][788]BlueprintLog: New page: Compile LeftTurret
+[2016.07.06-01.17.33:742][788]BlueprintEditorCompileResults: Info [7095.52] Compile of LeftTurret successful! [in 171 ms]
+[2016.07.06-01.17.34:272][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.07.06-01.17.34:331][842]LogSavePackage: Save=43.69ms
+[2016.07.06-01.17.34:331][842]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurret153138D14D3F190F1B3883AD198241D5.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.07.06-01.17.34:333][842]LogSavePackage: Total save time: 59.97ms
+[2016.07.06-01.17.34:333][842]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.07.06-01.17.37:659][150]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-01.17.37:660][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-01.17.37:660][150]PIE: New page: PIE session: FirstLevel (6 Jul 2016 9:17:37 pm)
+[2016.07.06-01.17.37:660][150]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.06-01.17.37:664][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004184s)
+[2016.07.06-01.17.37:664][150]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.06-01.17.37:664][150]LogPlayLevel: PIE: World Init took: (0.000479s)
+[2016.07.06-01.17.37:665][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.004891s)
+[2016.07.06-01.17.37:682][150]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.06-01.17.37:687][150]LogInit: FAudioDevice initialized.
+[2016.07.06-01.17.37:718][150]LogWorld: Game class is 'GameMode'
+[2016.07.06-01.17.37:720][150]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.06-11.17.37
+[2016.07.06-01.17.37:721][150]LogWorld: Bringing up level for play took: 0.002110
+[2016.07.06-01.17.37:722][150]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.868
+[2016.07.06-01.17.37:722][150]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-01.17.40:758][507]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-01.17.40:800][507]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-01.17.57:993][399]LogEditorTransaction: Undo Modify Component(s)
+[2016.07.06-01.17.57:997][399]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-01.17.58:001][399]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-01.17.58:356][431]LogEditorTransaction: Undo Modify Component(s)
+[2016.07.06-01.17.58:373][431]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-01.17.58:378][431]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-01.17.59:045][503]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-01.17.59:045][503]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-01.17.59:045][503]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-01.17.59:270][530]LogEditorTransaction: Undo Modify Component(s)
+[2016.07.06-01.17.59:274][530]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-01.17.59:278][530]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-01.17.59:873][602]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-01.17.59:873][602]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-01.17.59:873][602]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-01.18.00:298][653]LogEditorTransaction: Undo Modify Component(s)
+[2016.07.06-01.18.00:302][653]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-01.18.00:306][653]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-01.18.00:891][712]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 24 instructions
+[2016.07.06-01.18.00:891][712]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.07.06-01.18.00:891][712]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.07.06-01.18.09:276][704]BlueprintLog: New page: Compile LeftTurret
+[2016.07.06-01.18.09:359][704]BlueprintEditorCompileResults: Info [7131.14] Compile of LeftTurret successful! [in 82 ms]
+[2016.07.06-01.18.09:923][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.07.06-01.18.09:972][763]LogSavePackage: Save=41.78ms
+[2016.07.06-01.18.09:972][763]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurret28839E8549AAFC9DF2F7758803CACD48.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.07.06-01.18.09:974][763]LogSavePackage: Total save time: 49.81ms
+[2016.07.06-01.18.09:974][763]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.07.06-01.18.13:617][106]LogSavePackage: Save=70.60ms
+[2016.07.06-01.18.13:617][106]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevelF04F5ADE4D0D9736A5A908A3ADA22EC4.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap'
+[2016.07.06-01.18.13:619][106]LogSavePackage: Total save time: 80.18ms
+[2016.07.06-01.18.13:619][106]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap
+[2016.07.06-01.18.14:147][151]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.07.06-01.18.14:986][220]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-01.18.14:986][220]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-01.18.14:986][220]PIE: New page: PIE session: FirstLevel (6 Jul 2016 9:18:14 pm)
+[2016.07.06-01.18.14:986][220]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.06-01.18.14:990][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003906s)
+[2016.07.06-01.18.14:990][220]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.06-01.18.14:990][220]LogPlayLevel: PIE: World Init took: (0.000436s)
+[2016.07.06-01.18.14:990][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.004486s)
+[2016.07.06-01.18.15:007][220]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.06-01.18.15:014][220]LogInit: FAudioDevice initialized.
+[2016.07.06-01.18.15:044][220]LogWorld: Game class is 'GameMode'
+[2016.07.06-01.18.15:046][220]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.06-11.18.15
+[2016.07.06-01.18.15:047][220]LogWorld: Bringing up level for play took: 0.001805
+[2016.07.06-01.18.15:048][220]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.459
+[2016.07.06-01.18.15:048][220]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-01.18.15:973][327]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
+	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
+	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:0083
+[2016.07.06-01.18.15:973][327]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.06-01.18.15:973][327]LogScript:Warning: Attempted to assign to None
+	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
+	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:0098
+[2016.07.06-01.18.15:974][327]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.06-01.18.15:974][327]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
+	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
+	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:00B6
+[2016.07.06-01.18.15:974][327]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.06-01.18.15:974][327]LogScript:Warning: Attempted to assign to None
+	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
+	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:00CB
+[2016.07.06-01.18.15:974][327]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.06-01.18.16:982][445]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
+	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
+	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:0083
+[2016.07.06-01.18.16:982][445]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.06-01.18.16:982][445]LogScript:Warning: Attempted to assign to None
+	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
+	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:0098
+[2016.07.06-01.18.16:982][445]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set TargetLocation in graph: EventGraph in object: MeteoriteHandler
+[2016.07.06-01.18.16:982][445]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance
+	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
+	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:00B6
+[2016.07.06-01.18.16:982][445]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_SpawnRandomMeteorite_MeteoriteInstance from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.06-01.18.16:982][445]LogScript:Warning: Attempted to assign to None
+	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
+	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:ExecuteUbergraph_MeteoriteHandler:00CB
+[2016.07.06-01.18.16:982][445]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_MeteoriteHandler' from node: Set Speed in graph: EventGraph in object: MeteoriteHandler
+[2016.07.06-01.18.30:817][ 53]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-01.18.30:853][ 53]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-01.18.59:543][267]BlueprintLog: New page: Compile LeftTurret
+[2016.07.06-01.18.59:684][267]BlueprintEditorCompileResults: Info [7181.47] Compile of LeftTurret successful! [in 140 ms]
+[2016.07.06-01.19.00:128][318]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-01.19.00:128][318]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-01.19.00:128][318]PIE: New page: PIE session: FirstLevel (6 Jul 2016 9:19:00 pm)
+[2016.07.06-01.19.00:128][318]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.06-01.19.00:132][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004153s)
+[2016.07.06-01.19.00:133][318]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.06-01.19.00:133][318]LogPlayLevel: PIE: World Init took: (0.000511s)
+[2016.07.06-01.19.00:133][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.004833s)
+[2016.07.06-01.19.00:147][318]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.06-01.19.00:152][318]LogInit: FAudioDevice initialized.
+[2016.07.06-01.19.00:185][318]LogWorld: Game class is 'GameMode'
+[2016.07.06-01.19.00:188][318]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.06-11.19.00
+[2016.07.06-01.19.00:188][318]LogWorld: Bringing up level for play took: 0.001868
+[2016.07.06-01.19.00:192][318]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.395
+[2016.07.06-01.19.00:192][318]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-01.19.08:532][313]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-01.19.08:579][313]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-01.19.10:817][536]LogEditorViewport: Clicking on Actor (LMB): LeftTurret_C (LeftTurret)
+[2016.07.06-01.19.11:955][633]LogEditorViewport: Clicking on Actor (CTRL LMB): RightTurret_C (RightTurret)
+[2016.07.06-01.19.15:212][908]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-01.19.15:212][908]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-01.19.15:212][908]PIE: New page: PIE session: FirstLevel (6 Jul 2016 9:19:15 pm)
+[2016.07.06-01.19.15:212][908]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.06-01.19.15:217][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004099s)
+[2016.07.06-01.19.15:217][908]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.06-01.19.15:217][908]LogPlayLevel: PIE: World Init took: (0.000453s)
+[2016.07.06-01.19.15:217][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.004710s)
+[2016.07.06-01.19.15:233][908]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.06-01.19.15:240][908]LogInit: FAudioDevice initialized.
+[2016.07.06-01.19.15:268][908]LogWorld: Game class is 'GameMode'
+[2016.07.06-01.19.15:270][908]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.06-11.19.15
+[2016.07.06-01.19.15:271][908]LogWorld: Bringing up level for play took: 0.001861
+[2016.07.06-01.19.15:272][908]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.686
+[2016.07.06-01.19.15:272][908]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-01.19.57:941][715]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-01.19.57:981][715]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-01.19.59:587][841]LogSavePackage: Save=71.35ms
+[2016.07.06-01.19.59:587][841]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevel6282BE92419BC8DE4D9ADEB66016DA5E.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap'
+[2016.07.06-01.19.59:589][841]LogSavePackage: Total save time: 79.46ms
+[2016.07.06-01.19.59:589][841]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap
+[2016.07.06-01.20.16:342][603]BlueprintLog: New page: Compile FirstLevel
+[2016.07.06-01.20.16:403][603]BlueprintEditorCompileResults: Info [7258.19] Compile of FirstLevel successful! [in 60 ms]
+[2016.07.06-01.20.18:371][804]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-01.20.18:371][804]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.06-01.20.18:371][804]PIE: New page: PIE session: FirstLevel (6 Jul 2016 9:20:18 pm)
+[2016.07.06-01.20.18:371][804]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.06-01.20.18:375][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004419s)
+[2016.07.06-01.20.18:376][804]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.06-01.20.18:376][804]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2016.07.06-01.20.18:376][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.005204s)
+[2016.07.06-01.20.18:392][804]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.06-01.20.18:399][804]LogInit: FAudioDevice initialized.
+[2016.07.06-01.20.18:427][804]LogWorld: Game class is 'GameMode'
+[2016.07.06-01.20.18:429][804]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.06-11.20.18
+[2016.07.06-01.20.18:430][804]LogWorld: Bringing up level for play took: 0.001803
+[2016.07.06-01.20.18:431][804]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.153
+[2016.07.06-01.20.18:431][804]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-01.20.19:898][976]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-01.20.19:932][976]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.06-01.20.21:190][ 73]LogSavePackage: Save=71.93ms
+[2016.07.06-01.20.21:190][ 73]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevel1332D4EF4A8460874A6A3AA54CCA812F.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap'
+[2016.07.06-01.20.21:192][ 73]LogSavePackage: Total save time: 80.08ms
+[2016.07.06-01.20.21:192][ 73]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap
+[2016.07.06-01.20.33:265][623]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-01.20.33:275][623]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-01.20.33:301][623]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-01.20.33:313][623]LogMaterial: Missing cached shader map for material ProjectileMat, compiling. 
+[2016.07.06-01.20.33:324][623]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.06-01.20.34:903][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cannons" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Cannons.uasset" SILENT=true
+[2016.07.06-01.20.34:915][623]LogSavePackage: Save=10.03ms
+[2016.07.06-01.20.34:915][623]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/Cannons9AEF7DBE4CA1CC0E6E85CEB162D926E0.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Cannons.uasset'
+[2016.07.06-01.20.34:917][623]LogSavePackage: Total save time: 12.13ms
+[2016.07.06-01.20.34:917][623]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Cannons.uasset
+[2016.07.06-01.20.34:941][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.07.06-01.20.35:000][623]LogSavePackage: Save=49.82ms
+[2016.07.06-01.20.35:000][623]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurret1900346743E97E2930766CA83B4B1114.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.07.06-01.20.35:002][623]LogSavePackage: Total save time: 60.33ms
+[2016.07.06-01.20.35:002][623]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.07.06-01.20.35:577][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ProjectileMat" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/ProjectileMat.uasset" SILENT=true
+[2016.07.06-01.20.35:594][623]LogSavePackage: Save=9.23ms
+[2016.07.06-01.20.35:594][623]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/ProjectileMatBB73E5F94F58D9BB213D1AA91B67DED3.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/ProjectileMat.uasset'
+[2016.07.06-01.20.35:595][623]LogSavePackage: Total save time: 17.78ms
+[2016.07.06-01.20.35:595][623]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/ProjectileMat.uasset
+[2016.07.06-01.20.35:992][624]Cmd: QUIT_EDITOR
+[2016.07.06-01.20.36:064][624]LogExit: Preparing to exit.
+[2016.07.06-01.20.37:222][624]LogExit: Editor shut down
+[2016.07.06-01.20.37:222][624]LogExit: Transaction tracking system shut down
+[2016.07.06-01.20.37:353][624]LogObj: Freed 0b from 0 cluster array pools.
+[2016.07.06-01.20.37:354][624]LogExit: Object subsystem successfully closed.
+[2016.07.06-01.20.37:366][624]LogD3D11RHI: Shutdown
+[2016.07.06-01.20.37:366][624]LogD3D11RHI: CleanupD3DDevice
+[2016.07.06-01.20.37:485][624]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.07.06-01.20.37:511][624]LogDerivedDataCache: Shutdown
+[2016.07.06-01.20.37:511][624]LogModuleManager: Shutting down and abandoning module BlueprintGraph (210)
+[2016.07.06-01.20.37:511][624]LogModuleManager: Shutting down and abandoning module MaterialEditor (209)
+[2016.07.06-01.20.37:511][624]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (208)
+[2016.07.06-01.20.37:511][624]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (207)
+[2016.07.06-01.20.37:511][624]LogModuleManager: Shutting down and abandoning module CrashTracker (206)
+[2016.07.06-01.20.37:511][624]LogModuleManager: Shutting down and abandoning module SceneOutliner (205)
+[2016.07.06-01.20.37:511][624]LogModuleManager: Shutting down and abandoning module SuperSearch (204)
+[2016.07.06-01.20.37:511][624]LogModuleManager: Shutting down and abandoning module WidgetCarousel (203)
+[2016.07.06-01.20.37:511][624]LogModuleManager: Shutting down and abandoning module AddContentDialog (202)
+[2016.07.06-01.20.37:512][624]LogModuleManager: Shutting down and abandoning module GameplayTags (201)
+[2016.07.06-01.20.37:512][624]LogModuleManager: Shutting down and abandoning module EditorWidgets (200)
+[2016.07.06-01.20.37:512][624]LogModuleManager: Shutting down and abandoning module CollectionManager (199)
+[2016.07.06-01.20.37:512][624]LogModuleManager: Shutting down and abandoning module StatsViewer (198)
+[2016.07.06-01.20.37:512][624]LogModuleManager: Shutting down and abandoning module FoliageEdit (197)
+[2016.07.06-01.20.37:512][624]LogModuleManager: Shutting down and abandoning module LandscapeEditor (196)
+[2016.07.06-01.20.37:512][624]LogModuleManager: Shutting down and abandoning module ActorPickerMode (195)
+[2016.07.06-01.20.37:512][624]LogModuleManager: Shutting down and abandoning module GeometryMode (194)
+[2016.07.06-01.20.37:512][624]LogModuleManager: Shutting down and abandoning module TextureAlignMode (193)
+[2016.07.06-01.20.37:513][624]LogModuleManager: Shutting down and abandoning module BspMode (192)
+[2016.07.06-01.20.37:513][624]LogModuleManager: Shutting down and abandoning module PlacementMode (191)
+[2016.07.06-01.20.37:513][624]LogModuleManager: Shutting down and abandoning module AutomationWorker (190)
+[2016.07.06-01.20.37:513][624]LogModuleManager: Shutting down and abandoning module CharacterAI (189)
+[2016.07.06-01.20.37:513][624]LogModuleManager: Shutting down and abandoning module SmartSnapping (188)
+[2016.07.06-01.20.37:513][624]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.07.06-01.20.37:513][624]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.07.06-01.20.37:513][624]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.07.06-01.20.37:513][624]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.07.06-01.20.37:513][624]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.07.06-01.20.37:513][624]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.07.06-01.20.37:513][624]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.07.06-01.20.37:513][624]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.07.06-01.20.38:158][624]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module AITestSuite (132)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module GameplayDebugger (131)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.07.06-01.20.38:199][624]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module SubstanceEditor (127)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module SlateRemote (126)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module SteamVRController (125)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module SteamVR (124)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (123)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module OculusLibrary (122)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module OculusInput (121)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (120)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module CableComponent (119)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (118)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (117)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module HTML5Networking (116)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module SourceControl (107)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
+[2016.07.06-01.20.38:383][624]LogModuleManager: Shutting down and abandoning module HotReload (101)
+[2016.07.06-01.20.38:384][624]LogModuleManager: Shutting down and abandoning module MainFrame (100)
+[2016.07.06-01.20.38:384][624]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
+[2016.07.06-01.20.38:384][624]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (98)
+[2016.07.06-01.20.38:385][624]LogModuleManager: Shutting down and abandoning module AssetRegistry (97)
+[2016.07.06-01.20.38:573][624]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.07.06-01.20.38:574][624]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.07.06-01.20.38:574][624]LogModuleManager: Shutting down and abandoning module Project_PlanetDef (94)
+[2016.07.06-01.20.38:574][624]LogModuleManager: Shutting down and abandoning module UdpMessaging (93)
+[2016.07.06-01.20.38:674][624]LogModuleManager: Shutting down and abandoning module SubstanceCore (92)
+[2016.07.06-01.20.38:674][624]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.07.06-01.20.38:674][624]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.07.06-01.20.38:674][624]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.07.06-01.20.38:674][624]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.07.06-01.20.38:674][624]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.07.06-01.20.38:674][624]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.07.06-01.20.38:674][624]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.07.06-01.20.38:674][624]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.07.06-01.20.38:674][624]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.07.06-01.20.38:674][624]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.07.06-01.20.38:674][624]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.07.06-01.20.38:674][624]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.07.06-01.20.38:674][624]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.07.06-01.20.38:674][624]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.07.06-01.20.38:674][624]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.07.06-01.20.38:674][624]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.07.06-01.20.38:674][624]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.07.06-01.20.38:674][624]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.07.06-01.20.38:674][624]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.07.06-01.20.38:674][624]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.07.06-01.20.38:674][624]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.07.06-01.20.38:675][624]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.07.06-01.20.38:675][624]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.07.06-01.20.38:676][624]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.07.06-01.20.38:676][624]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.07.06-01.20.38:676][624]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.07.06-01.20.38:676][624]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.07.06-01.20.38:676][624]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.07.06-01.20.38:676][624]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.07.06-01.20.38:676][624]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.07.06-01.20.38:676][624]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.07.06-01.20.38:676][624]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.07.06-01.20.38:676][624]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.07.06-01.20.38:677][624]LogDerivedDataCache: Shutdown
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.07.06-01.20.38:677][624]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.07.06-01.20.39:677][624]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.07.06-01.20.39:677][624]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.07.06-01.20.39:677][624]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.07.06-01.20.39:677][624]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.07.06-01.20.39:677][624]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.07.06-01.20.39:677][624]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.07.06-01.20.39:677][624]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.07.06-01.20.39:678][624]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.07.06-01.20.39:678][624]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.07.06-01.20.39:678][624]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.07.06-01.20.39:678][624]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.07.06-01.20.39:678][624]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.07.06-01.20.39:678][624]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.07.06-01.20.39:678][624]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.07.06-01.20.39:678][624]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.07.06-01.20.39:678][624]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.07.06-01.20.39:678][624]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.07.06-01.20.39:679][624]LogExit: Exiting.
+[2016.07.06-01.20.39:689][624]Log file closed, 07/06/16 11:20:39
