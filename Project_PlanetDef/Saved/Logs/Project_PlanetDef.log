@@ -1,9 +1,9 @@
-﻿Log file open, 07/28/16 09:11:44
+﻿Log file open, 07/28/16 09:39:09
 LogInit:Display: Running engine for game: Project_PlanetDef
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-2027604642) SRandInit(-2027604640).
+LogInit:Display: RandInit(-869081304) SRandInit(-869081301).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-LogStats: Stats thread started at 0.068336
+LogStats: Stats thread started at 0.069398
 LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
 LogInit: API Version: 2927265
 LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
@@ -29,794 +29,453 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.07.27-23.11.44:370][  0]LogInit: Selected Device Profile: [Windows]
-[2016.07.27-23.11.44:370][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.07.27-23.11.44:430][  0]LogInit: Computer: S-803-10-1228-W
-[2016.07.27-23.11.44:430][  0]LogInit: User: sdeflorio
-[2016.07.27-23.11.44:430][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.07.27-23.11.44:430][  0]LogInit: High frequency timer resolution =3.312851 MHz
-[2016.07.27-23.11.44:430][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2016.07.27-23.11.44:430][  0]LogMemory: Platform Memory Stats for Windows
-[2016.07.27-23.11.44:430][  0]LogMemory: Process Physical Memory: 315.45 MB used, 315.45 MB peak
-[2016.07.27-23.11.44:430][  0]LogMemory: Process Virtual Memory: 317.67 MB used, 317.67 MB peak
-[2016.07.27-23.11.44:430][  0]LogMemory: Physical Memory: 5097.16 MB used, 8130.67 MB total
-[2016.07.27-23.11.44:430][  0]LogMemory: Virtual Memory: 622.68 MB used, 8388608.00 MB total
-[2016.07.27-23.11.44:552][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
-[2016.07.27-23.11.45:198][  0]LogD3D11RHI: D3D11 adapters:
-[2016.07.27-23.11.45:224][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 680MX' (Feature Level 11_0)
-[2016.07.27-23.11.45:224][  0]LogD3D11RHI:       1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
-[2016.07.27-23.11.45:224][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.07.27-23.11.45:231][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.07.27-23.11.45:231][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 680MX
-[2016.07.27-23.11.45:231][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
-[2016.07.27-23.11.45:231][  0]LogD3D11RHI:      Driver Date: Unknown
-[2016.07.27-23.11.45:231][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.07.27-23.11.45:238][  0]LogD3D11RHI: Async texture creation enabled
-[2016.07.27-23.11.45:252][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Intermediate/Shaders/WorkingDirectory/9220/).
-[2016.07.27-23.11.45:252][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SDEFLO~1/AppData/Local/Temp/UnrealShaderWorkingDir/08C35A7649A4CD06181D6B95B147F56E/'.
-[2016.07.27-23.11.45:252][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.07.27-23.11.47:215][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.07.27-23.11.47:219][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.07.27-23.11.47:223][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.07.27-23.11.47:228][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.07.27-23.11.47:232][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.07.27-23.11.47:235][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.07.27-23.11.47:239][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.07.27-23.11.47:241][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.07.27-23.11.47:244][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.07.27-23.11.47:247][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.07.27-23.11.47:250][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.07.27-23.11.47:255][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.07.27-23.11.47:256][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.07.27-23.11.47:256][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.07.27-23.11.47:272][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.07.27-23.11.47:274][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.07.27-23.11.47:277][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.07.27-23.11.47:279][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.07.27-23.11.47:327][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.07.27-23.11.47:327][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.07.27-23.11.47:396][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.07.27-23.11.47:440][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/sdeflorio/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.07.27-23.11.47:440][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/sdeflorio/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
-[2016.07.27-23.11.47:440][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.07.27-23.11.47:440][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.07.27-23.11.47:440][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.07.27-23.11.47:440][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.07.27-23.11.47:454][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.07.27-23.11.47:465][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sdeflorio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.07.27-23.11.47:625][  0]LogInit: Selected Device Profile: [Windows]
-[2016.07.27-23.11.47:625][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.07.27-23.11.47:648][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.07.27-23.11.47:776][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.07.27-23.11.47:776][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.07.27-23.11.47:776][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.07.27-23.11.48:104][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
-[2016.07.27-23.11.48:104][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
-[2016.07.27-23.11.48:104][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.07.27-23.11.48:111][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.07.27-23.11.48:351][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.07.27-23.11.48:351][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.07.27-23.11.48:767][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.07.27-23.11.48:767][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.07.27-23.11.48:767][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.07.27-23.11.48:767][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.07.27-23.11.48:767][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.07.27-23.11.48:767][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.07.27-23.11.49:886][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
-[2016.07.27-23.11.49:932][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.07.27-23.11.50:037][  0]LogAssetRegistry: FAssetRegistry took 0.0200 seconds to start up
-[2016.07.27-23.11.50:172][  0]SourceControl: Info Source control is disabled
-[2016.07.27-23.11.50:206][  0]SourceControl: Info Source control is disabled
-[2016.07.27-23.11.50:213][  0]SourceControl: Info Source control is disabled
-[2016.07.27-23.11.50:221][  0]SourceControl: Info Source control is disabled
-[2016.07.27-23.11.50:328][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2016.07.27-23.11.50:404][  0]LogEngine: Initializing Engine...
-[2016.07.27-23.11.50:537][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.07.27-23.11.50:542][  0]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 92))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.07.27-23.11.50:560][  0]LogInit: FAudioDevice initialized.
-[2016.07.27-23.11.50:580][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/sdeflorio/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.07.27-23.11.50:584][  0]LogInit: Texture streaming: Enabled
-[2016.07.27-23.11.50:607][  0]LogInit: Transaction tracking system initialized
-[2016.07.27-23.11.50:631][  0]BlueprintLog: New page: Editor Load
-[2016.07.27-23.11.50:708][  0]LocalizationService: Info Localization service is disabled
-[2016.07.27-23.11.50:796][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
-[2016.07.27-23.11.50:796][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
-[2016.07.27-23.11.50:796][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
-[2016.07.27-23.11.50:807][  0]LogConsoleResponse:Display: 
-[2016.07.27-23.11.50:896][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.07.27-23.11.50:896][  0]LogCook:Display: Mobile HDR setting 1
-[2016.07.27-23.11.50:896][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.07.27-23.11.50:947][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/' took 0.03s
-[2016.07.27-23.11.50:947][  0]SourceControl: Info Source control is disabled
-[2016.07.27-23.11.50:947][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.07.27-23.11.50:948][  0]LightingResults: New page: Lighting Build
-[2016.07.27-23.11.50:950][  0]MapCheck: New page: Map Check
-[2016.07.27-23.11.50:951][  0]LightingResults: New page: Lighting Build
-[2016.07.27-23.11.51:178][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2016.07.27-23.11.51:183][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.07.27-23.11.51:187][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.07.27-23.11.51:221][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.386ms to complete.
-[2016.07.27-23.11.51:221][  0]LogFileHelpers: Loading map 'Template_Default' took 0.274
-[2016.07.27-23.11.51:490][  0]LogCollectionManager: Loaded 0 collections in 0.001904 seconds
-[2016.07.27-23.11.51:527][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/Collections/' took 0.01s
-[2016.07.27-23.11.51:527][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Developers/sdeflorio/Collections/' took 0.01s
-[2016.07.27-23.11.51:527][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Collections/' took 0.01s
-[2016.07.27-23.11.51:527][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2016.07.27-23.11.51:534][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 1994 classes and 349 folders.
-[2016.07.27-23.11.51:557][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.07.27-23.11.51:557][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.07.27-23.11.51:558][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0010 seconds. Added 12 classes and 0 folders.
-[2016.07.27-23.11.51:564][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2016.07.27-23.11.51:690][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2016.07.27-23.11.53:209][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2016.07.27-23.11.53:223][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2016.07.27-23.11.53:601][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.07.27-23.11.53:689][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.07.27-23.11.53:715][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2016.07.27-23.11.53:716][  0]LogLoad: Full Startup: 10.53 seconds (BP compile: 0.07 seconds)
-[2016.07.27-23.11.53:716][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.07.27-23.11.53:716][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.07.27-23.11.53:724][  0]LogOcInput: OculusInput pre-init called
-[2016.07.27-23.11.54:368][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.07.27-23.11.55:083][  0]LogRenderer: Reallocating scene render targets to support 1616x788 (Frame:2).
-[2016.07.27-23.11.55:335][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/' took 1.61s
-[2016.07.27-23.12.01:302][452]LogAssetRegistry: Asset discovery search completed in 11.2760 seconds
-[2016.07.27-23.12.01:302][452]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.07.27-23.12.01:303][452]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000115 seconds (updated 0 objects)
-[2016.07.27-23.12.07:338][901]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.07.27-23.12.07:424][901]PIE: New page: PIE session: Untitled_1 (28 Jul 2016 7:12:07 pm)
-[2016.07.27-23.12.07:436][901]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2016.07.27-23.12.07:440][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004643s)
-[2016.07.27-23.12.07:441][901]LogAIModule: Creating AISystem for world Untitled_1
-[2016.07.27-23.12.07:441][901]LogPlayLevel: PIE: World Init took: (0.000706s)
-[2016.07.27-23.12.07:441][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.005818s)
-[2016.07.27-23.12.07:456][901]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 92))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.07.27-23.12.07:467][901]LogInit: FAudioDevice initialized.
-[2016.07.27-23.12.07:685][901]LogLinker:Warning: Can't find file '/Game/Materials/shield_mat_red'
-[2016.07.27-23.12.07:686][901]LogLinker:Warning: Can't find file for asset '/Game/Materials/shield_mat_red' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset.
-[2016.07.27-23.12.07:686][901]LoadErrors:Error: Error /Game/Shield : Can't find file for asset. /Game/Materials/shield_mat_red
-[2016.07.27-23.12.07:687][901]LogLinker:Warning: Can't find file '/Game/Materials/shield_mat_red'
-[2016.07.27-23.12.07:687][901]LogLinker:Warning: Can't find file for asset '/Game/Materials/shield_mat_red' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset.
-[2016.07.27-23.12.07:794][901]LogLinker:Warning: Can't find file '/Game/Meteorites/MeteorExplosion'
-[2016.07.27-23.12.07:795][901]LogLinker:Warning: Can't find file for asset '/Game/Meteorites/MeteorExplosion' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Projectile.uasset.
-[2016.07.27-23.12.07:795][901]LoadErrors:Error: Error /Game/Projectile : Can't find file for asset. /Game/Meteorites/MeteorExplosion
-[2016.07.27-23.12.07:874][901]LogLinker:Warning: Can't find file '/Game/Meteorites/MeteorExplosion'
-[2016.07.27-23.12.07:874][901]LogLinker:Warning: Can't find file for asset '/Game/Meteorites/MeteorExplosion' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Projectile.uasset.
-[2016.07.27-23.12.07:892][901]LogLinker:Warning: Can't find file '/Game/Meteorites/MeteorExplosion'
-[2016.07.27-23.12.07:892][901]LogLinker:Warning: Can't find file for asset '/Game/Meteorites/MeteorExplosion' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Projectile.uasset.
-[2016.07.27-23.12.07:961][901]LogLinker:Warning: Can't find file '/Game/Meteorites/MeteorExplosion'
-[2016.07.27-23.12.07:961][901]LoadErrors: Info Failed to load /Game/Drone.Drone_C Referenced by EdGraphPin_110453
-[2016.07.27-23.12.07:961][901]LogLinker:Warning: Can't find file for asset '/Game/Meteorites/MeteorExplosion' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Projectile.uasset.
-[2016.07.27-23.12.08:009][901]LogLinker:Warning: Can't find file '/Game/Meteorites/MeteorExplosion'
-[2016.07.27-23.12.08:009][901]LogLinker:Warning: Can't find file for asset '/Game/Meteorites/MeteorExplosion' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Projectile.uasset.
-[2016.07.27-23.12.08:011][901]LogLinker:Warning: Can't find file '/Game/Meteorites/MeteorExplosion'
-[2016.07.27-23.12.08:011][901]LogLinker:Warning: Can't find file for asset '/Game/Meteorites/MeteorExplosion' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Projectile.uasset.
-[2016.07.27-23.12.08:179][901]LogLinker:Warning: Can't find file '/Game/Materials/shield_mat_red'
-[2016.07.27-23.12.08:179][901]LogLinker:Warning: Can't find file for asset '/Game/Materials/shield_mat_red' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Meteorites/MeteoriteHandler.uasset.
-[2016.07.27-23.12.08:179][901]LoadErrors:Error: Error /Game/Meteorites/MeteoriteHandler : Can't find file for asset. /Game/Materials/shield_mat_red
-[2016.07.27-23.12.08:179][901]LogLinker:Warning: Can't find file '/Game/Materials/shield_mat_red'
-[2016.07.27-23.12.08:180][901]LogLinker:Warning: Can't find file for asset '/Game/Materials/shield_mat_red' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Meteorites/MeteoriteHandler.uasset.
-[2016.07.27-23.12.08:185][901]LogLinker:Warning: Can't find file '/Game/Materials/shield_mat_red'
-[2016.07.27-23.12.08:185][901]LoadErrors: Info Failed to load /Game/Drone.Drone_C Referenced by EdGraphPin_117495
-[2016.07.27-23.12.08:185][901]LogLinker:Warning: Can't find file for asset '/Game/Materials/shield_mat_red' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Meteorites/MeteoriteHandler.uasset.
-[2016.07.27-23.12.08:248][901]LogLinker:Warning: Can't find file '/Game/Meteorites/MeteorExplosion'
-[2016.07.27-23.12.08:248][901]LogLinker:Warning: Can't find file for asset '/Game/Meteorites/MeteorExplosion' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset.
-[2016.07.27-23.12.08:248][901]LoadErrors:Error: Error /Game/Drone : Can't find file for asset. /Game/Meteorites/MeteorExplosion
-[2016.07.27-23.12.08:249][901]LogLinker:Warning: Can't find file '/Game/Meteorites/MeteorExplosion'
-[2016.07.27-23.12.08:249][901]LogLinker:Warning: Can't find file for asset '/Game/Meteorites/MeteorExplosion' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset.
-[2016.07.27-23.12.08:252][901]LogLinker:Warning: Can't find file '/Game/Meteorites/MeteorExplosion'
-[2016.07.27-23.12.08:252][901]LoadErrors: Info Failed to load /Game/Drone.Drone_C Referenced by K2Node_DynamicCast_1949
-[2016.07.27-23.12.08:252][901]LogLinker:Warning: Can't find file for asset '/Game/Meteorites/MeteorExplosion' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset.
-[2016.07.27-23.12.08:252][901]LogLinker:Warning: Can't find file '/Game/Meteorites/MeteorExplosion'
-[2016.07.27-23.12.08:252][901]LoadErrors: Info Failed to load /Game/Drone.Drone_C Referenced by EdGraphPin_110718
-[2016.07.27-23.12.08:252][901]LogLinker:Warning: Can't find file for asset '/Game/Meteorites/MeteorExplosion' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset.
-[2016.07.27-23.12.08:271][901]LogBlueprint:Warning: [compiler Drone] Warning Can't connect pins  Object  and  Damage Type : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.07.27-23.12.08:271][901]LogBlueprint:Warning: [compiler Drone] Warning Can't connect pins  Damage Type  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.07.27-23.12.08:275][901]LogBlueprint:Error: [compiler Drone] Error Node  Bad cast node  has an invalid target type, please delete and recreate it
-[2016.07.27-23.12.08:275][901]LogBlueprint:Error: [compiler Drone] Error Node  Bad cast node  has an invalid target class
-[2016.07.27-23.12.08:285][901]LogBlueprint:Warning: [compiler Drone] Warning [0025.09] Compile of Drone failed. 2 Fatal Issue(s) 2 Warning(s) [in 18 ms]
-[2016.07.27-23.12.08:286][901]LogBlueprint:Warning: [compiler Drone] Warning [0025.09] Compile of Drone failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms]
-[2016.07.27-23.12.08:286][901]LogBlueprint:Warning: [compiler Drone] Warning [0025.09] Compile of Drone failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms]
-[2016.07.27-23.12.08:536][901]LogLinker:Warning: Can't find file '/Game/Meteorites/MeteorExplosion'
-[2016.07.27-23.12.08:536][901]LogLinker:Warning: Can't find file for asset '/Game/Meteorites/MeteorExplosion' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset.
-[2016.07.27-23.12.08:538][901]LogLinker:Warning: Can't find file '/Game/Meteorites/MeteorExplosion'
-[2016.07.27-23.12.08:538][901]LogLinker:Warning: Can't find file for asset '/Game/Meteorites/MeteorExplosion' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset.
-[2016.07.27-23.12.08:731][901]LogTexture:Display: Building textures: CombinedRGB (AutoDXT)
-[2016.07.27-23.12.09:587][901]LogTexture:Display: Building textures: Round_Marble_By_mavrosh (AutoDXT)
-[2016.07.27-23.12.17:136][901]LogMaterial: Missing cached shader map for material shield_mat, compiling. 
-[2016.07.27-23.12.17:199][901]LogStaticMesh: Building static mesh FBX_shield...
-[2016.07.27-23.12.17:204][901]LogStaticMesh: Built static mesh [0.01s] /Game/FBX_shield.FBX_shield
-[2016.07.27-23.12.17:615][901]LogStaticMesh: Building static mesh FBX_meteor_placeholder...
-[2016.07.27-23.12.17:622][901]LogStaticMesh: Built static mesh [0.02s] /Game/FBX_meteor_placeholder.FBX_meteor_placeholder
-[2016.07.27-23.12.17:765][901]LogAudioDerivedData:Display: Building compressed audio format OGG wave Fx_-_Laser_weapon...
-[2016.07.27-23.12.18:488][901]LogTexture:Display: Building textures: meteor_tex (AutoDXT)
-[2016.07.27-23.12.20:619][901]LogStaticMesh: Building static mesh meteor_25x25...
-[2016.07.27-23.12.20:623][901]LogStaticMesh: Built static mesh [0.00s] /Game/Models/meteor_25x25.meteor_25x25
-[2016.07.27-23.12.20:823][901]LogTexture:Display: Building textures: T_Explosion_SubUV (AutoDXT)
-[2016.07.27-23.12.21:613][901]LogTexture:Display: Building textures: T_Burst_M (AutoDXT)
-[2016.07.27-23.12.21:748][901]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
-[2016.07.27-23.12.21:827][901]LogMaterial: Missing cached shader map for material lambert2, compiling. 
-[2016.07.27-23.12.21:870][901]LogStaticMesh: Building static mesh meteor_5x5...
-[2016.07.27-23.12.21:880][901]LogStaticMesh: Built static mesh [0.04s] /Game/Models/meteor_5x5.meteor_5x5
-[2016.07.27-23.12.21:890][901]LogAudioDerivedData:Display: Building compressed audio format OGG wave Fx_-_Super_weapon_Fire...
-[2016.07.27-23.12.22:010][901]LogAudioDerivedData:Display: Building compressed audio format OGG wave Fx_-_Shield_On...
-[2016.07.27-23.12.22:054][901]LogAudioDerivedData:Display: Building compressed audio format OGG wave Fx_-_Shield_Off...
-[2016.07.27-23.12.22:103][901]LogMaterial: Missing cached shader map for material meteor_mat, compiling. 
-[2016.07.27-23.12.22:147][901]LogWorld: Game class is 'GameManager_C'
-[2016.07.27-23.12.22:181][901]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2016.07.28-09.12.22
-[2016.07.27-23.12.22:181][901]LogWorld: Bringing up level for play took: 0.001922
-[2016.07.27-23.12.22:236][901]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0018 seconds. Added 9 classes and 0 folders.
-[2016.07.27-23.12.22:314][901]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
-[2016.07.27-23.12.22:378][901]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 15.562
-[2016.07.27-23.12.24:211][ 35]LogBlueprintUserMessages: [GameManager_C_0] Wave Begun
-[2016.07.27-23.12.24:219][ 36]LogScript:Warning: Accessed None trying to read property MeteoriteHandler
-	GameManager_C /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameManager_C_0
-	Function /Game/GameManager.GameManager_C:ExecuteUbergraph_GameManager:0122
-[2016.07.27-23.12.24:220][ 36]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property MeteoriteHandler from function: 'ExecuteUbergraph_GameManager' from node: Branch in graph: EventGraph in object: GameManager
-[2016.07.27-23.12.24:220][ 36]LogBlueprintUserMessages: [GameManager_C_0] Wave Ended
-[2016.07.27-23.12.37:244][859]LogTexture:Display: Building textures: 1080normal (BGRA8)
-[2016.07.27-23.12.37:252][859]LogTexture:Display: Building textures: 720Normal (BGRA8)
-[2016.07.27-23.12.37:260][859]LogTexture:Display: Building textures: 640Normal (BGRA8)
-[2016.07.27-23.12.37:409][859]LogTexture:Display: Building textures: 50783_3d_space_scene_low_polygon_low_polygon_planet (AutoDXT)
-[2016.07.27-23.12.37:943][859]LogTexture:Display: Building textures: MainMenuNormal (BGRA8)
-[2016.07.27-23.12.37:953][859]LogTexture:Display: Building textures: OptionsNormal (BGRA8)
-[2016.07.27-23.12.37:961][859]LogTexture:Display: Building textures: QuitGameNormal (BGRA8)
-[2016.07.27-23.12.37:968][859]LogTexture:Display: Building textures: StartGameNormal (BGRA8)
-[2016.07.27-23.12.37:974][859]LogAIModule: Creating AISystem for world MainMenuLevel
-[2016.07.27-23.12.38:003][859]Cmd: MAP LOAD FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.07.27-23.12.38:004][859]LightingResults: New page: Lighting Build
-[2016.07.27-23.12.38:017][859]LoadErrors: New page: Loading map: MainMenuLevel.umap
-[2016.07.27-23.12.38:018][859]MapCheck: New page: Map Check
-[2016.07.27-23.12.38:018][859]LightingResults: New page: Lighting Build
-[2016.07.27-23.12.38:030][859]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.07.27-23.12.38:040][859]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.07.27-23.12.38:085][859]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.573ms to complete.
-[2016.07.27-23.12.38:085][859]LogFileHelpers: Loading map 'MainMenuLevel' took 0.083
-[2016.07.27-23.12.39:119][916]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2016.07.27-23.12.39:130][916]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
-[2016.07.27-23.12.39:132][916]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
-[2016.07.27-23.12.39:138][916]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2016.07.27-23.12.39:146][916]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
-[2016.07.27-23.12.39:147][916]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
-[2016.07.27-23.12.39:150][916]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
-[2016.07.27-23.12.39:155][916]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
-[2016.07.27-23.12.39:156][916]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
-[2016.07.27-23.12.39:197][916]LogMaterial: Missing cached shader map for material JPG_background_placeholder_Mat, compiling. 
-[2016.07.27-23.12.39:340][916]LogAudioDerivedData:Display: Building compressed audio format OGG wave Fx_-_Sattelite_Scanning...
-[2016.07.27-23.12.39:424][916]LogAIModule: Creating AISystem for world FirstLevel
-[2016.07.27-23.12.39:427][916]LogMaterial:Warning: Material /Engine/EditorMaterials/WidgetGridVertexColorMaterial_Ma.WidgetGridVertexColorMaterial_Ma needed to have new flag set bUsedWithStaticLighting !
-[2016.07.27-23.12.39:429][916]LogMaterial: Missing cached shader map for material WidgetGridVertexColorMaterial_Ma, compiling. 
-[2016.07.27-23.12.39:436][916]MapCheck:Warning: Warning WidgetGridVertexColorMaterial_Ma Material /Engine/EditorMaterials/WidgetGridVertexColorMaterial_Ma.WidgetGridVertexColorMaterial_Ma was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2016.07.27-23.12.39:455][916]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.07.27-23.12.39:501][916]Cmd: MAP LOAD FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.07.27-23.12.39:501][916]LightingResults: New page: Lighting Build
-[2016.07.27-23.12.39:524][916]LoadErrors: New page: Loading map: FirstLevel.umap
-[2016.07.27-23.12.39:525][916]MapCheck: New page: Map Check
-[2016.07.27-23.12.39:525][916]LightingResults: New page: Lighting Build
-[2016.07.27-23.12.39:559][916]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.07.27-23.12.39:576][916]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.07.27-23.12.39:645][916]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.842ms to complete.
-[2016.07.27-23.12.39:645][916]LogFileHelpers: Loading map 'FirstLevel' took 0.146
-[2016.07.27-23.12.43:893][197]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.27-23.12.43:893][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.07.27-23.13.03:268][985]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 108 classes and 0 folders.
-[2016.07.27-23.13.04:153][985]LogTexture:Display: Building textures: BadBlueprintSprite (BGRA8)
-[2016.07.27-23.13.37:547][734]BlueprintLog: New page: Compile Drone
-[2016.07.27-23.13.37:576][734]LogBlueprint:Warning: [compiler Drone] Warning Can't connect pins  Object  and  Damage Type : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.07.27-23.13.37:577][734]LogBlueprint:Warning: [compiler Drone] Warning Can't connect pins  Damage Type  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.07.27-23.13.37:581][734]LogBlueprint:Error: [compiler Drone] Error Node  Bad cast node  has an invalid target type, please delete and recreate it
-[2016.07.27-23.13.37:581][734]LogBlueprint:Error: [compiler Drone] Error Node  Bad cast node  has an invalid target class
-[2016.07.27-23.13.37:960][734]LogBlueprint:Warning: [compiler Drone] Warning [0114.73] Compile of Drone failed. 2 Fatal Issue(s) 2 Warning(s) [in 411 ms]
-[2016.07.27-23.13.37:960][734]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Object  and  Damage Type : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.07.27-23.13.37:960][734]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Damage Type  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.07.27-23.13.37:960][734]BlueprintEditorCompileResults:Error: Error Node  Bad cast node  has an invalid target type, please delete and recreate it
-[2016.07.27-23.13.37:960][734]BlueprintEditorCompileResults:Error: Error Node  Bad cast node  has an invalid target class
-[2016.07.27-23.13.37:960][734]BlueprintEditorCompileResults:Warning: Warning [0114.73] Compile of Drone failed. 2 Fatal Issue(s) 2 Warning(s) [in 411 ms]
-[2016.07.27-23.15.01:093][785]BlueprintLog: New page: Compile Drone
-[2016.07.27-23.15.01:328][785]BlueprintEditorCompileResults: Info [0198.07] Compile of Drone successful! [in 234 ms]
-[2016.07.27-23.15.03:436][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Drone" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset" SILENT=true
-[2016.07.27-23.15.03:593][ 21]LogSavePackage: Save=146.93ms
-[2016.07.27-23.15.03:593][ 21]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/DroneC42225174C60E9208A6B1092D65EA5AC.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset'
-[2016.07.27-23.15.03:596][ 21]LogSavePackage: Total save time: 157.56ms
-[2016.07.27-23.15.03:596][ 21]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset
-[2016.07.27-23.15.06:393][280]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.27-23.15.06:393][280]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.07.27-23.15.06:394][280]PIE: New page: PIE session: FirstLevel (28 Jul 2016 7:15:06 pm)
-[2016.07.27-23.15.06:394][280]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
-[2016.07.27-23.15.06:401][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007200s)
-[2016.07.27-23.15.06:402][280]LogAIModule: Creating AISystem for world FirstLevel
-[2016.07.27-23.15.06:402][280]LogPlayLevel: PIE: World Init took: (0.000735s)
-[2016.07.27-23.15.06:402][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.008376s)
-[2016.07.27-23.15.06:418][280]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 92))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.07.27-23.15.06:424][280]LogInit: FAudioDevice initialized.
-[2016.07.27-23.15.06:450][280]LogWorld: Game class is 'GameManager_C'
-[2016.07.27-23.15.06:455][280]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.28-09.15.06
-[2016.07.27-23.15.06:455][280]LogWorld: Bringing up level for play took: 0.003977
-[2016.07.27-23.15.06:477][280]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.398
-[2016.07.27-23.15.06:478][280]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.27-23.15.08:374][451]LogBlueprintUserMessages: [GameManager_C_0] Wave Begun
-[2016.07.27-23.15.31:764][563]LogActor:Warning: Projectile_C_0 is outside the world bounds!
-[2016.07.27-23.15.39:002][226]LogActor:Warning: Projectile_C_2 is outside the world bounds!
-[2016.07.27-23.15.47:225][957]LogActor:Warning: Projectile_C_4 is outside the world bounds!
-[2016.07.27-23.15.47:644][995]LogBlueprintUserMessages: [Meteorite_Type3_C_2] Type 3 split
-[2016.07.27-23.15.48:501][ 67]LogScript:Warning: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill
-	Drone_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Drone_323
-	Function /Game/Drone.Drone_C:ExecuteUbergraph_Drone:00F6
-[2016.07.27-23.15.48:502][ 67]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:512][ 68]LogScript:Warning: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill
-	Drone_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Drone_323
-	Function /Game/Drone.Drone_C:ExecuteUbergraph_Drone:00F6
-[2016.07.27-23.15.48:512][ 68]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:525][ 69]LogScript:Warning: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill
-	Drone_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Drone_323
-	Function /Game/Drone.Drone_C:ExecuteUbergraph_Drone:00F6
-[2016.07.27-23.15.48:526][ 69]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:534][ 70]LogScript:Warning: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill
-	Drone_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Drone_323
-	Function /Game/Drone.Drone_C:ExecuteUbergraph_Drone:00F6
-[2016.07.27-23.15.48:534][ 70]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:544][ 71]LogScript:Warning: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill
-	Drone_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Drone_323
-	Function /Game/Drone.Drone_C:ExecuteUbergraph_Drone:00F6
-[2016.07.27-23.15.48:545][ 71]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:558][ 72]LogScript:Warning: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill
-	Drone_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Drone_323
-	Function /Game/Drone.Drone_C:ExecuteUbergraph_Drone:00F6
-[2016.07.27-23.15.48:558][ 72]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:566][ 73]LogScript:Warning: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill
-	Drone_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Drone_323
-	Function /Game/Drone.Drone_C:ExecuteUbergraph_Drone:00F6
-[2016.07.27-23.15.48:567][ 73]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:577][ 74]LogScript:Warning: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill
-	Drone_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Drone_323
-	Function /Game/Drone.Drone_C:ExecuteUbergraph_Drone:00F6
-[2016.07.27-23.15.48:577][ 74]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:590][ 75]LogScript:Warning: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill
-	Drone_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Drone_323
-	Function /Game/Drone.Drone_C:ExecuteUbergraph_Drone:00F6
-[2016.07.27-23.15.48:591][ 75]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:599][ 76]LogScript:Warning: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill
-	Drone_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Drone_323
-	Function /Game/Drone.Drone_C:ExecuteUbergraph_Drone:00F6
-[2016.07.27-23.15.48:599][ 76]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:611][ 77]LogScript:Warning: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill
-	Drone_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Drone_323
-	Function /Game/Drone.Drone_C:ExecuteUbergraph_Drone:00F6
-[2016.07.27-23.15.48:611][ 77]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:623][ 78]LogScript:Warning: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill
-	Drone_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Drone_323
-	Function /Game/Drone.Drone_C:ExecuteUbergraph_Drone:00F6
-[2016.07.27-23.15.48:623][ 78]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:632][ 79]LogScript:Warning: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill
-	Drone_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Drone_323
-	Function /Game/Drone.Drone_C:ExecuteUbergraph_Drone:00F6
-[2016.07.27-23.15.48:632][ 79]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:643][ 80]LogScript:Warning: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill
-	Drone_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Drone_323
-	Function /Game/Drone.Drone_C:ExecuteUbergraph_Drone:00F6
-[2016.07.27-23.15.48:644][ 80]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:655][ 81]LogScript:Warning: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill
-	Drone_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Drone_323
-	Function /Game/Drone.Drone_C:ExecuteUbergraph_Drone:00F6
-[2016.07.27-23.15.48:656][ 81]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:665][ 82]LogScript:Warning: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill
-	Drone_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Drone_323
-	Function /Game/Drone.Drone_C:ExecuteUbergraph_Drone:00F6
-[2016.07.27-23.15.48:666][ 82]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:676][ 83]LogScript:Warning: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill
-	Drone_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Drone_323
-	Function /Game/Drone.Drone_C:ExecuteUbergraph_Drone:00F6
-[2016.07.27-23.15.48:676][ 83]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:689][ 84]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:698][ 85]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:709][ 86]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:722][ 87]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:730][ 88]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:741][ 89]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:753][ 90]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:763][ 91]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:776][ 92]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:785][ 93]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:795][ 94]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:809][ 95]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:817][ 96]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:829][ 97]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:842][ 98]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:850][ 99]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:861][100]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:874][101]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:883][102]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:895][103]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:907][104]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:918][105]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:927][106]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:939][107]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:949][108]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:960][109]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:972][110]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:982][111]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.48:992][112]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:006][113]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:014][114]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:025][115]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:038][116]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:046][117]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:057][118]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:069][119]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:079][120]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:092][121]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:101][122]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:111][123]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:124][124]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:134][125]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:146][126]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:156][127]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:169][128]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:178][129]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:188][130]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:201][131]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:210][132]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:221][133]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:232][134]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:246][135]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:255][136]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:265][137]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:277][138]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:287][139]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:299][140]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:311][141]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:320][142]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:331][143]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:342][144]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:352][145]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:366][146]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:375][147]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:385][148]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:399][149]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:408][150]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:422][151]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:430][152]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:442][153]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:455][154]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:466][155]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:476][156]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:487][157]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:498][158]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:509][159]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:521][160]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:532][161]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:544][162]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:553][163]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:566][164]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:575][165]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:586][166]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:598][167]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:609][168]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:622][169]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:630][170]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:642][171]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:652][172]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:663][173]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:676][174]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:685][175]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:695][176]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:709][177]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:717][178]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:727][179]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:741][180]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:749][181]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:761][182]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:773][183]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:783][184]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:794][185]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:806][186]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:816][187]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:826][188]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:838][189]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:849][190]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:859][191]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:872][192]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:881][193]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:892][194]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:905][195]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:913][196]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:924][197]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:935][198]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:946][199]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:960][200]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:968][201]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:979][202]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.49:990][203]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:002][204]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:011][205]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:023][206]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:035][207]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:045][208]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:056][209]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:067][210]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:078][211]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:088][212]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:101][213]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:110][214]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:121][215]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:134][216]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:144][217]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:157][218]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:167][219]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:177][220]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:189][221]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:199][222]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:211][223]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:224][224]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:232][225]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:243][226]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:256][227]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:265][228]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:278][229]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:287][230]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:297][231]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:311][232]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:320][233]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:333][234]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:342][235]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:352][236]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:366][237]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:375][238]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:386][239]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:396][240]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:407][241]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:419][242]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:429][243]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:440][244]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:453][245]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:462][246]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:472][247]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:485][248]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:494][249]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:507][250]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:516][251]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:527][252]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:538][253]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:550][254]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:559][255]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:571][256]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:582][257]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:594][258]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:603][259]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:615][260]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:627][261]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:635][262]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:647][263]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:658][264]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:668][265]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:680][266]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:690][267]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:700][268]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_2 via property MeteoriteToMine, but Meteorite_Type3_C_2 is pending kill from function: 'ExecuteUbergraph_Drone' from node: Move to Meteorite in graph: EventGraph in object: Drone
-[2016.07.27-23.15.50:713][269]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.27-23.15.50:757][269]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.07.27-23.15.54:574][508]LogSavePackage: Save=121.72ms
-[2016.07.27-23.15.54:574][508]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevel0F67A673409C8A1DACB9C2AD54DB0A11.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap'
-[2016.07.27-23.15.54:578][508]LogSavePackage: Total save time: 131.84ms
-[2016.07.27-23.15.54:578][508]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap
-[2016.07.27-23.15.54:590][508]LogFileHelpers: Saving map 'FirstLevel' took 0.213
-[2016.07.27-23.15.58:518][738]Cmd: QUIT_EDITOR
-[2016.07.27-23.15.58:607][738]LogExit: Preparing to exit.
-[2016.07.27-23.15.59:195][738]LogExit: Editor shut down
-[2016.07.27-23.15.59:195][738]LogExit: Transaction tracking system shut down
-[2016.07.27-23.15.59:336][738]LogObj: Freed 0b from 0 cluster array pools.
-[2016.07.27-23.15.59:336][738]LogExit: Object subsystem successfully closed.
-[2016.07.27-23.15.59:352][738]LogD3D11RHI: Shutdown
-[2016.07.27-23.15.59:352][738]LogD3D11RHI: CleanupD3DDevice
-[2016.07.27-23.15.59:400][738]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.07.27-23.15.59:484][738]LogDerivedDataCache: Shutdown
-[2016.07.27-23.15.59:497][738]LogModuleManager: Shutting down and abandoning module BlueprintGraph (210)
-[2016.07.27-23.15.59:497][738]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (209)
-[2016.07.27-23.15.59:497][738]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (208)
-[2016.07.27-23.15.59:497][738]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (207)
-[2016.07.27-23.15.59:497][738]LogModuleManager: Shutting down and abandoning module CrashTracker (206)
-[2016.07.27-23.15.59:497][738]LogModuleManager: Shutting down and abandoning module SceneOutliner (205)
-[2016.07.27-23.15.59:497][738]LogModuleManager: Shutting down and abandoning module SuperSearch (204)
-[2016.07.27-23.15.59:497][738]LogModuleManager: Shutting down and abandoning module WidgetCarousel (203)
-[2016.07.27-23.15.59:497][738]LogModuleManager: Shutting down and abandoning module AddContentDialog (202)
-[2016.07.27-23.15.59:498][738]LogModuleManager: Shutting down and abandoning module GameplayTags (201)
-[2016.07.27-23.15.59:498][738]LogModuleManager: Shutting down and abandoning module EditorWidgets (200)
-[2016.07.27-23.15.59:498][738]LogModuleManager: Shutting down and abandoning module CollectionManager (199)
-[2016.07.27-23.15.59:498][738]LogModuleManager: Shutting down and abandoning module StatsViewer (198)
-[2016.07.27-23.15.59:498][738]LogModuleManager: Shutting down and abandoning module FoliageEdit (197)
-[2016.07.27-23.15.59:498][738]LogModuleManager: Shutting down and abandoning module LandscapeEditor (196)
-[2016.07.27-23.15.59:498][738]LogModuleManager: Shutting down and abandoning module ActorPickerMode (195)
-[2016.07.27-23.15.59:498][738]LogModuleManager: Shutting down and abandoning module GeometryMode (194)
-[2016.07.27-23.15.59:498][738]LogModuleManager: Shutting down and abandoning module TextureAlignMode (193)
-[2016.07.27-23.15.59:498][738]LogModuleManager: Shutting down and abandoning module BspMode (192)
-[2016.07.27-23.15.59:498][738]LogModuleManager: Shutting down and abandoning module PlacementMode (191)
-[2016.07.27-23.15.59:498][738]LogModuleManager: Shutting down and abandoning module AutomationWorker (190)
-[2016.07.27-23.15.59:498][738]LogModuleManager: Shutting down and abandoning module CharacterAI (189)
-[2016.07.27-23.15.59:498][738]LogModuleManager: Shutting down and abandoning module SmartSnapping (188)
-[2016.07.27-23.15.59:498][738]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
-[2016.07.27-23.15.59:498][738]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
-[2016.07.27-23.15.59:499][738]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
-[2016.07.27-23.15.59:499][738]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
-[2016.07.27-23.15.59:499][738]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
-[2016.07.27-23.15.59:499][738]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
-[2016.07.27-23.15.59:499][738]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
-[2016.07.27-23.15.59:499][738]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
-[2016.07.27-23.15.59:851][738]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
-[2016.07.27-23.15.59:851][738]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
-[2016.07.27-23.15.59:851][738]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
-[2016.07.27-23.15.59:851][738]LogModuleManager: Shutting down and abandoning module MergeActors (176)
-[2016.07.27-23.15.59:851][738]LogModuleManager: Shutting down and abandoning module SizeMap (175)
-[2016.07.27-23.15.59:851][738]LogModuleManager: Shutting down and abandoning module TreeMap (174)
-[2016.07.27-23.15.59:851][738]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
-[2016.07.27-23.15.59:851][738]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
-[2016.07.27-23.15.59:851][738]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
-[2016.07.27-23.15.59:851][738]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
-[2016.07.27-23.15.59:851][738]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
-[2016.07.27-23.15.59:851][738]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
-[2016.07.27-23.15.59:851][738]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
-[2016.07.27-23.15.59:851][738]LogModuleManager: Shutting down and abandoning module XmlParser (166)
-[2016.07.27-23.15.59:851][738]LogModuleManager: Shutting down and abandoning module Blutility (165)
-[2016.07.27-23.15.59:851][738]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
-[2016.07.27-23.15.59:851][738]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
-[2016.07.27-23.15.59:851][738]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
-[2016.07.27-23.15.59:851][738]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
-[2016.07.27-23.15.59:852][738]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
-[2016.07.27-23.15.59:852][738]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
-[2016.07.27-23.15.59:852][738]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
-[2016.07.27-23.15.59:852][738]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
-[2016.07.27-23.15.59:852][738]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
-[2016.07.27-23.15.59:852][738]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module AutomationController (154)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module Layers (152)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module Persona (148)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module Kismet (147)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module Toolbox (144)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module OutputLog (141)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module GammaUI (140)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module Documentation (139)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module Analytics (136)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module PortalServices (135)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module AITestSuite (132)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module GameplayDebugger (131)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module AIModule (130)
-[2016.07.27-23.15.59:892][738]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module SubstanceEditor (127)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module SlateRemote (126)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module SteamVRController (125)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module SteamVR (124)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (123)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module OculusLibrary (122)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module OculusInput (121)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (120)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module CableComponent (119)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (118)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (117)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module HTML5Networking (116)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module SourceControl (107)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
-[2016.07.27-23.15.59:995][738]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
-[2016.07.27-23.15.59:996][738]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
-[2016.07.27-23.15.59:996][738]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
-[2016.07.27-23.15.59:996][738]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
-[2016.07.27-23.15.59:996][738]LogModuleManager: Shutting down and abandoning module HotReload (101)
-[2016.07.27-23.15.59:996][738]LogModuleManager: Shutting down and abandoning module MainFrame (100)
-[2016.07.27-23.15.59:996][738]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
-[2016.07.27-23.15.59:997][738]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (98)
-[2016.07.27-23.15.59:997][738]LogModuleManager: Shutting down and abandoning module AssetRegistry (97)
-[2016.07.27-23.16.00:143][738]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
-[2016.07.27-23.16.00:143][738]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
-[2016.07.27-23.16.00:143][738]LogModuleManager: Shutting down and abandoning module Project_PlanetDef (94)
-[2016.07.27-23.16.00:143][738]LogModuleManager: Shutting down and abandoning module UdpMessaging (93)
-[2016.07.27-23.16.00:244][738]LogModuleManager: Shutting down and abandoning module SubstanceCore (92)
-[2016.07.27-23.16.00:244][738]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
-[2016.07.27-23.16.00:244][738]LogModuleManager: Shutting down and abandoning module Paper2D (90)
-[2016.07.27-23.16.00:244][738]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
-[2016.07.27-23.16.00:244][738]LogModuleManager: Shutting down and abandoning module Media (88)
-[2016.07.27-23.16.00:244][738]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
-[2016.07.27-23.16.00:244][738]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
-[2016.07.27-23.16.00:244][738]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
-[2016.07.27-23.16.00:244][738]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
-[2016.07.27-23.16.00:244][738]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
-[2016.07.27-23.16.00:244][738]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
-[2016.07.27-23.16.00:244][738]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
-[2016.07.27-23.16.00:244][738]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
-[2016.07.27-23.16.00:244][738]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
-[2016.07.27-23.16.00:244][738]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
-[2016.07.27-23.16.00:244][738]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
-[2016.07.27-23.16.00:245][738]LogModuleManager: Shutting down and abandoning module MessageLog (76)
-[2016.07.27-23.16.00:245][738]LogModuleManager: Shutting down and abandoning module Sequencer (75)
-[2016.07.27-23.16.00:245][738]LogModuleManager: Shutting down and abandoning module AssetTools (74)
-[2016.07.27-23.16.00:245][738]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
-[2016.07.27-23.16.00:245][738]LogModuleManager: Shutting down and abandoning module UMG (72)
-[2016.07.27-23.16.00:245][738]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
-[2016.07.27-23.16.00:245][738]LogModuleManager: Shutting down and abandoning module Slate (70)
-[2016.07.27-23.16.00:245][738]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module SessionServices (68)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module Networking (63)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module Core (62)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module CookingStats (58)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
-[2016.07.27-23.16.00:247][738]LogDerivedDataCache: Shutdown
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2016.07.27-23.16.00:247][738]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2016.07.27-23.16.02:247][738]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2016.07.27-23.16.02:247][738]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2016.07.27-23.16.02:247][738]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.07.27-23.16.02:247][738]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.07.27-23.16.02:247][738]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.07.27-23.16.02:247][738]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.07.27-23.16.02:247][738]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.07.27-23.16.02:248][738]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.07.27-23.16.02:248][738]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.07.27-23.16.02:248][738]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.07.27-23.16.02:248][738]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.07.27-23.16.02:248][738]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.07.27-23.16.02:248][738]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.07.27-23.16.02:248][738]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.07.27-23.16.02:248][738]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.07.27-23.16.02:248][738]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.07.27-23.16.02:248][738]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.07.27-23.16.02:249][738]LogExit: Exiting.
-[2016.07.27-23.16.02:264][738]Log file closed, 07/28/16 09:16:02
+[2016.07.27-23.39.09:827][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.27-23.39.09:827][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.27-23.39.09:836][  0]LogInit: Computer: S-803-10-1228-W
+[2016.07.27-23.39.09:836][  0]LogInit: User: sdeflorio
+[2016.07.27-23.39.09:836][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.07.27-23.39.09:836][  0]LogInit: High frequency timer resolution =3.312851 MHz
+[2016.07.27-23.39.09:836][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.07.27-23.39.09:836][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.27-23.39.09:836][  0]LogMemory: Process Physical Memory: 315.55 MB used, 315.55 MB peak
+[2016.07.27-23.39.09:836][  0]LogMemory: Process Virtual Memory: 317.70 MB used, 317.70 MB peak
+[2016.07.27-23.39.09:836][  0]LogMemory: Physical Memory: 4987.47 MB used, 8130.67 MB total
+[2016.07.27-23.39.09:836][  0]LogMemory: Virtual Memory: 622.68 MB used, 8388608.00 MB total
+[2016.07.27-23.39.09:872][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2016.07.27-23.39.10:174][  0]LogD3D11RHI: D3D11 adapters:
+[2016.07.27-23.39.10:188][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 680MX' (Feature Level 11_0)
+[2016.07.27-23.39.10:188][  0]LogD3D11RHI:       1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2016.07.27-23.39.10:188][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.07.27-23.39.10:195][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.07.27-23.39.10:195][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 680MX
+[2016.07.27-23.39.10:195][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.07.27-23.39.10:195][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.07.27-23.39.10:195][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.27-23.39.10:202][  0]LogD3D11RHI: Async texture creation enabled
+[2016.07.27-23.39.10:213][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Intermediate/Shaders/WorkingDirectory/1224/).
+[2016.07.27-23.39.10:213][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SDEFLO~1/AppData/Local/Temp/UnrealShaderWorkingDir/7A5F2C694463CF754198D48333BDFA6B/'.
+[2016.07.27-23.39.10:213][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.27-23.39.11:084][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.27-23.39.11:089][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.27-23.39.11:093][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.27-23.39.11:098][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.27-23.39.11:102][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.27-23.39.11:105][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.27-23.39.11:108][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.27-23.39.11:110][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.27-23.39.11:113][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.27-23.39.11:116][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.27-23.39.11:119][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.27-23.39.11:125][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.07.27-23.39.11:125][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.27-23.39.11:125][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.27-23.39.11:141][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.27-23.39.11:143][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.07.27-23.39.11:145][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.27-23.39.11:148][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.27-23.39.11:151][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.27-23.39.11:151][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.27-23.39.11:226][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.27-23.39.11:262][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/sdeflorio/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.07.27-23.39.11:263][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/sdeflorio/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.07.27-23.39.11:263][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.27-23.39.11:263][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.27-23.39.11:263][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.27-23.39.11:263][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.27-23.39.11:276][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.27-23.39.11:287][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sdeflorio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.27-23.39.11:442][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.27-23.39.11:443][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.07.27-23.39.11:466][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.07.27-23.39.11:590][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.27-23.39.11:590][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.27-23.39.11:590][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.07.27-23.39.11:988][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.07.27-23.39.11:988][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.07.27-23.39.11:988][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.07.27-23.39.11:995][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.27-23.39.12:080][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.27-23.39.12:080][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.07.27-23.39.12:170][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.07.27-23.39.12:170][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.07.27-23.39.12:170][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.07.27-23.39.12:170][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.07.27-23.39.12:170][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.07.27-23.39.12:170][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.07.27-23.39.12:777][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.07.27-23.39.12:785][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.07.27-23.39.12:892][  0]LogAssetRegistry: FAssetRegistry took 0.0205 seconds to start up
+[2016.07.27-23.39.13:034][  0]SourceControl: Info Source control is disabled
+[2016.07.27-23.39.13:066][  0]SourceControl: Info Source control is disabled
+[2016.07.27-23.39.13:074][  0]SourceControl: Info Source control is disabled
+[2016.07.27-23.39.13:081][  0]SourceControl: Info Source control is disabled
+[2016.07.27-23.39.13:190][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.07.27-23.39.13:264][  0]LogEngine: Initializing Engine...
+[2016.07.27-23.39.13:388][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.07.27-23.39.13:393][  0]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 92))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.27-23.39.13:417][  0]LogInit: FAudioDevice initialized.
+[2016.07.27-23.39.13:442][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/sdeflorio/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.07.27-23.39.13:445][  0]LogInit: Texture streaming: Enabled
+[2016.07.27-23.39.13:468][  0]LogInit: Transaction tracking system initialized
+[2016.07.27-23.39.13:490][  0]BlueprintLog: New page: Editor Load
+[2016.07.27-23.39.13:560][  0]LocalizationService: Info Localization service is disabled
+[2016.07.27-23.39.13:608][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.07.27-23.39.13:608][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.07.27-23.39.13:608][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2016.07.27-23.39.13:619][  0]LogConsoleResponse:Display: 
+[2016.07.27-23.39.13:713][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.07.27-23.39.13:713][  0]LogCook:Display: Mobile HDR setting 1
+[2016.07.27-23.39.13:713][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.07.27-23.39.13:758][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/' took 0.01s
+[2016.07.27-23.39.13:758][  0]SourceControl: Info Source control is disabled
+[2016.07.27-23.39.13:758][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.27-23.39.13:759][  0]LightingResults: New page: Lighting Build
+[2016.07.27-23.39.13:761][  0]MapCheck: New page: Map Check
+[2016.07.27-23.39.13:761][  0]LightingResults: New page: Lighting Build
+[2016.07.27-23.39.13:997][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.07.27-23.39.14:003][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.27-23.39.14:007][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.27-23.39.14:041][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.176ms to complete.
+[2016.07.27-23.39.14:041][  0]LogFileHelpers: Loading map 'Template_Default' took 0.283
+[2016.07.27-23.39.14:136][  0]LogCollectionManager: Loaded 0 collections in 0.001945 seconds
+[2016.07.27-23.39.14:173][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/Collections/' took 0.01s
+[2016.07.27-23.39.14:173][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Developers/sdeflorio/Collections/' took 0.01s
+[2016.07.27-23.39.14:173][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Collections/' took 0.01s
+[2016.07.27-23.39.14:173][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.07.27-23.39.14:180][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 1994 classes and 349 folders.
+[2016.07.27-23.39.14:184][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.07.27-23.39.14:184][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.07.27-23.39.14:185][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0011 seconds. Added 12 classes and 0 folders.
+[2016.07.27-23.39.14:191][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.07.27-23.39.14:196][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2016.07.27-23.39.14:231][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.07.27-23.39.14:246][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2016.07.27-23.39.14:271][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.07.27-23.39.14:290][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.07.27-23.39.14:315][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2016.07.27-23.39.14:315][  0]LogLoad: Full Startup: 5.20 seconds (BP compile: 0.03 seconds)
+[2016.07.27-23.39.14:315][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.07.27-23.39.14:315][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.07.27-23.39.14:324][  0]LogOcInput: OculusInput pre-init called
+[2016.07.27-23.39.14:364][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.07.27-23.39.14:511][  0]LogRenderer: Reallocating scene render targets to support 1616x788 (Frame:2).
+[2016.07.27-23.39.14:768][  1]LogAssetRegistry: Asset discovery search completed in 1.8966 seconds
+[2016.07.27-23.39.14:768][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.07.27-23.39.14:768][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000079 seconds (updated 0 objects)
+[2016.07.27-23.39.20:135][362]LogLinker:Warning: Can't find file '/Game/Materials/shield_mat_red'
+[2016.07.27-23.39.20:135][362]LogLinker:Warning: Can't find file for asset '/Game/Materials/shield_mat_red' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset.
+[2016.07.27-23.39.20:135][362]LoadErrors:Error: Error /Game/Shield : Can't find file for asset. /Game/Materials/shield_mat_red
+[2016.07.27-23.39.20:136][362]LogLinker:Warning: Can't find file '/Game/Materials/shield_mat_red'
+[2016.07.27-23.39.20:137][362]LogLinker:Warning: Can't find file for asset '/Game/Materials/shield_mat_red' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Shield.uasset.
+[2016.07.27-23.39.20:249][362]LogLinker:Warning: Can't find file '/Game/Meteorites/MeteorExplosion'
+[2016.07.27-23.39.20:249][362]LogLinker:Warning: Can't find file for asset '/Game/Meteorites/MeteorExplosion' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Projectile.uasset.
+[2016.07.27-23.39.20:249][362]LoadErrors:Error: Error /Game/Projectile : Can't find file for asset. /Game/Meteorites/MeteorExplosion
+[2016.07.27-23.39.20:264][362]LogLinker:Warning: Can't find file '/Game/Meteorites/MeteorExplosion'
+[2016.07.27-23.39.20:264][362]LogLinker:Warning: Can't find file for asset '/Game/Meteorites/MeteorExplosion' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Projectile.uasset.
+[2016.07.27-23.39.20:280][362]LogLinker:Warning: Can't find file '/Game/Meteorites/MeteorExplosion'
+[2016.07.27-23.39.20:281][362]LoadErrors: Info Failed to load /Game/LeftTurret.LeftTurret_C Referenced by EdGraphPin_110453
+[2016.07.27-23.39.20:281][362]LogLinker:Warning: Can't find file for asset '/Game/Meteorites/MeteorExplosion' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Projectile.uasset.
+[2016.07.27-23.39.20:331][362]LogLinker:Warning: Can't find file '/Game/Meteorites/MeteorExplosion'
+[2016.07.27-23.39.20:331][362]LogLinker:Warning: Can't find file for asset '/Game/Meteorites/MeteorExplosion' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Projectile.uasset.
+[2016.07.27-23.39.20:333][362]LogLinker:Warning: Can't find file '/Game/Meteorites/MeteorExplosion'
+[2016.07.27-23.39.20:333][362]LogLinker:Warning: Can't find file for asset '/Game/Meteorites/MeteorExplosion' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Projectile.uasset.
+[2016.07.27-23.39.20:334][362]LogLinker:Warning: Can't find file '/Game/Materials/shield_mat_red'
+[2016.07.27-23.39.20:334][362]LogLinker:Warning: Can't find file for asset '/Game/Materials/shield_mat_red' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Meteorites/Meteorite.uasset.
+[2016.07.27-23.39.20:334][362]LoadErrors:Error: Error /Game/Meteorites/Meteorite : Can't find file for asset. /Game/Materials/shield_mat_red
+[2016.07.27-23.39.20:334][362]LogLinker:Warning: Can't find file '/Game/Materials/shield_mat_red'
+[2016.07.27-23.39.20:334][362]LogLinker:Warning: Can't find file for asset '/Game/Materials/shield_mat_red' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Meteorites/Meteorite.uasset.
+[2016.07.27-23.39.20:339][362]LogLinker:Warning: Can't find file '/Game/Materials/shield_mat_red'
+[2016.07.27-23.39.20:340][362]LoadErrors: Info Failed to load /Game/LeftTurret.LeftTurret_C Referenced by EdGraphPin_117495
+[2016.07.27-23.39.20:340][362]LogLinker:Warning: Can't find file for asset '/Game/Materials/shield_mat_red' while loading ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Meteorites/Meteorite.uasset.
+[2016.07.27-23.39.21:493][362]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0016 seconds. Added 108 classes and 0 folders.
+[2016.07.27-23.39.31:893][813]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.27-23.39.31:895][813]LogMaterial:Warning: Material /Engine/EditorMaterials/WidgetGridVertexColorMaterial_Ma.WidgetGridVertexColorMaterial_Ma needed to have new flag set bUsedWithStaticLighting !
+[2016.07.27-23.39.31:896][813]LogMaterial: Missing cached shader map for material WidgetGridVertexColorMaterial_Ma, compiling. 
+[2016.07.27-23.39.31:906][813]MapCheck:Warning: Warning WidgetGridVertexColorMaterial_Ma Material /Engine/EditorMaterials/WidgetGridVertexColorMaterial_Ma.WidgetGridVertexColorMaterial_Ma was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.07.27-23.39.31:912][813]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.07.27-23.39.32:000][813]Cmd: MAP LOAD FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.27-23.39.32:000][813]LightingResults: New page: Lighting Build
+[2016.07.27-23.39.32:017][813]LoadErrors: New page: Loading map: FirstLevel.umap
+[2016.07.27-23.39.32:018][813]MapCheck: New page: Map Check
+[2016.07.27-23.39.32:018][813]LightingResults: New page: Lighting Build
+[2016.07.27-23.39.32:047][813]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.27-23.39.32:069][813]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.27-23.39.32:132][813]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.578ms to complete.
+[2016.07.27-23.39.32:133][813]LogFileHelpers: Loading map 'FirstLevel' took 0.135
+[2016.07.27-23.39.39:946][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Drone" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset" SILENT=true
+[2016.07.27-23.39.40:066][462]LogSavePackage: Save=107.19ms
+[2016.07.27-23.39.40:066][462]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/DroneC055B35F40C4445E85AE108A503C1587.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset'
+[2016.07.27-23.39.40:068][462]LogSavePackage: Total save time: 120.74ms
+[2016.07.27-23.39.40:068][462]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset
+[2016.07.27-23.41.17:055][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Drone" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset" SILENT=true
+[2016.07.27-23.41.17:168][780]LogSavePackage: Save=107.08ms
+[2016.07.27-23.41.17:168][780]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/DroneEA6283B64D4EACF9C43681AE7747E4D3.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset'
+[2016.07.27-23.41.17:170][780]LogSavePackage: Total save time: 113.73ms
+[2016.07.27-23.41.17:170][780]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset
+[2016.07.27-23.41.17:515][820]BlueprintLog: New page: Compile Drone
+[2016.07.27-23.41.17:771][820]BlueprintEditorCompileResults: Info [0128.65] Compile of Drone successful! [in 256 ms]
+[2016.07.27-23.41.18:274][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Drone" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset" SILENT=true
+[2016.07.27-23.41.18:386][870]LogSavePackage: Save=106.55ms
+[2016.07.27-23.41.18:386][870]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/Drone0C98B8BC44397ACCD013FE80BB1C4BB3.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset'
+[2016.07.27-23.41.18:388][870]LogSavePackage: Total save time: 112.60ms
+[2016.07.27-23.41.18:388][870]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset
+[2016.07.27-23.41.26:880][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Drone" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset" SILENT=true
+[2016.07.27-23.41.26:984][884]LogSavePackage: Save=98.12ms
+[2016.07.27-23.41.26:984][884]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/Drone9E2D0E9A428922D1E71565BE7CD48A45.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset'
+[2016.07.27-23.41.26:987][884]LogSavePackage: Total save time: 104.94ms
+[2016.07.27-23.41.26:987][884]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset
+[2016.07.27-23.41.35:136][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Drone" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset" SILENT=true
+[2016.07.27-23.41.35:241][856]LogSavePackage: Save=98.83ms
+[2016.07.27-23.41.35:241][856]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/Drone00AE5FB64EA46819D87387A190816A76.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset'
+[2016.07.27-23.41.35:243][856]LogSavePackage: Total save time: 105.95ms
+[2016.07.27-23.41.35:244][856]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset
+[2016.07.27-23.41.35:771][915]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.27-23.41.35:771][915]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.27-23.41.35:772][915]PIE: New page: PIE session: FirstLevel (28 Jul 2016 7:41:35 pm)
+[2016.07.27-23.41.35:772][915]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.07.27-23.41.35:780][915]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007845s)
+[2016.07.27-23.41.35:780][915]LogAIModule: Creating AISystem for world FirstLevel
+[2016.07.27-23.41.35:781][915]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2016.07.27-23.41.35:781][915]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.008819s)
+[2016.07.27-23.41.35:798][915]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 92))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.27-23.41.35:808][915]LogInit: FAudioDevice initialized.
+[2016.07.27-23.41.35:851][915]LogWorld: Game class is 'GameManager_C'
+[2016.07.27-23.41.35:856][915]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.07.28-09.41.35
+[2016.07.27-23.41.35:856][915]LogWorld: Bringing up level for play took: 0.003956
+[2016.07.27-23.41.35:863][915]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 9 classes and 0 folders.
+[2016.07.27-23.41.35:869][915]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.708
+[2016.07.27-23.41.35:869][915]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.27-23.41.37:742][ 84]LogBlueprintUserMessages: [GameManager_C_0] Wave Begun
+[2016.07.27-23.41.59:925][123]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.27-23.41.59:972][123]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.07.27-23.42.01:340][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Drone" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset" SILENT=true
+[2016.07.27-23.42.01:447][276]LogSavePackage: Save=102.18ms
+[2016.07.27-23.42.01:447][276]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/Drone587A35CE471ACF45654E79A966FA60D6.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset'
+[2016.07.27-23.42.01:449][276]LogSavePackage: Total save time: 108.18ms
+[2016.07.27-23.42.01:449][276]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Drone.uasset
+[2016.07.27-23.42.04:590][593]LogSavePackage: Save=127.62ms
+[2016.07.27-23.42.04:590][593]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevel030A117143AE42CAABAB46979790DC22.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap'
+[2016.07.27-23.42.04:594][593]LogSavePackage: Total save time: 137.36ms
+[2016.07.27-23.42.04:594][593]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap
+[2016.07.27-23.42.07:909][824]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.07.27-23.42.08:125][825]Cmd: QUIT_EDITOR
+[2016.07.27-23.42.08:212][825]LogExit: Preparing to exit.
+[2016.07.27-23.42.08:950][825]LogExit: Editor shut down
+[2016.07.27-23.42.08:950][825]LogExit: Transaction tracking system shut down
+[2016.07.27-23.42.09:090][825]LogObj: Freed 0b from 0 cluster array pools.
+[2016.07.27-23.42.09:090][825]LogExit: Object subsystem successfully closed.
+[2016.07.27-23.42.09:102][825]LogD3D11RHI: Shutdown
+[2016.07.27-23.42.09:102][825]LogD3D11RHI: CleanupD3DDevice
+[2016.07.27-23.42.09:146][825]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.07.27-23.42.09:229][825]LogDerivedDataCache: Shutdown
+[2016.07.27-23.42.09:229][825]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (210)
+[2016.07.27-23.42.09:229][825]LogModuleManager: Shutting down and abandoning module BlueprintGraph (209)
+[2016.07.27-23.42.09:229][825]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (208)
+[2016.07.27-23.42.09:229][825]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (207)
+[2016.07.27-23.42.09:229][825]LogModuleManager: Shutting down and abandoning module CrashTracker (206)
+[2016.07.27-23.42.09:229][825]LogModuleManager: Shutting down and abandoning module SceneOutliner (205)
+[2016.07.27-23.42.09:229][825]LogModuleManager: Shutting down and abandoning module SuperSearch (204)
+[2016.07.27-23.42.09:229][825]LogModuleManager: Shutting down and abandoning module WidgetCarousel (203)
+[2016.07.27-23.42.09:229][825]LogModuleManager: Shutting down and abandoning module AddContentDialog (202)
+[2016.07.27-23.42.09:230][825]LogModuleManager: Shutting down and abandoning module GameplayTags (201)
+[2016.07.27-23.42.09:230][825]LogModuleManager: Shutting down and abandoning module EditorWidgets (200)
+[2016.07.27-23.42.09:230][825]LogModuleManager: Shutting down and abandoning module CollectionManager (199)
+[2016.07.27-23.42.09:230][825]LogModuleManager: Shutting down and abandoning module StatsViewer (198)
+[2016.07.27-23.42.09:230][825]LogModuleManager: Shutting down and abandoning module FoliageEdit (197)
+[2016.07.27-23.42.09:230][825]LogModuleManager: Shutting down and abandoning module LandscapeEditor (196)
+[2016.07.27-23.42.09:231][825]LogModuleManager: Shutting down and abandoning module ActorPickerMode (195)
+[2016.07.27-23.42.09:231][825]LogModuleManager: Shutting down and abandoning module GeometryMode (194)
+[2016.07.27-23.42.09:231][825]LogModuleManager: Shutting down and abandoning module TextureAlignMode (193)
+[2016.07.27-23.42.09:231][825]LogModuleManager: Shutting down and abandoning module BspMode (192)
+[2016.07.27-23.42.09:231][825]LogModuleManager: Shutting down and abandoning module PlacementMode (191)
+[2016.07.27-23.42.09:231][825]LogModuleManager: Shutting down and abandoning module AutomationWorker (190)
+[2016.07.27-23.42.09:231][825]LogModuleManager: Shutting down and abandoning module CharacterAI (189)
+[2016.07.27-23.42.09:231][825]LogModuleManager: Shutting down and abandoning module SmartSnapping (188)
+[2016.07.27-23.42.09:231][825]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.07.27-23.42.09:231][825]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.07.27-23.42.09:231][825]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.07.27-23.42.09:231][825]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.07.27-23.42.09:231][825]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.07.27-23.42.09:231][825]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.07.27-23.42.09:231][825]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.07.27-23.42.09:231][825]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.07.27-23.42.09:601][825]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.07.27-23.42.09:601][825]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.07.27-23.42.09:601][825]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.07.27-23.42.09:601][825]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.07.27-23.42.09:601][825]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.07.27-23.42.09:601][825]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.07.27-23.42.09:601][825]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.07.27-23.42.09:601][825]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.07.27-23.42.09:601][825]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.07.27-23.42.09:601][825]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.07.27-23.42.09:601][825]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.07.27-23.42.09:601][825]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.07.27-23.42.09:601][825]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.07.27-23.42.09:601][825]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.07.27-23.42.09:601][825]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.07.27-23.42.09:601][825]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.07.27-23.42.09:601][825]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.07.27-23.42.09:602][825]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.07.27-23.42.09:602][825]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.07.27-23.42.09:602][825]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.07.27-23.42.09:602][825]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.07.27-23.42.09:602][825]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.07.27-23.42.09:602][825]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.07.27-23.42.09:602][825]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.07.27-23.42.09:602][825]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module AITestSuite (132)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module GameplayDebugger (131)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.07.27-23.42.09:642][825]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.07.27-23.42.09:735][825]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.07.27-23.42.09:735][825]LogModuleManager: Shutting down and abandoning module SubstanceEditor (127)
+[2016.07.27-23.42.09:735][825]LogModuleManager: Shutting down and abandoning module SlateRemote (126)
+[2016.07.27-23.42.09:735][825]LogModuleManager: Shutting down and abandoning module SteamVRController (125)
+[2016.07.27-23.42.09:735][825]LogModuleManager: Shutting down and abandoning module SteamVR (124)
+[2016.07.27-23.42.09:735][825]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (123)
+[2016.07.27-23.42.09:735][825]LogModuleManager: Shutting down and abandoning module OculusLibrary (122)
+[2016.07.27-23.42.09:735][825]LogModuleManager: Shutting down and abandoning module OculusInput (121)
+[2016.07.27-23.42.09:735][825]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (120)
+[2016.07.27-23.42.09:735][825]LogModuleManager: Shutting down and abandoning module CableComponent (119)
+[2016.07.27-23.42.09:735][825]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (118)
+[2016.07.27-23.42.09:735][825]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (117)
+[2016.07.27-23.42.09:735][825]LogModuleManager: Shutting down and abandoning module HTML5Networking (116)
+[2016.07.27-23.42.09:735][825]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
+[2016.07.27-23.42.09:735][825]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
+[2016.07.27-23.42.09:735][825]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
+[2016.07.27-23.42.09:735][825]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
+[2016.07.27-23.42.09:735][825]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
+[2016.07.27-23.42.09:735][825]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
+[2016.07.27-23.42.09:735][825]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
+[2016.07.27-23.42.09:735][825]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
+[2016.07.27-23.42.09:735][825]LogModuleManager: Shutting down and abandoning module SourceControl (107)
+[2016.07.27-23.42.09:736][825]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
+[2016.07.27-23.42.09:736][825]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
+[2016.07.27-23.42.09:736][825]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
+[2016.07.27-23.42.09:736][825]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
+[2016.07.27-23.42.09:736][825]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
+[2016.07.27-23.42.09:736][825]LogModuleManager: Shutting down and abandoning module HotReload (101)
+[2016.07.27-23.42.09:736][825]LogModuleManager: Shutting down and abandoning module MainFrame (100)
+[2016.07.27-23.42.09:736][825]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
+[2016.07.27-23.42.09:737][825]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (98)
+[2016.07.27-23.42.09:737][825]LogModuleManager: Shutting down and abandoning module AssetRegistry (97)
+[2016.07.27-23.42.09:981][825]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.07.27-23.42.09:981][825]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.07.27-23.42.09:981][825]LogModuleManager: Shutting down and abandoning module Project_PlanetDef (94)
+[2016.07.27-23.42.09:981][825]LogModuleManager: Shutting down and abandoning module UdpMessaging (93)
+[2016.07.27-23.42.10:081][825]LogModuleManager: Shutting down and abandoning module SubstanceCore (92)
+[2016.07.27-23.42.10:081][825]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.07.27-23.42.10:081][825]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.07.27-23.42.10:081][825]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.07.27-23.42.10:081][825]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.07.27-23.42.10:081][825]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.07.27-23.42.10:081][825]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.07.27-23.42.10:081][825]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.07.27-23.42.10:081][825]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.07.27-23.42.10:081][825]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.07.27-23.42.10:081][825]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.07.27-23.42.10:081][825]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.07.27-23.42.10:081][825]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.07.27-23.42.10:082][825]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.07.27-23.42.10:082][825]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.07.27-23.42.10:082][825]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.07.27-23.42.10:082][825]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.07.27-23.42.10:082][825]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.07.27-23.42.10:082][825]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.07.27-23.42.10:082][825]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.07.27-23.42.10:082][825]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.07.27-23.42.10:082][825]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.07.27-23.42.10:082][825]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.07.27-23.42.10:082][825]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.07.27-23.42.10:084][825]LogDerivedDataCache: Shutdown
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.07.27-23.42.10:084][825]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.07.27-23.42.11:084][825]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.07.27-23.42.11:084][825]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.07.27-23.42.11:084][825]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.07.27-23.42.11:084][825]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.07.27-23.42.11:084][825]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.07.27-23.42.11:084][825]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.07.27-23.42.11:084][825]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.07.27-23.42.11:085][825]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.07.27-23.42.11:085][825]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.07.27-23.42.11:085][825]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.07.27-23.42.11:085][825]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.07.27-23.42.11:085][825]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.07.27-23.42.11:085][825]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.07.27-23.42.11:085][825]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.07.27-23.42.11:085][825]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.07.27-23.42.11:085][825]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.07.27-23.42.11:085][825]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.07.27-23.42.11:086][825]LogExit: Exiting.
+[2016.07.27-23.42.11:087][825]Log file closed, 07/28/16 09:42:11
