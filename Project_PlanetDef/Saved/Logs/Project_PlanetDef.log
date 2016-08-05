@@ -1,9 +1,9 @@
-﻿Log file open, 08/05/16 10:49:34
+﻿Log file open, 08/05/16 14:17:36
 LogInit:Display: Running engine for game: Project_PlanetDef
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-492362295) SRandInit(-492362294).
+LogInit:Display: RandInit(-143318549) SRandInit(-143318548).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-LogStats: Stats thread started at 0.062740
+LogStats: Stats thread started at 0.062401
 LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
 LogInit: API Version: 2927265
 LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
@@ -29,950 +29,532 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.08.05-00.49.34:942][  0]LogInit: Selected Device Profile: [Windows]
-[2016.08.05-00.49.34:942][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.08.05-00.49.34:951][  0]LogInit: Computer: VICTORIA-PC
-[2016.08.05-00.49.34:951][  0]LogInit: User: Victoria
-[2016.08.05-00.49.34:951][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.08.05-00.49.34:951][  0]LogInit: High frequency timer resolution =3.125019 MHz
-[2016.08.05-00.49.34:951][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.08.05-00.49.34:951][  0]LogMemory: Platform Memory Stats for Windows
-[2016.08.05-00.49.34:951][  0]LogMemory: Process Physical Memory: 313.39 MB used, 313.39 MB peak
-[2016.08.05-00.49.34:951][  0]LogMemory: Process Virtual Memory: 315.70 MB used, 315.70 MB peak
-[2016.08.05-00.49.34:951][  0]LogMemory: Physical Memory: 6156.57 MB used, 16262.56 MB total
-[2016.08.05-00.49.34:951][  0]LogMemory: Virtual Memory: 620.62 MB used, 8388608.00 MB total
-[2016.08.05-00.49.34:982][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
-[2016.08.05-00.49.35:357][  0]LogD3D11RHI: D3D11 adapters:
-[2016.08.05-00.49.35:372][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2016.08.05-00.49.35:372][  0]LogD3D11RHI:       4007MB of dedicated video memory, 0MB of dedicated system memory, and 7875MB of shared system memory, 1 output[s]
-[2016.08.05-00.49.35:372][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.08.05-00.49.35:377][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.08.05-00.49.35:378][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2016.08.05-00.49.35:378][  0]LogD3D11RHI:   Driver Version: 10.18.13.6839 (internal 10.18.13.6839)
-[2016.08.05-00.49.35:378][  0]LogD3D11RHI:      Driver Date: 6-2-2016
-[2016.08.05-00.49.35:378][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.08.05-00.49.35:386][  0]LogD3D11RHI: Async texture creation enabled
-[2016.08.05-00.49.35:400][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../../../../INBOUND/build/yo/Project_PlanetDef/Intermediate/Shaders/WorkingDirectory/9804/).
-[2016.08.05-00.49.35:400][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Victoria/AppData/Local/Temp/UnrealShaderWorkingDir/186AC33F4756254E05161996FA6FA32B/'.
-[2016.08.05-00.49.35:400][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.08.05-00.49.36:229][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.08.05-00.49.36:233][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.08.05-00.49.36:236][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.08.05-00.49.36:239][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.08.05-00.49.36:242][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.08.05-00.49.36:245][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.08.05-00.49.36:247][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.08.05-00.49.36:250][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.08.05-00.49.36:253][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.08.05-00.49.36:256][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.08.05-00.49.36:258][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.08.05-00.49.36:263][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.08.05-00.49.36:263][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.08.05-00.49.36:264][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.08.05-00.49.36:278][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.08.05-00.49.36:280][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.08.05-00.49.36:283][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.08.05-00.49.36:286][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.08.05-00.49.36:288][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.08.05-00.49.36:288][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.08.05-00.49.36:339][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.08.05-00.49.36:384][  0]LogDerivedDataCache: Loaded boot cache 0.05s 46MB C:/Users/Victoria/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.08.05-00.49.36:384][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Victoria/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
-[2016.08.05-00.49.36:385][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../INBOUND/build/yo/Project_PlanetDef/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.08.05-00.49.36:385][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.08.05-00.49.36:385][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../INBOUND/build/yo/Project_PlanetDef/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.08.05-00.49.36:385][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.08.05-00.49.36:399][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.08.05-00.49.36:410][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Victoria/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.08.05-00.49.36:541][  0]LogInit: Selected Device Profile: [Windows]
-[2016.08.05-00.49.36:542][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.08.05-00.49.36:562][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.08.05-00.49.36:677][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.08.05-00.49.36:677][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.08.05-00.49.36:677][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.08.05-00.49.36:872][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
-[2016.08.05-00.49.36:872][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
-[2016.08.05-00.49.36:872][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.08.05-00.49.36:876][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.08.05-00.49.36:936][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.08.05-00.49.36:936][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.08.05-00.49.37:018][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.08.05-00.49.37:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.08.05-00.49.37:018][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.08.05-00.49.37:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.08.05-00.49.37:018][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.08.05-00.49.37:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.08.05-00.49.37:474][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
-[2016.08.05-00.49.37:479][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.08.05-00.49.37:574][  0]LogAssetRegistry: FAssetRegistry took 0.0199 seconds to start up
-[2016.08.05-00.49.37:686][  0]SourceControl: Info Source control is disabled
-[2016.08.05-00.49.37:692][  0]SourceControl: Info Source control is disabled
-[2016.08.05-00.49.37:697][  0]SourceControl: Info Source control is disabled
-[2016.08.05-00.49.37:701][  0]SourceControl: Info Source control is disabled
-[2016.08.05-00.49.37:772][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2016.08.05-00.49.37:835][  0]LogEngine: Initializing Engine...
-[2016.08.05-00.49.37:952][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.08.05-00.49.37:958][  0]LogInit: XAudio2 using 'Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.08.05-00.49.37:967][  0]LogInit: FAudioDevice initialized.
-[2016.08.05-00.49.37:988][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/Victoria/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.08.05-00.49.37:993][  0]LogInit: Texture streaming: Enabled
-[2016.08.05-00.49.38:008][  0]LogInit: Transaction tracking system initialized
-[2016.08.05-00.49.38:022][  0]BlueprintLog: New page: Editor Load
-[2016.08.05-00.49.38:066][  0]LocalizationService: Info Localization service is disabled
-[2016.08.05-00.49.38:110][  0]LogConsoleResponse:Display: 
-[2016.08.05-00.49.38:196][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.08.05-00.49.38:196][  0]LogCook:Display: Mobile HDR setting 1
-[2016.08.05-00.49.38:196][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.08.05-00.49.38:228][  0]LogFileCache: Scanning file cache for directory 'E:/INBOUND/build/yo/Project_PlanetDef/Content/' took 0.01s
-[2016.08.05-00.49.38:228][  0]SourceControl: Info Source control is disabled
-[2016.08.05-00.49.38:228][  0]Cmd: MAP LOAD FILE="../../../../../../../INBOUND/build/yo/Project_PlanetDef/Content/Maps/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.08.05-00.49.38:228][  0]LightingResults: New page: Lighting Build
-[2016.08.05-00.49.38:230][  0]MapCheck: New page: Map Check
-[2016.08.05-00.49.38:230][  0]LightingResults: New page: Lighting Build
-[2016.08.05-00.49.39:576][  0]LogAIModule: Creating AISystem for world FirstLevel
-[2016.08.05-00.49.39:579][  0]LogMaterial:Warning: Material /Engine/EditorMaterials/WidgetGridVertexColorMaterial_Ma.WidgetGridVertexColorMaterial_Ma needed to have new flag set bUsedWithStaticLighting !
-[2016.08.05-00.49.39:581][  0]LogMaterial: Missing cached shader map for material WidgetGridVertexColorMaterial_Ma, compiling. 
-[2016.08.05-00.49.39:592][  0]MapCheck:Warning: Warning WidgetGridVertexColorMaterial_Ma Material /Engine/EditorMaterials/WidgetGridVertexColorMaterial_Ma.WidgetGridVertexColorMaterial_Ma was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2016.08.05-00.49.39:592][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.08.05-00.49.39:603][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.08.05-00.49.39:603][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.08.05-00.49.39:636][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 32.788ms to complete.
-[2016.08.05-00.49.39:643][  0]LogFileHelpers: Loading map 'FirstLevel' took 1.415
-[2016.08.05-00.49.39:739][  0]LogCollectionManager: Loaded 0 collections in 0.001229 seconds
-[2016.08.05-00.49.39:767][  0]LogFileCache: Scanning file cache for directory 'E:/INBOUND/build/yo/Project_PlanetDef/Saved/Collections/' took 0.01s
-[2016.08.05-00.49.39:767][  0]LogFileCache: Scanning file cache for directory 'E:/INBOUND/build/yo/Project_PlanetDef/Content/Developers/Victoria/Collections/' took 0.00s
-[2016.08.05-00.49.39:767][  0]LogFileCache: Scanning file cache for directory 'E:/INBOUND/build/yo/Project_PlanetDef/Content/Collections/' took 0.01s
-[2016.08.05-00.49.39:767][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2016.08.05-00.49.39:774][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 1994 classes and 349 folders.
-[2016.08.05-00.49.39:777][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.08.05-00.49.39:777][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.08.05-00.49.39:778][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 12 classes and 0 folders.
-[2016.08.05-00.49.39:782][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2016.08.05-00.49.39:786][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2016.08.05-00.49.39:819][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2016.08.05-00.49.39:822][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2016.08.05-00.49.39:835][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.08.05-00.49.39:840][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.08.05-00.49.39:866][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2016.08.05-00.49.39:866][  0]LogLoad: Full Startup: 5.49 seconds (BP compile: 0.39 seconds)
-[2016.08.05-00.49.39:866][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.08.05-00.49.39:866][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.08.05-00.49.39:875][  0]LogOcInput: OculusInput pre-init called
-[2016.08.05-00.49.39:925][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.08.05-00.49.40:052][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
-[2016.08.05-00.49.40:125][  1]LogFileCache: Retrieving MD5 hashes for directory 'E:/INBOUND/build/yo/Project_PlanetDef/Content/' took 0.24s
-[2016.08.05-00.49.40:146][  1]LogAssetRegistry: Asset discovery search completed in 2.5926 seconds
-[2016.08.05-00.49.40:146][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.08.05-00.49.40:146][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
-[2016.08.05-00.49.44:050][411]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.05-00.49.44:050][411]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.08.05-00.49.44:051][411]PIE: New page: PIE session: FirstLevel (5 Aug 2016 8:49:44 pm)
-[2016.08.05-00.49.44:051][411]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
-[2016.08.05-00.49.44:060][411]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009344s)
-[2016.08.05-00.49.44:061][411]LogAIModule: Creating AISystem for world FirstLevel
-[2016.08.05-00.49.44:061][411]LogPlayLevel: PIE: World Init took: (0.000670s)
-[2016.08.05-00.49.44:061][411]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.010202s)
-[2016.08.05-00.49.44:120][411]LogInit: XAudio2 using 'Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.08.05-00.49.44:127][411]LogInit: FAudioDevice initialized.
-[2016.08.05-00.49.44:171][411]LogWorld: Game class is 'GameManager_C'
-[2016.08.05-00.49.44:174][411]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.08.05-10.49.44
-[2016.08.05-00.49.44:175][411]LogWorld: Bringing up level for play took: 0.002610
-[2016.08.05-00.49.44:178][411]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 9 classes and 0 folders.
-[2016.08.05-00.49.44:181][411]LogScript:Warning: UGameplayStatics::PlaySoundAttached: NULL AttachComponent specified! Trying to spawn sound [PLANET_DEFENCE_Cue],
-[2016.08.05-00.49.44:181][411]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.011
-[2016.08.05-00.49.44:181][411]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.05-00.49.46:030][630]LogBlueprintUserMessages: [GameManager_C_0] Wave Begun
-[2016.08.05-00.50.03:626][741]LogActor:Warning: Projectile_C_1 is outside the world bounds!
-[2016.08.05-00.50.04:285][820]LogActor:Warning: Projectile_C_0 is outside the world bounds!
-[2016.08.05-00.50.11:077][635]LogActor:Warning: Projectile_C_2 is outside the world bounds!
-[2016.08.05-00.50.13:851][968]LogActor:Warning: Projectile_C_3 is outside the world bounds!
-[2016.08.05-00.50.16:735][314]LogActor:Warning: Projectile_C_8 is outside the world bounds!
-[2016.08.05-00.50.24:894][293]LogActor:Warning: Projectile_C_13 is outside the world bounds!
-[2016.08.05-00.50.27:144][563]LogActor:Warning: Projectile_C_15 is outside the world bounds!
-[2016.08.05-00.50.34:144][403]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.05-00.50.34:176][403]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.05-00.50.34:844][480]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2016.08.05-00.50.34:892][481]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2016.08.05-00.50.35:046][498]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2016.08.05-00.52.30:411][953]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.05-00.52.30:411][953]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.08.05-00.52.30:411][953]PIE: New page: PIE session: FirstLevel (5 Aug 2016 8:52:30 pm)
-[2016.08.05-00.52.30:411][953]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
-[2016.08.05-00.52.30:421][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009561s)
-[2016.08.05-00.52.30:421][953]LogAIModule: Creating AISystem for world FirstLevel
-[2016.08.05-00.52.30:421][953]LogPlayLevel: PIE: World Init took: (0.000444s)
-[2016.08.05-00.52.30:421][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.010162s)
-[2016.08.05-00.52.30:434][953]LogInit: XAudio2 using 'Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.08.05-00.52.30:442][953]LogInit: FAudioDevice initialized.
-[2016.08.05-00.52.30:470][953]LogWorld: Game class is 'GameManager_C'
-[2016.08.05-00.52.30:473][953]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.08.05-10.52.30
-[2016.08.05-00.52.30:474][953]LogWorld: Bringing up level for play took: 0.002687
-[2016.08.05-00.52.30:476][953]LogScript:Warning: UGameplayStatics::PlaySoundAttached: NULL AttachComponent specified! Trying to spawn sound [PLANET_DEFENCE_Cue],
-[2016.08.05-00.52.30:477][953]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.306
-[2016.08.05-00.52.30:477][953]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.05-00.52.32:390][182]LogBlueprintUserMessages: [GameManager_C_1] Wave Begun
-[2016.08.05-00.52.53:307][692]LogActor:Warning: Projectile_C_23 is outside the world bounds!
-[2016.08.05-00.53.08:500][515]LogActor:Warning: Projectile_C_32 is outside the world bounds!
-[2016.08.05-00.53.10:433][747]LogActor:Warning: Projectile_C_34 is outside the world bounds!
-[2016.08.05-00.53.14:685][257]LogActor:Warning: Projectile_C_36 is outside the world bounds!
-[2016.08.05-00.53.23:518][317]LogActor:Warning: Projectile_C_42 is outside the world bounds!
-[2016.08.05-00.53.37:465][990]LogBlueprintUserMessages: [GameManager_C_1] Wave Ended
-[2016.08.05-00.53.52:473][789]LogBlueprintUserMessages: [GameManager_C_1] Wave Begun
-[2016.08.05-00.53.53:889][959]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.05-00.53.53:921][959]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.05-00.54.20:708][ 54]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 108 classes and 0 folders.
-[2016.08.05-00.56.29:247][ 28]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2016.08.05-00.56.37:754][  6]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
-[2016.08.05-00.56.37:823][  6]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
-[2016.08.05-00.56.37:826][  6]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.08.05-00.56.37:852][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_12, compiling. 
-[2016.08.05-00.56.37:855][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_13, compiling. 
-[2016.08.05-00.56.37:858][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_14, compiling. 
-[2016.08.05-00.56.37:861][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_15, compiling. 
-[2016.08.05-00.56.37:864][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
-[2016.08.05-00.56.37:866][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_16, compiling. 
-[2016.08.05-00.56.37:869][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_17, compiling. 
-[2016.08.05-00.56.37:872][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
-[2016.08.05-00.56.37:875][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
-[2016.08.05-00.56.37:878][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
-[2016.08.05-00.56.37:880][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2016.08.05-00.56.38:283][ 25]MaterialEditorStats: Info Base pass shader without light map: 76 instructions
-[2016.08.05-00.56.38:283][ 25]MaterialEditorStats: Info Vertex shader: 30 instructions
-[2016.08.05-00.56.38:283][ 25]MaterialEditorStats: Info Texture samplers: 3/16
-[2016.08.05-00.56.55:045][594]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
-[2016.08.05-00.56.55:047][594]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.08.05-00.56.55:298][618]MaterialEditorStats: Info Base pass shader without light map: 18 instructions
-[2016.08.05-00.56.55:298][618]MaterialEditorStats: Info Vertex shader: 30 instructions
-[2016.08.05-00.56.55:298][618]MaterialEditorStats: Info Texture samplers: 1/16
-[2016.08.05-00.56.56:350][730]LogMaterialEditor: Saving and Compiling material M_Sky_Panning_Clouds2
-[2016.08.05-00.56.56:713][730]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
-[2016.08.05-00.56.56:718][730]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.08.05-00.56.56:814][730]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
-[2016.08.05-00.56.56:837][730]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
-[2016.08.05-00.56.56:843][730]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.08.05-00.56.57:501][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/M_Sky_Panning_Clouds2" FILE="../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" SILENT=true
-[2016.08.05-00.56.57:530][730]LogSavePackage: Save=20.77ms
-[2016.08.05-00.56.57:530][730]LogSavePackage: Moving '../../../../../../../INBOUND/build/yo/Project_PlanetDef/Saved/M_Sky_Panning_Clouds28396A39E42C6934AC9BA0591BD021983.tmp' to '../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset'
-[2016.08.05-00.56.57:531][730]LogSavePackage: Total save time: 29.36ms
-[2016.08.05-00.56.57:531][730]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset
-[2016.08.05-00.56.57:543][730]MaterialEditorStats: Info Base pass shader without light map: 49 instructions
-[2016.08.05-00.56.57:543][730]MaterialEditorStats: Info Vertex shader: 30 instructions
-[2016.08.05-00.56.57:543][730]MaterialEditorStats: Info Texture samplers: 1/16
-[2016.08.05-00.56.59:981][987]LogMaterialEditor: Saving and Compiling material M_Sky_Panning_Clouds2
-[2016.08.05-00.56.59:995][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/M_Sky_Panning_Clouds2" FILE="../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" SILENT=true
-[2016.08.05-00.57.00:013][987]LogSavePackage: Save=12.93ms
-[2016.08.05-00.57.00:013][987]LogSavePackage: Moving '../../../../../../../INBOUND/build/yo/Project_PlanetDef/Saved/M_Sky_Panning_Clouds2BF94D372418374B2EDE28C9FE6BD8CAF.tmp' to '../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset'
-[2016.08.05-00.57.00:014][987]LogSavePackage: Total save time: 18.08ms
-[2016.08.05-00.57.00:014][987]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset
-[2016.08.05-00.57.03:539][380]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.05-00.57.03:539][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.08.05-00.57.03:539][380]PIE: New page: PIE session: FirstLevel (5 Aug 2016 8:57:03 pm)
-[2016.08.05-00.57.03:539][380]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
-[2016.08.05-00.57.03:549][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009945s)
-[2016.08.05-00.57.03:549][380]LogAIModule: Creating AISystem for world FirstLevel
-[2016.08.05-00.57.03:549][380]LogPlayLevel: PIE: World Init took: (0.000490s)
-[2016.08.05-00.57.03:550][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.010653s)
-[2016.08.05-00.57.03:582][380]LogInit: XAudio2 using 'Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.08.05-00.57.03:589][380]LogInit: FAudioDevice initialized.
-[2016.08.05-00.57.03:616][380]LogWorld: Game class is 'GameManager_C'
-[2016.08.05-00.57.03:619][380]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.08.05-10.57.03
-[2016.08.05-00.57.03:619][380]LogWorld: Bringing up level for play took: 0.002711
-[2016.08.05-00.57.03:622][380]LogScript:Warning: UGameplayStatics::PlaySoundAttached: NULL AttachComponent specified! Trying to spawn sound [PLANET_DEFENCE_Cue],
-[2016.08.05-00.57.03:623][380]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.55
-[2016.08.05-00.57.03:623][380]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.05-00.57.05:519][607]LogBlueprintUserMessages: [GameManager_C_2] Wave Begun
-[2016.08.05-00.57.26:086][ 75]LogActor:Warning: Projectile_C_43 is outside the world bounds!
-[2016.08.05-00.57.39:346][666]LogScript:Warning: Attempted to access Meteorite_Type3_C_17 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_17 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_4
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:00C6
-[2016.08.05-00.57.39:347][666]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_17 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_17 is pending kill from function: 'SpawnLesserMeteorite' from node: Set World Scale 3D in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.57.39:347][666]LogScript:Warning: Accessed None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_4
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:00DB
-[2016.08.05-00.57.39:347][666]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'SpawnLesserMeteorite' from node: Set World Scale 3D in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.57.39:347][666]LogScript:Warning: Attempted to access Meteorite_Type3_C_17 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_17 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_4
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:01E7
-[2016.08.05-00.57.39:347][666]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_17 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_17 is pending kill from function: 'SpawnLesserMeteorite' from node: Set TargetLocation in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.57.39:347][666]LogScript:Warning: Attempted to assign to None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_4
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:01FC
-[2016.08.05-00.57.39:347][666]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'SpawnLesserMeteorite' from node: Set TargetLocation in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.57.39:347][666]LogScript:Warning: Attempted to access Meteorite_Type3_C_17 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_17 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_4
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:021A
-[2016.08.05-00.57.39:347][666]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_17 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_17 is pending kill from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.57.39:347][666]LogScript:Warning: Attempted to assign to None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_4
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:022F
-[2016.08.05-00.57.39:347][666]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.57.39:347][666]LogScript:Warning: Attempted to access Meteorite_Type3_C_17 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_17 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_4
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:0239
-[2016.08.05-00.57.39:347][666]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_17 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_17 is pending kill from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.57.39:348][666]LogScript:Warning: Attempted to access Meteorite_Type3_C_18 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_18 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_4
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:00C6
-[2016.08.05-00.57.39:348][666]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_18 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_18 is pending kill from function: 'SpawnLesserMeteorite' from node: Set World Scale 3D in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.57.39:348][666]LogScript:Warning: Accessed None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_4
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:00DB
-[2016.08.05-00.57.39:348][666]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'SpawnLesserMeteorite' from node: Set World Scale 3D in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.57.39:348][666]LogScript:Warning: Attempted to access Meteorite_Type3_C_18 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_18 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_4
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:01E7
-[2016.08.05-00.57.39:348][666]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_18 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_18 is pending kill from function: 'SpawnLesserMeteorite' from node: Set TargetLocation in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.57.39:348][666]LogScript:Warning: Attempted to assign to None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_4
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:01FC
-[2016.08.05-00.57.39:348][666]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'SpawnLesserMeteorite' from node: Set TargetLocation in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.57.39:348][666]LogScript:Warning: Attempted to access Meteorite_Type3_C_18 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_18 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_4
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:021A
-[2016.08.05-00.57.39:348][666]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_18 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_18 is pending kill from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.57.39:348][666]LogScript:Warning: Attempted to assign to None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_4
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:022F
-[2016.08.05-00.57.39:348][666]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.57.39:348][666]LogScript:Warning: Attempted to access Meteorite_Type3_C_18 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_18 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_4
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:0239
-[2016.08.05-00.57.39:348][666]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_18 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_18 is pending kill from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.57.47:229][612]LogActor:Warning: Projectile_C_52 is outside the world bounds!
-[2016.08.05-00.57.49:971][941]LogActor:Warning: Projectile_C_54 is outside the world bounds!
-[2016.08.05-00.57.52:814][282]LogActor:Warning: Projectile_C_56 is outside the world bounds!
-[2016.08.05-00.57.58:255][935]LogActor:Warning: Projectile_C_61 is outside the world bounds!
-[2016.08.05-00.58.17:276][216]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:284][217]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:292][218]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:300][219]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:309][220]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:317][221]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:325][222]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:334][223]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:342][224]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:351][225]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:359][226]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:367][227]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:376][228]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:384][229]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:392][230]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:400][231]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:409][232]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:417][233]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:426][234]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:434][235]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:442][236]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:450][237]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:459][238]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:467][239]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:476][240]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:484][241]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:492][242]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:500][243]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:509][244]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:517][245]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:525][246]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:534][247]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:542][248]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:551][249]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:559][250]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:567][251]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:576][252]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:584][253]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:592][254]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:600][255]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:609][256]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:617][257]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:625][258]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:634][259]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:642][260]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:650][261]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:659][262]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:667][263]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:675][264]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:684][265]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:692][266]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:700][267]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:709][268]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:717][269]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:725][270]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:734][271]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:742][272]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:751][273]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:759][274]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:767][275]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:776][276]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:784][277]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:792][278]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:801][279]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:809][280]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:817][281]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:825][282]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:834][283]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:842][284]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:851][285]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:859][286]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:867][287]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:876][288]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:884][289]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:892][290]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:901][291]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:909][292]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:917][293]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:925][294]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:934][295]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:942][296]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:950][297]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:959][298]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:967][299]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:976][300]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:984][301]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.17:992][302]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:001][303]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:009][304]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:017][305]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:025][306]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:034][307]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:042][308]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:051][309]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:059][310]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:067][311]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:076][312]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:084][313]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:092][314]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:101][315]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:109][316]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:117][317]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:126][318]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:134][319]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:142][320]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:150][321]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:159][322]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:167][323]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:175][324]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:184][325]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:192][326]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:200][327]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:209][328]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:217][329]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:226][330]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:234][331]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:242][332]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:250][333]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:259][334]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:267][335]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:276][336]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:284][337]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:292][338]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:300][339]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:309][340]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:317][341]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:326][342]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:334][343]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:342][344]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:350][345]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:359][346]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:367][347]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:375][348]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:384][349]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:392][350]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:400][351]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:409][352]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:417][353]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:426][354]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:434][355]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:442][356]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:450][357]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:459][358]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:467][359]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:475][360]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:484][361]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:492][362]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:500][363]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:509][364]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:517][365]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:526][366]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:534][367]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:542][368]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:550][369]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:559][370]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:567][371]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:575][372]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:584][373]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:592][374]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:600][375]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:609][376]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.18:617][377]PIE:Warning: Warning The widget 'PopUpMenuWidget_C' was already added to the screen.
-[2016.08.05-00.58.19:142][440]LogBlueprintUserMessages: [GameManager_C_2] Wave Ended
-[2016.08.05-00.58.21:709][748]LogActor:Warning: Projectile_C_66 is outside the world bounds!
-[2016.08.05-00.58.24:634][ 99]LogActor:Warning: Projectile_C_67 is outside the world bounds!
-[2016.08.05-00.58.25:242][172]LogActor:Warning: Projectile_C_68 is outside the world bounds!
-[2016.08.05-00.58.34:144][240]LogBlueprintUserMessages: [GameManager_C_2] Wave Begun
-[2016.08.05-00.58.39:501][883]LogBlueprintUserMessages: [Radar_185] Can not start UFO Event
-[2016.08.05-00.58.57:453][ 37]LogActor:Warning: Projectile_C_69 is outside the world bounds!
-[2016.08.05-00.59.03:965][817]LogScript:Warning: Attempted to access Meteorite_Type3_C_24 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_24 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_7
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:00C6
-[2016.08.05-00.59.03:965][817]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_24 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_24 is pending kill from function: 'SpawnLesserMeteorite' from node: Set World Scale 3D in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.59.03:965][817]LogScript:Warning: Accessed None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_7
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:00DB
-[2016.08.05-00.59.03:965][817]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'SpawnLesserMeteorite' from node: Set World Scale 3D in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.59.03:965][817]LogScript:Warning: Attempted to access Meteorite_Type3_C_24 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_24 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_7
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:01E7
-[2016.08.05-00.59.03:965][817]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_24 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_24 is pending kill from function: 'SpawnLesserMeteorite' from node: Set TargetLocation in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.59.03:965][817]LogScript:Warning: Attempted to assign to None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_7
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:01FC
-[2016.08.05-00.59.03:965][817]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'SpawnLesserMeteorite' from node: Set TargetLocation in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.59.03:965][817]LogScript:Warning: Attempted to access Meteorite_Type3_C_24 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_24 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_7
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:021A
-[2016.08.05-00.59.03:965][817]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_24 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_24 is pending kill from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.59.03:965][817]LogScript:Warning: Attempted to assign to None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_7
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:022F
-[2016.08.05-00.59.03:965][817]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.59.03:965][817]LogScript:Warning: Attempted to access Meteorite_Type3_C_24 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_24 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_7
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:0239
-[2016.08.05-00.59.03:965][817]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_24 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_24 is pending kill from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.59.03:966][817]LogScript:Warning: Attempted to access Meteorite_Type3_C_25 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_25 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_7
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:00C6
-[2016.08.05-00.59.03:966][817]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_25 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_25 is pending kill from function: 'SpawnLesserMeteorite' from node: Set World Scale 3D in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.59.03:966][817]LogScript:Warning: Accessed None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_7
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:00DB
-[2016.08.05-00.59.03:966][817]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'SpawnLesserMeteorite' from node: Set World Scale 3D in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.59.03:966][817]LogScript:Warning: Attempted to access Meteorite_Type3_C_25 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_25 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_7
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:01E7
-[2016.08.05-00.59.03:966][817]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_25 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_25 is pending kill from function: 'SpawnLesserMeteorite' from node: Set TargetLocation in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.59.03:966][817]LogScript:Warning: Attempted to assign to None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_7
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:01FC
-[2016.08.05-00.59.03:966][817]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'SpawnLesserMeteorite' from node: Set TargetLocation in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.59.03:966][817]LogScript:Warning: Attempted to access Meteorite_Type3_C_25 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_25 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_7
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:021A
-[2016.08.05-00.59.03:966][817]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_25 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_25 is pending kill from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.59.03:966][817]LogScript:Warning: Attempted to assign to None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_7
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:022F
-[2016.08.05-00.59.03:967][817]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.59.03:967][817]LogScript:Warning: Attempted to access Meteorite_Type3_C_25 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_25 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_7
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:0239
-[2016.08.05-00.59.03:967][817]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_25 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_25 is pending kill from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-00.59.07:948][295]LogActor:Warning: Projectile_C_77 is outside the world bounds!
-[2016.08.05-00.59.11:281][695]LogActor:Warning: Projectile_C_81 is outside the world bounds!
-[2016.08.05-00.59.12:498][841]LogActor:Warning: Projectile_C_82 is outside the world bounds!
-[2016.08.05-00.59.14:514][ 83]LogActor:Warning: Projectile_C_83 is outside the world bounds!
-[2016.08.05-00.59.21:799][957]LogActor:Warning: Projectile_C_86 is outside the world bounds!
-[2016.08.05-00.59.26:149][479]LogActor:Warning: Projectile_C_90 is outside the world bounds!
-[2016.08.05-00.59.37:416][831]LogBlueprintUserMessages: [LeftTurret_207] Meteorite_Type327
-[2016.08.05-00.59.39:474][ 78]LogBlueprintUserMessages: [LeftTurret_207] 
-[2016.08.05-00.59.40:174][162]LogBlueprintUserMessages: [LeftTurret_207] 
-[2016.08.05-00.59.40:361][184]LogBlueprintUserMessages: [LeftTurret_207] Shield
-[2016.08.05-00.59.40:544][206]LogBlueprintUserMessages: [LeftTurret_207] Shield
-[2016.08.05-00.59.40:903][249]LogBlueprintUserMessages: [GameManager_C_2] Wave Ended
-[2016.08.05-00.59.46:520][923]LogActor:Warning: Projectile_C_102 is outside the world bounds!
-[2016.08.05-00.59.55:904][ 49]LogBlueprintUserMessages: [GameManager_C_2] Wave Begun
-[2016.08.05-00.59.58:437][353]LogBlueprintUserMessages: [LeftTurret_207] 
-[2016.08.05-00.59.59:845][522]LogBlueprintUserMessages: [LeftTurret_207] Shield
-[2016.08.05-01.00.00:303][577]LogBlueprintUserMessages: [LeftTurret_207] Shield
-[2016.08.05-01.00.00:503][601]LogBlueprintUserMessages: [LeftTurret_207] Shield
-[2016.08.05-01.00.01:520][723]LogBlueprintUserMessages: [LeftTurret_207] Shield
-[2016.08.05-01.00.01:745][750]LogBlueprintUserMessages: [LeftTurret_207] Shield
-[2016.08.05-01.00.01:995][780]LogBlueprintUserMessages: [LeftTurret_207] Shield
-[2016.08.05-01.00.02:412][830]LogBlueprintUserMessages: [LeftTurret_207] Shield
-[2016.08.05-01.00.03:128][916]LogBlueprintUserMessages: [LeftTurret_207] Shield
-[2016.08.05-01.00.04:982][137]LogBlueprintUserMessages: [LeftTurret_207] Meteorite_Type328
-[2016.08.05-01.00.19:068][827]LogActor:Warning: Projectile_C_105 is outside the world bounds!
-[2016.08.05-01.00.25:659][618]LogActor:Warning: Projectile_C_107 is outside the world bounds!
-[2016.08.05-01.00.28:818][997]LogActor:Warning: Projectile_C_109 is outside the world bounds!
-[2016.08.05-01.00.33:251][529]LogActor:Warning: Projectile_C_111 is outside the world bounds!
-[2016.08.05-01.00.36:243][888]LogActor:Warning: Projectile_C_113 is outside the world bounds!
-[2016.08.05-01.00.38:551][165]LogActor:Warning: Projectile_C_114 is outside the world bounds!
-[2016.08.05-01.00.41:277][492]LogScript:Warning: Attempted to access Meteorite_Type3_C_37 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_37 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_9
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:00C6
-[2016.08.05-01.00.41:277][492]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_37 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_37 is pending kill from function: 'SpawnLesserMeteorite' from node: Set World Scale 3D in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.41:277][492]LogScript:Warning: Accessed None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_9
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:00DB
-[2016.08.05-01.00.41:277][492]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'SpawnLesserMeteorite' from node: Set World Scale 3D in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.41:277][492]LogScript:Warning: Attempted to access Meteorite_Type3_C_37 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_37 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_9
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:01E7
-[2016.08.05-01.00.41:277][492]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_37 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_37 is pending kill from function: 'SpawnLesserMeteorite' from node: Set TargetLocation in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.41:277][492]LogScript:Warning: Attempted to assign to None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_9
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:01FC
-[2016.08.05-01.00.41:277][492]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'SpawnLesserMeteorite' from node: Set TargetLocation in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.41:278][492]LogScript:Warning: Attempted to access Meteorite_Type3_C_37 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_37 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_9
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:021A
-[2016.08.05-01.00.41:278][492]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_37 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_37 is pending kill from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.41:278][492]LogScript:Warning: Attempted to assign to None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_9
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:022F
-[2016.08.05-01.00.41:278][492]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.41:278][492]LogScript:Warning: Attempted to access Meteorite_Type3_C_37 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_37 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_9
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:0239
-[2016.08.05-01.00.41:278][492]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_37 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_37 is pending kill from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.41:278][492]LogScript:Warning: Attempted to access Meteorite_Type3_C_38 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_38 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_9
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:00C6
-[2016.08.05-01.00.41:278][492]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_38 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_38 is pending kill from function: 'SpawnLesserMeteorite' from node: Set World Scale 3D in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.41:278][492]LogScript:Warning: Accessed None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_9
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:00DB
-[2016.08.05-01.00.41:279][492]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'SpawnLesserMeteorite' from node: Set World Scale 3D in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.41:279][492]LogScript:Warning: Attempted to access Meteorite_Type3_C_38 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_38 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_9
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:01E7
-[2016.08.05-01.00.41:279][492]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_38 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_38 is pending kill from function: 'SpawnLesserMeteorite' from node: Set TargetLocation in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.41:279][492]LogScript:Warning: Attempted to assign to None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_9
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:01FC
-[2016.08.05-01.00.41:279][492]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'SpawnLesserMeteorite' from node: Set TargetLocation in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.41:279][492]LogScript:Warning: Attempted to access Meteorite_Type3_C_38 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_38 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_9
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:021A
-[2016.08.05-01.00.41:279][492]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_38 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_38 is pending kill from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.41:279][492]LogScript:Warning: Attempted to assign to None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_9
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:022F
-[2016.08.05-01.00.41:279][492]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.41:279][492]LogScript:Warning: Attempted to access Meteorite_Type3_C_38 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_38 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_9
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:0239
-[2016.08.05-01.00.41:279][492]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_38 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_38 is pending kill from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.50:221][565]LogScript:Warning: Attempted to access Meteorite_Type3_C_39 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_39 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_10
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:00C6
-[2016.08.05-01.00.50:221][565]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_39 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_39 is pending kill from function: 'SpawnLesserMeteorite' from node: Set World Scale 3D in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.50:221][565]LogScript:Warning: Accessed None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_10
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:00DB
-[2016.08.05-01.00.50:221][565]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'SpawnLesserMeteorite' from node: Set World Scale 3D in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.50:221][565]LogScript:Warning: Attempted to access Meteorite_Type3_C_39 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_39 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_10
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:01E7
-[2016.08.05-01.00.50:221][565]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_39 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_39 is pending kill from function: 'SpawnLesserMeteorite' from node: Set TargetLocation in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.50:221][565]LogScript:Warning: Attempted to assign to None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_10
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:01FC
-[2016.08.05-01.00.50:221][565]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'SpawnLesserMeteorite' from node: Set TargetLocation in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.50:221][565]LogScript:Warning: Attempted to access Meteorite_Type3_C_39 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_39 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_10
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:021A
-[2016.08.05-01.00.50:221][565]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_39 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_39 is pending kill from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.50:221][565]LogScript:Warning: Attempted to assign to None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_10
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:022F
-[2016.08.05-01.00.50:221][565]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.50:221][565]LogScript:Warning: Attempted to access Meteorite_Type3_C_39 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_39 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_10
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:0239
-[2016.08.05-01.00.50:221][565]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_39 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_39 is pending kill from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.50:222][565]LogScript:Warning: Attempted to access Meteorite_Type3_C_40 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_40 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_10
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:00C6
-[2016.08.05-01.00.50:222][565]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_40 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_40 is pending kill from function: 'SpawnLesserMeteorite' from node: Set World Scale 3D in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.50:222][565]LogScript:Warning: Accessed None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_10
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:00DB
-[2016.08.05-01.00.50:222][565]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'SpawnLesserMeteorite' from node: Set World Scale 3D in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.50:222][565]LogScript:Warning: Attempted to access Meteorite_Type3_C_40 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_40 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_10
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:01E7
-[2016.08.05-01.00.50:222][565]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_40 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_40 is pending kill from function: 'SpawnLesserMeteorite' from node: Set TargetLocation in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.50:222][565]LogScript:Warning: Attempted to assign to None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_10
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:01FC
-[2016.08.05-01.00.50:222][565]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'SpawnLesserMeteorite' from node: Set TargetLocation in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.50:222][565]LogScript:Warning: Attempted to access Meteorite_Type3_C_40 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_40 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_10
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:021A
-[2016.08.05-01.00.50:222][565]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_40 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_40 is pending kill from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.50:222][565]LogScript:Warning: Attempted to assign to None
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_10
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:022F
-[2016.08.05-01.00.50:222][565]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.50:222][565]LogScript:Warning: Attempted to access Meteorite_Type3_C_40 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_40 is pending kill
-	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_10
-	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:0239
-[2016.08.05-01.00.50:222][565]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_40 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_40 is pending kill from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
-[2016.08.05-01.00.58:745][588]LogActor:Warning: Projectile_C_125 is outside the world bounds!
-[2016.08.05-01.01.00:812][836]LogActor:Warning: Projectile_C_126 is outside the world bounds!
-[2016.08.05-01.01.01:145][876]LogActor:Warning: Projectile_C_129 is outside the world bounds!
-[2016.08.05-01.01.02:370][ 23]LogActor:Warning: Projectile_C_128 is outside the world bounds!
-[2016.08.05-01.01.05:409][386]LogActor:Warning: Projectile_C_130 is outside the world bounds!
-[2016.08.05-01.01.24:269][649]LogActor:Warning: Projectile_C_135 is outside the world bounds!
-[2016.08.05-01.01.35:944][ 50]LogActor:Warning: Projectile_C_136 is outside the world bounds!
-[2016.08.05-01.01.37:036][181]LogActor:Warning: Projectile_C_137 is outside the world bounds!
-[2016.08.05-01.01.39:420][467]LogActor:Warning: Projectile_C_138 is outside the world bounds!
-[2016.08.05-01.01.40:237][565]LogActor:Warning: Projectile_C_140 is outside the world bounds!
-[2016.08.05-01.01.40:537][601]LogActor:Warning: Projectile_C_139 is outside the world bounds!
-[2016.08.05-01.01.41:553][723]LogActor:Warning: Projectile_C_142 is outside the world bounds!
-[2016.08.05-01.01.41:853][759]LogActor:Warning: Projectile_C_141 is outside the world bounds!
-[2016.08.05-01.01.42:286][811]LogBlueprintUserMessages: [GameManager_C_2] Wave Ended
-[2016.08.05-01.01.42:553][843]LogActor:Warning: Projectile_C_144 is outside the world bounds!
-[2016.08.05-01.01.42:887][883]LogActor:Warning: Projectile_C_143 is outside the world bounds!
-[2016.08.05-01.01.44:453][ 71]LogActor:Warning: Projectile_C_146 is outside the world bounds!
-[2016.08.05-01.01.44:803][113]LogActor:Warning: Projectile_C_145 is outside the world bounds!
-[2016.08.05-01.01.46:328][296]LogActor:Warning: Projectile_C_148 is outside the world bounds!
-[2016.08.05-01.01.46:653][335]LogActor:Warning: Projectile_C_147 is outside the world bounds!
-[2016.08.05-01.01.48:203][521]LogActor:Warning: Projectile_C_150 is outside the world bounds!
-[2016.08.05-01.01.48:503][557]LogActor:Warning: Projectile_C_149 is outside the world bounds!
-[2016.08.05-01.01.50:028][740]LogActor:Warning: Projectile_C_152 is outside the world bounds!
-[2016.08.05-01.01.50:412][786]LogActor:Warning: Projectile_C_151 is outside the world bounds!
-[2016.08.05-01.01.51:953][971]LogActor:Warning: Projectile_C_154 is outside the world bounds!
-[2016.08.05-01.01.52:253][  7]LogActor:Warning: Projectile_C_153 is outside the world bounds!
-[2016.08.05-01.01.53:811][194]LogActor:Warning: Projectile_C_156 is outside the world bounds!
-[2016.08.05-01.01.54:153][235]LogActor:Warning: Projectile_C_155 is outside the world bounds!
-[2016.08.05-01.01.55:695][420]LogActor:Warning: Projectile_C_158 is outside the world bounds!
-[2016.08.05-01.01.56:032][459]LogActor:Warning: Projectile_C_157 is outside the world bounds!
-[2016.08.05-01.01.57:293][602]LogBlueprintUserMessages: [GameManager_C_2] Wave Begun
-[2016.08.05-01.01.57:609][640]LogActor:Warning: Projectile_C_160 is outside the world bounds!
-[2016.08.05-01.01.57:968][683]LogActor:Warning: Projectile_C_159 is outside the world bounds!
-[2016.08.05-01.01.58:201][711]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.05-01.01.58:237][711]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.05-01.02.00:885][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstLevel" FILE="../../../../../../../INBOUND/build/yo/Project_PlanetDef/Content/Maps/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2016.08.05-01.02.01:055][  2]LogSavePackage: Save=147.20ms
-[2016.08.05-01.02.01:056][  2]LogSavePackage: Moving '../../../../../../../INBOUND/build/yo/Project_PlanetDef/Saved/FirstLevel139C1531484F5EA85FB5D9BF6D033036.tmp' to '../../../../../../../INBOUND/build/yo/Project_PlanetDef/Content/Maps/FirstLevel.umap'
-[2016.08.05-01.02.01:056][  2]LogSavePackage: Total save time: 155.76ms
-[2016.08.05-01.02.01:056][  2]LogSavePackage:Display: Finished SavePackage ../../../../../../../INBOUND/build/yo/Project_PlanetDef/Content/Maps/FirstLevel.umap
-[2016.08.05-01.02.04:484][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstLevel" FILE="../../../../../../../INBOUND/build/yo/Project_PlanetDef/Content/Maps/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2016.08.05-01.02.04:648][406]LogSavePackage: Save=142.60ms
-[2016.08.05-01.02.04:648][406]LogSavePackage: Moving '../../../../../../../INBOUND/build/yo/Project_PlanetDef/Saved/FirstLevel940C0DFD425545596BF06B9A005D11DC.tmp' to '../../../../../../../INBOUND/build/yo/Project_PlanetDef/Content/Maps/FirstLevel.umap'
-[2016.08.05-01.02.04:649][406]LogSavePackage: Total save time: 148.20ms
-[2016.08.05-01.02.04:649][406]LogSavePackage:Display: Finished SavePackage ../../../../../../../INBOUND/build/yo/Project_PlanetDef/Content/Maps/FirstLevel.umap
-[2016.08.05-01.02.05:645][490]Cmd: QUIT_EDITOR
-[2016.08.05-01.02.05:732][490]LogExit: Preparing to exit.
-[2016.08.05-01.02.06:665][490]LogExit: Editor shut down
-[2016.08.05-01.02.06:665][490]LogExit: Transaction tracking system shut down
-[2016.08.05-01.02.06:807][490]LogObj: Freed 0b from 0 cluster array pools.
-[2016.08.05-01.02.06:808][490]LogExit: Object subsystem successfully closed.
-[2016.08.05-01.02.06:819][490]LogD3D11RHI: Shutdown
-[2016.08.05-01.02.06:819][490]LogD3D11RHI: CleanupD3DDevice
-[2016.08.05-01.02.06:868][490]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.08.05-01.02.06:918][490]LogDerivedDataCache: Shutdown
-[2016.08.05-01.02.06:918][490]LogModuleManager: Shutting down and abandoning module MaterialEditor (211)
-[2016.08.05-01.02.06:918][490]LogModuleManager: Shutting down and abandoning module SequencerWidgets (210)
-[2016.08.05-01.02.06:918][490]LogModuleManager: Shutting down and abandoning module BlueprintGraph (209)
-[2016.08.05-01.02.06:918][490]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (208)
-[2016.08.05-01.02.06:918][490]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (207)
-[2016.08.05-01.02.06:918][490]LogModuleManager: Shutting down and abandoning module CrashTracker (206)
-[2016.08.05-01.02.06:918][490]LogModuleManager: Shutting down and abandoning module SceneOutliner (205)
-[2016.08.05-01.02.06:918][490]LogModuleManager: Shutting down and abandoning module SuperSearch (204)
-[2016.08.05-01.02.06:918][490]LogModuleManager: Shutting down and abandoning module WidgetCarousel (203)
-[2016.08.05-01.02.06:918][490]LogModuleManager: Shutting down and abandoning module AddContentDialog (202)
-[2016.08.05-01.02.06:919][490]LogModuleManager: Shutting down and abandoning module GameplayTags (201)
-[2016.08.05-01.02.06:919][490]LogModuleManager: Shutting down and abandoning module EditorWidgets (200)
-[2016.08.05-01.02.06:919][490]LogModuleManager: Shutting down and abandoning module CollectionManager (199)
-[2016.08.05-01.02.06:919][490]LogModuleManager: Shutting down and abandoning module StatsViewer (198)
-[2016.08.05-01.02.06:919][490]LogModuleManager: Shutting down and abandoning module FoliageEdit (197)
-[2016.08.05-01.02.06:919][490]LogModuleManager: Shutting down and abandoning module LandscapeEditor (196)
-[2016.08.05-01.02.06:919][490]LogModuleManager: Shutting down and abandoning module ActorPickerMode (195)
-[2016.08.05-01.02.06:919][490]LogModuleManager: Shutting down and abandoning module GeometryMode (194)
-[2016.08.05-01.02.06:919][490]LogModuleManager: Shutting down and abandoning module TextureAlignMode (193)
-[2016.08.05-01.02.06:919][490]LogModuleManager: Shutting down and abandoning module BspMode (192)
-[2016.08.05-01.02.06:919][490]LogModuleManager: Shutting down and abandoning module PlacementMode (191)
-[2016.08.05-01.02.06:919][490]LogModuleManager: Shutting down and abandoning module AutomationWorker (190)
-[2016.08.05-01.02.06:919][490]LogModuleManager: Shutting down and abandoning module CharacterAI (189)
-[2016.08.05-01.02.06:919][490]LogModuleManager: Shutting down and abandoning module SmartSnapping (188)
-[2016.08.05-01.02.06:919][490]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
-[2016.08.05-01.02.06:919][490]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
-[2016.08.05-01.02.06:919][490]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
-[2016.08.05-01.02.06:919][490]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
-[2016.08.05-01.02.06:919][490]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
-[2016.08.05-01.02.06:919][490]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
-[2016.08.05-01.02.06:919][490]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
-[2016.08.05-01.02.06:919][490]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module MergeActors (176)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module SizeMap (175)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module TreeMap (174)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module XmlParser (166)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module Blutility (165)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
-[2016.08.05-01.02.07:166][490]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
-[2016.08.05-01.02.07:167][490]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module AutomationController (154)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module Layers (152)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module Persona (148)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module Kismet (147)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module Toolbox (144)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module OutputLog (141)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module GammaUI (140)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module Documentation (139)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module Analytics (136)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module PortalServices (135)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module AITestSuite (132)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module GameplayDebugger (131)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module AIModule (130)
-[2016.08.05-01.02.07:197][490]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module SubstanceEditor (127)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module SlateRemote (126)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module SteamVRController (125)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module SteamVR (124)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (123)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module OculusLibrary (122)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module OculusInput (121)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (120)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module CableComponent (119)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (118)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (117)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module HTML5Networking (116)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module SourceControl (107)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
-[2016.08.05-01.02.07:354][490]LogModuleManager: Shutting down and abandoning module HotReload (101)
-[2016.08.05-01.02.07:355][490]LogModuleManager: Shutting down and abandoning module MainFrame (100)
-[2016.08.05-01.02.07:355][490]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
-[2016.08.05-01.02.07:355][490]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (98)
-[2016.08.05-01.02.07:356][490]LogModuleManager: Shutting down and abandoning module AssetRegistry (97)
-[2016.08.05-01.02.07:520][490]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
-[2016.08.05-01.02.07:521][490]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
-[2016.08.05-01.02.07:521][490]LogModuleManager: Shutting down and abandoning module Project_PlanetDef (94)
-[2016.08.05-01.02.07:521][490]LogModuleManager: Shutting down and abandoning module UdpMessaging (93)
-[2016.08.05-01.02.07:621][490]LogModuleManager: Shutting down and abandoning module SubstanceCore (92)
-[2016.08.05-01.02.07:621][490]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
-[2016.08.05-01.02.07:621][490]LogModuleManager: Shutting down and abandoning module Paper2D (90)
-[2016.08.05-01.02.07:621][490]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
-[2016.08.05-01.02.07:621][490]LogModuleManager: Shutting down and abandoning module Media (88)
-[2016.08.05-01.02.07:621][490]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
-[2016.08.05-01.02.07:621][490]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
-[2016.08.05-01.02.07:621][490]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
-[2016.08.05-01.02.07:621][490]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
-[2016.08.05-01.02.07:621][490]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
-[2016.08.05-01.02.07:621][490]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
-[2016.08.05-01.02.07:621][490]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
-[2016.08.05-01.02.07:621][490]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
-[2016.08.05-01.02.07:621][490]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
-[2016.08.05-01.02.07:621][490]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
-[2016.08.05-01.02.07:622][490]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
-[2016.08.05-01.02.07:622][490]LogModuleManager: Shutting down and abandoning module MessageLog (76)
-[2016.08.05-01.02.07:622][490]LogModuleManager: Shutting down and abandoning module Sequencer (75)
-[2016.08.05-01.02.07:622][490]LogModuleManager: Shutting down and abandoning module AssetTools (74)
-[2016.08.05-01.02.07:622][490]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
-[2016.08.05-01.02.07:622][490]LogModuleManager: Shutting down and abandoning module UMG (72)
-[2016.08.05-01.02.07:622][490]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
-[2016.08.05-01.02.07:622][490]LogModuleManager: Shutting down and abandoning module Slate (70)
-[2016.08.05-01.02.07:622][490]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
-[2016.08.05-01.02.07:623][490]LogModuleManager: Shutting down and abandoning module SessionServices (68)
-[2016.08.05-01.02.07:623][490]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
-[2016.08.05-01.02.07:623][490]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
-[2016.08.05-01.02.07:623][490]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
-[2016.08.05-01.02.07:623][490]LogModuleManager: Shutting down and abandoning module Networking (63)
-[2016.08.05-01.02.07:623][490]LogModuleManager: Shutting down and abandoning module Core (62)
-[2016.08.05-01.02.07:623][490]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
-[2016.08.05-01.02.07:623][490]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
-[2016.08.05-01.02.07:623][490]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
-[2016.08.05-01.02.07:623][490]LogModuleManager: Shutting down and abandoning module CookingStats (58)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
-[2016.08.05-01.02.07:624][490]LogDerivedDataCache: Shutdown
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2016.08.05-01.02.07:624][490]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2016.08.05-01.02.09:624][490]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2016.08.05-01.02.09:624][490]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2016.08.05-01.02.09:624][490]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.08.05-01.02.09:624][490]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.08.05-01.02.09:624][490]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.08.05-01.02.09:624][490]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.08.05-01.02.09:624][490]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.08.05-01.02.09:626][490]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.08.05-01.02.09:626][490]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.08.05-01.02.09:626][490]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.08.05-01.02.09:626][490]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.08.05-01.02.09:626][490]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.08.05-01.02.09:626][490]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.08.05-01.02.09:626][490]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.08.05-01.02.09:626][490]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.08.05-01.02.09:626][490]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.08.05-01.02.09:626][490]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.08.05-01.02.09:627][490]LogExit: Exiting.
-[2016.08.05-01.02.09:628][490]Log file closed, 08/05/16 11:02:09
+[2016.08.05-04.17.36:143][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.05-04.17.36:143][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.05-04.17.36:151][  0]LogInit: Computer: VICTORIA-PC
+[2016.08.05-04.17.36:151][  0]LogInit: User: Victoria
+[2016.08.05-04.17.36:151][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.08.05-04.17.36:151][  0]LogInit: High frequency timer resolution =3.125019 MHz
+[2016.08.05-04.17.36:151][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.08.05-04.17.36:151][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.05-04.17.36:151][  0]LogMemory: Process Physical Memory: 313.44 MB used, 313.44 MB peak
+[2016.08.05-04.17.36:151][  0]LogMemory: Process Virtual Memory: 315.72 MB used, 315.72 MB peak
+[2016.08.05-04.17.36:151][  0]LogMemory: Physical Memory: 7886.33 MB used, 16262.56 MB total
+[2016.08.05-04.17.36:151][  0]LogMemory: Virtual Memory: 620.62 MB used, 8388608.00 MB total
+[2016.08.05-04.17.36:180][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2016.08.05-04.17.36:543][  0]LogD3D11RHI: D3D11 adapters:
+[2016.08.05-04.17.36:557][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2016.08.05-04.17.36:557][  0]LogD3D11RHI:       4007MB of dedicated video memory, 0MB of dedicated system memory, and 7875MB of shared system memory, 1 output[s]
+[2016.08.05-04.17.36:557][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.08.05-04.17.36:561][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.08.05-04.17.36:561][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2016.08.05-04.17.36:561][  0]LogD3D11RHI:   Driver Version: 10.18.13.6839 (internal 10.18.13.6839)
+[2016.08.05-04.17.36:561][  0]LogD3D11RHI:      Driver Date: 6-2-2016
+[2016.08.05-04.17.36:561][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.05-04.17.36:569][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.05-04.17.36:583][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../../../../INBOUND/build/yo/Project_PlanetDef/Intermediate/Shaders/WorkingDirectory/8720/).
+[2016.08.05-04.17.36:583][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Victoria/AppData/Local/Temp/UnrealShaderWorkingDir/0B97A2D9401445554EFAE38FBD4B1283/'.
+[2016.08.05-04.17.36:583][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.05-04.17.37:440][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.05-04.17.37:443][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.05-04.17.37:446][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.05-04.17.37:450][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.05-04.17.37:453][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.05-04.17.37:456][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.05-04.17.37:459][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.05-04.17.37:461][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.05-04.17.37:463][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.05-04.17.37:466][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.05-04.17.37:468][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.05-04.17.37:474][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.05-04.17.37:474][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.05-04.17.37:475][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.05-04.17.37:490][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.05-04.17.37:492][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.08.05-04.17.37:495][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.05-04.17.37:497][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.05-04.17.37:499][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.05-04.17.37:500][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.05-04.17.37:551][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.05-04.17.37:596][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/Victoria/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.08.05-04.17.37:596][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Victoria/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.08.05-04.17.37:596][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../INBOUND/build/yo/Project_PlanetDef/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.05-04.17.37:596][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.05-04.17.37:596][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../INBOUND/build/yo/Project_PlanetDef/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.05-04.17.37:596][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.05-04.17.37:610][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.05-04.17.37:621][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Victoria/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.05-04.17.37:753][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.05-04.17.37:754][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.08.05-04.17.37:773][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.08.05-04.17.37:889][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.05-04.17.37:889][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.05-04.17.37:889][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.08.05-04.17.38:084][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.08.05-04.17.38:084][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.08.05-04.17.38:084][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.08.05-04.17.38:088][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.05-04.17.38:149][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.05-04.17.38:149][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.05-04.17.38:230][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.08.05-04.17.38:230][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.08.05-04.17.38:230][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.08.05-04.17.38:230][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.08.05-04.17.38:230][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.08.05-04.17.38:230][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.08.05-04.17.38:697][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.08.05-04.17.38:702][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.05-04.17.38:797][  0]LogAssetRegistry: FAssetRegistry took 0.0198 seconds to start up
+[2016.08.05-04.17.38:919][  0]SourceControl: Info Source control is disabled
+[2016.08.05-04.17.38:924][  0]SourceControl: Info Source control is disabled
+[2016.08.05-04.17.38:929][  0]SourceControl: Info Source control is disabled
+[2016.08.05-04.17.38:934][  0]SourceControl: Info Source control is disabled
+[2016.08.05-04.17.39:008][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2016.08.05-04.17.39:073][  0]LogEngine: Initializing Engine...
+[2016.08.05-04.17.39:206][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.05-04.17.39:212][  0]LogInit: XAudio2 using 'Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.05-04.17.39:220][  0]LogInit: FAudioDevice initialized.
+[2016.08.05-04.17.39:243][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/Victoria/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.08.05-04.17.39:247][  0]LogInit: Texture streaming: Enabled
+[2016.08.05-04.17.39:264][  0]LogInit: Transaction tracking system initialized
+[2016.08.05-04.17.39:279][  0]BlueprintLog: New page: Editor Load
+[2016.08.05-04.17.39:327][  0]LocalizationService: Info Localization service is disabled
+[2016.08.05-04.17.39:372][  0]LogConsoleResponse:Display: 
+[2016.08.05-04.17.39:460][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.08.05-04.17.39:460][  0]LogCook:Display: Mobile HDR setting 1
+[2016.08.05-04.17.39:460][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.08.05-04.17.39:493][  0]LogFileCache: Scanning file cache for directory 'E:/INBOUND/build/yo/Project_PlanetDef/Content/' took 0.01s
+[2016.08.05-04.17.39:493][  0]SourceControl: Info Source control is disabled
+[2016.08.05-04.17.39:493][  0]Cmd: MAP LOAD FILE="../../../../../../../INBOUND/build/yo/Project_PlanetDef/Content/Maps/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.05-04.17.39:494][  0]LightingResults: New page: Lighting Build
+[2016.08.05-04.17.39:496][  0]MapCheck: New page: Map Check
+[2016.08.05-04.17.39:496][  0]LightingResults: New page: Lighting Build
+[2016.08.05-04.17.40:889][  0]LogAIModule: Creating AISystem for world FirstLevel
+[2016.08.05-04.17.40:892][  0]LogMaterial:Warning: Material /Engine/EditorMaterials/WidgetGridVertexColorMaterial_Ma.WidgetGridVertexColorMaterial_Ma needed to have new flag set bUsedWithStaticLighting !
+[2016.08.05-04.17.40:894][  0]LogMaterial: Missing cached shader map for material WidgetGridVertexColorMaterial_Ma, compiling. 
+[2016.08.05-04.17.40:905][  0]MapCheck:Warning: Warning WidgetGridVertexColorMaterial_Ma Material /Engine/EditorMaterials/WidgetGridVertexColorMaterial_Ma.WidgetGridVertexColorMaterial_Ma was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.08.05-04.17.40:905][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.05-04.17.40:915][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.05-04.17.40:915][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.05-04.17.40:946][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 31.431ms to complete.
+[2016.08.05-04.17.40:956][  0]LogFileHelpers: Loading map 'FirstLevel' took 1.463
+[2016.08.05-04.17.41:045][  0]LogCollectionManager: Loaded 0 collections in 0.001231 seconds
+[2016.08.05-04.17.41:064][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.08.05-04.17.41:072][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 1994 classes and 349 folders.
+[2016.08.05-04.17.41:076][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.08.05-04.17.41:076][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.08.05-04.17.41:077][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0009 seconds. Added 12 classes and 0 folders.
+[2016.08.05-04.17.41:082][  0]LogFileCache: Scanning file cache for directory 'E:/INBOUND/build/yo/Project_PlanetDef/Saved/Collections/' took 0.04s
+[2016.08.05-04.17.41:082][  0]LogFileCache: Scanning file cache for directory 'E:/INBOUND/build/yo/Project_PlanetDef/Content/Developers/Victoria/Collections/' took 0.02s
+[2016.08.05-04.17.41:082][  0]LogFileCache: Scanning file cache for directory 'E:/INBOUND/build/yo/Project_PlanetDef/Content/Collections/' took 0.02s
+[2016.08.05-04.17.41:082][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.08.05-04.17.41:087][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2016.08.05-04.17.41:119][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.08.05-04.17.41:125][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.08.05-04.17.41:137][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.05-04.17.41:143][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.08.05-04.17.41:203][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.08.05-04.17.41:203][  0]LogLoad: Full Startup: 5.62 seconds (BP compile: 0.41 seconds)
+[2016.08.05-04.17.41:203][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.08.05-04.17.41:203][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.08.05-04.17.41:215][  0]LogOcInput: OculusInput pre-init called
+[2016.08.05-04.17.41:369][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.08.05-04.17.41:554][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.08.05-04.17.41:625][  1]LogFileCache: Retrieving MD5 hashes for directory 'E:/INBOUND/build/yo/Project_PlanetDef/Content/' took 0.29s
+[2016.08.05-04.17.41:633][  1]LogAssetRegistry: Asset discovery search completed in 2.8560 seconds
+[2016.08.05-04.17.41:633][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.08.05-04.17.41:633][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2016.08.05-04.17.55:727][217]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:/menu.png)
+[2016.08.05-04.17.55:734][217]LogTexture:Display: Building textures: menu (BGRA8)
+[2016.08.05-04.18.04:099][202]LogAIModule: Creating AISystem for world MainMenuLevel
+[2016.08.05-04.18.05:364][202]Cmd: MAP LOAD FILE="../../../../../../../INBOUND/build/yo/Project_PlanetDef/Content/Maps/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.05-04.18.05:365][202]LightingResults: New page: Lighting Build
+[2016.08.05-04.18.05:382][202]LoadErrors: New page: Loading map: MainMenuLevel.umap
+[2016.08.05-04.18.05:382][202]MapCheck: New page: Map Check
+[2016.08.05-04.18.05:382][202]LightingResults: New page: Lighting Build
+[2016.08.05-04.18.05:395][202]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.05-04.18.05:422][202]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.05-04.18.05:453][202]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.096ms to complete.
+[2016.08.05-04.18.05:453][202]LogFileHelpers: Loading map 'MainMenuLevel' took 0.090
+[2016.08.05-04.18.16:940][538]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 108 classes and 0 folders.
+[2016.08.05-04.18.51:975][312]LogEditorTransaction: Undo Edit Image
+[2016.08.05-04.22.08:829][123]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:/menu image.png)
+[2016.08.05-04.22.08:849][123]LogTexture:Display: Building textures: menu_image (BGRA8)
+[2016.08.05-04.22.34:942][226]LogEditorTransaction: Undo Resize Widget
+[2016.08.05-04.22.48:703][852]LogEditorTransaction: Undo Edit Color Use Rule
+[2016.08.05-04.22.52:203][249]Cmd: TRANSACTION UNDO
+[2016.08.05-04.22.52:203][249]LogEditorTransaction: Undo Edit Color Use Rule
+[2016.08.05-04.22.52:528][277]Cmd: TRANSACTION UNDO
+[2016.08.05-04.22.52:528][277]LogEditorTransaction: Undo Edit Color Use Rule
+[2016.08.05-04.22.52:828][300]Cmd: TRANSACTION UNDO
+[2016.08.05-04.22.52:828][300]LogEditorTransaction: Undo Edit Color Use Rule
+[2016.08.05-04.22.53:125][332]Cmd: TRANSACTION UNDO
+[2016.08.05-04.22.53:125][332]LogEditorTransaction: Undo Edit Color Use Rule
+[2016.08.05-04.22.53:440][366]Cmd: TRANSACTION UNDO
+[2016.08.05-04.22.53:440][366]LogEditorTransaction: Undo Move Anchor
+[2016.08.05-04.22.53:730][397]Cmd: TRANSACTION UNDO
+[2016.08.05-04.22.53:730][397]LogEditorTransaction: Undo Move Anchor
+[2016.08.05-04.22.54:084][436]Cmd: TRANSACTION UNDO
+[2016.08.05-04.22.54:084][436]LogEditorTransaction: Undo Edit Image
+[2016.08.05-04.23.44:453][217]LogEditorFactories: Performing atomic reimport of [D:/menu image.png]
+[2016.08.05-04.23.44:453][217]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 D:/menu image.png)
+[2016.08.05-04.23.44:478][217]LogTexture:Display: Building textures: menu_image (BGRA8)
+[2016.08.05-04.23.44:544][217]LogEditorFactories: -- imported successfully
+[2016.08.05-04.24.03:545][455]LogEditorTransaction: Undo Move Anchor
+[2016.08.05-04.24.21:997][640]LogEditorTransaction: Undo Set Vector Property
+[2016.08.05-04.24.59:451][ 91]LogEditorTransaction: Undo Set Vector Property
+[2016.08.05-04.25.11:021][456]LogEditorTransaction: Undo Move Anchor
+[2016.08.05-04.26.25:267][876]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:/logog.png)
+[2016.08.05-04.26.25:270][876]LogTexture:Display: Building textures: logog (BGRA8)
+[2016.08.05-04.26.45:569][270]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.08.05-04.26.45:569][270]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.08.05-04.26.45:585][270]LogPlayLevel: [PlayLevel] Compiling BP_MainMenuWidget before play...
+[2016.08.05-04.26.45:665][270]LogPlayLevel: PlayLevel: Blueprint regeneration took 95 ms (1 blueprints)
+[2016.08.05-04.26.45:689][270]PIE: New page: PIE session: MainMenuLevel (6 Aug 2016 12:26:45 am)
+[2016.08.05-04.26.45:689][270]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuLevel
+[2016.08.05-04.26.45:692][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002493s)
+[2016.08.05-04.26.45:692][270]LogAIModule: Creating AISystem for world MainMenuLevel
+[2016.08.05-04.26.45:693][270]LogPlayLevel: PIE: World Init took: (0.000497s)
+[2016.08.05-04.26.45:693][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuLevel.MainMenuLevel to /Game/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.003187s)
+[2016.08.05-04.26.45:712][270]LogInit: XAudio2 using 'Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.05-04.26.45:718][270]LogInit: FAudioDevice initialized.
+[2016.08.05-04.26.45:761][270]LogWorld: Game class is 'MenuGM_C'
+[2016.08.05-04.26.45:762][270]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 0) at 2016.08.05-14.26.45
+[2016.08.05-04.26.45:763][270]LogWorld: Bringing up level for play took: 0.001432
+[2016.08.05-04.26.45:766][270]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 9 classes and 0 folders.
+[2016.08.05-04.26.45:774][270]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenuLevel -0.486
+[2016.08.05-04.26.45:774][270]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.08.05-04.26.45:794][271]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:9467).
+[2016.08.05-04.26.47:324][445]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.08.05-04.26.47:353][445]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.08.05-04.26.49:335][681]BlueprintLog: New page: Compile BP_MainMenuWidget
+[2016.08.05-04.26.49:425][681]BlueprintEditorCompileResults: Info [0553.83] Compile of BP_MainMenuWidget successful! [in 90 ms]
+[2016.08.05-04.26.50:223][773]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.08.05-04.26.50:223][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.05-04.26.50:223][773]PIE: New page: PIE session: MainMenuLevel (6 Aug 2016 12:26:50 am)
+[2016.08.05-04.26.50:223][773]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuLevel
+[2016.08.05-04.26.50:225][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002057s)
+[2016.08.05-04.26.50:225][773]LogAIModule: Creating AISystem for world MainMenuLevel
+[2016.08.05-04.26.50:225][773]LogPlayLevel: PIE: World Init took: (0.000504s)
+[2016.08.05-04.26.50:226][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuLevel.MainMenuLevel to /Game/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.002730s)
+[2016.08.05-04.26.50:244][773]LogInit: XAudio2 using 'Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.05-04.26.50:251][773]LogInit: FAudioDevice initialized.
+[2016.08.05-04.26.50:284][773]LogWorld: Game class is 'MenuGM_C'
+[2016.08.05-04.26.50:286][773]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 0) at 2016.08.05-14.26.50
+[2016.08.05-04.26.50:286][773]LogWorld: Bringing up level for play took: 0.001374
+[2016.08.05-04.26.50:292][773]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenuLevel 0.032
+[2016.08.05-04.26.50:292][773]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.08.05-04.26.53:639][172]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.08.05-04.26.53:663][172]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.08.05-04.26.58:355][733]BlueprintLog: New page: Compile BP_MainMenuWidget
+[2016.08.05-04.26.58:436][733]BlueprintEditorCompileResults: Info [0562.85] Compile of BP_MainMenuWidget successful! [in 81 ms]
+[2016.08.05-04.26.58:854][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuAssets/MainMenu/BP_MainMenuWidget" FILE="../../../../../../../INBOUND/build/yo/Project_PlanetDef/Content/MenuAssets/MainMenu/BP_MainMenuWidget.uasset" SILENT=true
+[2016.08.05-04.26.58:906][780]LogSavePackage: Save=43.53ms
+[2016.08.05-04.26.58:906][780]LogSavePackage: Moving '../../../../../../../INBOUND/build/yo/Project_PlanetDef/Saved/BP_MainMenuWidget6299C7494A984E5E7D7322BAB0FAC0F1.tmp' to '../../../../../../../INBOUND/build/yo/Project_PlanetDef/Content/MenuAssets/MainMenu/BP_MainMenuWidget.uasset'
+[2016.08.05-04.26.58:907][780]LogSavePackage: Total save time: 52.39ms
+[2016.08.05-04.26.58:907][780]LogSavePackage:Display: Finished SavePackage ../../../../../../../INBOUND/build/yo/Project_PlanetDef/Content/MenuAssets/MainMenu/BP_MainMenuWidget.uasset
+[2016.08.05-04.27.00:673][988]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.08.05-04.27.00:673][988]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.05-04.27.00:673][988]PIE: New page: PIE session: MainMenuLevel (6 Aug 2016 12:27:00 am)
+[2016.08.05-04.27.00:673][988]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuLevel
+[2016.08.05-04.27.00:676][988]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002487s)
+[2016.08.05-04.27.00:676][988]LogAIModule: Creating AISystem for world MainMenuLevel
+[2016.08.05-04.27.00:676][988]LogPlayLevel: PIE: World Init took: (0.000580s)
+[2016.08.05-04.27.00:677][988]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuLevel.MainMenuLevel to /Game/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.003236s)
+[2016.08.05-04.27.00:694][988]LogInit: XAudio2 using 'Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.05-04.27.00:700][988]LogInit: FAudioDevice initialized.
+[2016.08.05-04.27.00:729][988]LogWorld: Game class is 'MenuGM_C'
+[2016.08.05-04.27.00:731][988]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 0) at 2016.08.05-14.27.00
+[2016.08.05-04.27.00:731][988]LogWorld: Bringing up level for play took: 0.001198
+[2016.08.05-04.27.00:733][988]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenuLevel 0.474
+[2016.08.05-04.27.00:733][988]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.08.05-04.27.02:793][234]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.08.05-04.27.02:826][234]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.08.05-04.27.12:665][408]BlueprintLog: New page: Compile BP_MainMenuWidget
+[2016.08.05-04.27.12:758][408]BlueprintEditorCompileResults: Info [0577.17] Compile of BP_MainMenuWidget successful! [in 92 ms]
+[2016.08.05-04.27.13:397][481]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.08.05-04.27.13:398][481]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.05-04.27.13:398][481]PIE: New page: PIE session: MainMenuLevel (6 Aug 2016 12:27:13 am)
+[2016.08.05-04.27.13:398][481]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuLevel
+[2016.08.05-04.27.13:400][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001893s)
+[2016.08.05-04.27.13:400][481]LogAIModule: Creating AISystem for world MainMenuLevel
+[2016.08.05-04.27.13:400][481]LogPlayLevel: PIE: World Init took: (0.000488s)
+[2016.08.05-04.27.13:400][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuLevel.MainMenuLevel to /Game/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.002547s)
+[2016.08.05-04.27.13:418][481]LogInit: XAudio2 using 'Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.05-04.27.13:424][481]LogInit: FAudioDevice initialized.
+[2016.08.05-04.27.13:459][481]LogWorld: Game class is 'MenuGM_C'
+[2016.08.05-04.27.13:461][481]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 0) at 2016.08.05-14.27.13
+[2016.08.05-04.27.13:461][481]LogWorld: Bringing up level for play took: 0.001354
+[2016.08.05-04.27.13:470][481]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenuLevel -0.79
+[2016.08.05-04.27.13:470][481]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.08.05-04.27.17:894][  4]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.08.05-04.27.17:938][  4]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.08.05-04.27.24:033][721]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.08.05-04.27.24:033][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.05-04.27.24:033][721]PIE: New page: PIE session: MainMenuLevel (6 Aug 2016 12:27:24 am)
+[2016.08.05-04.27.24:033][721]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuLevel
+[2016.08.05-04.27.24:035][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002043s)
+[2016.08.05-04.27.24:036][721]LogAIModule: Creating AISystem for world MainMenuLevel
+[2016.08.05-04.27.24:036][721]LogPlayLevel: PIE: World Init took: (0.000525s)
+[2016.08.05-04.27.24:036][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuLevel.MainMenuLevel to /Game/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel (0.002737s)
+[2016.08.05-04.27.24:055][721]LogInit: XAudio2 using 'Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.05-04.27.24:061][721]LogInit: FAudioDevice initialized.
+[2016.08.05-04.27.24:086][721]LogWorld: Game class is 'MenuGM_C'
+[2016.08.05-04.27.24:087][721]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuLevel.MainMenuLevel up for play (max tick rate 0) at 2016.08.05-14.27.24
+[2016.08.05-04.27.24:088][721]LogWorld: Bringing up level for play took: 0.001172
+[2016.08.05-04.27.24:090][721]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenuLevel -0.171
+[2016.08.05-04.27.24:090][721]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.08.05-04.27.25:009][831]LogNet: Browse: /Game/Maps/FirstLevel
+[2016.08.05-04.27.25:009][831]LogLoad: LoadMap: /Game/Maps/FirstLevel
+[2016.08.05-04.27.25:033][831]Cmd: MEM
+[2016.08.05-04.27.25:057][831]LogMemory: Platform Memory Stats for Windows
+[2016.08.05-04.27.25:057][831]LogMemory: Process Physical Memory: 1130.62 MB used, 1142.55 MB peak
+[2016.08.05-04.27.25:057][831]LogMemory: Process Virtual Memory: 1840.95 MB used, 2025.56 MB peak
+[2016.08.05-04.27.25:057][831]LogMemory: Physical Memory: 8712.37 MB used, 16262.56 MB total
+[2016.08.05-04.27.25:057][831]LogMemory: Virtual Memory: 2588.91 MB used, 8388608.00 MB total
+[2016.08.05-04.27.25:057][831]LogMemory: 
+[2016.08.05-04.27.25:057][831]Allocator Stats for TBB: (not implemented)
+[2016.08.05-04.27.25:396][831]LogAIModule: Creating AISystem for world FirstLevel
+[2016.08.05-04.27.25:397][831]LogWorld: Game class is 'GameManager_C'
+[2016.08.05-04.27.25:404][831]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.08.05-14.27.25
+[2016.08.05-04.27.25:405][831]LogWorld: Bringing up level for play took: 0.007319
+[2016.08.05-04.27.25:408][831]LogScript:Warning: UGameplayStatics::PlaySoundAttached: NULL AttachComponent specified! Trying to spawn sound [PLANET_DEFENCE_Cue],
+[2016.08.05-04.27.27:022][ 22]LogBlueprintUserMessages: [GameManager_C_0] Wave Begun
+[2016.08.05-04.27.37:765][311]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.08.05-04.27.37:794][311]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel' with GeneratedClass '/Game/Maps/MainMenuLevel.MainMenuLevel_C' with ClassGeneratedBy '/Game/Maps/MainMenuLevel.MainMenuLevel:PersistentLevel.MainMenuLevel'
+[2016.08.05-04.27.41:603][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenuLevel" FILE="../../../../../../../INBOUND/build/yo/Project_PlanetDef/Content/Maps/MainMenuLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.08.05-04.27.41:714][759]LogSavePackage: Save=88.96ms
+[2016.08.05-04.27.41:714][759]LogSavePackage: Moving '../../../../../../../INBOUND/build/yo/Project_PlanetDef/Saved/MainMenuLevelB39654BB4A0C44FC0762FBA7C3567412.tmp' to '../../../../../../../INBOUND/build/yo/Project_PlanetDef/Content/Maps/MainMenuLevel.umap'
+[2016.08.05-04.27.41:715][759]LogSavePackage: Total save time: 97.27ms
+[2016.08.05-04.27.41:715][759]LogSavePackage:Display: Finished SavePackage ../../../../../../../INBOUND/build/yo/Project_PlanetDef/Content/Maps/MainMenuLevel.umap
+[2016.08.05-04.27.45:973][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuAssets/MainMenu/logog" FILE="../../../../../../../INBOUND/build/yo/Project_PlanetDef/Content/MenuAssets/MainMenu/logog.uasset" SILENT=true
+[2016.08.05-04.27.45:981][871]LogSavePackage: Save=6.81ms
+[2016.08.05-04.27.45:981][871]LogSavePackage: Moving '../../../../../../../INBOUND/build/yo/Project_PlanetDef/Saved/logog59B3A11D4F32DEDAC54EAC9BC87AD11C.tmp' to '../../../../../../../INBOUND/build/yo/Project_PlanetDef/Content/MenuAssets/MainMenu/logog.uasset'
+[2016.08.05-04.27.45:982][871]LogSavePackage: Total save time: 7.97ms
+[2016.08.05-04.27.45:982][871]LogSavePackage:Display: Finished SavePackage ../../../../../../../INBOUND/build/yo/Project_PlanetDef/Content/MenuAssets/MainMenu/logog.uasset
+[2016.08.05-04.27.45:992][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuAssets/MainMenu/menu_image" FILE="../../../../../../../INBOUND/build/yo/Project_PlanetDef/Content/MenuAssets/MainMenu/menu_image.uasset" SILENT=true
+[2016.08.05-04.27.46:041][871]LogSavePackage: Save=48.06ms
+[2016.08.05-04.27.46:041][871]LogSavePackage: Moving '../../../../../../../INBOUND/build/yo/Project_PlanetDef/Saved/menu_imageBBE4A9804C17DB2BA04D44B4F4EDA516.tmp' to '../../../../../../../INBOUND/build/yo/Project_PlanetDef/Content/MenuAssets/MainMenu/menu_image.uasset'
+[2016.08.05-04.27.46:042][871]LogSavePackage: Total save time: 49.20ms
+[2016.08.05-04.27.46:042][871]LogSavePackage:Display: Finished SavePackage ../../../../../../../INBOUND/build/yo/Project_PlanetDef/Content/MenuAssets/MainMenu/menu_image.uasset
+[2016.08.05-04.27.46:279][872]Cmd: QUIT_EDITOR
+[2016.08.05-04.27.46:363][872]LogExit: Preparing to exit.
+[2016.08.05-04.27.46:878][872]LogExit: Editor shut down
+[2016.08.05-04.27.46:878][872]LogExit: Transaction tracking system shut down
+[2016.08.05-04.27.47:025][872]LogObj: Freed 0b from 0 cluster array pools.
+[2016.08.05-04.27.47:025][872]LogExit: Object subsystem successfully closed.
+[2016.08.05-04.27.47:035][872]LogD3D11RHI: Shutdown
+[2016.08.05-04.27.47:035][872]LogD3D11RHI: CleanupD3DDevice
+[2016.08.05-04.27.47:077][872]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.08.05-04.27.47:126][872]LogDerivedDataCache: Shutdown
+[2016.08.05-04.27.47:126][872]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (210)
+[2016.08.05-04.27.47:126][872]LogModuleManager: Shutting down and abandoning module SequencerWidgets (209)
+[2016.08.05-04.27.47:126][872]LogModuleManager: Shutting down and abandoning module BlueprintGraph (208)
+[2016.08.05-04.27.47:126][872]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (207)
+[2016.08.05-04.27.47:126][872]LogModuleManager: Shutting down and abandoning module CrashTracker (206)
+[2016.08.05-04.27.47:126][872]LogModuleManager: Shutting down and abandoning module SceneOutliner (205)
+[2016.08.05-04.27.47:126][872]LogModuleManager: Shutting down and abandoning module SuperSearch (204)
+[2016.08.05-04.27.47:126][872]LogModuleManager: Shutting down and abandoning module WidgetCarousel (203)
+[2016.08.05-04.27.47:126][872]LogModuleManager: Shutting down and abandoning module AddContentDialog (202)
+[2016.08.05-04.27.47:127][872]LogModuleManager: Shutting down and abandoning module GameplayTags (201)
+[2016.08.05-04.27.47:127][872]LogModuleManager: Shutting down and abandoning module EditorWidgets (200)
+[2016.08.05-04.27.47:127][872]LogModuleManager: Shutting down and abandoning module CollectionManager (199)
+[2016.08.05-04.27.47:127][872]LogModuleManager: Shutting down and abandoning module StatsViewer (198)
+[2016.08.05-04.27.47:127][872]LogModuleManager: Shutting down and abandoning module FoliageEdit (197)
+[2016.08.05-04.27.47:127][872]LogModuleManager: Shutting down and abandoning module LandscapeEditor (196)
+[2016.08.05-04.27.47:127][872]LogModuleManager: Shutting down and abandoning module ActorPickerMode (195)
+[2016.08.05-04.27.47:127][872]LogModuleManager: Shutting down and abandoning module GeometryMode (194)
+[2016.08.05-04.27.47:127][872]LogModuleManager: Shutting down and abandoning module TextureAlignMode (193)
+[2016.08.05-04.27.47:127][872]LogModuleManager: Shutting down and abandoning module BspMode (192)
+[2016.08.05-04.27.47:127][872]LogModuleManager: Shutting down and abandoning module PlacementMode (191)
+[2016.08.05-04.27.47:127][872]LogModuleManager: Shutting down and abandoning module AutomationWorker (190)
+[2016.08.05-04.27.47:127][872]LogModuleManager: Shutting down and abandoning module CharacterAI (189)
+[2016.08.05-04.27.47:127][872]LogModuleManager: Shutting down and abandoning module SmartSnapping (188)
+[2016.08.05-04.27.47:127][872]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.08.05-04.27.47:127][872]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.08.05-04.27.47:127][872]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.08.05-04.27.47:127][872]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.08.05-04.27.47:127][872]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.08.05-04.27.47:127][872]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.08.05-04.27.47:127][872]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.08.05-04.27.47:127][872]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.08.05-04.27.47:387][872]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.08.05-04.27.47:387][872]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.08.05-04.27.47:387][872]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.08.05-04.27.47:387][872]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.08.05-04.27.47:387][872]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.08.05-04.27.47:387][872]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.08.05-04.27.47:387][872]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.08.05-04.27.47:387][872]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.08.05-04.27.47:387][872]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.08.05-04.27.47:387][872]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.08.05-04.27.47:387][872]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.08.05-04.27.47:387][872]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.08.05-04.27.47:387][872]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.08.05-04.27.47:387][872]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.08.05-04.27.47:387][872]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.08.05-04.27.47:387][872]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.08.05-04.27.47:387][872]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.08.05-04.27.47:387][872]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.08.05-04.27.47:387][872]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.08.05-04.27.47:387][872]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.08.05-04.27.47:388][872]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.08.05-04.27.47:388][872]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.08.05-04.27.47:388][872]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.08.05-04.27.47:388][872]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.08.05-04.27.47:388][872]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module AITestSuite (132)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module GameplayDebugger (131)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.08.05-04.27.47:418][872]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module SubstanceEditor (127)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module SlateRemote (126)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module SteamVRController (125)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module SteamVR (124)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (123)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module OculusLibrary (122)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module OculusInput (121)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (120)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module CableComponent (119)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (118)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (117)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module HTML5Networking (116)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module SourceControl (107)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
+[2016.08.05-04.27.47:593][872]LogModuleManager: Shutting down and abandoning module HotReload (101)
+[2016.08.05-04.27.47:594][872]LogModuleManager: Shutting down and abandoning module MainFrame (100)
+[2016.08.05-04.27.47:594][872]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
+[2016.08.05-04.27.47:594][872]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (98)
+[2016.08.05-04.27.47:595][872]LogModuleManager: Shutting down and abandoning module AssetRegistry (97)
+[2016.08.05-04.27.47:788][872]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.08.05-04.27.47:788][872]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.08.05-04.27.47:789][872]LogModuleManager: Shutting down and abandoning module Project_PlanetDef (94)
+[2016.08.05-04.27.47:789][872]LogModuleManager: Shutting down and abandoning module UdpMessaging (93)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module SubstanceCore (92)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.08.05-04.27.47:889][872]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.08.05-04.27.47:891][872]LogDerivedDataCache: Shutdown
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.08.05-04.27.47:891][872]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.08.05-04.27.48:891][872]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.08.05-04.27.48:891][872]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.08.05-04.27.48:891][872]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.08.05-04.27.48:891][872]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.08.05-04.27.48:891][872]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.08.05-04.27.48:891][872]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.08.05-04.27.48:891][872]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.08.05-04.27.48:892][872]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.08.05-04.27.48:892][872]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.08.05-04.27.48:892][872]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.08.05-04.27.48:892][872]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.08.05-04.27.48:892][872]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.08.05-04.27.48:892][872]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.08.05-04.27.48:892][872]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.08.05-04.27.48:892][872]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.08.05-04.27.48:892][872]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.08.05-04.27.48:892][872]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.08.05-04.27.48:893][872]LogExit: Exiting.
+[2016.08.05-04.27.48:908][872]Log file closed, 08/05/16 14:27:48
