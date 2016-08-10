@@ -1,0 +1,331 @@
+﻿Log file open, 08/10/16 11:04:11
+LogInit:Display: Running engine for game: Project_PlanetDef
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1267452465) SRandInit(-1267452464).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.080769
+LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.3.0
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.08.10-01.04.11:561][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.10-01.04.11:561][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.10-01.04.11:568][  0]LogInit: Computer: S-805-10-1919-W
+[2016.08.10-01.04.11:568][  0]LogInit: User: sdeflorio
+[2016.08.10-01.04.11:568][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.08.10-01.04.11:568][  0]LogInit: High frequency timer resolution =3.897275 MHz
+[2016.08.10-01.04.11:568][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.08.10-01.04.11:568][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.10-01.04.11:568][  0]LogMemory: Process Physical Memory: 316.94 MB used, 316.94 MB peak
+[2016.08.10-01.04.11:568][  0]LogMemory: Process Virtual Memory: 317.71 MB used, 317.71 MB peak
+[2016.08.10-01.04.11:568][  0]LogMemory: Physical Memory: 5569.77 MB used, 16324.61 MB total
+[2016.08.10-01.04.11:568][  0]LogMemory: Virtual Memory: 623.21 MB used, 8388608.00 MB total
+[2016.08.10-01.04.11:595][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2016.08.10-01.04.11:955][  0]LogD3D11RHI: D3D11 adapters:
+[2016.08.10-01.04.11:962][  0]LogD3D11RHI:    0. 'AMD RADEON R9 M295X' (Feature Level 11_0)
+[2016.08.10-01.04.11:962][  0]LogD3D11RHI:       4074MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2016.08.10-01.04.11:962][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.08.10-01.04.11:966][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.08.10-01.04.11:966][  0]LogD3D11RHI:     Adapter Name: AMD RADEON R9 M295X
+[2016.08.10-01.04.11:966][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.08.10-01.04.11:966][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.08.10-01.04.11:966][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.10-01.04.11:969][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.08.10-01.04.11:980][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Intermediate/Shaders/WorkingDirectory/6608/).
+[2016.08.10-01.04.11:980][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SDEFLO~1/AppData/Local/Temp/UnrealShaderWorkingDir/98E91C53405DF974120EADA4B6834F6D/'.
+[2016.08.10-01.04.11:980][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.10-01.04.13:195][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.10-01.04.13:199][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.10-01.04.13:203][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.10-01.04.13:207][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.10-01.04.13:210][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.10-01.04.13:213][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.10-01.04.13:216][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.10-01.04.13:218][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.10-01.04.13:220][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.10-01.04.13:222][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.10-01.04.13:225][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.10-01.04.13:230][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.10-01.04.13:230][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.10-01.04.13:231][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.10-01.04.13:245][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.10-01.04.13:247][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.08.10-01.04.13:249][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.10-01.04.13:251][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.10-01.04.13:253][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.10-01.04.13:253][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.10-01.04.13:312][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.10-01.04.13:359][  0]LogDerivedDataCache: Loaded boot cache 0.05s 46MB C:/Users/sdeflorio/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.08.10-01.04.13:359][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/sdeflorio/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.08.10-01.04.13:359][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.10-01.04.13:359][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.10-01.04.13:359][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.10-01.04.13:359][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.10-01.04.13:373][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.10-01.04.13:384][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sdeflorio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.10-01.04.13:513][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.10-01.04.13:513][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.08.10-01.04.13:530][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.08.10-01.04.13:643][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.10-01.04.13:643][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.10-01.04.13:643][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.08.10-01.04.13:849][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.08.10-01.04.13:849][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.08.10-01.04.13:849][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.08.10-01.04.13:855][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.10-01.04.13:926][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.10-01.04.13:926][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.10-01.04.14:018][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.08.10-01.04.14:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.08.10-01.04.14:018][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.08.10-01.04.14:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.08.10-01.04.14:018][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.08.10-01.04.14:018][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.08.10-01.04.14:548][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.08.10-01.04.14:554][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.10-01.04.14:657][  0]LogAssetRegistry: FAssetRegistry took 0.0203 seconds to start up
+[2016.08.10-01.04.14:773][  0]SourceControl: Info Source control is disabled
+[2016.08.10-01.04.15:205][  0]SourceControl: Info Source control is disabled
+[2016.08.10-01.04.15:212][  0]SourceControl: Info Source control is disabled
+[2016.08.10-01.04.15:217][  0]SourceControl: Info Source control is disabled
+[2016.08.10-01.04.15:307][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.08.10-01.04.15:372][  0]LogEngine: Initializing Engine...
+[2016.08.10-01.04.15:479][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.10-01.04.15:484][  0]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.10-01.04.15:503][  0]LogInit: FAudioDevice initialized.
+[2016.08.10-01.04.15:524][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/sdeflorio/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.08.10-01.04.15:527][  0]LogInit: Texture streaming: Enabled
+[2016.08.10-01.04.15:545][  0]LogInit: Transaction tracking system initialized
+[2016.08.10-01.04.15:564][  0]BlueprintLog: New page: Editor Load
+[2016.08.10-01.04.15:625][  0]LocalizationService: Info Localization service is disabled
+[2016.08.10-01.04.15:677][  0]LogConsoleResponse:Display: 
+[2016.08.10-01.04.15:796][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.08.10-01.04.15:796][  0]LogCook:Display: Mobile HDR setting 1
+[2016.08.10-01.04.15:796][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.08.10-01.04.15:834][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/' took 0.03s
+[2016.08.10-01.04.15:834][  0]SourceControl: Info Source control is disabled
+[2016.08.10-01.08.07:109][  0]Cmd: MAP LOAD FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.10-01.08.07:109][  0]LightingResults: New page: Lighting Build
+[2016.08.10-01.08.07:114][  0]MapCheck: New page: Map Check
+[2016.08.10-01.08.07:114][  0]LightingResults: New page: Lighting Build
+[2016.08.10-01.08.09:321][  0]LogAIModule: Creating AISystem for world FirstLevel
+[2016.08.10-01.08.09:324][  0]LogMaterial:Warning: Material /Engine/EditorMaterials/WidgetGridVertexColorMaterial_Ma.WidgetGridVertexColorMaterial_Ma needed to have new flag set bUsedWithStaticLighting !
+[2016.08.10-01.08.09:332][  0]LogMaterial: Missing cached shader map for material WidgetGridVertexColorMaterial_Ma, compiling. 
+[2016.08.10-01.08.09:342][  0]MapCheck:Warning: Warning WidgetGridVertexColorMaterial_Ma Material /Engine/EditorMaterials/WidgetGridVertexColorMaterial_Ma.WidgetGridVertexColorMaterial_Ma was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.08.10-01.08.09:342][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.10-01.08.09:365][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.10-01.08.09:366][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.10-01.08.09:421][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 55.098ms to complete.
+[2016.08.10-01.08.09:424][  0]LogFileHelpers: Loading map 'FirstLevel' took 2.316
+[2016.08.10-01.08.09:552][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_874_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_63c_0///####STATCAT_Advanced####
+[2016.08.10-01.08.09:552][  0]LogCollectionManager: Loaded 0 collections in 0.001678 seconds
+[2016.08.10-01.08.09:587][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/Collections/' took 0.01s
+[2016.08.10-01.08.09:587][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Developers/sdeflorio/Collections/' took 0.01s
+[2016.08.10-01.08.09:587][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Collections/' took 0.01s
+[2016.08.10-01.08.09:587][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.08.10-01.08.09:594][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 1994 classes and 349 folders.
+[2016.08.10-01.08.09:597][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.08.10-01.08.09:597][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.08.10-01.08.09:599][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0013 seconds. Added 12 classes and 0 folders.
+[2016.08.10-01.08.09:607][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2016.08.10-01.08.09:639][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.08.10-01.08.10:155][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.08.10-01.08.10:166][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.08.10-01.08.10:181][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.10-01.08.10:186][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.08.10-01.08.10:212][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2016.08.10-01.08.10:213][  0]LogLoad: Full Startup: 239.35 seconds (BP compile: 0.35 seconds)
+[2016.08.10-01.08.10:213][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.08.10-01.08.10:213][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.08.10-01.08.10:222][  0]LogOcInput: OculusInput pre-init called
+[2016.08.10-01.08.10:223][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.3.0
+[2016.08.10-01.08.10:293][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.08.10-01.08.10:516][  0]LogRenderer: Reallocating scene render targets to support 1616x812 (Frame:2).
+[2016.08.10-01.08.10:779][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/' took 0.54s
+[2016.08.10-01.08.10:798][  1]LogAssetRegistry: Asset discovery search completed in 236.1923 seconds
+[2016.08.10-01.08.10:798][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.08.10-01.08.10:798][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000059 seconds (updated 0 objects)
+[2016.08.10-01.09.12:599][466]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0009 seconds. Added 2 classes and 2 folders.
+[2016.08.10-01.09.12:686][466]LogTexture:Display: Building textures: CASC_Normal (BC5)
+[2016.08.10-01.09.12:688][466]LogTexture:Display: Building textures: CASC_Point (AutoDXT)
+[2016.08.10-01.09.12:690][466]LogTexture:Display: Building textures: CASC_Lights (BC5)
+[2016.08.10-01.09.12:692][466]LogTexture:Display: Building textures: CASC_CurveEd (AutoDXT)
+[2016.08.10-01.09.12:693][466]LogTexture:Display: Building textures: CASC_ModuleEnable (AutoDXT)
+[2016.08.10-01.09.12:695][466]LogTexture:Display: Building textures: CASC_ModuleDisable (AutoDXT)
+[2016.08.10-01.09.12:716][466]LogTexture:Display: Building textures: CASC_Solo_On (AutoDXT)
+[2016.08.10-01.09.12:718][466]LogTexture:Display: Building textures: CASC_Solo_Off (AutoDXT)
+[2016.08.10-01.09.12:720][466]LogTexture:Display: Building textures: CASC_DisabledModule (AutoDXT)
+[2016.08.10-01.11.26:588][578]LogSavePackage: Save=19.90ms
+[2016.08.10-01.11.26:589][578]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/P_ExplosionADC56DDA4AB3FEB4F6FB74A9DACBF41E.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/StarterContent/Particles/P_Explosion.uasset'
+[2016.08.10-01.11.26:607][578]LogSavePackage: Total save time: 63.16ms
+[2016.08.10-01.11.26:607][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/StarterContent/Particles/P_Explosion.uasset
+[2016.08.10-01.11.31:047][965]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-01.11.31:048][965]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.10-01.11.31:048][965]PIE: New page: PIE session: FirstLevel (10 Aug 2016 9:11:31 pm)
+[2016.08.10-01.11.31:048][965]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.08.10-01.11.31:058][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009465s)
+[2016.08.10-01.11.31:058][965]LogAIModule: Creating AISystem for world FirstLevel
+[2016.08.10-01.11.31:058][965]LogPlayLevel: PIE: World Init took: (0.000477s)
+[2016.08.10-01.11.31:059][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.010334s)
+[2016.08.10-01.11.31:116][965]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.10-01.11.31:120][965]LogInit: FAudioDevice initialized.
+[2016.08.10-01.11.31:162][965]LogWorld: Game class is 'GameManager_C'
+[2016.08.10-01.11.31:165][965]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.08.10-11.11.31
+[2016.08.10-01.11.31:166][965]LogWorld: Bringing up level for play took: 0.002942
+[2016.08.10-01.11.31:170][965]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 9 classes and 0 folders.
+[2016.08.10-01.11.31:172][965]LogScript:Warning: UGameplayStatics::PlaySoundAttached: NULL AttachComponent specified! Trying to spawn sound [PLANET_DEFENCE_Cue],
+[2016.08.10-01.11.31:173][965]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.633
+[2016.08.10-01.11.31:173][965]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-01.11.33:029][180]LogBlueprintUserMessages: [GameManager_C_0] Wave Begun
+[2016.08.10-01.11.50:142][231]LogActor:Warning: Projectile_C_0 is outside the world bounds!
+[2016.08.10-01.11.52:131][470]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-01.11.52:161][470]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-01.12.03:465][754]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-01.12.03:465][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.10-01.12.03:465][754]PIE: New page: PIE session: FirstLevel (10 Aug 2016 9:12:03 pm)
+[2016.08.10-01.12.03:465][754]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.08.10-01.12.03:474][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008377s)
+[2016.08.10-01.12.03:474][754]LogAIModule: Creating AISystem for world FirstLevel
+[2016.08.10-01.12.03:474][754]LogPlayLevel: PIE: World Init took: (0.000444s)
+[2016.08.10-01.12.03:474][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.009222s)
+[2016.08.10-01.12.03:484][754]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.10-01.12.03:489][754]LogInit: FAudioDevice initialized.
+[2016.08.10-01.12.03:514][754]LogWorld: Game class is 'GameManager_C'
+[2016.08.10-01.12.03:518][754]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.08.10-11.12.03
+[2016.08.10-01.12.03:518][754]LogWorld: Bringing up level for play took: 0.002787
+[2016.08.10-01.12.03:521][754]LogScript:Warning: UGameplayStatics::PlaySoundAttached: NULL AttachComponent specified! Trying to spawn sound [PLANET_DEFENCE_Cue],
+[2016.08.10-01.12.03:521][754]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.283
+[2016.08.10-01.12.03:521][754]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-01.12.05:448][982]LogBlueprintUserMessages: [GameManager_C_1] Wave Begun
+[2016.08.10-01.12.21:644][925]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-01.12.21:671][925]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-01.13.15:598][243]LogSavePackage: Save=109.57ms
+[2016.08.10-01.13.15:598][243]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevelAEBAAAD7405D07E0D33070B10DDEE6ED.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap'
+[2016.08.10-01.13.15:600][243]LogSavePackage: Total save time: 136.27ms
+[2016.08.10-01.13.15:600][243]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap
+[2016.08.10-01.13.16:432][317]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-01.13.16:432][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.10-01.13.16:432][317]PIE: New page: PIE session: FirstLevel (10 Aug 2016 9:13:16 pm)
+[2016.08.10-01.13.16:433][317]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.08.10-01.13.16:440][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007586s)
+[2016.08.10-01.13.16:441][317]LogAIModule: Creating AISystem for world FirstLevel
+[2016.08.10-01.13.16:441][317]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2016.08.10-01.13.16:441][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.008399s)
+[2016.08.10-01.13.16:452][317]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.10-01.13.16:458][317]LogInit: FAudioDevice initialized.
+[2016.08.10-01.13.16:488][317]LogWorld: Game class is 'GameManager_C'
+[2016.08.10-01.13.16:491][317]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.08.10-11.13.16
+[2016.08.10-01.13.16:492][317]LogWorld: Bringing up level for play took: 0.002967
+[2016.08.10-01.13.16:494][317]LogScript:Warning: UGameplayStatics::PlaySoundAttached: NULL AttachComponent specified! Trying to spawn sound [PLANET_DEFENCE_Cue],
+[2016.08.10-01.13.16:495][317]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.694
+[2016.08.10-01.13.16:495][317]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-01.13.18:420][545]LogBlueprintUserMessages: [GameManager_C_2] Wave Begun
+[2016.08.10-01.13.34:017][416]LogScript:Warning: Attempted to access Meteorite_Type3_C_10 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_10 is pending kill
+	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_5
+	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:00C6
+[2016.08.10-01.13.34:017][416]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_10 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_10 is pending kill from function: 'SpawnLesserMeteorite' from node: Set World Scale 3D in graph: SpawnLesserMeteorite in object: Meteorite_Type4
+[2016.08.10-01.13.34:018][416]LogScript:Warning: Accessed None
+	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_5
+	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:00DB
+[2016.08.10-01.13.34:018][416]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'SpawnLesserMeteorite' from node: Set World Scale 3D in graph: SpawnLesserMeteorite in object: Meteorite_Type4
+[2016.08.10-01.13.34:018][416]LogScript:Warning: Attempted to access Meteorite_Type3_C_10 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_10 is pending kill
+	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_5
+	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:01E7
+[2016.08.10-01.13.34:018][416]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_10 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_10 is pending kill from function: 'SpawnLesserMeteorite' from node: Set TargetLocation in graph: SpawnLesserMeteorite in object: Meteorite_Type4
+[2016.08.10-01.13.34:018][416]LogScript:Warning: Attempted to assign to None
+	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_5
+	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:01FC
+[2016.08.10-01.13.34:018][416]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'SpawnLesserMeteorite' from node: Set TargetLocation in graph: SpawnLesserMeteorite in object: Meteorite_Type4
+[2016.08.10-01.13.34:018][416]LogScript:Warning: Attempted to access Meteorite_Type3_C_10 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_10 is pending kill
+	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_5
+	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:021A
+[2016.08.10-01.13.34:018][416]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_10 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_10 is pending kill from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
+[2016.08.10-01.13.34:019][416]LogScript:Warning: Attempted to assign to None
+	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_5
+	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:022F
+[2016.08.10-01.13.34:019][416]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
+[2016.08.10-01.13.34:019][416]LogScript:Warning: Attempted to access Meteorite_Type3_C_10 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_10 is pending kill
+	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_5
+	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:0239
+[2016.08.10-01.13.34:019][416]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_10 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_10 is pending kill from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
+[2016.08.10-01.13.34:020][416]LogScript:Warning: Attempted to access Meteorite_Type3_C_11 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_11 is pending kill
+	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_5
+	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:00C6
+[2016.08.10-01.13.34:020][416]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_11 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_11 is pending kill from function: 'SpawnLesserMeteorite' from node: Set World Scale 3D in graph: SpawnLesserMeteorite in object: Meteorite_Type4
+[2016.08.10-01.13.34:020][416]LogScript:Warning: Accessed None
+	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_5
+	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:00DB
+[2016.08.10-01.13.34:020][416]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'SpawnLesserMeteorite' from node: Set World Scale 3D in graph: SpawnLesserMeteorite in object: Meteorite_Type4
+[2016.08.10-01.13.34:020][416]LogScript:Warning: Attempted to access Meteorite_Type3_C_11 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_11 is pending kill
+	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_5
+	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:01E7
+[2016.08.10-01.13.34:020][416]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_11 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_11 is pending kill from function: 'SpawnLesserMeteorite' from node: Set TargetLocation in graph: SpawnLesserMeteorite in object: Meteorite_Type4
+[2016.08.10-01.13.34:020][416]LogScript:Warning: Attempted to assign to None
+	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_5
+	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:01FC
+[2016.08.10-01.13.34:021][416]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'SpawnLesserMeteorite' from node: Set TargetLocation in graph: SpawnLesserMeteorite in object: Meteorite_Type4
+[2016.08.10-01.13.34:021][416]LogScript:Warning: Attempted to access Meteorite_Type3_C_11 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_11 is pending kill
+	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_5
+	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:021A
+[2016.08.10-01.13.34:021][416]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_11 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_11 is pending kill from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
+[2016.08.10-01.13.34:021][416]LogScript:Warning: Attempted to assign to None
+	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_5
+	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:022F
+[2016.08.10-01.13.34:021][416]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
+[2016.08.10-01.13.34:021][416]LogScript:Warning: Attempted to access Meteorite_Type3_C_11 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_11 is pending kill
+	Meteorite_Type4_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.Meteorite_Type4_C_5
+	Function /Game/Meteorites/Meteorite_Type4.Meteorite_Type4_C:SpawnLesserMeteorite:0239
+[2016.08.10-01.13.34:021][416]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_11 via property CallFunc_FinishSpawningActor_ReturnValue, but Meteorite_Type3_C_11 is pending kill from function: 'SpawnLesserMeteorite' from node: Set Speed in graph: SpawnLesserMeteorite in object: Meteorite_Type4
+[2016.08.10-01.13.34:185][436]LogActor:Warning: Projectile_C_11 is outside the world bounds!
+[2016.08.10-01.13.53:649][770]LogActor:Warning: Projectile_C_17 is outside the world bounds!
+[2016.08.10-01.14.07:279][403]LogActor:Warning: Projectile_C_24 is outside the world bounds!
+[2016.08.10-01.14.08:179][511]LogActor:Warning: Projectile_C_25 is outside the world bounds!
+[2016.08.10-01.14.09:622][684]LogActor:Warning: Projectile_C_26 is outside the world bounds!
+[2016.08.10-01.14.12:465][ 24]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-01.14.12:496][ 24]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-01.14.15:057][246]LogSavePackage: Save=101.62ms
+[2016.08.10-01.14.15:057][246]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevelA53C18D14FFF1B67DBF7FB9242960400.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap'
+[2016.08.10-01.14.15:058][246]LogSavePackage: Total save time: 126.92ms
+[2016.08.10-01.14.15:059][246]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap
+[2016.08.10-01.14.18:533][609]LogCascade: Quitting Cascade. FXSystem=0x00000000385B8CC0
+[2016.08.10-01.14.25:244][181]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 108 classes and 0 folders.
+[2016.08.10-01.20.10:988][ 63]BlueprintLog: New page: Compile LeftTurret
+[2016.08.10-01.20.11:145][ 63]BlueprintEditorCompileResults: Info [0960.31] Compile of LeftTurret successful! [in 156 ms]
+[2016.08.10-01.20.11:858][143]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-01.20.11:858][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.10-01.20.11:858][143]PIE: New page: PIE session: FirstLevel (10 Aug 2016 9:20:11 pm)
+[2016.08.10-01.20.11:858][143]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.08.10-01.20.11:866][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007946s)
+[2016.08.10-01.20.11:867][143]LogAIModule: Creating AISystem for world FirstLevel
+[2016.08.10-01.20.11:867][143]LogPlayLevel: PIE: World Init took: (0.000588s)
+[2016.08.10-01.20.11:867][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.008850s)
+[2016.08.10-01.20.11:922][143]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.10-01.20.11:928][143]LogInit: FAudioDevice initialized.
+[2016.08.10-01.20.11:964][143]LogWorld: Game class is 'GameManager_C'
+[2016.08.10-01.20.11:968][143]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.08.10-11.20.11
+[2016.08.10-01.20.11:968][143]LogWorld: Bringing up level for play took: 0.002956
+[2016.08.10-01.20.11:971][143]LogScript:Warning: UGameplayStatics::PlaySoundAttached: NULL AttachComponent specified! Trying to spawn sound [PLANET_DEFENCE_Cue],
+[2016.08.10-01.20.11:982][143]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.199
+[2016.08.10-01.20.11:982][143]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentL

@@ -1,0 +1,301 @@
+﻿Log file open, 08/10/16 10:43:54
+LogInit:Display: Running engine for game: Project_PlanetDef
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1734155356) SRandInit(-1734155355).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.074660
+LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.3.0
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.08.10-00.43.55:889][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.10-00.43.55:889][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.10-00.43.55:992][  0]LogInit: Computer: S-805-10-1919-W
+[2016.08.10-00.43.55:992][  0]LogInit: User: sdeflorio
+[2016.08.10-00.43.55:992][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.08.10-00.43.55:992][  0]LogInit: High frequency timer resolution =3.897275 MHz
+[2016.08.10-00.43.55:992][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.08.10-00.43.55:992][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.10-00.43.55:992][  0]LogMemory: Process Physical Memory: 316.90 MB used, 316.90 MB peak
+[2016.08.10-00.43.55:992][  0]LogMemory: Process Virtual Memory: 317.68 MB used, 317.68 MB peak
+[2016.08.10-00.43.55:992][  0]LogMemory: Physical Memory: 6270.49 MB used, 16324.61 MB total
+[2016.08.10-00.43.55:992][  0]LogMemory: Virtual Memory: 623.21 MB used, 8388608.00 MB total
+[2016.08.10-00.43.57:068][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2016.08.10-00.43.58:930][  0]LogD3D11RHI: D3D11 adapters:
+[2016.08.10-00.43.59:029][  0]LogD3D11RHI:    0. 'AMD RADEON R9 M295X' (Feature Level 11_0)
+[2016.08.10-00.43.59:029][  0]LogD3D11RHI:       4074MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2016.08.10-00.43.59:029][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.08.10-00.43.59:033][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.08.10-00.43.59:033][  0]LogD3D11RHI:     Adapter Name: AMD RADEON R9 M295X
+[2016.08.10-00.43.59:033][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.08.10-00.43.59:033][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.08.10-00.43.59:033][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.10-00.43.59:037][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.08.10-00.43.59:050][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Intermediate/Shaders/WorkingDirectory/8936/).
+[2016.08.10-00.43.59:050][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SDEFLO~1/AppData/Local/Temp/UnrealShaderWorkingDir/1B34FD654BA3DE94289E269582D93D5F/'.
+[2016.08.10-00.43.59:050][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.10-00.44.02:715][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.10-00.44.02:719][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.10-00.44.02:723][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.10-00.44.02:728][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.10-00.44.02:779][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.10-00.44.02:798][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.10-00.44.02:834][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.10-00.44.02:876][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.10-00.44.02:894][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.10-00.44.02:920][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.10-00.44.02:963][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.10-00.44.03:043][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.10-00.44.03:043][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.10-00.44.03:070][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.10-00.44.03:181][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.10-00.44.03:183][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.08.10-00.44.03:186][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.10-00.44.03:189][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.10-00.44.03:213][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.10-00.44.03:213][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.10-00.44.04:773][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.10-00.44.06:029][  0]LogDerivedDataCache: Loaded boot cache 1.24s 46MB C:/Users/sdeflorio/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.08.10-00.44.06:029][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/sdeflorio/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.08.10-00.44.06:029][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.10-00.44.06:029][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.10-00.44.06:029][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.10-00.44.06:029][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.10-00.44.06:043][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.10-00.44.06:055][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sdeflorio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.10-00.44.09:971][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.10-00.44.09:972][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.08.10-00.44.09:988][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.08.10-00.44.10:147][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.10-00.44.10:147][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.10-00.44.10:147][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.08.10-00.44.10:612][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.08.10-00.44.10:612][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.08.10-00.44.10:612][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.08.10-00.44.10:617][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.10-00.44.11:361][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.10-00.44.11:361][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.10-00.44.12:539][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.08.10-00.44.12:539][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.08.10-00.44.12:539][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.08.10-00.44.12:539][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.08.10-00.44.12:539][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.08.10-00.44.12:539][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.08.10-00.44.17:213][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.08.10-00.44.17:241][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.10-00.44.17:468][  0]LogAssetRegistry: FAssetRegistry took 0.0196 seconds to start up
+[2016.08.10-00.44.17:904][  0]SourceControl: Info Source control is disabled
+[2016.08.10-00.44.18:592][  0]SourceControl: Info Source control is disabled
+[2016.08.10-00.44.18:656][  0]SourceControl: Info Source control is disabled
+[2016.08.10-00.44.18:760][  0]SourceControl: Info Source control is disabled
+[2016.08.10-00.44.19:599][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.08.10-00.44.19:822][  0]LogEngine: Initializing Engine...
+[2016.08.10-00.44.20:012][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.10-00.44.20:049][  0]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.10-00.44.20:070][  0]LogInit: FAudioDevice initialized.
+[2016.08.10-00.44.20:126][  0]LogDerivedDataCache: Saved boot cache 0.06s 46MB C:/Users/sdeflorio/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.08.10-00.44.20:129][  0]LogInit: Texture streaming: Enabled
+[2016.08.10-00.44.20:268][  0]LogInit: Transaction tracking system initialized
+[2016.08.10-00.44.20:440][  0]BlueprintLog: New page: Editor Load
+[2016.08.10-00.44.22:411][  0]LocalizationService: Info Localization service is disabled
+[2016.08.10-00.44.23:049][  0]LogConsoleResponse:Display: 
+[2016.08.10-00.44.24:081][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.08.10-00.44.24:081][  0]LogCook:Display: Mobile HDR setting 1
+[2016.08.10-00.44.24:081][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.08.10-00.44.25:241][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/' took 0.03s
+[2016.08.10-00.44.25:410][  0]SourceControl: Info Source control is disabled
+[2016.08.10-00.44.25:410][  0]Cmd: MAP LOAD FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.10-00.44.25:411][  0]LightingResults: New page: Lighting Build
+[2016.08.10-00.44.25:413][  0]MapCheck: New page: Map Check
+[2016.08.10-00.44.25:413][  0]LightingResults: New page: Lighting Build
+[2016.08.10-00.44.33:626][  0]LogStaticMesh: Building static mesh drone...
+[2016.08.10-00.44.33:744][  0]LogStaticMesh: Built static mesh [0.14s] /Game/Models/drone.drone
+[2016.08.10-00.44.34:096][  0]LogTexture:Display: Building textures: satellitetex (AutoDXT)
+[2016.08.10-00.44.34:334][  0]LogMaterial: Missing cached shader map for material DroneMat, compiling. 
+[2016.08.10-00.44.34:536][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.08.10-00.44.34:547][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.08.10-00.44.34:674][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2016.08.10-00.44.35:693][  0]LogMaterial: Missing cached shader map for material ShieldMat, compiling. 
+[2016.08.10-00.44.35:820][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave PLANET_DEFENCE...
+[2016.08.10-00.44.39:865][  0]LogAIModule: Creating AISystem for world FirstLevel
+[2016.08.10-00.44.40:501][  0]LogMaterial:Warning: Material /Engine/EditorMaterials/WidgetGridVertexColorMaterial_Ma.WidgetGridVertexColorMaterial_Ma needed to have new flag set bUsedWithStaticLighting !
+[2016.08.10-00.44.40:509][  0]LogMaterial: Missing cached shader map for material WidgetGridVertexColorMaterial_Ma, compiling. 
+[2016.08.10-00.44.40:574][  0]MapCheck:Warning: Warning WidgetGridVertexColorMaterial_Ma Material /Engine/EditorMaterials/WidgetGridVertexColorMaterial_Ma.WidgetGridVertexColorMaterial_Ma was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.08.10-00.44.40:574][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.10-00.44.41:022][  0]LogTexture:Display: Building textures: S_AudioComponent_AutoActivate (BGRA8)
+[2016.08.10-00.44.41:120][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.10-00.44.41:121][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.10-00.44.41:164][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 42.728ms to complete.
+[2016.08.10-00.44.41:219][  0]LogFileHelpers: Loading map 'FirstLevel' took 15.809
+[2016.08.10-00.44.42:528][  0]LogCollectionManager: Loaded 0 collections in 0.001873 seconds
+[2016.08.10-00.44.42:846][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/Collections/' took 0.01s
+[2016.08.10-00.44.42:846][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Developers/sdeflorio/Collections/' took 0.01s
+[2016.08.10-00.44.42:846][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Collections/' took 0.01s
+[2016.08.10-00.44.42:846][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.08.10-00.44.42:873][  0]LogContentBrowser: Native class hierarchy populated in 0.0247 seconds. Added 1994 classes and 349 folders.
+[2016.08.10-00.44.43:061][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.08.10-00.44.43:061][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.08.10-00.44.43:062][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 12 classes and 0 folders.
+[2016.08.10-00.44.43:093][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.08.10-00.44.43:767][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.08.10-00.44.46:608][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.08.10-00.44.46:982][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.08.10-00.44.47:305][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.10-00.44.47:793][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.08.10-00.44.48:000][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.08.10-00.44.48:000][  0]LogLoad: Full Startup: 58.89 seconds (BP compile: 1.28 seconds)
+[2016.08.10-00.44.48:000][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.08.10-00.44.48:000][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.08.10-00.44.48:009][  0]LogOcInput: OculusInput pre-init called
+[2016.08.10-00.44.48:010][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.3.0
+[2016.08.10-00.44.49:163][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.08.10-00.44.50:587][  0]LogRenderer: Reallocating scene render targets to support 1616x812 (Frame:2).
+[2016.08.10-00.44.50:983][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/' took 2.96s
+[2016.08.10-00.44.52:375][ 98]LogAssetRegistry: Asset discovery search completed in 34.9139 seconds
+[2016.08.10-00.44.52:385][ 98]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.08.10-00.44.52:393][ 98]LogCollectionManager: Fixed up redirectors for 0 collections in 0.016961 seconds (updated 0 objects)
+[2016.08.10-00.44.59:506][867]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-00.44.59:521][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.10-00.44.59:655][867]PIE: New page: PIE session: FirstLevel (10 Aug 2016 8:44:59 pm)
+[2016.08.10-00.44.59:656][867]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.08.10-00.44.59:737][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081047s)
+[2016.08.10-00.44.59:737][867]LogAIModule: Creating AISystem for world FirstLevel
+[2016.08.10-00.44.59:737][867]LogPlayLevel: PIE: World Init took: (0.000472s)
+[2016.08.10-00.44.59:738][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.081950s)
+[2016.08.10-00.44.59:819][867]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.10-00.44.59:824][867]LogInit: FAudioDevice initialized.
+[2016.08.10-00.44.59:947][867]LogWorld: Game class is 'GameManager_C'
+[2016.08.10-00.45.00:051][867]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.08.10-10.45.00
+[2016.08.10-00.45.00:116][867]LogWorld: Bringing up level for play took: 0.067609
+[2016.08.10-00.45.00:290][867]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 9 classes and 0 folders.
+[2016.08.10-00.45.00:498][867]LogScript:Warning: UGameplayStatics::PlaySoundAttached: NULL AttachComponent specified! Trying to spawn sound [PLANET_DEFENCE_Cue],
+[2016.08.10-00.45.00:522][867]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.676
+[2016.08.10-00.45.00:522][867]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-00.45.02:510][ 53]LogBlueprintUserMessages: [GameManager_C_0] Wave Begun
+[2016.08.10-00.45.04:940][333]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-00.45.05:083][333]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-00.45.22:228][413]LogEditorViewport: Clicking on Actor (LMB): LeftTurret_C (LeftTurret)
+[2016.08.10-00.45.33:257][438]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 108 classes and 0 folders.
+[2016.08.10-00.46.53:209][448]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-00.46.53:209][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.10-00.46.53:209][448]PIE: New page: PIE session: FirstLevel (10 Aug 2016 8:46:53 pm)
+[2016.08.10-00.46.53:209][448]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.08.10-00.46.53:232][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022440s)
+[2016.08.10-00.46.53:233][448]LogAIModule: Creating AISystem for world FirstLevel
+[2016.08.10-00.46.53:233][448]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2016.08.10-00.46.53:233][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.023405s)
+[2016.08.10-00.46.53:286][448]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.10-00.46.53:292][448]LogInit: FAudioDevice initialized.
+[2016.08.10-00.46.53:317][448]LogWorld: Game class is 'GameManager_C'
+[2016.08.10-00.46.53:321][448]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.08.10-10.46.53
+[2016.08.10-00.46.53:321][448]LogWorld: Bringing up level for play took: 0.002811
+[2016.08.10-00.46.53:336][448]LogScript:Warning: UGameplayStatics::PlaySoundAttached: NULL AttachComponent specified! Trying to spawn sound [PLANET_DEFENCE_Cue],
+[2016.08.10-00.46.53:337][448]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.513
+[2016.08.10-00.46.53:337][448]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-00.46.55:192][669]LogBlueprintUserMessages: [GameManager_C_1] Wave Begun
+[2016.08.10-00.47.05:784][912]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-00.47.05:858][912]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-00.47.51:812][283]BlueprintLog: New page: Compile LeftTurret
+[2016.08.10-00.47.52:383][283]BlueprintEditorCompileResults: Info [0243.27] Compile of LeftTurret successful! [in 571 ms]
+[2016.08.10-00.47.53:172][371]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-00.47.53:172][371]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.10-00.47.53:172][371]PIE: New page: PIE session: FirstLevel (10 Aug 2016 8:47:53 pm)
+[2016.08.10-00.47.53:173][371]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.08.10-00.47.53:180][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007618s)
+[2016.08.10-00.47.53:181][371]LogAIModule: Creating AISystem for world FirstLevel
+[2016.08.10-00.47.53:181][371]LogPlayLevel: PIE: World Init took: (0.000529s)
+[2016.08.10-00.47.53:181][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.008421s)
+[2016.08.10-00.47.53:197][371]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.10-00.47.53:204][371]LogInit: FAudioDevice initialized.
+[2016.08.10-00.47.53:278][371]LogWorld: Game class is 'GameManager_C'
+[2016.08.10-00.47.53:281][371]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.08.10-10.47.53
+[2016.08.10-00.47.53:282][371]LogWorld: Bringing up level for play took: 0.003046
+[2016.08.10-00.47.53:285][371]LogScript:Warning: UGameplayStatics::PlaySoundAttached: NULL AttachComponent specified! Trying to spawn sound [PLANET_DEFENCE_Cue],
+[2016.08.10-00.47.53:294][371]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.559
+[2016.08.10-00.47.53:295][371]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-00.47.55:153][554]LogBlueprintUserMessages: [GameManager_C_2] Wave Begun
+[2016.08.10-00.48.07:525][625]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-00.48.07:580][625]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-00.48.13:369][294]LogEditorTransaction: Undo Create Pin Link
+[2016.08.10-00.48.14:007][334]LogEditorTransaction: Undo Create Pin Link
+[2016.08.10-00.48.20:458][ 94]BlueprintLog: New page: Compile LeftTurret
+[2016.08.10-00.48.20:572][ 94]BlueprintEditorCompileResults: Info [0271.46] Compile of LeftTurret successful! [in 114 ms]
+[2016.08.10-00.48.21:990][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
+[2016.08.10-00.48.22:375][237]LogSavePackage: Save=218.89ms
+[2016.08.10-00.48.22:375][237]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurret16E1014D4E913098506F7EA4F3E33AAC.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
+[2016.08.10-00.48.22:393][237]LogSavePackage: Total save time: 400.66ms
+[2016.08.10-00.48.22:393][237]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
+[2016.08.10-00.48.23:011][309]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-00.48.23:011][309]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.10-00.48.23:011][309]PIE: New page: PIE session: FirstLevel (10 Aug 2016 8:48:23 pm)
+[2016.08.10-00.48.23:011][309]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.08.10-00.48.23:020][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008360s)
+[2016.08.10-00.48.23:020][309]LogAIModule: Creating AISystem for world FirstLevel
+[2016.08.10-00.48.23:020][309]LogPlayLevel: PIE: World Init took: (0.000433s)
+[2016.08.10-00.48.23:020][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.009094s)
+[2016.08.10-00.48.23:036][309]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.10-00.48.23:043][309]LogInit: FAudioDevice initialized.
+[2016.08.10-00.48.23:083][309]LogWorld: Game class is 'GameManager_C'
+[2016.08.10-00.48.23:087][309]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.08.10-10.48.23
+[2016.08.10-00.48.23:087][309]LogWorld: Bringing up level for play took: 0.002946
+[2016.08.10-00.48.23:090][309]LogScript:Warning: UGameplayStatics::PlaySoundAttached: NULL AttachComponent specified! Trying to spawn sound [PLANET_DEFENCE_Cue],
+[2016.08.10-00.48.23:098][309]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.757
+[2016.08.10-00.48.23:098][309]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-00.48.24:990][530]LogBlueprintUserMessages: [GameManager_C_3] Wave Begun
+[2016.08.10-00.48.53:566][665]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-00.48.53:620][665]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-00.50.45:584][ 20]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-00.50.45:584][ 20]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.10-00.50.45:584][ 20]PIE: New page: PIE session: FirstLevel (10 Aug 2016 8:50:45 pm)
+[2016.08.10-00.50.45:584][ 20]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.08.10-00.50.45:593][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009058s)
+[2016.08.10-00.50.45:594][ 20]LogAIModule: Creating AISystem for world FirstLevel
+[2016.08.10-00.50.45:594][ 20]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2016.08.10-00.50.45:594][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.010039s)
+[2016.08.10-00.50.45:611][ 20]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.08.10-00.50.45:617][ 20]LogInit: FAudioDevice initialized.
+[2016.08.10-00.50.45:652][ 20]LogWorld: Game class is 'GameManager_C'
+[2016.08.10-00.50.45:656][ 20]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.08.10-10.50.45
+[2016.08.10-00.50.45:656][ 20]LogWorld: Bringing up level for play took: 0.003169
+[2016.08.10-00.50.45:659][ 20]LogScript:Warning: UGameplayStatics::PlaySoundAttached: NULL AttachComponent specified! Trying to spawn sound [PLANET_DEFENCE_Cue],
+[2016.08.10-00.50.45:672][ 20]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.191
+[2016.08.10-00.50.45:673][ 20]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-00.50.47:569][170]LogBlueprintUserMessages: [GameManager_C_4] Wave Begun
+[2016.08.10-00.51.28:535][306]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-00.51.28:598][306]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-00.56.34:410][251]LogSavePackage: Save=206.79ms
+[2016.08.10-00.56.34:410][251]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevel_Auto1C60C1BA3439BDFD79482EC95EAC7D25B.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/Autosaves/Game/Maps/FirstLevel_Auto1.umap'
+[2016.08.10-00.56.34:412][251]LogSavePackage: Total save time: 235.38ms
+[2016.08.10-00.56.34:412][251]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/Autosaves/Game/Maps/FirstLevel_Auto1.umap
+[2016.08.10-00.56.34:414][251]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FirstLevel' took 0.335
+[2016.08.10-00.56.34:414][251]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.335
+[2016.08.10-00.57.18:889][ 63]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.10-00.57.18:889][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.10-00.57.18:890][ 63]PIE: New page: PIE session: FirstLevel (10 Aug 2016 8:57:18 pm)
+[2016.08.10-00.57.18:890][ 63]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.08.10-00.57.18:903][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012970s)
+[2016.08.10-00.57.18:903][ 63]LogAIModule: Creating AISystem for world FirstLevel
+[2016.08.10-00.57.18:904][ 63]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2016.08.10-00.57.18:904][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game
