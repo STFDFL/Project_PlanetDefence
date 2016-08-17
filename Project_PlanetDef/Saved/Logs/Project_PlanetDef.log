@@ -1,18 +1,19 @@
-﻿Log file open, 08/17/16 11:22:06
+﻿Log file open, 08/17/16 13:27:00
 LogInit:Display: Running engine for game: Project_PlanetDef
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-2138732420) SRandInit(-2138732419).
+LogInit:Display: RandInit(-1435170770) SRandInit(-1435170768).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-LogStats: Stats thread started at 0.064744
-LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.3.0
+LogStats: Stats thread started at 0.066874
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.4.0(build = 224996) feature version = 0. Client runs version (prod = 1).1.4.0(build = 224996) feature version = 0
 LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
 LogInit: API Version: 2927265
 LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.11
-LogInit: Command line: 
-LogInit: Base directory: C:/Program Files/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Using libcurl 7.41.0
 LogInit:  - built for x86_64-pc-win32
@@ -30,596 +31,628 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.08.17-01.22.06:908][  0]LogInit: Selected Device Profile: [Windows]
-[2016.08.17-01.22.06:908][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.08.17-01.22.06:915][  0]LogInit: Computer: S-805-10-1919-W
-[2016.08.17-01.22.06:915][  0]LogInit: User: sdeflorio
-[2016.08.17-01.22.06:915][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.08.17-01.22.06:915][  0]LogInit: High frequency timer resolution =3.897294 MHz
-[2016.08.17-01.22.06:915][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.08.17-01.22.06:915][  0]LogMemory: Platform Memory Stats for Windows
-[2016.08.17-01.22.06:915][  0]LogMemory: Process Physical Memory: 316.91 MB used, 316.91 MB peak
-[2016.08.17-01.22.06:915][  0]LogMemory: Process Virtual Memory: 317.67 MB used, 317.67 MB peak
-[2016.08.17-01.22.06:915][  0]LogMemory: Physical Memory: 6501.52 MB used, 16324.61 MB total
-[2016.08.17-01.22.06:915][  0]LogMemory: Virtual Memory: 623.21 MB used, 8388608.00 MB total
-[2016.08.17-01.22.06:940][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
-[2016.08.17-01.22.07:251][  0]LogD3D11RHI: D3D11 adapters:
-[2016.08.17-01.22.07:278][  0]LogD3D11RHI:    0. 'AMD RADEON R9 M295X' (Feature Level 11_0)
-[2016.08.17-01.22.07:278][  0]LogD3D11RHI:       4074MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
-[2016.08.17-01.22.07:278][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.08.17-01.22.07:282][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.08.17-01.22.07:282][  0]LogD3D11RHI:     Adapter Name: AMD RADEON R9 M295X
-[2016.08.17-01.22.07:282][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
-[2016.08.17-01.22.07:282][  0]LogD3D11RHI:      Driver Date: Unknown
-[2016.08.17-01.22.07:282][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.08.17-01.22.07:287][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2016.08.17-01.22.07:296][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Intermediate/Shaders/WorkingDirectory/3140/).
-[2016.08.17-01.22.07:296][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SDEFLO~1/AppData/Local/Temp/UnrealShaderWorkingDir/D7B9519E4458D439130AF7AFCFE5304B/'.
-[2016.08.17-01.22.07:296][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.08.17-01.22.08:199][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.08.17-01.22.08:203][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.08.17-01.22.08:207][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.08.17-01.22.08:211][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.08.17-01.22.08:215][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.08.17-01.22.08:218][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.08.17-01.22.08:220][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.08.17-01.22.08:222][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.08.17-01.22.08:224][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.08.17-01.22.08:227][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.08.17-01.22.08:229][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.08.17-01.22.08:234][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.08.17-01.22.08:234][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.08.17-01.22.08:234][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.08.17-01.22.08:249][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.08.17-01.22.08:251][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.08.17-01.22.08:253][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.08.17-01.22.08:255][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.08.17-01.22.08:257][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.08.17-01.22.08:257][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.08.17-01.22.08:314][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.08.17-01.22.08:350][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/sdeflorio/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.08.17-01.22.08:351][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/sdeflorio/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
-[2016.08.17-01.22.08:351][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.08.17-01.22.08:351][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.08.17-01.22.08:351][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.08.17-01.22.08:351][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.08.17-01.22.08:361][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.08.17-01.22.08:372][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sdeflorio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.08.17-01.22.08:489][  0]LogInit: Selected Device Profile: [Windows]
-[2016.08.17-01.22.08:490][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.08.17-01.22.08:507][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.08.17-01.22.08:614][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.08.17-01.22.08:614][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.08.17-01.22.08:614][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.08.17-01.22.08:807][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
-[2016.08.17-01.22.08:807][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
-[2016.08.17-01.22.08:807][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.08.17-01.22.08:813][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.08.17-01.22.08:882][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.08.17-01.22.08:882][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.08.17-01.22.08:957][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.08.17-01.22.08:957][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.08.17-01.22.08:957][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.08.17-01.22.08:957][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.08.17-01.22.08:957][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.08.17-01.22.08:957][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.08.17-01.22.09:421][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
-[2016.08.17-01.22.09:427][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.08.17-01.22.09:529][  0]LogAssetRegistry: FAssetRegistry took 0.0202 seconds to start up
-[2016.08.17-01.22.09:655][  0]SourceControl: Info Source control is disabled
-[2016.08.17-01.22.10:083][  0]SourceControl: Info Source control is disabled
-[2016.08.17-01.22.10:090][  0]SourceControl: Info Source control is disabled
-[2016.08.17-01.22.10:097][  0]SourceControl: Info Source control is disabled
-[2016.08.17-01.22.10:181][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2016.08.17-01.22.10:242][  0]LogEngine: Initializing Engine...
-[2016.08.17-01.22.10:349][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.08.17-01.22.10:354][  0]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.08.17-01.22.10:370][  0]LogInit: FAudioDevice initialized.
-[2016.08.17-01.22.10:396][  0]LogDerivedDataCache: Saved boot cache 0.03s 46MB C:/Users/sdeflorio/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.08.17-01.22.10:398][  0]LogInit: Texture streaming: Enabled
-[2016.08.17-01.22.10:415][  0]LogInit: Transaction tracking system initialized
-[2016.08.17-01.22.10:433][  0]BlueprintLog: New page: Editor Load
-[2016.08.17-01.22.10:491][  0]LocalizationService: Info Localization service is disabled
-[2016.08.17-01.22.10:545][  0]LogConsoleResponse:Display: 
-[2016.08.17-01.22.10:623][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.08.17-01.22.10:623][  0]LogCook:Display: Mobile HDR setting 1
-[2016.08.17-01.22.10:623][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.08.17-01.22.10:656][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/' took 0.01s
-[2016.08.17-01.22.10:660][  0]SourceControl: Info Source control is disabled
-[2016.08.17-01.22.10:661][  0]Cmd: MAP LOAD FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.08.17-01.22.10:661][  0]LightingResults: New page: Lighting Build
-[2016.08.17-01.22.10:664][  0]MapCheck: New page: Map Check
-[2016.08.17-01.22.10:664][  0]LightingResults: New page: Lighting Build
-[2016.08.17-01.22.12:006][  0]LogAIModule: Creating AISystem for world FirstLevel
-[2016.08.17-01.22.12:009][  0]LogMaterial:Warning: Material /Engine/EditorMaterials/WidgetGridVertexColorMaterial_Ma.WidgetGridVertexColorMaterial_Ma needed to have new flag set bUsedWithStaticLighting !
-[2016.08.17-01.22.12:034][  0]LogMaterial: Missing cached shader map for material WidgetGridVertexColorMaterial_Ma, compiling. 
-[2016.08.17-01.22.12:043][  0]MapCheck:Warning: Warning WidgetGridVertexColorMaterial_Ma Material /Engine/EditorMaterials/WidgetGridVertexColorMaterial_Ma.WidgetGridVertexColorMaterial_Ma was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2016.08.17-01.22.12:043][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.08.17-01.22.12:054][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.08.17-01.22.12:054][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.08.17-01.22.12:106][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 51.291ms to complete.
-[2016.08.17-01.22.12:113][  0]LogFileHelpers: Loading map 'FirstLevel' took 1.452
-[2016.08.17-01.22.12:214][  0]LogCollectionManager: Loaded 0 collections in 0.002121 seconds
-[2016.08.17-01.22.12:251][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/Collections/' took 0.01s
-[2016.08.17-01.22.12:251][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Developers/sdeflorio/Collections/' took 0.01s
-[2016.08.17-01.22.12:251][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Collections/' took 0.01s
-[2016.08.17-01.22.12:251][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2016.08.17-01.22.12:258][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 1994 classes and 349 folders.
-[2016.08.17-01.22.12:261][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.08.17-01.22.12:261][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.08.17-01.22.12:262][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0010 seconds. Added 12 classes and 0 folders.
-[2016.08.17-01.22.12:269][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2016.08.17-01.22.12:278][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0013 seconds. Added 1 classes and 2 folders.
-[2016.08.17-01.22.12:315][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2016.08.17-01.22.12:328][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2016.08.17-01.22.12:340][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.08.17-01.22.12:358][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.08.17-01.22.12:383][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2016.08.17-01.22.12:384][  0]LogLoad: Full Startup: 6.10 seconds (BP compile: 0.39 seconds)
-[2016.08.17-01.22.12:384][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.08.17-01.22.12:384][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.08.17-01.22.12:393][  0]LogOcInput: OculusInput pre-init called
-[2016.08.17-01.22.12:394][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.3.0
-[2016.08.17-01.22.12:446][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.08.17-01.22.12:560][  0]LogRenderer: Reallocating scene render targets to support 1616x812 (Frame:2).
-[2016.08.17-01.22.12:788][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/' took 0.38s
-[2016.08.17-01.22.12:852][  1]LogAssetRegistry: Asset discovery search completed in 3.3439 seconds
-[2016.08.17-01.22.12:852][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.08.17-01.22.12:853][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000233 seconds (updated 0 objects)
-[2016.08.17-01.22.47:129][852]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 108 classes and 0 folders.
-[2016.08.17-01.23.10:026][621]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.17-01.23.10:026][621]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.08.17-01.23.10:027][621]PIE: New page: PIE session: FirstLevel (17 Aug 2016 9:23:10 pm)
-[2016.08.17-01.23.10:027][621]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
-[2016.08.17-01.23.10:035][621]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007992s)
-[2016.08.17-01.23.10:036][621]LogAIModule: Creating AISystem for world FirstLevel
-[2016.08.17-01.23.10:036][621]LogPlayLevel: PIE: World Init took: (0.000511s)
-[2016.08.17-01.23.10:036][621]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.008869s)
-[2016.08.17-01.23.10:111][621]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.08.17-01.23.10:114][621]LogInit: FAudioDevice initialized.
-[2016.08.17-01.23.10:152][621]LogWorld: Game class is 'GameManager_C'
-[2016.08.17-01.23.10:156][621]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.08.17-11.23.10
-[2016.08.17-01.23.10:156][621]LogWorld: Bringing up level for play took: 0.003096
-[2016.08.17-01.23.10:160][621]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 9 classes and 0 folders.
-[2016.08.17-01.23.10:163][621]LogScript:Warning: UGameplayStatics::PlaySoundAttached: NULL AttachComponent specified! Trying to spawn sound [PLANET_DEFENCE_Cue],
-[2016.08.17-01.23.10:164][621]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.612
-[2016.08.17-01.23.10:164][621]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.17-01.23.12:007][839]LogBlueprintUserMessages: [GameManager_C_0] Wave Begun
-[2016.08.17-01.23.14:409][127]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.17-01.23.14:442][127]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.17-01.23.30:574][459]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.17-01.23.30:574][459]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.08.17-01.23.30:574][459]PIE: New page: PIE session: FirstLevel (17 Aug 2016 9:23:30 pm)
-[2016.08.17-01.23.30:574][459]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
-[2016.08.17-01.23.30:582][459]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007453s)
-[2016.08.17-01.23.30:582][459]LogAIModule: Creating AISystem for world FirstLevel
-[2016.08.17-01.23.30:582][459]LogPlayLevel: PIE: World Init took: (0.000497s)
-[2016.08.17-01.23.30:582][459]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.008249s)
-[2016.08.17-01.23.30:597][459]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.08.17-01.23.30:601][459]LogInit: FAudioDevice initialized.
-[2016.08.17-01.23.30:632][459]LogWorld: Game class is 'GameManager_C'
-[2016.08.17-01.23.30:636][459]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.08.17-11.23.30
-[2016.08.17-01.23.30:636][459]LogWorld: Bringing up level for play took: 0.003124
-[2016.08.17-01.23.30:639][459]LogScript:Warning: UGameplayStatics::PlaySoundAttached: NULL AttachComponent specified! Trying to spawn sound [PLANET_DEFENCE_Cue],
-[2016.08.17-01.23.30:644][459]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.132
-[2016.08.17-01.23.30:645][459]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.17-01.23.32:339][659]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.17-01.23.32:379][659]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.17-01.26.25:710][907]LogSavePackage: Save=127.73ms
-[2016.08.17-01.26.25:710][907]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/FirstLevel6422EAE0475EB6901023D1812AB878BF.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap'
-[2016.08.17-01.26.25:712][907]LogSavePackage: Total save time: 157.66ms
-[2016.08.17-01.26.25:712][907]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/Maps/FirstLevel.umap
-[2016.08.17-01.26.44:470][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RightTurret" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/RightTurret.uasset" SILENT=true
-[2016.08.17-01.26.44:608][547]LogSavePackage: Save=108.26ms
-[2016.08.17-01.26.44:608][547]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/RightTurret19F674FE46A07B52290DE7B602AF8AD6.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/RightTurret.uasset'
-[2016.08.17-01.26.44:609][547]LogSavePackage: Total save time: 138.45ms
-[2016.08.17-01.26.44:609][547]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/RightTurret.uasset
-[2016.08.17-01.34.25:483][ 93]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.17-01.34.25:483][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.08.17-01.34.25:483][ 93]PIE: New page: PIE session: FirstLevel (17 Aug 2016 9:34:25 pm)
-[2016.08.17-01.34.25:484][ 93]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
-[2016.08.17-01.34.25:492][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008377s)
-[2016.08.17-01.34.25:492][ 93]LogAIModule: Creating AISystem for world FirstLevel
-[2016.08.17-01.34.25:493][ 93]LogPlayLevel: PIE: World Init took: (0.000644s)
-[2016.08.17-01.34.25:493][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.009354s)
-[2016.08.17-01.34.25:514][ 93]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.08.17-01.34.25:519][ 93]LogInit: FAudioDevice initialized.
-[2016.08.17-01.34.25:559][ 93]LogWorld: Game class is 'GameManager_C'
-[2016.08.17-01.34.25:562][ 93]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.08.17-11.34.25
-[2016.08.17-01.34.25:563][ 93]LogWorld: Bringing up level for play took: 0.003005
-[2016.08.17-01.34.25:566][ 93]LogScript:Warning: UGameplayStatics::PlaySoundAttached: NULL AttachComponent specified! Trying to spawn sound [PLANET_DEFENCE_Cue],
-[2016.08.17-01.34.25:575][ 93]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.797
-[2016.08.17-01.34.25:575][ 93]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.17-01.34.27:460][279]LogBlueprintUserMessages: [GameManager_C_3] Wave Begun
-[2016.08.17-01.34.41:128][631]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.17-01.34.41:195][631]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.17-01.35.13:439][267]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.35.14:178][267]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.739 s
-[2016.08.17-01.35.14:178][267]LogOutputDevice:Warning: === Handled error: ===
-
-Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++UE4+Release-4.11\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 925]
-Error: Invalid (but non-null) property associated with pin; cannot get variable value
-Stack: 
-UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:178]
-UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\core\private\misc\outputdevice.cpp:317]
-UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\core\private\misc\outputdevice.cpp:441]
-UE4Editor-UnrealEd.dll!FKismetDebugUtilities::GetWatchText() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\editor\unrealed\private\kismet2\kismetdebugutilities.cpp:925]
-UE4Editor-BlueprintGraph.dll!UK2Node::GetPinHoverText() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\editor\blueprintgraph\private\k2node.cpp:1158]
-UE4Editor-GraphEditor.dll!SGraphPin::GetTooltipText() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\editor\grapheditor\private\sgraphpin.cpp:997]
-UE4Editor-GraphEditor.dll!TMemberFunctionCaller<SGraphPin,FText (__cdecl SGraphPin::*)(void)const __ptr64>::operator()<>() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\core\public\delegates\delegateinstanceinterface_variadics.h:161]
-UE4Editor-GraphEditor.dll!TTupleImpl<TIntegerSequence<unsigned int> >::ApplyAfter_ExplicitReturnType<FText,TMemberFunctionCaller<SGraphPin,FText (__cdecl SGraphPin::*)(void)const __ptr64> >() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\core\public\delegates\tuple.h:128]
-UE4Editor-GraphEditor.dll!TBaseSPMethodDelegateInstance<1,SGraphPin,0,FText __cdecl(void)>::Execute() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:321]
-UE4Editor-Slate.dll!TBaseDelegate<FText>::Execute() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\core\public\delegates\delegatesignatureimpl_variadics.inl:521]
-UE4Editor-Slate.dll!TAttribute<FText>::Get() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\core\public\misc\attribute.h:135]
-UE4Editor-Slate.dll!SToolTip::IsEmpty() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\slate\private\widgets\stooltip.cpp:84]
-UE4Editor-Slate.dll!FSlateApplication::UpdateToolTip() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3124]
-UE4Editor-Slate.dll!FSlateApplication::ProcessMouseMoveEvent() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5103]
-UE4Editor-Slate.dll!FSlateApplication::OnMouseMove() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5060]
-UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\core\private\windows\windowsapplication.cpp:1462]
-UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\core\private\windows\windowsapplication.cpp:1732]
-UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\core\private\windows\windowsapplication.cpp:697]
-UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\core\private\windows\windowsapplication.cpp:619]
-USER32.dll
-USER32.dll
-UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:884]
-UE4Editor.exe!FEngineLoop::Tick() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\launch\private\launchengineloop.cpp:2611]
-UE4Editor.exe!GuardedMain() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\launch\private\launch.cpp:142]
-UE4Editor.exe!GuardedMainWrapper() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
-UE4Editor.exe!WinMain() [d:\buildfarm\buildmachine_++ue4+release-4.11\engine\source\runtime\launch\private\windows\launchwindows.cpp:200]
-UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
-kernel32.dll
-ntdll.dll
-ntdll.dll
-
-[2016.08.17-01.35.14:180][267]LogStats:                SubmitErrorReport -  0.000 s
-[2016.08.17-01.35.14:555][267]LogStats:                    SendNewReport -  0.375 s
-[2016.08.17-01.35.14:555][267]LogStats:             FDebug::EnsureFailed -  1.116 s
-[2016.08.17-01.35.14:555][267]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.35.17:355][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
-[2016.08.17-01.35.17:534][595]LogSavePackage: Save=149.99ms
-[2016.08.17-01.35.17:535][595]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurretEC3505314725E9940B8F58AF074B6109.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
-[2016.08.17-01.35.17:537][595]LogSavePackage: Total save time: 181.11ms
-[2016.08.17-01.35.17:537][595]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
-[2016.08.17-01.36.26:015][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
-[2016.08.17-01.36.26:186][801]LogSavePackage: Save=141.68ms
-[2016.08.17-01.36.26:186][801]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurret9141CCBE4DC5F1846A1E5E88258321D7.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
-[2016.08.17-01.36.26:187][801]LogSavePackage: Total save time: 171.13ms
-[2016.08.17-01.36.26:187][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
-[2016.08.17-01.37.30:798][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
-[2016.08.17-01.37.30:969][537]LogSavePackage: Save=142.48ms
-[2016.08.17-01.37.30:969][537]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurret195AE8A54985547BFD8B86A05C1EBFF8.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
-[2016.08.17-01.37.30:971][537]LogSavePackage: Total save time: 172.19ms
-[2016.08.17-01.37.30:971][537]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
-[2016.08.17-01.37.31:238][569]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.37.31:238][569]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.37.45:982][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
-[2016.08.17-01.37.46:152][324]LogSavePackage: Save=141.37ms
-[2016.08.17-01.37.46:152][324]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurret8F1B0D534170C941435487B80D76485C.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
-[2016.08.17-01.37.46:154][324]LogSavePackage: Total save time: 171.36ms
-[2016.08.17-01.37.46:154][324]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
-[2016.08.17-01.37.50:922][889]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.37.59:697][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
-[2016.08.17-01.37.59:869][934]LogSavePackage: Save=143.99ms
-[2016.08.17-01.37.59:869][934]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurret5E93178041C18CACAA95918157129207.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
-[2016.08.17-01.37.59:872][934]LogSavePackage: Total save time: 173.76ms
-[2016.08.17-01.37.59:872][934]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
-[2016.08.17-01.38.05:798][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
-[2016.08.17-01.38.05:969][637]LogSavePackage: Save=143.13ms
-[2016.08.17-01.38.05:969][637]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurret1709129E4A83BC0058D3AEA2A8639C04.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
-[2016.08.17-01.38.05:978][637]LogSavePackage: Total save time: 178.66ms
-[2016.08.17-01.38.05:978][637]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
-[2016.08.17-01.38.55:477][569]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.17-01.38.55:477][569]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.08.17-01.38.55:477][569]PIE: New page: PIE session: FirstLevel (17 Aug 2016 9:38:55 pm)
-[2016.08.17-01.38.55:477][569]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
-[2016.08.17-01.38.55:486][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008858s)
-[2016.08.17-01.38.55:487][569]LogAIModule: Creating AISystem for world FirstLevel
-[2016.08.17-01.38.55:487][569]LogPlayLevel: PIE: World Init took: (0.000555s)
-[2016.08.17-01.38.55:487][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.009749s)
-[2016.08.17-01.38.55:506][569]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 122))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.08.17-01.38.55:511][569]LogInit: FAudioDevice initialized.
-[2016.08.17-01.38.55:553][569]LogWorld: Game class is 'GameManager_C'
-[2016.08.17-01.38.55:556][569]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.08.17-11.38.55
-[2016.08.17-01.38.55:557][569]LogWorld: Bringing up level for play took: 0.002926
-[2016.08.17-01.38.55:560][569]LogScript:Warning: UGameplayStatics::PlaySoundAttached: NULL AttachComponent specified! Trying to spawn sound [PLANET_DEFENCE_Cue],
-[2016.08.17-01.38.55:568][569]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel 0.801
-[2016.08.17-01.38.55:569][569]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.17-01.38.57:456][784]LogBlueprintUserMessages: [GameManager_C_4] Wave Begun
-[2016.08.17-01.39.02:169][328]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.17-01.39.02:225][328]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
-[2016.08.17-01.39.02:493][343]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:493][343]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:494][343]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:495][343]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:497][343]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:502][344]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:504][344]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:510][345]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:512][345]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:518][346]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:520][346]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:527][347]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:528][347]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:534][348]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:535][348]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:537][348]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:543][349]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:545][349]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:551][350]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:553][350]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:560][351]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:562][351]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:568][352]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:570][352]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:576][353]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:579][353]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:585][354]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:587][354]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:593][355]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:595][355]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:602][356]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:604][356]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:610][357]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:612][357]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:618][358]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:620][358]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:627][359]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:629][359]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:635][360]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:637][360]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:643][361]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:645][361]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:652][362]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:654][362]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:660][363]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:662][363]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:668][364]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:670][364]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:677][365]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:679][365]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:685][366]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:687][366]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:693][367]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:695][367]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:701][368]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:704][368]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:710][369]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:712][369]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:718][370]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:718][370]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:720][370]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:726][371]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:727][371]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:729][371]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:734][372]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:735][372]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.02:737][372]LogUObjectArray:Warning: Invalid object index 6619240
-[2016.08.17-01.39.03:417][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LeftTurret" FILE="../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset" SILENT=true
-[2016.08.17-01.39.03:594][449]LogSavePackage: Save=148.37ms
-[2016.08.17-01.39.03:594][449]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Saved/LeftTurret0A73ADB245645B8BEAE34CAECB71FD1D.tmp' to '../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset'
-[2016.08.17-01.39.03:595][449]LogSavePackage: Total save time: 177.54ms
-[2016.08.17-01.39.03:595][449]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/Project_PlanetDefence/Project_PlanetDef/Content/LeftTurret.uasset
-[2016.08.17-01.39.10:189][220]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2016.08.17-01.39.10:235][220]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2016.08.17-01.39.10:447][221]Cmd: QUIT_EDITOR
-[2016.08.17-01.39.10:521][221]LogExit: Preparing to exit.
-[2016.08.17-01.39.11:690][221]LogExit: Editor shut down
-[2016.08.17-01.39.11:690][221]LogExit: Transaction tracking system shut down
-[2016.08.17-01.39.11:846][221]LogObj: Freed 0b from 0 cluster array pools.
-[2016.08.17-01.39.11:847][221]LogExit: Object subsystem successfully closed.
-[2016.08.17-01.39.11:855][221]LogD3D11RHI: Shutdown
-[2016.08.17-01.39.11:855][221]LogD3D11RHI: CleanupD3DDevice
-[2016.08.17-01.39.11:932][221]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.08.17-01.39.11:950][221]LogDerivedDataCache: Shutdown
-[2016.08.17-01.39.11:950][221]LogModuleManager: Shutting down and abandoning module SequencerWidgets (211)
-[2016.08.17-01.39.11:950][221]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (210)
-[2016.08.17-01.39.11:950][221]LogModuleManager: Shutting down and abandoning module BlueprintGraph (209)
-[2016.08.17-01.39.11:950][221]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (208)
-[2016.08.17-01.39.11:950][221]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (207)
-[2016.08.17-01.39.11:950][221]LogModuleManager: Shutting down and abandoning module CrashTracker (206)
-[2016.08.17-01.39.11:950][221]LogModuleManager: Shutting down and abandoning module SceneOutliner (205)
-[2016.08.17-01.39.11:950][221]LogModuleManager: Shutting down and abandoning module SuperSearch (204)
-[2016.08.17-01.39.11:950][221]LogModuleManager: Shutting down and abandoning module WidgetCarousel (203)
-[2016.08.17-01.39.11:950][221]LogModuleManager: Shutting down and abandoning module AddContentDialog (202)
-[2016.08.17-01.39.11:951][221]LogModuleManager: Shutting down and abandoning module GameplayTags (201)
-[2016.08.17-01.39.11:951][221]LogModuleManager: Shutting down and abandoning module EditorWidgets (200)
-[2016.08.17-01.39.11:951][221]LogModuleManager: Shutting down and abandoning module CollectionManager (199)
-[2016.08.17-01.39.11:951][221]LogModuleManager: Shutting down and abandoning module StatsViewer (198)
-[2016.08.17-01.39.11:951][221]LogModuleManager: Shutting down and abandoning module FoliageEdit (197)
-[2016.08.17-01.39.11:951][221]LogModuleManager: Shutting down and abandoning module LandscapeEditor (196)
-[2016.08.17-01.39.11:951][221]LogModuleManager: Shutting down and abandoning module ActorPickerMode (195)
-[2016.08.17-01.39.11:951][221]LogModuleManager: Shutting down and abandoning module GeometryMode (194)
-[2016.08.17-01.39.11:951][221]LogModuleManager: Shutting down and abandoning module TextureAlignMode (193)
-[2016.08.17-01.39.11:951][221]LogModuleManager: Shutting down and abandoning module BspMode (192)
-[2016.08.17-01.39.11:951][221]LogModuleManager: Shutting down and abandoning module PlacementMode (191)
-[2016.08.17-01.39.11:951][221]LogModuleManager: Shutting down and abandoning module AutomationWorker (190)
-[2016.08.17-01.39.11:951][221]LogModuleManager: Shutting down and abandoning module CharacterAI (189)
-[2016.08.17-01.39.11:951][221]LogModuleManager: Shutting down and abandoning module SmartSnapping (188)
-[2016.08.17-01.39.11:951][221]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
-[2016.08.17-01.39.11:951][221]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
-[2016.08.17-01.39.11:952][221]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
-[2016.08.17-01.39.11:952][221]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
-[2016.08.17-01.39.11:952][221]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
-[2016.08.17-01.39.11:952][221]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
-[2016.08.17-01.39.11:952][221]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
-[2016.08.17-01.39.11:952][221]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module MergeActors (176)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module SizeMap (175)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module TreeMap (174)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module XmlParser (166)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module Blutility (165)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
-[2016.08.17-01.39.12:547][221]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
-[2016.08.17-01.39.12:548][221]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module AutomationController (154)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module Layers (152)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module Persona (148)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module Kismet (147)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module Toolbox (144)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module OutputLog (141)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module GammaUI (140)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module Documentation (139)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module Analytics (136)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module PortalServices (135)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module AITestSuite (132)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module GameplayDebugger (131)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module AIModule (130)
-[2016.08.17-01.39.12:588][221]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module SubstanceEditor (127)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module SlateRemote (126)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module SteamVRController (125)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module SteamVR (124)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (123)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module OculusLibrary (122)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module OculusInput (121)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (120)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module CableComponent (119)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (118)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (117)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module HTML5Networking (116)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module SourceControl (107)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
-[2016.08.17-01.39.12:734][221]LogModuleManager: Shutting down and abandoning module HotReload (101)
-[2016.08.17-01.39.12:735][221]LogModuleManager: Shutting down and abandoning module MainFrame (100)
-[2016.08.17-01.39.12:735][221]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
-[2016.08.17-01.39.12:735][221]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (98)
-[2016.08.17-01.39.12:736][221]LogModuleManager: Shutting down and abandoning module AssetRegistry (97)
-[2016.08.17-01.39.12:830][221]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
-[2016.08.17-01.39.12:830][221]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
-[2016.08.17-01.39.12:830][221]LogModuleManager: Shutting down and abandoning module Project_PlanetDef (94)
-[2016.08.17-01.39.12:830][221]LogModuleManager: Shutting down and abandoning module UdpMessaging (93)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module SubstanceCore (92)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module Paper2D (90)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module Media (88)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module MessageLog (76)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module Sequencer (75)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module AssetTools (74)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module UMG (72)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module Slate (70)
-[2016.08.17-01.39.12:930][221]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
-[2016.08.17-01.39.12:932][221]LogModuleManager: Shutting down and abandoning module SessionServices (68)
-[2016.08.17-01.39.12:932][221]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
-[2016.08.17-01.39.12:932][221]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
-[2016.08.17-01.39.12:932][221]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
-[2016.08.17-01.39.12:932][221]LogModuleManager: Shutting down and abandoning module Networking (63)
-[2016.08.17-01.39.12:932][221]LogModuleManager: Shutting down and abandoning module Core (62)
-[2016.08.17-01.39.12:932][221]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
-[2016.08.17-01.39.12:932][221]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
-[2016.08.17-01.39.12:932][221]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
-[2016.08.17-01.39.12:932][221]LogModuleManager: Shutting down and abandoning module CookingStats (58)
-[2016.08.17-01.39.12:932][221]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
-[2016.08.17-01.39.12:932][221]LogDerivedDataCache: Shutdown
-[2016.08.17-01.39.12:932][221]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
-[2016.08.17-01.39.12:932][221]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
-[2016.08.17-01.39.12:932][221]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
-[2016.08.17-01.39.12:932][221]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
-[2016.08.17-01.39.12:932][221]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
-[2016.08.17-01.39.12:932][221]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
-[2016.08.17-01.39.12:932][221]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
-[2016.08.17-01.39.12:932][221]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
-[2016.08.17-01.39.12:932][221]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
-[2016.08.17-01.39.12:932][221]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
-[2016.08.17-01.39.12:932][221]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2016.08.17-01.39.12:933][221]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2016.08.17-01.39.13:933][221]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2016.08.17-01.39.13:933][221]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2016.08.17-01.39.13:933][221]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.08.17-01.39.13:933][221]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.08.17-01.39.13:933][221]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.08.17-01.39.13:933][221]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.08.17-01.39.13:933][221]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.08.17-01.39.13:935][221]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.08.17-01.39.13:935][221]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.08.17-01.39.13:935][221]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.08.17-01.39.13:935][221]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.08.17-01.39.13:935][221]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.08.17-01.39.13:935][221]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.08.17-01.39.13:935][221]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.08.17-01.39.13:935][221]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.08.17-01.39.13:935][221]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.08.17-01.39.13:935][221]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.08.17-01.39.13:936][221]LogExit: Exiting.
-[2016.08.17-01.39.13:937][221]Log file closed, 08/17/16 11:39:13
+[2016.08.17-03.27.00:254][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.17-03.27.00:254][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.17-03.27.00:264][  0]LogInit: Computer: S-803-10
+[2016.08.17-03.27.00:264][  0]LogInit: User: sdeflorio
+[2016.08.17-03.27.00:264][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.08.17-03.27.00:264][  0]LogInit: High frequency timer resolution =3.328125 MHz
+[2016.08.17-03.27.00:264][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2016.08.17-03.27.00:264][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.17-03.27.00:264][  0]LogMemory: Process Physical Memory: 318.04 MB used, 318.04 MB peak
+[2016.08.17-03.27.00:264][  0]LogMemory: Process Virtual Memory: 318.15 MB used, 318.15 MB peak
+[2016.08.17-03.27.00:264][  0]LogMemory: Physical Memory: 5486.04 MB used, 32683.16 MB total
+[2016.08.17-03.27.00:264][  0]LogMemory: Virtual Memory: 697.12 MB used, 134217728.00 MB total
+[2016.08.17-03.27.00:292][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2016.08.17-03.27.00:603][  0]LogD3D11RHI: D3D11 adapters:
+[2016.08.17-03.27.00:629][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2016.08.17-03.27.00:629][  0]LogD3D11RHI:       4008MB of dedicated video memory, 0MB of dedicated system memory, and 16341MB of shared system memory, 1 output[s]
+[2016.08.17-03.27.00:630][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.08.17-03.27.00:631][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 16341MB of shared system memory, 0 output[s]
+[2016.08.17-03.27.00:631][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.08.17-03.27.00:634][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.08.17-03.27.00:634][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2016.08.17-03.27.00:634][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.08.17-03.27.00:634][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.08.17-03.27.00:634][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.17-03.27.00:646][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.17-03.27.00:655][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Intermediate/Shaders/WorkingDirectory/8556/).
+[2016.08.17-03.27.00:655][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SDEFLO~1/AppData/Local/Temp/UnrealShaderWorkingDir/39A20FDB49CC4E6A43A385B848614FA2/'.
+[2016.08.17-03.27.00:655][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.17-03.27.01:410][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.17-03.27.01:413][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.17-03.27.01:417][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.17-03.27.01:420][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.17-03.27.01:423][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.17-03.27.01:425][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.17-03.27.01:428][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.17-03.27.01:430][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.17-03.27.01:432][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.17-03.27.01:435][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.17-03.27.01:437][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.17-03.27.01:442][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.17-03.27.01:442][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.17-03.27.01:442][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.17-03.27.01:458][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.17-03.27.01:460][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.08.17-03.27.01:462][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.17-03.27.01:464][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.17-03.27.01:467][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.17-03.27.01:467][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.17-03.27.01:516][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.17-03.27.01:551][  0]LogDerivedDataCache: Loaded boot cache 0.03s 46MB C:/Users/sdeflorio/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.08.17-03.27.01:551][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/sdeflorio/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.08.17-03.27.01:551][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.17-03.27.01:552][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.17-03.27.01:552][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.17-03.27.01:552][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.17-03.27.01:562][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.17-03.27.01:575][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sdeflorio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.17-03.27.01:687][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.17-03.27.01:688][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.08.17-03.27.01:718][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.08.17-03.27.01:809][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.17-03.27.01:809][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.17-03.27.01:809][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.08.17-03.27.01:981][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.08.17-03.27.01:981][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.08.17-03.27.01:981][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.08.17-03.27.01:985][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.17-03.27.02:043][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.17-03.27.02:043][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.08.17-03.27.02:119][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.08.17-03.27.02:119][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.08.17-03.27.02:119][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.08.17-03.27.02:119][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.08.17-03.27.02:119][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.08.17-03.27.02:119][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.08.17-03.27.02:562][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(b034ell)
+[2016.08.17-03.27.02:623][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.08.17-03.27.02:628][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.17-03.27.02:732][  0]LogAssetRegistry: FAssetRegistry took 0.0225 seconds to start up
+[2016.08.17-03.27.02:855][  0]SourceControl: Info Source control is disabled
+[2016.08.17-03.27.02:885][  0]SourceControl: Info Source control is disabled
+[2016.08.17-03.27.02:890][  0]SourceControl: Info Source control is disabled
+[2016.08.17-03.27.02:896][  0]SourceControl: Info Source control is disabled
+[2016.08.17-03.27.02:980][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.08.17-03.27.03:046][  0]LogEngine: Initializing Engine...
+[2016.08.17-03.27.03:046][  0]LogHMD: Oculus plugin initialized. Version: 4.11.2-2946394+++UE4+Release-4.11, LibOVR: 1.4.0, SDK: 1.3.0, built Apr 18 2016, 02:19:44
+[2016.08.17-03.27.03:165][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.17-03.27.03:171][  0]LogInit: XAudio2 using 'U28E850-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.17-03.27.03:183][  0]LogInit: FAudioDevice initialized.
+[2016.08.17-03.27.03:202][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/sdeflorio/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.08.17-03.27.03:205][  0]LogInit: Texture streaming: Enabled
+[2016.08.17-03.27.03:222][  0]LogInit: Transaction tracking system initialized
+[2016.08.17-03.27.03:237][  0]BlueprintLog: New page: Editor Load
+[2016.08.17-03.27.03:296][  0]LocalizationService: Info Localization service is disabled
+[2016.08.17-03.27.03:359][  0]LogConsoleResponse:Display: 
+[2016.08.17-03.27.03:457][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.08.17-03.27.03:457][  0]LogCook:Display: Mobile HDR setting 1
+[2016.08.17-03.27.03:457][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.08.17-03.27.03:495][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/' took 0.01s
+[2016.08.17-03.27.03:495][  0]SourceControl: Info Source control is disabled
+[2016.08.17-03.27.03:495][  0]Cmd: MAP LOAD FILE="../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Maps/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.17-03.27.03:496][  0]LightingResults: New page: Lighting Build
+[2016.08.17-03.27.03:498][  0]MapCheck: New page: Map Check
+[2016.08.17-03.27.03:498][  0]LightingResults: New page: Lighting Build
+[2016.08.17-03.27.04:633][  0]LogTexture:Display: Building textures: gamepad (BGRA8)
+[2016.08.17-03.27.04:638][  0]LogTexture:Display: Building textures: keyboard (BGRA8)
+[2016.08.17-03.27.04:837][  0]LogTexture:Display: Building textures: OptionsBtnHL (BGRA8)
+[2016.08.17-03.27.04:842][  0]LogTexture:Display: Building textures: OptionsBtn (BGRA8)
+[2016.08.17-03.27.04:847][  0]LogTexture:Display: Building textures: 640BtnHL (BGRA8)
+[2016.08.17-03.27.04:853][  0]LogTexture:Display: Building textures: 640Btn (BGRA8)
+[2016.08.17-03.27.04:858][  0]LogTexture:Display: Building textures: 1920BtnHL (BGRA8)
+[2016.08.17-03.27.04:864][  0]LogTexture:Display: Building textures: 1920Btn (BGRA8)
+[2016.08.17-03.27.04:869][  0]LogTexture:Display: Building textures: 1280BtnHL (BGRA8)
+[2016.08.17-03.27.04:874][  0]LogTexture:Display: Building textures: 1280Btn (BGRA8)
+[2016.08.17-03.27.04:893][  0]LogTexture:Display: Building textures: ResumeBtn (BGRA8)
+[2016.08.17-03.27.04:899][  0]LogTexture:Display: Building textures: BackBtnHL (BGRA8)
+[2016.08.17-03.27.04:904][  0]LogTexture:Display: Building textures: BackBtn (BGRA8)
+[2016.08.17-03.27.04:909][  0]LogTexture:Display: Building textures: QuitBtnHL (BGRA8)
+[2016.08.17-03.27.04:914][  0]LogTexture:Display: Building textures: QuitBtn (BGRA8)
+[2016.08.17-03.27.04:919][  0]LogTexture:Display: Building textures: ResumeBtnHL (BGRA8)
+[2016.08.17-03.27.04:953][  0]LogAIModule: Creating AISystem for world FirstLevel
+[2016.08.17-03.27.04:957][  0]LogMaterial:Warning: Material /Engine/EditorMaterials/WidgetGridVertexColorMaterial_Ma.WidgetGridVertexColorMaterial_Ma needed to have new flag set bUsedWithStaticLighting !
+[2016.08.17-03.27.04:959][  0]LogMaterial: Missing cached shader map for material WidgetGridVertexColorMaterial_Ma, compiling. 
+[2016.08.17-03.27.04:969][  0]MapCheck:Warning: Warning WidgetGridVertexColorMaterial_Ma Material /Engine/EditorMaterials/WidgetGridVertexColorMaterial_Ma.WidgetGridVertexColorMaterial_Ma was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.08.17-03.27.04:969][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.17-03.27.04:980][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.17-03.27.04:981][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.17-03.27.05:051][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 70.763ms to complete.
+[2016.08.17-03.27.05:057][  0]LogFileHelpers: Loading map 'FirstLevel' took 1.561
+[2016.08.17-03.27.05:171][  0]LogCollectionManager: Loaded 0 collections in 0.001329 seconds
+[2016.08.17-03.27.05:210][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/Collections/' took 0.01s
+[2016.08.17-03.27.05:210][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Developers/sdeflorio/Collections/' took 0.01s
+[2016.08.17-03.27.05:210][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Collections/' took 0.01s
+[2016.08.17-03.27.05:210][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.08.17-03.27.05:217][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 1994 classes and 349 folders.
+[2016.08.17-03.27.05:221][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.08.17-03.27.05:221][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.08.17-03.27.05:222][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0009 seconds. Added 12 classes and 0 folders.
+[2016.08.17-03.27.05:229][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.08.17-03.27.05:237][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2016.08.17-03.27.05:310][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.08.17-03.27.05:314][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.08.17-03.27.05:328][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.17-03.27.05:343][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.08.17-03.27.05:368][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2016.08.17-03.27.05:368][  0]LogLoad: Full Startup: 6.53 seconds (BP compile: 0.40 seconds)
+[2016.08.17-03.27.05:368][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.08.17-03.27.05:368][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.08.17-03.27.05:377][  0]LogOcInput: OculusInput pre-init called
+[2016.08.17-03.27.05:385][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.4.0
+[2016.08.17-03.27.05:442][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.08.17-03.27.05:561][  0]LogRenderer: Reallocating scene render targets to support 1616x808 (Frame:2).
+[2016.08.17-03.27.05:635][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/' took 0.24s
+[2016.08.17-03.27.05:652][  1]LogAssetRegistry: Asset discovery search completed in 2.9426 seconds
+[2016.08.17-03.27.05:652][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.08.17-03.27.05:652][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2016.08.17-03.27.23:790][140]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.17-03.27.23:790][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.17-03.27.23:790][140]LogApp: UseVRFocus has changed to 1
+[2016.08.17-03.27.23:790][140]LogApp: HasVRFocus has changed to 1
+[2016.08.17-03.27.23:796][140]PIE: New page: PIE session: FirstLevel (17 Aug 2016 11:27:23 pm)
+[2016.08.17-03.27.23:796][140]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstLevel
+[2016.08.17-03.27.23:805][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008753s)
+[2016.08.17-03.27.23:805][140]LogAIModule: Creating AISystem for world FirstLevel
+[2016.08.17-03.27.23:805][140]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2016.08.17-03.27.23:806][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstLevel.FirstLevel to /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel (0.009531s)
+[2016.08.17-03.27.23:860][140]LogInit: XAudio2 using 'U28E850-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.17-03.27.23:862][140]LogInit: FAudioDevice initialized.
+[2016.08.17-03.27.23:907][140]LogWorld: Game class is 'GameManager_C'
+[2016.08.17-03.27.23:913][140]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2016.08.17-13.27.23
+[2016.08.17-03.27.23:914][140]LogWorld: Bringing up level for play took: 0.003819
+[2016.08.17-03.27.23:919][140]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 9 classes and 0 folders.
+[2016.08.17-03.27.23:923][140]LogScript:Warning: UGameplayStatics::PlaySoundAttached: NULL AttachComponent specified! Trying to spawn sound [PLANET_DEFENCE_Cue],
+[2016.08.17-03.27.23:924][140]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_FirstLevel -0.108
+[2016.08.17-03.27.23:924][140]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.17-03.27.23:924][140]LogApp: UseVRFocus has changed to 0
+[2016.08.17-03.27.23:924][140]LogApp: HasVRFocus has changed to 0
+[2016.08.17-03.27.25:776][359]LogBlueprintUserMessages: [GameManager_C_0] Wave Begun
+[2016.08.17-03.27.55:965][981]LogScript:Warning: Attempted to access Meteorite_Type3_C_3 via property Meteorite, but Meteorite_Type3_C_3 is pending kill
+	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
+	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:SpawnLesserMeteorite:001E
+[2016.08.17-03.27.55:965][981]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_3 via property Meteorite, but Meteorite_Type3_C_3 is pending kill from function: 'SpawnLesserMeteorite' from node: SpawnActor in graph: SpawnLesserMeteorite in object: MeteoriteHandler
+[2016.08.17-03.27.55:966][981]LogScript:Warning: Attempted to access Meteorite_Type3_C_3 via property Meteorite, but Meteorite_Type3_C_3 is pending kill
+	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
+	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:SpawnLesserMeteorite:016E
+[2016.08.17-03.27.55:966][981]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_3 via property Meteorite, but Meteorite_Type3_C_3 is pending kill from function: 'SpawnLesserMeteorite' from node: SpawnActor in graph: SpawnLesserMeteorite in object: MeteoriteHandler
+[2016.08.17-03.27.55:966][981]LogScript:Warning: Attempted to access Meteorite_Type3_C_3 via property Meteorite, but Meteorite_Type3_C_3 is pending kill
+	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
+	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:SpawnLesserMeteorite:001E
+[2016.08.17-03.27.55:966][981]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_3 via property Meteorite, but Meteorite_Type3_C_3 is pending kill from function: 'SpawnLesserMeteorite' from node: SpawnActor in graph: SpawnLesserMeteorite in object: MeteoriteHandler
+[2016.08.17-03.27.55:966][981]LogScript:Warning: Attempted to access Meteorite_Type3_C_3 via property Meteorite, but Meteorite_Type3_C_3 is pending kill
+	MeteoriteHandler_C /Game/Maps/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.MeteoriteHandler_46
+	Function /Game/Meteorites/MeteoriteHandler.MeteoriteHandler_C:SpawnLesserMeteorite:016E
+[2016.08.17-03.27.55:966][981]PIE:Error: Error Blueprint Runtime Error: Attempted to access Meteorite_Type3_C_3 via property Meteorite, but Meteorite_Type3_C_3 is pending kill from function: 'SpawnLesserMeteorite' from node: SpawnActor in graph: SpawnLesserMeteorite in object: MeteoriteHandler
+[2016.08.17-03.27.58:773][318]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.17-03.27.58:808][318]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel' with GeneratedClass '/Game/Maps/FirstLevel.FirstLevel_C' with ClassGeneratedBy '/Game/Maps/FirstLevel.FirstLevel:PersistentLevel.FirstLevel'
+[2016.08.17-03.28.00:524][482]LogSavePackage: Save=112.64ms
+[2016.08.17-03.28.00:525][482]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/FirstLevel29A77525477AB41F89264288E3F27A49.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Maps/FirstLevel.umap'
+[2016.08.17-03.28.00:526][482]LogSavePackage: Total save time: 132.63ms
+[2016.08.17-03.28.00:526][482]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Maps/FirstLevel.umap
+[2016.08.17-03.28.05:066][  3]LogSavePackage: Save=106.96ms
+[2016.08.17-03.28.05:066][  3]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/FirstLevel07FF52D84D1684FFB21F539CF5451AB5.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Maps/FirstLevel.umap'
+[2016.08.17-03.28.05:068][  3]LogSavePackage: Total save time: 126.16ms
+[2016.08.17-03.28.05:068][  3]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Maps/FirstLevel.umap
+[2016.08.17-03.28.16:351][313]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 108 classes and 0 folders.
+[2016.08.17-03.29.42:896][258]LogRenderer: Reallocating scene render targets to support 1616x1260 (Frame:11063).
+[2016.08.17-03.32.11:352][464]BlueprintLog: New page: Compile CustomControllerTester
+[2016.08.17-03.32.11:427][464]BlueprintEditorCompileResults: Info [0312.60] Compile of CustomControllerTester successful! [in 75 ms]
+[2016.08.17-03.32.36:455][385]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GameManager.GameManager:EventGraph.K2Node_CallFunction_2978 or K2Node_CallFunction /Game/Shield.Shield:EventGraph.K2Node_CallFunction_2978
+[2016.08.17-03.32.36:455][385]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GameManager.GameManager:EventGraph.K2Node_CallFunction_2978 or K2Node_CallFunction /Game/LeftTurret.LeftTurret:EventGraph.K2Node_CallFunction_2978
+[2016.08.17-03.32.36:455][385]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GameManager.GameManager:EventGraph.K2Node_CallFunction_2978 or K2Node_CallFunction /Game/RightTurret.RightTurret:EventGraph.K2Node_CallFunction_2978
+[2016.08.17-03.32.36:455][385]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GameManager.GameManager:EventGraph.K2Node_CallFunction_2978 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2978
+[2016.08.17-03.32.36:455][385]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/GameManager.GameManager:EventGraph.K2Node_CallFunction_2978 or K2Node_CallFunction /Game/CustomControllerTester.CustomControllerTester:EventGraph.K2Node_CallFunction_2978
+[2016.08.17-03.32.36:455][385]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Shield.Shield:EventGraph.K2Node_CallFunction_2978.EdGraphPin_19532) from referencer (EdGraphPin /Game/CustomControllerTester.CustomControllerTester:EventGraph.K2Node_CallFunction_2977.EdGraphPin_19520).  Import failed...
+[2016.08.17-03.32.36:455][385]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2978.EdGraphPin_19532''
+[2016.08.17-03.32.36:455][385]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Shield.Shield:EventGraph.K2Node_VariableSet_118.EdGraphPin_13518) from referencer (EdGraphPin /Game/CustomControllerTester.CustomControllerTester:EventGraph.K2Node_CallFunction_2978.EdGraphPin_19530).  Import failed...
+[2016.08.17-03.32.36:455][385]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_118.EdGraphPin_13518''
+[2016.08.17-03.32.41:596][  0]BlueprintLog: New page: Compile CustomControllerTester
+[2016.08.17-03.32.41:703][  0]BlueprintEditorCompileResults: Info [0342.87] Compile of CustomControllerTester successful! [in 107 ms]
+[2016.08.17-03.32.42:258][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomControllerTester" FILE="../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/CustomControllerTester.uasset" SILENT=true
+[2016.08.17-03.32.42:274][ 62]LogSavePackage: Save=14.39ms
+[2016.08.17-03.32.42:274][ 62]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/CustomControllerTester20DF06BD4F8F908205EED5979A186778.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/CustomControllerTester.uasset'
+[2016.08.17-03.32.42:277][ 62]LogSavePackage: Total save time: 17.21ms
+[2016.08.17-03.32.42:277][ 62]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/CustomControllerTester.uasset
+[2016.08.17-03.36.02:320][982]LogEditorTransaction: Undo Delete current selection
+[2016.08.17-03.36.02:543][  6]LogEditorTransaction: Undo Move Node
+[2016.08.17-03.36.02:727][ 17]LogEditorTransaction: Undo Add Node
+[2016.08.17-03.36.02:917][ 35]LogEditorTransaction: Undo Delete current selection
+[2016.08.17-03.36.03:231][ 71]LogEditorTransaction: Undo Add Node
+[2016.08.17-03.36.03:457][ 97]LogEditorTransaction: Undo Delete current selection
+[2016.08.17-03.36.03:768][133]LogEditorTransaction: Undo Delete current selection
+[2016.08.17-03.36.05:775][372]BlueprintLog: New page: Compile CustomControllerTester
+[2016.08.17-03.36.05:888][372]BlueprintEditorCompileResults: Info [0547.06] Compile of CustomControllerTester successful! [in 113 ms]
+[2016.08.17-03.36.06:464][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomControllerTester" FILE="../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/CustomControllerTester.uasset" SILENT=true
+[2016.08.17-03.36.06:506][437]LogSavePackage: Save=22.39ms
+[2016.08.17-03.36.06:506][437]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/CustomControllerTester2225BFF24317611D61D11889A7099E69.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/CustomControllerTester.uasset'
+[2016.08.17-03.36.06:509][437]LogSavePackage: Total save time: 43.39ms
+[2016.08.17-03.36.06:509][437]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/CustomControllerTester.uasset
+[2016.08.17-03.37.20:778][322]BlueprintLog: New page: Compile CustomControllerTester
+[2016.08.17-03.37.20:891][322]BlueprintEditorCompileResults: Info [0622.06] Compile of CustomControllerTester successful! [in 112 ms]
+[2016.08.17-03.37.21:200][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomControllerTester" FILE="../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/CustomControllerTester.uasset" SILENT=true
+[2016.08.17-03.37.21:237][356]LogSavePackage: Save=18.70ms
+[2016.08.17-03.37.21:237][356]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/CustomControllerTester5470480F446F1852E91668BF5EF38C9E.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/CustomControllerTester.uasset'
+[2016.08.17-03.37.21:240][356]LogSavePackage: Total save time: 38.89ms
+[2016.08.17-03.37.21:240][356]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/CustomControllerTester.uasset
+[2016.08.17-03.38.05:587][671]BlueprintLog: New page: Compile CustomControllerTester
+[2016.08.17-03.38.05:655][671]BlueprintEditorCompileResults: Info [0666.83] Compile of CustomControllerTester successful! [in 68 ms]
+[2016.08.17-03.38.06:552][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomControllerTester" FILE="../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/CustomControllerTester.uasset" SILENT=true
+[2016.08.17-03.38.06:589][775]LogSavePackage: Save=19.20ms
+[2016.08.17-03.38.06:589][775]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/CustomControllerTesterE74E7D9C42D2D73006511DA7BA5B3497.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/CustomControllerTester.uasset'
+[2016.08.17-03.38.06:591][775]LogSavePackage: Total save time: 38.70ms
+[2016.08.17-03.38.06:591][775]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/CustomControllerTester.uasset
+[2016.08.17-03.38.36:862][379]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FirstLevel' took 0.016
+[2016.08.17-03.38.36:866][379]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CustomControllerTester] ([1] browsable assets)...
+[2016.08.17-03.38.36:866][379]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomControllerTester]
+[2016.08.17-03.38.36:903][379]LogSavePackage: Save=19.39ms
+[2016.08.17-03.38.36:903][379]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/CustomControllerTester_Auto132DF11334A45CFBF9C1C58A03B7967CC.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/Autosaves/Game/CustomControllerTester_Auto1.uasset'
+[2016.08.17-03.38.36:908][379]LogSavePackage: Total save time: 40.65ms
+[2016.08.17-03.38.36:908][379]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/Autosaves/Game/CustomControllerTester_Auto1.uasset
+[2016.08.17-03.38.36:908][379]LogFileHelpers: Auto-saving content packages took 0.045
+[2016.08.17-03.49.08:968][291]BlueprintLog: New page: Compile CustomControllerTester
+[2016.08.17-03.49.08:975][291]LogBlueprint:Error: [compiler CustomControllerTester] Error Failed to resolve term  Value  passed into  Target 
+[2016.08.17-03.49.08:975][291]LogBlueprint:Warning: [compiler CustomControllerTester] Warning Can't parse default value 'False' for  Slider Value . Property: SliderValue.
+[2016.08.17-03.49.09:026][291]LogTexture:Display: Building textures: BadBlueprintSprite (BGRA8)
+[2016.08.17-03.49.09:129][291]LogBlueprint:Warning: [compiler CustomControllerTester] Warning [1330.31] Compile of CustomControllerTester failed. 1 Fatal Issue(s) 1 Warning(s) [in 160 ms]
+[2016.08.17-03.49.09:129][291]BlueprintEditorCompileResults:Error: Error Failed to resolve term  Value  passed into  Target 
+[2016.08.17-03.49.09:129][291]BlueprintEditorCompileResults:Warning: Warning Can't parse default value 'False' for  Slider Value . Property: SliderValue.
+[2016.08.17-03.49.09:129][291]BlueprintEditorCompileResults:Warning: Warning [1330.31] Compile of CustomControllerTester failed. 1 Fatal Issue(s) 1 Warning(s) [in 160 ms]
+[2016.08.17-03.49.39:309][895]BlueprintLog: New page: Compile CustomControllerTester
+[2016.08.17-03.49.39:378][895]BlueprintEditorCompileResults: Info [1360.56] Compile of CustomControllerTester successful! [in 68 ms]
+[2016.08.17-03.49.42:118][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomControllerTester" FILE="../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/CustomControllerTester.uasset" SILENT=true
+[2016.08.17-03.49.42:165][221]LogSavePackage: Save=28.33ms
+[2016.08.17-03.49.42:165][221]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/CustomControllerTesterD251C50146B4977AFC778182926210BC.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/CustomControllerTester.uasset'
+[2016.08.17-03.49.42:168][221]LogSavePackage: Total save time: 48.90ms
+[2016.08.17-03.49.42:168][221]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/CustomControllerTester.uasset
+[2016.08.17-04.04.22:005][639]BlueprintLog: New page: Compile TestFunctionLibrary
+[2016.08.17-04.04.22:073][639]BlueprintEditorCompileResults: Info [2243.27] Compile of TestFunctionLibrary successful! [in 67 ms]
+[2016.08.17-04.04.22:490][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestFunctionLibrary" FILE="../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/TestFunctionLibrary.uasset" SILENT=true
+[2016.08.17-04.04.22:497][686]LogSavePackage: Save=5.42ms
+[2016.08.17-04.04.22:497][686]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/TestFunctionLibrary37D0865746B9AC679A1F088897A78C45.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/TestFunctionLibrary.uasset'
+[2016.08.17-04.04.22:500][686]LogSavePackage: Total save time: 8.11ms
+[2016.08.17-04.04.22:500][686]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/TestFunctionLibrary.uasset
+[2016.08.17-04.07.10:630][814]LogEditorTransaction: Undo Rename Function
+[2016.08.17-04.09.57:066][739]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FirstLevel' took 0.020
+[2016.08.17-04.09.57:070][739]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TestFunctionLibrary] ([1] browsable assets)...
+[2016.08.17-04.09.57:070][739]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestFunctionLibrary]
+[2016.08.17-04.09.57:103][739]LogSavePackage: Save=12.85ms
+[2016.08.17-04.09.57:103][739]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/TestFunctionLibrary_Auto27F827E6B4F6068C1610FAA9E51045433.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/Autosaves/Game/TestFunctionLibrary_Auto2.uasset'
+[2016.08.17-04.09.57:106][739]LogSavePackage: Total save time: 33.83ms
+[2016.08.17-04.09.57:106][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/Autosaves/Game/TestFunctionLibrary_Auto2.uasset
+[2016.08.17-04.09.57:106][739]LogFileHelpers: Auto-saving content packages took 0.039
+[2016.08.17-04.14.27:267][157]BlueprintLog: New page: Compile TestFunctionLibrary
+[2016.08.17-04.14.27:339][157]BlueprintEditorCompileResults: Info [2848.54] Compile of TestFunctionLibrary successful! [in 72 ms]
+[2016.08.17-04.19.56:988][688]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FirstLevel' took 0.019
+[2016.08.17-04.19.56:993][688]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TestFunctionLibrary] ([1] browsable assets)...
+[2016.08.17-04.19.56:993][688]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestFunctionLibrary]
+[2016.08.17-04.19.57:026][688]LogSavePackage: Save=13.14ms
+[2016.08.17-04.19.57:026][688]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/TestFunctionLibrary_Auto3AB2743C84EDD846E42514783D1055B4C.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/Autosaves/Game/TestFunctionLibrary_Auto3.uasset'
+[2016.08.17-04.19.57:028][688]LogSavePackage: Total save time: 34.23ms
+[2016.08.17-04.19.57:028][688]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/Autosaves/Game/TestFunctionLibrary_Auto3.uasset
+[2016.08.17-04.19.57:028][688]LogFileHelpers: Auto-saving content packages took 0.039
+[2016.08.17-04.24.06:913][658]BlueprintLog: New page: Compile TestFunctionLibrary
+[2016.08.17-04.24.06:981][658]BlueprintEditorCompileResults: Info [3428.20] Compile of TestFunctionLibrary successful! [in 68 ms]
+[2016.08.17-04.24.43:595][ 45]BlueprintLog: New page: Compile TestFunctionLibrary
+[2016.08.17-04.24.43:660][ 45]BlueprintEditorCompileResults: Info [3464.88] Compile of TestFunctionLibrary successful! [in 65 ms]
+[2016.08.17-04.24.44:711][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestFunctionLibrary" FILE="../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/TestFunctionLibrary.uasset" SILENT=true
+[2016.08.17-04.24.44:739][169]LogSavePackage: Save=8.95ms
+[2016.08.17-04.24.44:739][169]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/TestFunctionLibraryA6AC83E54DE8B45A27522B8240B0C032.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/TestFunctionLibrary.uasset'
+[2016.08.17-04.24.44:742][169]LogSavePackage: Total save time: 29.67ms
+[2016.08.17-04.24.44:742][169]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/TestFunctionLibrary.uasset
+[2016.08.17-04.25.22:893][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shield" FILE="../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Shield.uasset" SILENT=true
+[2016.08.17-04.25.23:036][739]LogSavePackage: Save=122.42ms
+[2016.08.17-04.25.23:036][739]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/Shield98F86D114DE447D1BFF5B8B3EB67E670.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Shield.uasset'
+[2016.08.17-04.25.23:038][739]LogSavePackage: Total save time: 143.41ms
+[2016.08.17-04.25.23:038][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Shield.uasset
+[2016.08.17-04.25.43:209][149]BlueprintLog: New page: Compile TestFunctionLibrary
+[2016.08.17-04.25.43:274][149]BlueprintEditorCompileResults: Info [3524.49] Compile of TestFunctionLibrary successful! [in 64 ms]
+[2016.08.17-04.28.05:003][ 23]BlueprintLog: New page: Compile Drone
+[2016.08.17-04.28.05:256][ 23]BlueprintEditorCompileResults: Info [3666.48] Compile of Drone successful! [in 253 ms]
+[2016.08.17-04.28.05:907][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Drone" FILE="../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Drone.uasset" SILENT=true
+[2016.08.17-04.28.06:039][ 92]LogSavePackage: Save=112.43ms
+[2016.08.17-04.28.06:039][ 92]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/Drone846970D5422AB8243E33FB821FA07BC2.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Drone.uasset'
+[2016.08.17-04.28.06:043][ 92]LogSavePackage: Total save time: 134.28ms
+[2016.08.17-04.28.06:043][ 92]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Drone.uasset
+[2016.08.17-04.28.19:843][744]BlueprintLog: New page: Compile Drone
+[2016.08.17-04.28.20:058][744]BlueprintEditorCompileResults: Info [3681.28] Compile of Drone successful! [in 215 ms]
+[2016.08.17-04.28.20:623][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Drone" FILE="../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Drone.uasset" SILENT=true
+[2016.08.17-04.28.20:756][803]LogSavePackage: Save=113.47ms
+[2016.08.17-04.28.20:756][803]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/Drone0D2AAAD44FE8A4DB54D0CAB6B113F12E.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Drone.uasset'
+[2016.08.17-04.28.20:760][803]LogSavePackage: Total save time: 135.41ms
+[2016.08.17-04.28.20:760][803]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Drone.uasset
+[2016.08.17-04.28.41:064][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Drone" FILE="../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Drone.uasset" SILENT=true
+[2016.08.17-04.28.41:188][233]LogSavePackage: Save=105.79ms
+[2016.08.17-04.28.41:188][233]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/DroneC51AA28A41BECA89A023D297E3117F49.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Drone.uasset'
+[2016.08.17-04.28.41:191][233]LogSavePackage: Total save time: 126.24ms
+[2016.08.17-04.28.41:191][233]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Drone.uasset
+[2016.08.17-04.29.57:135][296]LogSavePackage: Save=134.54ms
+[2016.08.17-04.29.57:135][296]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/FirstLevel_Auto49E35299F437C346BA88AD288D498913D.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/Autosaves/Game/Maps/FirstLevel_Auto4.umap'
+[2016.08.17-04.29.57:137][296]LogSavePackage: Total save time: 155.16ms
+[2016.08.17-04.29.57:137][296]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/Autosaves/Game/Maps/FirstLevel_Auto4.umap
+[2016.08.17-04.29.57:138][296]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FirstLevel' took 0.182
+[2016.08.17-04.29.57:139][296]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.182
+[2016.08.17-04.29.57:144][296]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Drone] ([1] browsable assets)...
+[2016.08.17-04.29.57:158][296]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Drone.Drone]
+[2016.08.17-04.29.57:158][296]OBJ SavePackage: Finished generating thumbnails for package [/Game/Drone]
+[2016.08.17-04.29.57:158][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Drone" FILE="../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/Autosaves/Game/Drone_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2016.08.17-04.29.57:290][296]LogSavePackage: Save=112.85ms
+[2016.08.17-04.29.57:290][296]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/Drone_Auto4A9B3023C4E4970F078EE1687D0D53205.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/Autosaves/Game/Drone_Auto4.uasset'
+[2016.08.17-04.29.57:292][296]LogSavePackage: Total save time: 132.62ms
+[2016.08.17-04.29.57:292][296]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/Autosaves/Game/Drone_Auto4.uasset
+[2016.08.17-04.29.57:295][296]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TestFunctionLibrary] ([1] browsable assets)...
+[2016.08.17-04.29.57:295][296]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestFunctionLibrary]
+[2016.08.17-04.29.57:322][296]LogSavePackage: Save=6.01ms
+[2016.08.17-04.29.57:322][296]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/TestFunctionLibrary_Auto4697B4C1B4410BA6E6F6E9681496B2884.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/Autosaves/Game/TestFunctionLibrary_Auto4.uasset'
+[2016.08.17-04.29.57:324][296]LogSavePackage: Total save time: 26.96ms
+[2016.08.17-04.29.57:324][296]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/Autosaves/Game/TestFunctionLibrary_Auto4.uasset
+[2016.08.17-04.29.57:324][296]LogFileHelpers: Auto-saving content packages took 0.184
+[2016.08.17-04.31.38:160][380]BlueprintLog: New page: Compile Drone
+[2016.08.17-04.31.38:382][380]BlueprintEditorCompileResults: Info [3879.61] Compile of Drone successful! [in 222 ms]
+[2016.08.17-04.35.12:346][ 79]BlueprintLog: New page: Compile TestFunctionLibrary
+[2016.08.17-04.35.12:618][ 79]BlueprintEditorCompileResults: Info [4093.85] Compile of TestFunctionLibrary successful! [in 272 ms]
+[2016.08.17-04.35.13:036][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestFunctionLibrary" FILE="../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/TestFunctionLibrary.uasset" SILENT=true
+[2016.08.17-04.35.13:061][124]LogSavePackage: Save=5.60ms
+[2016.08.17-04.35.13:061][124]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/TestFunctionLibrary8D0C98B44B5E83A23F5343883B1F134E.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/TestFunctionLibrary.uasset'
+[2016.08.17-04.35.13:065][124]LogSavePackage: Total save time: 28.00ms
+[2016.08.17-04.35.13:065][124]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/TestFunctionLibrary.uasset
+[2016.08.17-04.36.13:133][654]BlueprintLog: New page: Compile Drone
+[2016.08.17-04.36.13:360][654]BlueprintEditorCompileResults: Info [4154.59] Compile of Drone successful! [in 227 ms]
+[2016.08.17-04.36.14:486][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Drone" FILE="../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Drone.uasset" SILENT=true
+[2016.08.17-04.36.14:618][779]LogSavePackage: Save=112.41ms
+[2016.08.17-04.36.14:618][779]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/DroneACE3907140A430DFE6FD42AA02101FE1.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Drone.uasset'
+[2016.08.17-04.36.14:621][779]LogSavePackage: Total save time: 134.18ms
+[2016.08.17-04.36.14:621][779]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Drone.uasset
+[2016.08.17-04.37.17:031][409]BlueprintLog: New page: Compile Radar
+[2016.08.17-04.37.17:149][409]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.08.17-04.37.17:149][409]BlueprintEditorCompileResults: Info [4218.38] Compile of Radar successful! [in 117 ms]
+[2016.08.17-04.37.17:606][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/UFO/Radar" FILE="../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Actors/UFO/Radar.uasset" SILENT=true
+[2016.08.17-04.37.17:799][456]LogSavePackage: Save=171.59ms
+[2016.08.17-04.37.17:799][456]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/RadarB2273A3943DE661EEC9C419863E2A8FC.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Actors/UFO/Radar.uasset'
+[2016.08.17-04.37.17:802][456]LogSavePackage: Total save time: 194.56ms
+[2016.08.17-04.37.17:802][456]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Actors/UFO/Radar.uasset
+[2016.08.17-04.37.19:849][700]BlueprintLog: New page: Compile Drone
+[2016.08.17-04.37.20:084][700]BlueprintEditorCompileResults: Info [4221.32] Compile of Drone successful! [in 235 ms]
+[2016.08.17-04.37.20:436][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Drone" FILE="../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Drone.uasset" SILENT=true
+[2016.08.17-04.37.20:567][732]LogSavePackage: Save=112.49ms
+[2016.08.17-04.37.20:567][732]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/DroneD910DF9C4D83B986B3EC58926273FCD0.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Drone.uasset'
+[2016.08.17-04.37.20:569][732]LogSavePackage: Total save time: 131.73ms
+[2016.08.17-04.37.20:569][732]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Drone.uasset
+[2016.08.17-04.37.53:989][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Drone" FILE="../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Drone.uasset" SILENT=true
+[2016.08.17-04.37.54:115][735]LogSavePackage: Save=107.88ms
+[2016.08.17-04.37.54:115][735]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/Drone3F9C2D73413F822A0A7B33A2E0D833E3.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Drone.uasset'
+[2016.08.17-04.37.54:117][735]LogSavePackage: Total save time: 127.28ms
+[2016.08.17-04.37.54:117][735]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Drone.uasset
+[2016.08.17-04.38.01:129][311]LogSavePackage: Save=135.58ms
+[2016.08.17-04.38.01:129][311]LogSavePackage: Moving '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Saved/FirstLevel16D990E94F331FCD6B8378AF654BB5F3.tmp' to '../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Maps/FirstLevel.umap'
+[2016.08.17-04.38.01:132][311]LogSavePackage: Total save time: 158.30ms
+[2016.08.17-04.38.01:132][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/sdeflorio/Documents/SD Studio 3/Game/Project_PlanetDef/Content/Maps/FirstLevel.umap
+[2016.08.17-04.38.01:158][311]LogFileHelpers: Saving map 'FirstLevel' took 0.253
+[2016.08.17-04.38.01:286][311]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.08.17-04.38.01:335][311]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.08.17-04.38.01:406][311]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.08.17-04.38.01:450][311]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.08.17-04.38.01:680][312]Cmd: QUIT_EDITOR
+[2016.08.17-04.38.01:865][312]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.08.17-04.38.01:899][312]LogExit: Preparing to exit.
+[2016.08.17-04.38.02:849][312]LogExit: Editor shut down
+[2016.08.17-04.38.02:849][312]LogExit: Transaction tracking system shut down
+[2016.08.17-04.38.02:963][312]LogObj: Freed 0b from 0 cluster array pools.
+[2016.08.17-04.38.02:963][312]LogExit: Object subsystem successfully closed.
+[2016.08.17-04.38.02:972][312]LogD3D11RHI: Shutdown
+[2016.08.17-04.38.02:972][312]LogD3D11RHI: CleanupD3DDevice
+[2016.08.17-04.38.03:035][312]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.08.17-04.38.03:063][312]LogDerivedDataCache: Shutdown
+[2016.08.17-04.38.03:063][312]LogModuleManager: Shutting down and abandoning module BlueprintGraph (210)
+[2016.08.17-04.38.03:063][312]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (209)
+[2016.08.17-04.38.03:063][312]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (208)
+[2016.08.17-04.38.03:063][312]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (207)
+[2016.08.17-04.38.03:063][312]LogModuleManager: Shutting down and abandoning module CrashTracker (206)
+[2016.08.17-04.38.03:063][312]LogModuleManager: Shutting down and abandoning module SceneOutliner (205)
+[2016.08.17-04.38.03:063][312]LogModuleManager: Shutting down and abandoning module SuperSearch (204)
+[2016.08.17-04.38.03:063][312]LogModuleManager: Shutting down and abandoning module WidgetCarousel (203)
+[2016.08.17-04.38.03:063][312]LogModuleManager: Shutting down and abandoning module AddContentDialog (202)
+[2016.08.17-04.38.03:064][312]LogModuleManager: Shutting down and abandoning module GameplayTags (201)
+[2016.08.17-04.38.03:064][312]LogModuleManager: Shutting down and abandoning module EditorWidgets (200)
+[2016.08.17-04.38.03:064][312]LogModuleManager: Shutting down and abandoning module CollectionManager (199)
+[2016.08.17-04.38.03:064][312]LogModuleManager: Shutting down and abandoning module StatsViewer (198)
+[2016.08.17-04.38.03:064][312]LogModuleManager: Shutting down and abandoning module FoliageEdit (197)
+[2016.08.17-04.38.03:064][312]LogModuleManager: Shutting down and abandoning module LandscapeEditor (196)
+[2016.08.17-04.38.03:064][312]LogModuleManager: Shutting down and abandoning module ActorPickerMode (195)
+[2016.08.17-04.38.03:064][312]LogModuleManager: Shutting down and abandoning module GeometryMode (194)
+[2016.08.17-04.38.03:064][312]LogModuleManager: Shutting down and abandoning module TextureAlignMode (193)
+[2016.08.17-04.38.03:064][312]LogModuleManager: Shutting down and abandoning module BspMode (192)
+[2016.08.17-04.38.03:064][312]LogModuleManager: Shutting down and abandoning module PlacementMode (191)
+[2016.08.17-04.38.03:064][312]LogModuleManager: Shutting down and abandoning module AutomationWorker (190)
+[2016.08.17-04.38.03:064][312]LogModuleManager: Shutting down and abandoning module CharacterAI (189)
+[2016.08.17-04.38.03:064][312]LogModuleManager: Shutting down and abandoning module SmartSnapping (188)
+[2016.08.17-04.38.03:064][312]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.08.17-04.38.03:065][312]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.08.17-04.38.03:065][312]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.08.17-04.38.03:065][312]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.08.17-04.38.03:065][312]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.08.17-04.38.03:065][312]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.08.17-04.38.03:065][312]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.08.17-04.38.03:065][312]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.08.17-04.38.03:660][312]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.08.17-04.38.03:704][312]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.08.17-04.38.03:704][312]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.08.17-04.38.03:704][312]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.08.17-04.38.03:704][312]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.08.17-04.38.03:704][312]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.08.17-04.38.03:704][312]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.08.17-04.38.03:704][312]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.08.17-04.38.03:704][312]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.08.17-04.38.03:704][312]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.08.17-04.38.03:704][312]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.08.17-04.38.03:705][312]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.08.17-04.38.03:705][312]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.08.17-04.38.03:705][312]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.08.17-04.38.03:705][312]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.08.17-04.38.03:705][312]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.08.17-04.38.03:705][312]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.08.17-04.38.03:705][312]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.08.17-04.38.03:705][312]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.08.17-04.38.03:705][312]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.08.17-04.38.03:705][312]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.08.17-04.38.03:705][312]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.08.17-04.38.03:705][312]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.08.17-04.38.03:705][312]LogModuleManager: Shutting down and abandoning module AITestSuite (132)
+[2016.08.17-04.38.03:705][312]LogModuleManager: Shutting down and abandoning module GameplayDebugger (131)
+[2016.08.17-04.38.03:705][312]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.08.17-04.38.03:705][312]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module SubstanceEditor (127)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module SlateRemote (126)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module SteamVRController (125)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module SteamVR (124)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (123)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module OculusLibrary (122)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module OculusInput (121)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (120)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module CableComponent (119)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (118)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (117)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module HTML5Networking (116)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module SourceControl (107)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
+[2016.08.17-04.38.03:934][312]LogModuleManager: Shutting down and abandoning module HotReload (101)
+[2016.08.17-04.38.03:935][312]LogModuleManager: Shutting down and abandoning module MainFrame (100)
+[2016.08.17-04.38.03:935][312]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
+[2016.08.17-04.38.03:935][312]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (98)
+[2016.08.17-04.38.03:936][312]LogModuleManager: Shutting down and abandoning module AssetRegistry (97)
+[2016.08.17-04.38.04:118][312]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.08.17-04.38.04:118][312]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.08.17-04.38.04:118][312]LogModuleManager: Shutting down and abandoning module Project_PlanetDef (94)
+[2016.08.17-04.38.04:118][312]LogModuleManager: Shutting down and abandoning module UdpMessaging (93)
+[2016.08.17-04.38.04:219][312]LogModuleManager: Shutting down and abandoning module SubstanceCore (92)
+[2016.08.17-04.38.04:219][312]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.08.17-04.38.04:219][312]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.08.17-04.38.04:219][312]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.08.17-04.38.04:219][312]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.08.17-04.38.04:219][312]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.08.17-04.38.04:219][312]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.08.17-04.38.04:219][312]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.08.17-04.38.04:220][312]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.08.17-04.38.04:220][312]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.08.17-04.38.04:220][312]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.08.17-04.38.04:220][312]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.08.17-04.38.04:220][312]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.08.17-04.38.04:220][312]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.08.17-04.38.04:220][312]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.08.17-04.38.04:220][312]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.08.17-04.38.04:220][312]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.08.17-04.38.04:220][312]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.08.17-04.38.04:220][312]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.08.17-04.38.04:221][312]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.08.17-04.38.04:221][312]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.08.17-04.38.04:221][312]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.08.17-04.38.04:221][312]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.08.17-04.38.04:221][312]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.08.17-04.38.04:227][312]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.08.17-04.38.04:227][312]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.08.17-04.38.04:228][312]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.08.17-04.38.04:228][312]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.08.17-04.38.04:228][312]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.08.17-04.38.04:228][312]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.08.17-04.38.04:228][312]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.08.17-04.38.04:228][312]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.08.17-04.38.04:228][312]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.08.17-04.38.04:228][312]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.08.17-04.38.04:228][312]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.08.17-04.38.04:228][312]LogDerivedDataCache: Shutdown
+[2016.08.17-04.38.04:228][312]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.08.17-04.38.04:228][312]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.08.17-04.38.04:228][312]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.08.17-04.38.04:228][312]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.08.17-04.38.04:228][312]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.08.17-04.38.04:228][312]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.08.17-04.38.04:228][312]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.08.17-04.38.04:228][312]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.08.17-04.38.04:228][312]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.08.17-04.38.04:228][312]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.08.17-04.38.04:228][312]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.08.17-04.38.04:229][312]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.08.17-04.38.05:233][312]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.08.17-04.38.05:233][312]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.08.17-04.38.05:233][312]LogHMD: Oculus shutdown.
+[2016.08.17-04.38.05:233][312]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.08.17-04.38.05:233][312]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.08.17-04.38.05:234][312]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.08.17-04.38.05:234][312]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.08.17-04.38.05:234][312]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.08.17-04.38.05:235][312]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.08.17-04.38.05:235][312]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.08.17-04.38.05:235][312]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.08.17-04.38.05:235][312]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.08.17-04.38.05:235][312]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.08.17-04.38.05:235][312]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.08.17-04.38.05:235][312]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.08.17-04.38.05:235][312]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.08.17-04.38.05:235][312]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.08.17-04.38.05:235][312]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.08.17-04.38.05:236][312]LogExit: Exiting.
+[2016.08.17-04.38.05:250][312]Log file closed, 08/17/16 14:38:05
