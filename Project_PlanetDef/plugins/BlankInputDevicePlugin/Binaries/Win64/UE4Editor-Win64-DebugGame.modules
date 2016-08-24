@@ -1,0 +1,8 @@
+{
+	"Changelist" : 3039270,
+	"BuildId" : "55b2de74-ec3f-4965-9a57-ca79ca1fb3f7",
+	"Modules" : 
+	{
+		"BlankInputDevicePlugin" : "UE4Editor-BlankInputDevicePlugin-Win64-DebugGame.dll"
+	}
+}

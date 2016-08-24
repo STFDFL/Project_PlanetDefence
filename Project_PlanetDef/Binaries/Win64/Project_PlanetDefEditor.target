@@ -1,0 +1,45 @@
+{
+	"TargetName" : "Project_PlanetDefEditor",
+	"Platform" : "Win64",
+	"Configuration" : "Development",
+	"BuildId" : "324c24bf-3de2-4860-a38e-aebaf2be28a9",
+	"Version" : 
+	{
+		"MajorVersion" : 4,
+		"MinorVersion" : 11,
+		"PatchVersion" : 2,
+		"Changelist" : 2946394,
+		"IsLicenseeVersion" : 0,
+		"BranchName" : "++UE4+Release-4.11"
+	},
+	"BuildProducts" :
+	[
+		{
+			"Path" : "$(ProjectDir)\\Plugins\\BlankInputDevicePlugin\\Binaries\\Win64\\UE4Editor-BlankInputDevicePlugin-2444.dll",
+			"Type" : "DynamicLibrary"
+		},
+		{
+			"Path" : "$(ProjectDir)\\Plugins\\BlankInputDevicePlugin\\Binaries\\Win64\\UE4Editor-BlankInputDevicePlugin-2444.pdb",
+			"Type" : "SymbolFile"
+		},
+		{
+			"Path" : "$(ProjectDir)\\Plugins\\BlankInputDevicePlugin\\Intermediate\\Build\\Win64\\UE4Editor\\Development\\UE4Editor-BlankInputDevicePlugin-2444.lib",
+			"Type" : "ImportLibrary"
+		},
+		{
+			"Path" : "$(ProjectDir)\\Binaries\\Win64\\UE4Editor-Project_PlanetDef-2444.dll",
+			"Type" : "DynamicLibrary"
+		},
+		{
+			"Path" : "$(ProjectDir)\\Binaries\\Win64\\UE4Editor-Project_PlanetDef-2444.pdb",
+			"Type" : "SymbolFile"
+		},
+		{
+			"Path" : "$(ProjectDir)\\Intermediate\\Build\\Win64\\UE4Editor\\Development\\UE4Editor-Project_PlanetDef-2444.lib",
+			"Type" : "ImportLibrary"
+		}
+	],
+	"RuntimeDependencies" :
+	[
+	]
+}

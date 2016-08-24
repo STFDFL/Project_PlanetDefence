@@ -1,3 +1,0 @@
-E:\INBOUND\build\yo\Project_PlanetDef\Source\Project_PlanetDef\Project_PlanetDef.Build.cs
-E:\INBOUND\build\yo\Project_PlanetDef\Source\Project_PlanetDef.Target.cs
-E:\INBOUND\build\yo\Project_PlanetDef\Source\Project_PlanetDefEditor.Target.cs
