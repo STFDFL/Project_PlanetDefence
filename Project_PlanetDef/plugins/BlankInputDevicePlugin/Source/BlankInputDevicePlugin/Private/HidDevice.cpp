@@ -24,7 +24,7 @@ EHIDReadResult UHidDevice::ReadInputReport(TArray<uint8>& ReportBuffer)
 		return EHRR_ReadErr;
 	}
 	unsigned char RawBuffer[64] = { 0 };
-	int32 BytesRead = hid_read(DeviceHandle, RawBuffer, 64);
+	int32 BytesRead = hid_read_timeout(DeviceHandle, RawBuffer, 64, 1000);
 	switch (BytesRead)
 	{
 	case -1:
