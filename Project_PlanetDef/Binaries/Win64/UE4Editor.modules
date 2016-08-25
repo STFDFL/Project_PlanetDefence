@@ -1,8 +1,8 @@
 {
 	"Changelist" : 2946394,
-	"BuildId" : "324c24bf-3de2-4860-a38e-aebaf2be28a9",
+	"BuildId" : "8203e9cf-96b8-4af6-bad6-df9d134ed3ba",
 	"Modules" : 
 	{
-		"Project_PlanetDef" : "UE4Editor-Project_PlanetDef-2444.dll"
+		"Project_PlanetDef" : "UE4Editor-Project_PlanetDef.dll"
 	}
 }
